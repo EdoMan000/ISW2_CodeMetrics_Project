@@ -5,9 +5,9 @@ import java.util.List;
 public class Ticket {
     private final String ticketKey;
     private Release injectedVersion;
-    private final Release openingVersion;
-    private final Release fixedVersion;
-    private final List<Release> affectedVersions;
+    private Release openingVersion;
+    private Release fixedVersion;
+    private List<Release> affectedVersions;
 
     public Ticket(String ticketKey, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
         this.ticketKey = ticketKey;
@@ -21,17 +21,6 @@ public class Ticket {
         this.affectedVersions = affectedVersions;
     }
 
-    public List<Release> getAffectedVersions() {
-        return affectedVersions;
-    }
-
-    public Release getFixedVersion() {
-        return fixedVersion;
-    }
-
-    public Release getOpeningVersion() {
-        return openingVersion;
-    }
 
     public Release getInjectedVersion() {
         return injectedVersion;
@@ -39,6 +28,22 @@ public class Ticket {
 
     public void setInjectedVersion(Release injectedVersion) {
         this.injectedVersion = injectedVersion;
+    }
+
+    public Release getOpeningVersion() {
+        return openingVersion;
+    }
+
+    public Release getFixedVersion() {
+        return fixedVersion;
+    }
+
+    public List<Release> getAffectedVersions() {
+        return affectedVersions;
+    }
+
+    public void setAffectedVersions(List<Release> affectedVersions) {
+        this.affectedVersions = affectedVersions;
     }
 
     public String getTicketKey() {

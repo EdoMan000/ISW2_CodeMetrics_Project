@@ -5,6 +5,7 @@ import metrics.models.Ticket;
 import metrics.utilities.JSONReader;
 import metrics.utilities.ReleaseUtilities;
 
+import metrics.utilities.TicketUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -45,7 +46,7 @@ public class ExtractInfoFromJira {
 
     private List<Release> createReleasesList(Map<Date, String> releaseMap) {
         List<Release> releases = new ArrayList<>();
-        int i=1;
+        int i = 1;
         for(Map.Entry<Date, String> release : releaseMap.entrySet()) {
             releases.add(new Release(i, release.getValue(), release.getKey()));
             i++;
@@ -60,7 +61,8 @@ public class ExtractInfoFromJira {
     public List<Ticket> extractAllTickets(List<Release> releasesList) throws IOException, JSONException, ParseException {
         int j = 0, i = 0, total = 1;
         List<Ticket> ticketsList = new ArrayList<>();
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+        List<Ticket> fixedTicketsList = new ArrayList<>();
+         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         //Get JSON API for closed bugs w/ AV in the project
         do {
             //Only gets a max of 1000 at a time, so must do this multiple times if bugs >1000
@@ -88,39 +90,13 @@ public class ExtractInfoFromJira {
                 }
             }
         } while (i < total);
-        int ticketnum = 1;
-        for (Ticket element : ticketsList) {
-            StringBuilder sb = new StringBuilder();
-            boolean firstIteration = true;
-            for (Release affectedVersion : element.getAffectedVersions()){
-                if(firstIteration){
-                    sb.append(affectedVersion.releaseName());
-                    firstIteration = false;
-                }else{
-                    sb.append(", ").append(affectedVersion.releaseName());
-                }
-            }
-            String aVString, iVString;
-            if(sb.isEmpty()){
-                aVString = "NO AFFECTED VERSIONS";
-                iVString = "NO INJECTED VERSION";
-            }else{
-                aVString = "affectedVersions=" + sb.toString();
-                iVString = "injectedVersion=" + element.getInjectedVersion().releaseName();
-            }
-            System.out.println("Ticket[key=" + element.getTicketKey()
-                    + ", " + iVString
-                    + ", openingVersion=" + element.getOpeningVersion().releaseName()
-                    + ", fixedVersion=" + element.getFixedVersion().releaseName()
-                    + ", " + aVString
-                    + "]"
-            );
-            ticketnum++;
+        fixedTicketsList = TicketUtils.fixTicketList(ticketsList, releasesList);
+        for (Ticket ticket : fixedTicketsList) {
+            TicketUtils.printTicket(ticket);
         }
         System.out.println("----------------------------------------------------------");
-        System.out.println("TOTAL OF " + ticketnum + " TICKETS AND " + releasesList.size() + " RELEASES FOUND");
+        System.out.println("TOTAL OF " + fixedTicketsList.size() + " TICKETS AND " + releasesList.size() + " RELEASES FOUND");
         System.out.println("----------------------------------------------------------");
-        return ticketsList;
+        return fixedTicketsList;
     }
-
 }
