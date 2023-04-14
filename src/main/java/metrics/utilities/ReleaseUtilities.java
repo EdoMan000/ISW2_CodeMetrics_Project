@@ -1,12 +1,10 @@
 package metrics.utilities;
 
 import metrics.models.Release;
+import metrics.models.Ticket;
 import org.json.JSONArray;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class ReleaseUtilities {
     private ReleaseUtilities(){
@@ -24,15 +22,24 @@ public class ReleaseUtilities {
                 }
             }
         }
+        existingAffectedVersions.sort(Comparator.comparing(Release::releaseDate));
         return existingAffectedVersions;
     }
 
     public static Release getReleaseAfterDate(Date specificDate, List<Release> releasesList) {
         for (Release release : releasesList) {
-            if (release.releaseDate().after(specificDate)) {
+            if (!release.releaseDate().before(specificDate)) {
                 return release;
             }
         }
         return null;
+    }
+
+    public static void printRelease(Release release) {
+        System.out.println("Release[id=" + release.id()
+                + ", releaseName=" + release.releaseName()
+                + ", releaseDate=" + release.releaseDate()
+                + "]"
+        );
     }
 }

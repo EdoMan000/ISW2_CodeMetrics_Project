@@ -7,8 +7,8 @@ import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-public class JSONReader {
-    private JSONReader(){
+public class JsonUtilities {
+    private JsonUtilities(){
 
     }
 

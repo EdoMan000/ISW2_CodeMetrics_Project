@@ -1,16 +1,20 @@
 package metrics.models;
 
+import java.util.Date;
 import java.util.List;
 
 public class Ticket {
     private final String ticketKey;
+
+    private final Date creationDate;
     private Release injectedVersion;
     private Release openingVersion;
     private Release fixedVersion;
     private List<Release> affectedVersions;
 
-    public Ticket(String ticketKey, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
+    public Ticket(String ticketKey, Date creationDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
         this.ticketKey = ticketKey;
+        this.creationDate = creationDate;
         if(affectedVersions.isEmpty()){
             this.injectedVersion = null;
         }else{
@@ -48,5 +52,9 @@ public class Ticket {
 
     public String getTicketKey() {
         return ticketKey;
+    }
+
+    public Date getCreationDate() {
+        return creationDate;
     }
 }
