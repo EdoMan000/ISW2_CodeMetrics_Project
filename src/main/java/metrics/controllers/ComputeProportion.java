@@ -6,14 +6,13 @@ import metrics.utilities.TicketUtilities;
 
 import java.io.IOException;
 import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
 
 public class ComputeProportion {
 
-    public static final int TRESHOLD_FOR_COLDSTART = 50;
+    public static final int THRESHOLD_FOR_COLD_START = 50;
 
     private enum OtherProjects {
         AVRO,
@@ -52,7 +51,7 @@ public class ComputeProportion {
             List<Ticket> ticketCompleteList = jiraExtractor.getTickets(releaseList);
             List<Ticket> ticketCorrectList = TicketUtilities.returnCorrectTickets(ticketCompleteList);
             List<Ticket> ticketFilteredList = TicketUtilities.filterTicketsForProportion(ticketCorrectList);
-            if(ticketFilteredList.size() >= TRESHOLD_FOR_COLDSTART){
+            if(ticketFilteredList.size() >= THRESHOLD_FOR_COLD_START){
                 totalProportion += ComputeProportion.standardProportionComputation(ticketFilteredList);
                 validComputations++;
             }
@@ -67,7 +66,7 @@ public class ComputeProportion {
 
     public static float computeProportion(List<Ticket> filteredTickets) throws IOException, ParseException {
         float proportion;
-        if(filteredTickets.size() >= TRESHOLD_FOR_COLDSTART){
+        if(filteredTickets.size() >= THRESHOLD_FOR_COLD_START){
             proportion = ComputeProportion.standardProportionComputation(filteredTickets);
         }
         else{
