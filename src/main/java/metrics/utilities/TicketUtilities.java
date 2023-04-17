@@ -3,9 +3,11 @@ package metrics.utilities;
 import metrics.controllers.ComputeProportion;
 import metrics.models.Release;
 import metrics.models.Ticket;
+import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.io.IOException;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -13,24 +15,21 @@ import java.util.List;
 import static java.lang.Math.max;
 
 public class TicketUtilities {
+
     public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList) throws IOException, ParseException {
         //if there is no AV -> there is no IV -> need to compute Proportion
         // verify IV <= OV <= FV
-        List<Ticket> correctTickets = returnCorrectTickets(ticketsList);
-        List<Ticket> incorrectTickets = returnIncorrectTickets(ticketsList);
         List<Ticket> fixedTicketsList = new ArrayList<>();
-        //PROPORTION =========================
-        float proportion = ComputeProportion.computeProportion(TicketUtilities.filterTicketsForProportion(correctTickets));
-        //====================================
-        for (Ticket ticket : incorrectTickets) {
-            fixTicketWithProportion(ticket, releasesList, proportion);
-        }
-        fixedTicketsList.addAll(correctTickets);
-        fixedTicketsList.addAll(incorrectTickets);
-        for (Ticket ticket : fixedTicketsList) {
+        float proportion;
+        for(Ticket ticket : ticketsList){
+            if(!isCorrectTicket(ticket)){
+                proportion = ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList));
+                fixTicketWithProportion(ticket, releasesList, proportion);
+            }
             completeAffectedVersionsList(ticket, releasesList);
+            fixedTicketsList.add(ticket);
         }
-        fixedTicketsList.sort(Comparator.comparing(Ticket::getCreationDate));
+        fixedTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         return fixedTicketsList;
     }
 
@@ -41,29 +40,19 @@ public class TicketUtilities {
                 CorrectTickets.add(ticket);
             }
         }
-        CorrectTickets.sort(Comparator.comparing(Ticket::getCreationDate));
+        CorrectTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
         return CorrectTickets;
     }
 
-    public static List<Ticket> returnIncorrectTickets(List<Ticket> ticketsList){
-        List<Ticket> IncorrectTickets = new ArrayList<>();
-        for (Ticket ticket : ticketsList) {
-            if (!isCorrectTicket(ticket)) {
-                IncorrectTickets.add(ticket);
-            }
-        }
-        IncorrectTickets.sort(Comparator.comparing(Ticket::getCreationDate));
-        return IncorrectTickets;
-    }
-
+    //we filter out tickets that would make denominator zero in proportion computation
     public static List<Ticket> filterTicketsForProportion(List<Ticket> ticketCompleteList) {
         List<Ticket> CorrectTickets = new ArrayList<>();
         for (Ticket ticket : ticketCompleteList) {
-            if (isCorrectTicket(ticket) && ticket.getFixedVersion().id() != ticket.getOpeningVersion().id()) {
+            if (ticket.getFixedVersion().id() != ticket.getOpeningVersion().id()) {
                 CorrectTickets.add(ticket);
             }
         }
-        CorrectTickets.sort(Comparator.comparing(Ticket::getCreationDate));
+        CorrectTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
         return CorrectTickets;
     }
 
@@ -106,12 +95,15 @@ public class TicketUtilities {
         for(Release release : ticket.getAffectedVersions()) {
             IDs.add(release.releaseName());
         }
-        System.out.println("Ticket[key=" + ticket.getTicketKey()
-                + ", injectedVersion=" + ticket.getInjectedVersion().releaseName()
-                + ", openingVersion=" + ticket.getOpeningVersion().releaseName()
-                + ", fixedVersion=" + ticket.getFixedVersion().releaseName()
-                + ", affectedVersions=" + IDs
-                + "]"
+        System.out.println("Ticket[key= " + ticket.getTicketKey()
+                + ", injectedVersion= " + ticket.getInjectedVersion().releaseName()
+                + ", openingVersion= " + ticket.getOpeningVersion().releaseName()
+                + ", fixedVersion= " + ticket.getFixedVersion().releaseName()
+                + ", affectedVersions= " + IDs
+                //+ ", numOfCommits= " + ticket.getCommitList().size()
+                + ", creationDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(ticket.getCreationDate()))
+                + ", resolutionDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(ticket.getResolutionDate()))
+                + "]\n"
         );
     }
 

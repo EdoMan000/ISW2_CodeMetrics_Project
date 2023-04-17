@@ -6,42 +6,69 @@ import metrics.utilities.TicketUtilities;
 
 import java.io.IOException;
 import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 
 public class ComputeProportion {
+    public static final boolean INCREMENTAL_PROPORTION = true;
+    public static final boolean COLD_START_PROPORTION = false;
+    public static Float coldStartComputedProportion = null;
 
-    public static final int THRESHOLD_FOR_COLD_START = 50;
+    public static final int THRESHOLD_FOR_COLD_START = 10;
 
     private enum OtherProjects {
         AVRO,
         STORM,
         SYNCOPE,
-        OPENJPA,
+        TAJO,
         ZOOKEEPER
     }
-    private static float standardProportionComputation(List<Ticket> filteredTicketsList) {
-        filteredTicketsList.sort(Comparator.comparing(Ticket::getCreationDate));
+    private static float incrementalProportionComputation(List<Ticket> filteredTicketsList, boolean isIncremental) {
+        filteredTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         System.out.println("PROPORTION -----------------------------------------------");
-        //PROPORTION = (FV-IV)/(FV-OV)
+        // PROPORTION = (FV-IV)/(FV-OV)
+        List<Float> proportionList = new ArrayList<>();
         float totalProportion = 0.0F;
-        float propForTicket;
+
         for (Ticket correctTicket : filteredTicketsList) {
-            TicketUtilities.printTicket(correctTicket);
-            propForTicket = (float) (correctTicket.getFixedVersion().id() - correctTicket.getInjectedVersion().id())
+            float propForTicket = ((float) correctTicket.getFixedVersion().id() - (float) correctTicket.getInjectedVersion().id())
                     /
-                    (correctTicket.getFixedVersion().id()-correctTicket.getOpeningVersion().id());
-            totalProportion+=propForTicket;
+                    ((float) correctTicket.getFixedVersion().id() - (float) correctTicket.getOpeningVersion().id());
+            if (isIncremental) {
+                totalProportion+=propForTicket;
+            }
+            proportionList.add(propForTicket);
         }
-        System.out.println("TICKETSLIST.SIZE() FILTERED FOR PROPORTION: " + filteredTicketsList.size());
-        System.out.println("PROPORTION: " + totalProportion/filteredTicketsList.size());
-        System.out.println("----------------------------------------------------------");
-        return totalProportion/filteredTicketsList.size();
+        System.out.println("TICKETS-LIST.SIZE() FILTERED FOR PROPORTION: " + filteredTicketsList.size());
+        System.out.println("PROPORTION LIST: " + proportionList);
+        Collections.sort(proportionList);
+        if (isIncremental) {
+            float average = totalProportion/proportionList.size();
+            System.out.println("PROPORTION AVERAGE: " + average);
+            System.out.println("----------------------------------------------------------");
+            return average;
+        }else{
+            float median;
+            int size = proportionList.size();
+            if (size % 2 == 0) {
+                median = (proportionList.get((size / 2) - 1) + proportionList.get(size / 2)) / 2;
+            } else {
+                median = proportionList.get(size / 2);
+            }
+            System.out.println("PROPORTION MEDIAN: " + median);
+            System.out.println("----------------------------------------------------------");
+            return median;
+        }
     }
 
 
     private static float coldStartProportionComputation() throws IOException, ParseException {
+        if(coldStartComputedProportion != null){
+            return coldStartComputedProportion;
+        }
         System.out.println("COLD_START_PROPORTION COMPUTATION STARTED ===================");
         float totalProportion = 0.0F;
         int validComputations = 0;
@@ -52,7 +79,7 @@ public class ComputeProportion {
             List<Ticket> ticketCorrectList = TicketUtilities.returnCorrectTickets(ticketCompleteList);
             List<Ticket> ticketFilteredList = TicketUtilities.filterTicketsForProportion(ticketCorrectList);
             if(ticketFilteredList.size() >= THRESHOLD_FOR_COLD_START){
-                totalProportion += ComputeProportion.standardProportionComputation(ticketFilteredList);
+                totalProportion += ComputeProportion.incrementalProportionComputation(ticketFilteredList, COLD_START_PROPORTION);
                 validComputations++;
             }
             System.out.println("----------------------------------------------------------");
@@ -61,17 +88,16 @@ public class ComputeProportion {
         System.out.println("TOTAL PROPORTION ON ALL PROJECTS FOR COLD START: " + proportion);
         System.out.println("COLD_START_PROPORTION COMPUTATION ENDED ===================");
         System.out.println("----------------------------------------------------------");
+        coldStartComputedProportion = proportion;
         return proportion;
     }
 
-    public static float computeProportion(List<Ticket> filteredTickets) throws IOException, ParseException {
-        float proportion;
-        if(filteredTickets.size() >= THRESHOLD_FOR_COLD_START){
-            proportion = ComputeProportion.standardProportionComputation(filteredTickets);
+    public static float computeProportion(List<Ticket> fixedTicketsList) throws IOException, ParseException {
+        if(fixedTicketsList.size() >= THRESHOLD_FOR_COLD_START){
+            return ComputeProportion.incrementalProportionComputation(fixedTicketsList, INCREMENTAL_PROPORTION);
         }
         else{
-            proportion = ComputeProportion.coldStartProportionComputation();
+            return ComputeProportion.coldStartProportionComputation();
         }
-        return proportion;
     }
 }

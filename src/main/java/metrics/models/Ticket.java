@@ -1,5 +1,6 @@
 package metrics.models;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -7,14 +8,17 @@ public class Ticket {
     private final String ticketKey;
 
     private final Date creationDate;
+    private final Date resolutionDate;
     private Release injectedVersion;
-    private Release openingVersion;
-    private Release fixedVersion;
+    private final Release openingVersion;
+    private final Release fixedVersion;
     private List<Release> affectedVersions;
+    private List<Commit> commitList;
 
-    public Ticket(String ticketKey, Date creationDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
+    public Ticket(String ticketKey, Date creationDate, Date resolutionDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
         this.ticketKey = ticketKey;
         this.creationDate = creationDate;
+        this.resolutionDate = resolutionDate;
         if(affectedVersions.isEmpty()){
             this.injectedVersion = null;
         }else{
@@ -23,8 +27,8 @@ public class Ticket {
         this.openingVersion = openingVersion;
         this.fixedVersion = fixedVersion;
         this.affectedVersions = affectedVersions;
+        this.commitList = new ArrayList<>();
     }
-
 
     public Release getInjectedVersion() {
         return injectedVersion;
@@ -56,5 +60,19 @@ public class Ticket {
 
     public Date getCreationDate() {
         return creationDate;
+    }
+
+    public void addCommit(Commit newCommit) {
+        if(!commitList.contains(newCommit)){
+            this.commitList.add(newCommit);
+        }
+    }
+
+    public List<Commit> getCommitList(){
+        return commitList;
+    }
+
+    public Date getResolutionDate() {
+        return resolutionDate;
     }
 }

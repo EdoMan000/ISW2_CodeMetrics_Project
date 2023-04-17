@@ -1,9 +1,9 @@
 package metrics.utilities;
 
 import metrics.models.Release;
-import metrics.models.Ticket;
 import org.json.JSONArray;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class ReleaseUtilities {
@@ -36,10 +36,11 @@ public class ReleaseUtilities {
     }
 
     public static void printRelease(Release release) {
-        System.out.println("Release[id=" + release.id()
-                + ", releaseName=" + release.releaseName()
-                + ", releaseDate=" + release.releaseDate()
-                + "]"
+        System.out.println("Release[id= " + release.id()
+                + ", releaseName= " + release.releaseName()
+                + ", releaseDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(release.releaseDate()))
+                + ", numOfCommits= " + release.getCommitList().size()
+                + "]\n"
         );
     }
 }

@@ -17,7 +17,7 @@ import java.util.*;
 
 public class ExtractInfoFromJira {
 
-    private String projName;
+    private final String projName;
 
     public ExtractInfoFromJira(String projName) {
         this.projName = projName.toUpperCase();
@@ -33,8 +33,8 @@ public class ExtractInfoFromJira {
         JSONObject json = JsonUtilities.readJsonFromUrl(url);
         JSONArray versions = json.getJSONArray("versions");
         for (; i < versions.length(); i++) {
-            String releaseName = "";
-            String releaseDate = "";
+            String releaseName;
+            String releaseDate;
             if (versions.getJSONObject(i).has("releaseDate") && versions.getJSONObject(i).has("name")) {
                 releaseDate = versions.getJSONObject(i).get("releaseDate").toString();
                 releaseName = versions.getJSONObject(i).get("name").toString();
@@ -46,7 +46,6 @@ public class ExtractInfoFromJira {
         i = 0;
         for (Release element : releases) {
             element.setId(++i);
-            ReleaseUtilities.printRelease(element);
         }
         return releases;
     }
@@ -55,19 +54,13 @@ public class ExtractInfoFromJira {
         List<Ticket> ticketsList = getTickets(releasesList);
         List<Ticket> fixedTicketsList;
         fixedTicketsList = TicketUtilities.fixTicketList(ticketsList, releasesList);
-        for (Ticket ticket : fixedTicketsList) {
-            TicketUtilities.printTicket(ticket);
-        }
-        System.out.println("----------------------------------------------------------");
-        System.out.println("TOTAL OF " + fixedTicketsList.size() + " TICKETS AND " + releasesList.size() + " RELEASES FOUND");
-        System.out.println("----------------------------------------------------------");
+        fixedTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         return fixedTicketsList;
     }
 
     public List<Ticket> getTickets(List<Release> releasesList) throws IOException, ParseException {
-        int j = 0, i = 0, total = 1;
+        int j, i = 0, total;
         List<Ticket> ticketsList = new ArrayList<>();
-        List<Ticket> fixedTicketsList;
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         //Get JSON API for closed bugs w/ AV in the project
         do {
@@ -95,10 +88,11 @@ public class ExtractInfoFromJira {
                 Release fixedVersion =  ReleaseUtilities.getReleaseAfterDate(resolutionDate, releasesList);
                 List<Release> affectedVersionsList = ReleaseUtilities.returnValidAffectedVersions(affectedVersionsArray, releasesList);
                 if(openingVersion != null && fixedVersion != null && openingVersion.id()!=releasesList.get(0).id()){
-                    ticketsList.add(new Ticket(key, creationDate, openingVersion, fixedVersion, affectedVersionsList));
+                    ticketsList.add(new Ticket(key, creationDate, resolutionDate, openingVersion, fixedVersion, affectedVersionsList));
                 }
             }
         } while (i < total);
+        ticketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         return ticketsList;
     }
 }
