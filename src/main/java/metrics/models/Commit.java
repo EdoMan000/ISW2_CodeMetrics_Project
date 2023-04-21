@@ -2,24 +2,21 @@ package metrics.models;
 
 import org.eclipse.jgit.revwalk.RevCommit;
 
+import java.util.Map;
+
 public final class Commit {
-    private RevCommit revCommit;
+    private final RevCommit revCommit;
     private Ticket ticket;
+    private final Release release;
 
-    private Release release;
-
-    public Commit(RevCommit revCommit, Ticket ticket, Release release) {
+    public Commit(RevCommit revCommit, Release release) {
         this.revCommit = revCommit;
-        this.ticket = ticket;
+        this.ticket = null;
         this.release = release;
     }
 
     public RevCommit getRevCommit() {
         return revCommit;
-    }
-
-    public void setRevCommit(RevCommit revCommit) {
-        this.revCommit = revCommit;
     }
 
     public Ticket getTicket() {
@@ -34,7 +31,4 @@ public final class Commit {
         return release;
     }
 
-    public void setRelease(Release release) {
-        this.release = release;
-    }
 }

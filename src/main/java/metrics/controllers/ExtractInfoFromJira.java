@@ -39,7 +39,6 @@ public class ExtractInfoFromJira {
                 releaseDate = versions.getJSONObject(i).get("releaseDate").toString();
                 releaseName = versions.getJSONObject(i).get("name").toString();
                 releases.add(new Release(releaseName, format.parse(releaseDate)));
-                //TODO OPEN PROBLEM -> SOME RELEASES HAVE SAME DATE... WTF
             }
         }
         releases.sort(Comparator.comparing(Release::releaseDate));
@@ -84,9 +83,15 @@ public class ExtractInfoFromJira {
                 Date resolutionDate = format.parse(resolutionDateString);
                 JSONArray affectedVersionsArray = fields.getJSONArray("versions");
                 Release openingVersion = ReleaseUtilities.getReleaseAfterDate(creationDate, releasesList);
-                //TODO OPEN PROBLEM -> SOME TICKETS CREATED BEFORE FIRST RELEASE -> OV WILL BE THE IV... IT DOESN'T MAKE ANY SENSE WTF
                 Release fixedVersion =  ReleaseUtilities.getReleaseAfterDate(resolutionDate, releasesList);
                 List<Release> affectedVersionsList = ReleaseUtilities.returnValidAffectedVersions(affectedVersionsArray, releasesList);
+                if(!affectedVersionsList.isEmpty()
+                        && openingVersion!=null
+                        && fixedVersion!=null
+                        && (!affectedVersionsList.get(0).releaseDate().before(openingVersion.releaseDate())
+                                        || openingVersion.releaseDate().after(fixedVersion.releaseDate()))){
+                    continue;
+                }
                 if(openingVersion != null && fixedVersion != null && openingVersion.id()!=releasesList.get(0).id()){
                     ticketsList.add(new Ticket(key, creationDate, resolutionDate, openingVersion, fixedVersion, affectedVersionsList));
                 }

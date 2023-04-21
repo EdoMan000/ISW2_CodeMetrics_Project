@@ -3,7 +3,6 @@ package metrics.utilities;
 import metrics.controllers.ComputeProportion;
 import metrics.models.Release;
 import metrics.models.Ticket;
-import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -100,7 +99,7 @@ public class TicketUtilities {
                 + ", openingVersion= " + ticket.getOpeningVersion().releaseName()
                 + ", fixedVersion= " + ticket.getFixedVersion().releaseName()
                 + ", affectedVersions= " + IDs
-                //+ ", numOfCommits= " + ticket.getCommitList().size()
+                + ", numOfCommits= " + ticket.getCommitList().size()
                 + ", creationDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(ticket.getCreationDate()))
                 + ", resolutionDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(ticket.getResolutionDate()))
                 + "]\n"
@@ -108,11 +107,7 @@ public class TicketUtilities {
     }
 
     private static boolean isCorrectTicket(Ticket ticket) {
-        return !ticket.getAffectedVersions().isEmpty() &&
-                ticket.getOpeningVersion() != null &&
-                ticket.getFixedVersion() != null &&
-                ticket.getInjectedVersion().id() < ticket.getOpeningVersion().id() &&
-                ticket.getOpeningVersion().id() <= ticket.getFixedVersion().id();
+        return !ticket.getAffectedVersions().isEmpty();
     }
 
 

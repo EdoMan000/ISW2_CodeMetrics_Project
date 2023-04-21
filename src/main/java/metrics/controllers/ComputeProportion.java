@@ -14,13 +14,14 @@ import java.util.List;
 
 public class ComputeProportion {
     public static Float coldStartComputedProportion = null;
+    public static int coldStartValueRetrievedCount = 0;
 
-    public static final int THRESHOLD_FOR_COLD_START = 10;
+    public static final int THRESHOLD_FOR_COLD_START = 5;
 
     private enum OtherProjects {
         AVRO,
-        STORM,
         SYNCOPE,
+        STORM,
         TAJO,
         ZOOKEEPER
     }
@@ -45,6 +46,8 @@ public class ComputeProportion {
 
     private static float coldStartProportionComputation() throws IOException, ParseException {
         if(coldStartComputedProportion != null){
+            coldStartValueRetrievedCount++;
+            System.out.println("[" + coldStartValueRetrievedCount+ "] COLD-START VALUE RETRIEVED");
             return coldStartComputedProportion;
         }
         System.out.println("COLD-START PROPORTION COMPUTATION STARTED ===================");
@@ -58,7 +61,6 @@ public class ComputeProportion {
             if(ticketFilteredList.size() >= THRESHOLD_FOR_COLD_START){
                 proportionList.add(ComputeProportion.incrementalProportionComputation(ticketFilteredList));
             }
-            System.out.println("----------------------------------------------------------");
         }
 
         System.out.println("PROPORTION LIST: " + proportionList);
@@ -74,6 +76,7 @@ public class ComputeProportion {
         System.out.println("COLD-START PROPORTION COMPUTATION ENDED ===================");
         System.out.println("----------------------------------------------------------");
         coldStartComputedProportion = median;
+        coldStartValueRetrievedCount++;
         return median;
     }
 
