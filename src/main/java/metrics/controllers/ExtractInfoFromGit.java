@@ -34,10 +34,11 @@ public class ExtractInfoFromGit {
     private final List<Release> releaseList;
     private final Git git;
     private final Repository repository;
-    public ExtractInfoFromGit(String repoURL, List<Release> releaseList, List<Ticket> ticketList) throws IOException, GitAPIException {
-        File directory = new File("ProjTemp");
+    public ExtractInfoFromGit(String projName, String repoURL, List<Release> releaseList, List<Ticket> ticketList) throws IOException, GitAPIException {
+        String filename = projName.toLowerCase() + "Temp";
+        File directory = new File(filename);
         if(directory.exists()){
-            this.repository = new FileRepository("ProjTemp\\.git");
+            this.repository = new FileRepository(filename + "\\.git");
             this.git = new Git(this.repository);
         }else{
             this.git = Git.cloneRepository().setURI(repoURL).setDirectory(directory).call();

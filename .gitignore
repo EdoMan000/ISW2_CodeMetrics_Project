@@ -37,5 +37,7 @@ build/
 ### Mac OS ###
 .DS_Store
 
-/ProjTemp/
-/ProjTemp
+/bookkeeperTemp/
+/bookkeeperTemp
+/openjpaTemp/
+/openjpaTemp

@@ -26,19 +26,18 @@ public class ExtractMetrics {
         ExtractInfoFromJira jiraExtractor = new ExtractInfoFromJira(projName.toUpperCase());
         List<Release> releaseList = jiraExtractor.extractAllReleases();
         List<Ticket> ticketList = jiraExtractor.extractAllTickets(releaseList);
-        ExtractInfoFromGit gitExtractor = new ExtractInfoFromGit(repoURL, releaseList, ticketList);
+        ExtractInfoFromGit gitExtractor = new ExtractInfoFromGit(projName, repoURL, releaseList, ticketList);
         List<Commit> commitList = gitExtractor.extractAllCommits();
         List<Commit> filteredCommitsOfIssues = gitExtractor.filterCommitsOfIssues(commitList);
         ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
         List<ProjectClass> allProjectClasses = gitExtractor.extractAllProjectClasses(commitList, ticketList);
         printExtracted(projName, releaseList, ticketList, commitList, filteredCommitsOfIssues);
         writeOnCsvFile(projName, releaseList, allProjectClasses);
-        //ExtractInfoFromGit.deleteDirectory("ProjTemp");
+        //ExtractInfoFromGit.deleteDirectory(projName.toLowerCase() + "Temp");
     }
 
     private static void writeOnCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses) {
         FileWriter fileWriter = null;
-        int i, numVersions;
         try {
             fileWriter = new FileWriter(projName + "DataExtraction.csv");
             fileWriter.append("ReleaseID,File Name,Buggy").append("\n");
