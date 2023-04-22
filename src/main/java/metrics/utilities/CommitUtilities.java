@@ -6,7 +6,7 @@ import metrics.models.Ticket;
 import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.text.SimpleDateFormat;
-import java.util.Set;
+import java.time.LocalDate;
 
 public class CommitUtilities {
 
@@ -19,7 +19,7 @@ public class CommitUtilities {
                 //+ ", message= " + revCommit.getFullMessage()
                 + ((ticket == null) ? "": ", ticket= " + commit.getTicket().getTicketKey())
                 + ", release= " + release.releaseName()
-                + ", creationDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()))
+                + ", creationDate= " + LocalDate.parse((new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen())))
                 + "]\n"
         );
     }

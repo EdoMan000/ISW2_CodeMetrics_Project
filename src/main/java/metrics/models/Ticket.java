@@ -1,21 +1,21 @@
 package metrics.models;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Ticket {
     private final String ticketKey;
 
-    private final Date creationDate;
-    private final Date resolutionDate;
+    private final LocalDate creationDate;
+    private final LocalDate resolutionDate;
     private Release injectedVersion;
     private final Release openingVersion;
     private final Release fixedVersion;
     private List<Release> affectedVersions;
     private List<Commit> commitList;
 
-    public Ticket(String ticketKey, Date creationDate, Date resolutionDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
+    public Ticket(String ticketKey, LocalDate creationDate, LocalDate resolutionDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
         this.ticketKey = ticketKey;
         this.creationDate = creationDate;
         this.resolutionDate = resolutionDate;
@@ -58,7 +58,7 @@ public class Ticket {
         return ticketKey;
     }
 
-    public Date getCreationDate() {
+    public LocalDate getCreationDate() {
         return creationDate;
     }
 
@@ -72,7 +72,7 @@ public class Ticket {
         return commitList;
     }
 
-    public Date getResolutionDate() {
+    public LocalDate getResolutionDate() {
         return resolutionDate;
     }
 }

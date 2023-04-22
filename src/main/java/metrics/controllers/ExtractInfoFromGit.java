@@ -23,8 +23,8 @@ import org.eclipse.jgit.util.io.DisabledOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -60,7 +60,7 @@ public class ExtractInfoFromGit {
         directory.delete();
     }
 
-    public List<Commit> extractAllCommits() throws IOException, GitAPIException, ParseException {
+    public List<Commit> extractAllCommits() throws IOException, GitAPIException {
         List<RevCommit> revCommitList = new ArrayList<>();
         List<Ref> branchList = this.git.branchList().setListMode(ListBranchCommand.ListMode.ALL).call();
         for (Ref branch : branchList) {
@@ -74,11 +74,11 @@ public class ExtractInfoFromGit {
         revCommitList.sort(Comparator.comparing(o -> o.getCommitterIdent().getWhen()));
         List<Commit> commitList = new ArrayList<>();
         for (RevCommit revCommit : revCommitList) {
-            Date commitDate = revCommit.getCommitterIdent().getWhen();
-            Date lowerBoundDate = new SimpleDateFormat("yyyy-MM-dd").parse("2000-01-01");
+            LocalDate commitDate = LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()));
+            LocalDate lowerBoundDate = LocalDate.parse("2000-01-01");
             for(Release release: this.releaseList){
-                //if lowerBoundDate < commitDate <= releaseDate then the revCommit has been done in that release
-                if (commitDate.after(lowerBoundDate) && !commitDate.after(release.releaseDate())) {
+                //lowerBoundDate < commitDate <= releaseDate
+                if (commitDate.isAfter(lowerBoundDate) && !commitDate.isAfter(release.releaseDate())) {
                     Commit newCommit = new Commit(revCommit, release);
                     commitList.add(newCommit);
                     release.addCommit(newCommit);
@@ -91,7 +91,7 @@ public class ExtractInfoFromGit {
         return commitList;
     }
 
-    public List<Commit> filterCommitsOfIssues(List<Commit> commitList) throws ParseException {
+    public List<Commit> filterCommitsOfIssues(List<Commit> commitList) {
         List<Commit> filteredCommits = new ArrayList<>();
         for (Commit commit : commitList) {
             for (Ticket ticket : this.ticketList) {

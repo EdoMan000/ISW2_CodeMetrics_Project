@@ -3,8 +3,11 @@ package metrics.utilities;
 import metrics.models.Release;
 import org.json.JSONArray;
 
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Objects;
 
 public class ReleaseUtilities {
     private ReleaseUtilities(){
@@ -26,9 +29,9 @@ public class ReleaseUtilities {
         return existingAffectedVersions;
     }
 
-    public static Release getReleaseAfterDate(Date specificDate, List<Release> releasesList) {
+    public static Release getReleaseAfterDate(LocalDate specificDate, List<Release> releasesList) {
         for (Release release : releasesList) {
-            if (!release.releaseDate().before(specificDate)) {
+            if (!release.releaseDate().isBefore(specificDate)) {
                 return release;
             }
         }
@@ -38,7 +41,7 @@ public class ReleaseUtilities {
     public static void printRelease(Release release) {
         System.out.println("Release[id= " + release.id()
                 + ", releaseName= " + release.releaseName()
-                + ", releaseDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(release.releaseDate()))
+                + ", releaseDate= " + release.releaseDate()
                 + ", numOfCommits= " + release.getCommitList().size()
                 + "]\n"
         );

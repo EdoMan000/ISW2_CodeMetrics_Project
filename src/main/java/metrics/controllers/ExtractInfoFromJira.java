@@ -4,16 +4,16 @@ import metrics.models.Release;
 import metrics.models.Ticket;
 import metrics.utilities.JsonUtilities;
 import metrics.utilities.ReleaseUtilities;
-
 import metrics.utilities.TicketUtilities;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 public class ExtractInfoFromJira {
 
@@ -23,11 +23,10 @@ public class ExtractInfoFromJira {
         this.projName = projName.toUpperCase();
     }
 
-    public List<Release> extractAllReleases() throws IOException, JSONException, ParseException {
+    public List<Release> extractAllReleases() throws IOException, JSONException {
         //Fills the arraylist with releases dates and orders them
         //Ignores releases with missing dates
         List<Release> releases = new ArrayList<>();
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         int i=0;
         String url = "https://issues.apache.org/jira/rest/api/latest/project/" + this.projName;
         JSONObject json = JsonUtilities.readJsonFromUrl(url);
@@ -38,7 +37,7 @@ public class ExtractInfoFromJira {
             if (versions.getJSONObject(i).has("releaseDate") && versions.getJSONObject(i).has("name")) {
                 releaseDate = versions.getJSONObject(i).get("releaseDate").toString();
                 releaseName = versions.getJSONObject(i).get("name").toString();
-                releases.add(new Release(releaseName, format.parse(releaseDate)));
+                releases.add(new Release(releaseName, LocalDate.parse(releaseDate)));
             }
         }
         releases.sort(Comparator.comparing(Release::releaseDate));
@@ -49,7 +48,7 @@ public class ExtractInfoFromJira {
         return releases;
     }
 
-    public List<Ticket> extractAllTickets(List<Release> releasesList) throws IOException, JSONException, ParseException {
+    public List<Ticket> extractAllTickets(List<Release> releasesList) throws IOException, JSONException {
         List<Ticket> ticketsList = getTickets(releasesList);
         List<Ticket> fixedTicketsList;
         fixedTicketsList = TicketUtilities.fixTicketList(ticketsList, releasesList);
@@ -57,10 +56,9 @@ public class ExtractInfoFromJira {
         return fixedTicketsList;
     }
 
-    public List<Ticket> getTickets(List<Release> releasesList) throws IOException, ParseException {
+    public List<Ticket> getTickets(List<Release> releasesList) throws IOException {
         int j, i = 0, total;
         List<Ticket> ticketsList = new ArrayList<>();
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         //Get JSON API for closed bugs w/ AV in the project
         do {
             //Only gets a max of 1000 at a time, so must do this multiple times if bugs >1000
@@ -79,8 +77,8 @@ public class ExtractInfoFromJira {
                 JSONObject fields = issues.getJSONObject(i%1000).getJSONObject("fields");
                 String creationDateString = fields.get("created").toString();
                 String resolutionDateString = fields.get("resolutiondate").toString();
-                Date creationDate = format.parse(creationDateString);
-                Date resolutionDate = format.parse(resolutionDateString);
+                LocalDate creationDate = LocalDate.parse(creationDateString.substring(0,10));
+                LocalDate resolutionDate = LocalDate.parse(resolutionDateString.substring(0,10));
                 JSONArray affectedVersionsArray = fields.getJSONArray("versions");
                 Release openingVersion = ReleaseUtilities.getReleaseAfterDate(creationDate, releasesList);
                 Release fixedVersion =  ReleaseUtilities.getReleaseAfterDate(resolutionDate, releasesList);
@@ -88,8 +86,8 @@ public class ExtractInfoFromJira {
                 if(!affectedVersionsList.isEmpty()
                         && openingVersion!=null
                         && fixedVersion!=null
-                        && (!affectedVersionsList.get(0).releaseDate().before(openingVersion.releaseDate())
-                                        || openingVersion.releaseDate().after(fixedVersion.releaseDate()))){
+                        && (!affectedVersionsList.get(0).releaseDate().isBefore(openingVersion.releaseDate())
+                                        || openingVersion.releaseDate().isAfter(fixedVersion.releaseDate()))){
                     continue;
                 }
                 if(openingVersion != null && fixedVersion != null && openingVersion.id()!=releasesList.get(0).id()){

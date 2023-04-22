@@ -2,8 +2,6 @@ package metrics.models;
 
 import org.eclipse.jgit.revwalk.RevCommit;
 
-import java.util.Map;
-
 public final class Commit {
     private final RevCommit revCommit;
     private Ticket ticket;

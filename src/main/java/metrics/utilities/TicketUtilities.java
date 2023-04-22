@@ -5,8 +5,6 @@ import metrics.models.Release;
 import metrics.models.Ticket;
 
 import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -15,7 +13,7 @@ import static java.lang.Math.max;
 
 public class TicketUtilities {
 
-    public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList) throws IOException, ParseException {
+    public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList) throws IOException {
         //if there is no AV -> there is no IV -> need to compute Proportion
         // verify IV <= OV <= FV
         List<Ticket> fixedTicketsList = new ArrayList<>();
@@ -100,8 +98,8 @@ public class TicketUtilities {
                 + ", fixedVersion= " + ticket.getFixedVersion().releaseName()
                 + ", affectedVersions= " + IDs
                 + ", numOfCommits= " + ticket.getCommitList().size()
-                + ", creationDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(ticket.getCreationDate()))
-                + ", resolutionDate= " + (new SimpleDateFormat("yyyy-MM-dd").format(ticket.getResolutionDate()))
+                + ", creationDate= " + ticket.getCreationDate()
+                + ", resolutionDate= " + ticket.getResolutionDate()
                 + "]\n"
         );
     }
