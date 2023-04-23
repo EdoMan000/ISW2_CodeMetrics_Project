@@ -8,7 +8,7 @@ public final class Release {
     private int id;
     private final String releaseName;
     private final LocalDate releaseDate;
-    private List<Commit> commitList;
+    private final List<Commit> commitList;
 
     public Release(String releaseName, LocalDate releaseDate) {
         this.releaseName = releaseName;

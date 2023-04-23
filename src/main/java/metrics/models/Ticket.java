@@ -13,7 +13,7 @@ public class Ticket {
     private final Release openingVersion;
     private final Release fixedVersion;
     private List<Release> affectedVersions;
-    private List<Commit> commitList;
+    private final List<Commit> commitList;
 
     public Ticket(String ticketKey, LocalDate creationDate, LocalDate resolutionDate, Release openingVersion, Release fixedVersion, List<Release> affectedVersions) {
         this.ticketKey = ticketKey;

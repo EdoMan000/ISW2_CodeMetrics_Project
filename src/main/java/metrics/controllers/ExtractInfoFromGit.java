@@ -114,9 +114,20 @@ public class ExtractInfoFromGit {
         return matcher.find();
     }
 
-    public List<ProjectClass> extractAllProjectClasses(List<Commit> commitList, List<Ticket> ticketList) throws IOException {
+    public List<ProjectClass> extractAllProjectClasses(List<Commit> commitList, List<Ticket> ticketList, int releasesNumber) throws IOException {
+        List<Commit> lastCommits = new ArrayList<>();
+        for(int i=1; i<=releasesNumber; i++){
+            List<Commit> tempCommits = new ArrayList<>(commitList);
+            int finalI = i;
+            tempCommits.removeIf(commit -> !(commit.getRelease().id() == finalI));
+            if(tempCommits.isEmpty()){
+                continue;
+            }
+            lastCommits.add(tempCommits.get(tempCommits.size()-1));
+        }
+        lastCommits.sort(Comparator.comparing(o -> o.getRevCommit().getCommitterIdent().getWhen()));
         List<ProjectClass> allProjectClasses = new ArrayList<>();
-        for(Commit commit: commitList){
+        for(Commit commit: lastCommits){
             Map<String, String> nameAndContentOfClasses = getAllClassesNameAndContent(commit.getRevCommit());
             for(Map.Entry<String, String> nameAndContentOfClass : nameAndContentOfClasses.entrySet()){
                 allProjectClasses.add(new ProjectClass(nameAndContentOfClass.getKey(), nameAndContentOfClass.getValue(), commit.getRelease()));
