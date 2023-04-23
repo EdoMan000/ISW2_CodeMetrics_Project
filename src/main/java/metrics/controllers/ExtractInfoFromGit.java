@@ -26,7 +26,6 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.*;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ExtractInfoFromGit {
@@ -66,9 +65,9 @@ public class ExtractInfoFromGit {
         List<Ref> branchList = this.git.branchList().setListMode(ListBranchCommand.ListMode.ALL).call();
         for (Ref branch : branchList) {
             Iterable<RevCommit> commitsList = this.git.log().add(this.repository.resolve(branch.getName())).call();
-            for (RevCommit commit : commitsList) {
-                if (!revCommitList.contains(commit)) {
-                    revCommitList.add(commit);
+            for (RevCommit revCommit : commitsList) {
+                if (!revCommitList.contains(revCommit)) {
+                    revCommitList.add(revCommit);
                 }
             }
         }
@@ -109,12 +108,12 @@ public class ExtractInfoFromGit {
     }
 
     public static boolean matchRegex(String stringToMatch, String commitKey) {
-        Pattern pattern = Pattern.compile(commitKey + "+[^0-9]");
-        Matcher matcher = pattern.matcher(stringToMatch);
-        return matcher.find();
+        Pattern pattern = Pattern.compile(commitKey + "\\b");
+        return pattern.matcher(stringToMatch).find();
     }
 
-    public List<ProjectClass> extractAllProjectClasses(List<Commit> commitList, List<Ticket> ticketList, int releasesNumber) throws IOException {
+    public List<ProjectClass> extractAllProjectClasses(List<Commit> commitList, int releasesNumber) throws IOException {
+
         List<Commit> lastCommits = new ArrayList<>();
         for(int i=1; i<=releasesNumber; i++){
             List<Commit> tempCommits = new ArrayList<>(commitList);
@@ -136,11 +135,28 @@ public class ExtractInfoFromGit {
         for(Ticket ticket: ticketList){
             completeClassesInfo(ticket, allProjectClasses);
         }
-        setCommitsThatModify(allProjectClasses, commitList);
+        keepTrackOfCommitsThatModify(allProjectClasses, commitList);
         return allProjectClasses;
     }
 
-    private void setCommitsThatModify(List<ProjectClass> allProjectClasses, List<Commit> commitList) throws IOException {
+    private void completeClassesInfo(Ticket ticket, List<ProjectClass> allProjectClasses) throws IOException {
+        List<Commit> commitsContainingTicket = ticket.getCommitList();
+        Release injectedVersion = ticket.getInjectedVersion();
+        for(Commit commit: commitsContainingTicket){
+            if(!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate())){
+                //We assume as TRUE the Jira info about resolutionDATE (ticket FV is correct)
+                // -> the fact that the commit with older date contains ticketID is considered an error
+                // -> class must not be labeled as buggy
+                List<String> modifiedClassesNames = getModifiedClassesNames(commit.getRevCommit());
+                Release release = commit.getRelease();
+                for(String modifiedClass: modifiedClassesNames){
+                    labelBuggyClasses(modifiedClass, injectedVersion, release, allProjectClasses);
+                }
+            }
+        }
+    }
+
+    private void keepTrackOfCommitsThatModify(List<ProjectClass> allProjectClasses, List<Commit> commitList) throws IOException {
         for(Commit commit: commitList){
             Release release = commit.getRelease();
             List<String> modifiedClassesNames = getModifiedClassesNames(commit.getRevCommit());
@@ -152,18 +168,6 @@ public class ExtractInfoFromGit {
                         projectClass.setCommitsThatModify(commitsThatModify);
                     }
                 }
-            }
-        }
-    }
-
-    private void completeClassesInfo(Ticket ticket, List<ProjectClass> allProjectClasses) throws IOException {
-        List<Commit> commitsInTicket = ticket.getCommitList();
-        Release injectedVersion = ticket.getInjectedVersion();
-        for(Commit commit: commitsInTicket){
-            List<String> modifiedClassesNames = getModifiedClassesNames(commit.getRevCommit());
-            Release release = commit.getRelease();
-            for(String modifiedClass: modifiedClassesNames){
-                labelBuggyClasses(modifiedClass, injectedVersion, release, allProjectClasses);
             }
         }
     }

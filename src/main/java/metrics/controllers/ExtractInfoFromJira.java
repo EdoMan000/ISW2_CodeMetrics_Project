@@ -80,8 +80,8 @@ public class ExtractInfoFromJira {
                 LocalDate creationDate = LocalDate.parse(creationDateString.substring(0,10));
                 LocalDate resolutionDate = LocalDate.parse(resolutionDateString.substring(0,10));
                 JSONArray affectedVersionsArray = fields.getJSONArray("versions");
-                Release openingVersion = ReleaseUtilities.getReleaseAfterDate(creationDate, releasesList);
-                Release fixedVersion =  ReleaseUtilities.getReleaseAfterDate(resolutionDate, releasesList);
+                Release openingVersion = ReleaseUtilities.getReleaseAfterOrEqualDate(creationDate, releasesList);
+                Release fixedVersion =  ReleaseUtilities.getReleaseAfterOrEqualDate(resolutionDate, releasesList);
                 List<Release> affectedVersionsList = ReleaseUtilities.returnValidAffectedVersions(affectedVersionsArray, releasesList);
                 if(!affectedVersionsList.isEmpty()
                         && openingVersion!=null

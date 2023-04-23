@@ -22,7 +22,6 @@ public class ExtractMetrics {
     }
 
     public static void extractDataAndElaborate(String projName, String repoURL) throws IOException, GitAPIException {
-        //System.out.println(projName + " DATA EXTRACTION STARTED ==============================\n");
         ExtractInfoFromJira jiraExtractor = new ExtractInfoFromJira(projName.toUpperCase());
         List<Release> releaseList = jiraExtractor.extractAllReleases();
         List<Ticket> ticketList = jiraExtractor.extractAllTickets(releaseList);
@@ -30,7 +29,7 @@ public class ExtractMetrics {
         List<Commit> commitList = gitExtractor.extractAllCommits();
         List<Commit> filteredCommitsOfIssues = gitExtractor.filterCommitsOfIssues(commitList);
         ticketList.removeIf(ticket -> ticket.getCommitList().isEmpty());
-        List<ProjectClass> allProjectClasses = gitExtractor.extractAllProjectClasses(commitList, ticketList, releaseList.size());
+        List<ProjectClass> allProjectClasses = gitExtractor.extractAllProjectClasses(commitList, releaseList.size());
         printExtracted(projName, releaseList, ticketList, commitList, filteredCommitsOfIssues);
         writeOnCsvFile(projName, releaseList, allProjectClasses);
         //ExtractInfoFromGit.deleteDirectory(projName.toLowerCase() + "Temp");

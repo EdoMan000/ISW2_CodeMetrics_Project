@@ -29,7 +29,7 @@ public class ReleaseUtilities {
         return existingAffectedVersions;
     }
 
-    public static Release getReleaseAfterDate(LocalDate specificDate, List<Release> releasesList) {
+    public static Release getReleaseAfterOrEqualDate(LocalDate specificDate, List<Release> releasesList) {
         for (Release release : releasesList) {
             if (!release.releaseDate().isBefore(specificDate)) {
                 return release;
