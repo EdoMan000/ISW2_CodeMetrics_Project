@@ -20,14 +20,14 @@ public class Ticket {
         this.creationDate = creationDate;
         this.resolutionDate = resolutionDate;
         if(affectedVersions.isEmpty()){
-            this.injectedVersion = null;
+            injectedVersion = null;
         }else{
-            this.injectedVersion = affectedVersions.get(0);
+            injectedVersion = affectedVersions.get(0);
         }
         this.openingVersion = openingVersion;
         this.fixedVersion = fixedVersion;
         this.affectedVersions = affectedVersions;
-        this.commitList = new ArrayList<>();
+        commitList = new ArrayList<>();
     }
 
     public Release getInjectedVersion() {
@@ -64,7 +64,7 @@ public class Ticket {
 
     public void addCommit(Commit newCommit) {
         if(!commitList.contains(newCommit)){
-            this.commitList.add(newCommit);
+            commitList.add(newCommit);
         }
     }
 

@@ -13,14 +13,14 @@ public final class Release {
     public Release(String releaseName, LocalDate releaseDate) {
         this.releaseName = releaseName;
         this.releaseDate = releaseDate;
-        this.commitList = new ArrayList<>();
+        commitList = new ArrayList<>();
     }
 
     public Release(int id, String releaseName, LocalDate releaseDate) {
         this.id = id;
         this.releaseName = releaseName;
         this.releaseDate = releaseDate;
-        this.commitList = new ArrayList<>();
+        commitList = new ArrayList<>();
     }
 
     public int id() {
@@ -41,7 +41,7 @@ public final class Release {
 
     public void addCommit(Commit newCommit) {
         if(!commitList.contains(newCommit)){
-            this.commitList.add(newCommit);
+            commitList.add(newCommit);
         }
     }
 

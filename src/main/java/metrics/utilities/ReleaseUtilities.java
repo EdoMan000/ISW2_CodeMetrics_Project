@@ -30,6 +30,7 @@ public class ReleaseUtilities {
     }
 
     public static Release getReleaseAfterOrEqualDate(LocalDate specificDate, List<Release> releasesList) {
+        releasesList.sort(Comparator.comparing(Release::releaseDate));
         for (Release release : releasesList) {
             if (!release.releaseDate().isBefore(specificDate)) {
                 return release;

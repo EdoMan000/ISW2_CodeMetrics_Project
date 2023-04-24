@@ -17,6 +17,8 @@ public class ComputeProportion {
 
     public static final int THRESHOLD_FOR_COLD_START = 5;
 
+    private ComputeProportion() {}
+
     private enum OtherProjects {
         AVRO,
         SYNCOPE,

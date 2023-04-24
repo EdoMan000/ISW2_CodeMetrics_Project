@@ -9,8 +9,8 @@ public final class Commit {
 
     public Commit(RevCommit revCommit, Release release) {
         this.revCommit = revCommit;
-        this.ticket = null;
         this.release = release;
+        ticket = null;
     }
 
     public RevCommit getRevCommit() {

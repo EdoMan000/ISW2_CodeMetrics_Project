@@ -97,7 +97,7 @@ public class TicketUtilities {
                 + ", openingVersion= " + ticket.getOpeningVersion().releaseName()
                 + ", fixedVersion= " + ticket.getFixedVersion().releaseName()
                 + ", affectedVersions= " + IDs
-                + ", numOfCommits= " + ticket.getCommitList().size()
+                //+ ", numOfCommits= " + ticket.getCommitList().size()
                 + ", creationDate= " + ticket.getCreationDate()
                 + ", resolutionDate= " + ticket.getResolutionDate()
                 + "]\n"
