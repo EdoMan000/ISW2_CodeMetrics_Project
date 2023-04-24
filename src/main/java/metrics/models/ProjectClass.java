@@ -7,7 +7,6 @@ public class ProjectClass {
     private final String name;
     private final String contentOfClass;
     private final Release release;
-
     private final Metrics metrics;
     private List<Commit> commitsThatModify;
     private final List<Integer> LOCAddedByClass;
@@ -57,7 +56,6 @@ public class ProjectClass {
         return name;
     }
 
-
     public Metrics getMetrics() {
         return metrics;
     }
@@ -77,4 +75,5 @@ public class ProjectClass {
     public void addLOCRemovedByClass(Integer LOCRemovedByEntry) {
         LOCRemovedByClass.add(LOCRemovedByEntry);
     }
+
 }

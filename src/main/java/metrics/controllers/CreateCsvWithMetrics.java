@@ -23,29 +23,7 @@ public class CreateCsvWithMetrics {
                 count = 0;
                 for(ProjectClass projectClass: allProjectClasses){
                     if(projectClass.getRelease().id()==release.id()){
-                        String releaseID = Integer.toString(release.id());
-                        String isClassBugged = projectClass.getMetrics().getBuggyness() ? "YES" : "NO" ;
-                        String sizeOfClass = String.valueOf(projectClass.getMetrics().getSize());
-                        String addedLOC = String.valueOf(projectClass.getMetrics().getAddedLOC());
-                        String avgAddedLOC = String.valueOf(projectClass.getMetrics().getAvgAddedLOC());
-                        String maxAddedLOC = String.valueOf(projectClass.getMetrics().getMaxAddedLOC());
-                        String churn = String.valueOf(projectClass.getMetrics().getChurn());
-                        String avgChurn = String.valueOf(projectClass.getMetrics().getAvgChurningFactor());
-                        String maxChurn = String.valueOf(projectClass.getMetrics().getMaxChurningFactor());
-                        if (isClassBugged.equals("YES")) {
-                            count++;
-                        }
-                        String className = projectClass.getName();
-                        fileWriter.append(releaseID).append(",")
-                                .append(className).append(",")
-                                .append(sizeOfClass).append(",")
-                                .append(addedLOC).append(",")
-                                .append(avgAddedLOC).append(",")
-                                .append(maxAddedLOC).append(",")
-                                .append(churn).append(",")
-                                .append(avgChurn).append(",")
-                                .append(maxChurn).append(",")
-                                .append(isClassBugged).append("\n");
+                        count = appendEntriesOnCSV(fileWriter, count, release, projectClass);
                     }
                 }
                 buggyClassesList.add(count);
@@ -65,5 +43,32 @@ public class CreateCsvWithMetrics {
 
         }
         return buggyClassesList;
+    }
+
+    private static int appendEntriesOnCSV(FileWriter fileWriter, int count, Release release, ProjectClass projectClass) throws IOException {
+        String releaseID = Integer.toString(release.id());
+        String isClassBugged = projectClass.getMetrics().getBuggyness() ? "YES" : "NO" ;
+        String sizeOfClass = String.valueOf(projectClass.getMetrics().getSize());
+        String addedLOC = String.valueOf(projectClass.getMetrics().getAddedLOC());
+        String avgAddedLOC = String.valueOf(projectClass.getMetrics().getAvgAddedLOC());
+        String maxAddedLOC = String.valueOf(projectClass.getMetrics().getMaxAddedLOC());
+        String churn = String.valueOf(projectClass.getMetrics().getChurn());
+        String avgChurn = String.valueOf(projectClass.getMetrics().getAvgChurningFactor());
+        String maxChurn = String.valueOf(projectClass.getMetrics().getMaxChurningFactor());
+        if (isClassBugged.equals("YES")) {
+            count++;
+        }
+        String className = projectClass.getName();
+        fileWriter.append(releaseID).append(",")
+                .append(className).append(",")
+                .append(sizeOfClass).append(",")
+                .append(addedLOC).append(",")
+                .append(avgAddedLOC).append(",")
+                .append(maxAddedLOC).append(",")
+                .append(churn).append(",")
+                .append(avgChurn).append(",")
+                .append(maxChurn).append(",")
+                .append(isClassBugged).append("\n");
+        return count;
     }
 }

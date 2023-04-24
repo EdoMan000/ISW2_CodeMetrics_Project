@@ -12,8 +12,8 @@ import java.util.List;
 
 
 public class ComputeProportion {
-    public static Float coldStartComputedProportion = null;
-    public static int coldStartValueRetrievedCount = 0;
+    private static Float coldStartComputedProportion = null;
+    //private static int coldStartValueRetrievedCount = 0
 
     public static final int THRESHOLD_FOR_COLD_START = 5;
 
@@ -28,7 +28,7 @@ public class ComputeProportion {
     }
     private static float incrementalProportionComputation(List<Ticket> filteredTicketsList) {
         filteredTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
-        //System.out.println("PROPORTION -----------------------------------------------");
+        //System.out.println("PROPORTION -----------------------------------------------")
         // PROPORTION = (FV-IV)/(FV-OV)
         float totalProportion = 0.0F;
         for (Ticket correctTicket : filteredTicketsList) {
@@ -37,21 +37,21 @@ public class ComputeProportion {
                     ((float) correctTicket.getFixedVersion().id() - (float) correctTicket.getOpeningVersion().id());
             totalProportion+=propForTicket;
         }
-        //System.out.println("#TICKETS FILTERED FOR INCREMENTAL PROPORTION: " + filteredTicketsList.size());
+        //System.out.println("#TICKETS FILTERED FOR INCREMENTAL PROPORTION: " + filteredTicketsList.size())
         float average = totalProportion/filteredTicketsList.size();
-        //System.out.println("PROPORTION AVERAGE: " + average);
-        //System.out.println("----------------------------------------------------------");
+        //System.out.println("PROPORTION AVERAGE: " + average)
+        //System.out.println("----------------------------------------------------------")
         return average;
     }
 
 
     private static float coldStartProportionComputation() throws IOException {
         if(coldStartComputedProportion != null){
-            coldStartValueRetrievedCount++;
-            //System.out.println("[" + coldStartValueRetrievedCount+ "] COLD-START VALUE RETRIEVED");
+            //coldStartValueRetrievedCount++
+            //System.out.println("[" + coldStartValueRetrievedCount+ "] COLD-START VALUE RETRIEVED")
             return coldStartComputedProportion;
         }
-        //System.out.println("COLD-START PROPORTION COMPUTATION STARTED ===================");
+        //System.out.println("COLD-START PROPORTION COMPUTATION STARTED ===================")
         List<Float> proportionList = new ArrayList<>();
         for(OtherProjects projName: OtherProjects.values()){
             ExtractInfoFromJira jiraExtractor = new ExtractInfoFromJira(projName.toString());
@@ -64,7 +64,7 @@ public class ComputeProportion {
             }
         }
 
-        //System.out.println("PROPORTION LIST: " + proportionList);
+        //System.out.println("PROPORTION LIST: " + proportionList)
         Collections.sort(proportionList);
         float median;
         int size = proportionList.size();
@@ -73,11 +73,11 @@ public class ComputeProportion {
         } else {
             median = proportionList.get(size / 2);
         }
-        //System.out.println("MEDIAN PROPORTION OUT OF ALL PROJECTS FOR COLD START: " + median);
-        //System.out.println("COLD-START PROPORTION COMPUTATION ENDED ===================");
-        //System.out.println("----------------------------------------------------------");
+        //System.out.println("MEDIAN PROPORTION OUT OF ALL PROJECTS FOR COLD START: " + median)
+        //System.out.println("COLD-START PROPORTION COMPUTATION ENDED ===================")
+        //System.out.println("----------------------------------------------------------")
         coldStartComputedProportion = median;
-        coldStartValueRetrievedCount++;
+        //coldStartValueRetrievedCount++
         return median;
     }
 

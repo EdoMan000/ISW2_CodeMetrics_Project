@@ -13,6 +13,10 @@ import static java.lang.Math.max;
 
 public class TicketUtilities {
 
+
+    private TicketUtilities() {
+    }
+
     public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList) throws IOException {
         //if there is no AV -> there is no IV -> need to compute Proportion
         // verify IV <= OV <= FV

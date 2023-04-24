@@ -22,16 +22,16 @@ public class ComputeMetrics {
     }
 
     private void computeLOCMetrics() throws IOException {
-        int LOCAdded, maxLOC, totalChurn, maxChurn, i;
-        double avgLOC, avgChurn;
+        int addedLOC; int maxLOC; int totalChurn; int maxChurn; int i;
+        double avgLOC; double avgChurn;
         for(ProjectClass projectClass : allProjectClasses) {
-            LOCAdded = 0; maxLOC = 0; totalChurn = 0; maxChurn = 0; avgLOC = 0; avgChurn = 0;
+            addedLOC = 0; maxLOC = 0; totalChurn = 0; maxChurn = 0; avgLOC = 0; avgChurn = 0;
             gitExtractor.extractAddedOrRemovedLOC(projectClass);
 
             for(i = 0; i < projectClass.getLOCAddedByClass().size(); i++) {
                 int lineOfCode = projectClass.getLOCAddedByClass().get(i);
                 int churningFactor = Math.abs(projectClass.getLOCAddedByClass().get(i) - projectClass.getLOCRemovedByClass().get(i));
-                LOCAdded = LOCAdded + lineOfCode;
+                addedLOC = addedLOC + lineOfCode;
                 totalChurn = totalChurn + churningFactor;
                 if(lineOfCode > maxLOC) {
                     maxLOC = lineOfCode;
@@ -42,13 +42,13 @@ public class ComputeMetrics {
             }
 
             if(!projectClass.getLOCAddedByClass().isEmpty()) {
-                avgLOC = 1.0*LOCAdded/projectClass.getLOCAddedByClass().size();
+                avgLOC = 1.0*addedLOC/projectClass.getLOCAddedByClass().size();
             }
             if(!projectClass.getLOCAddedByClass().isEmpty()) {
                 avgChurn = 1.0*totalChurn/projectClass.getLOCAddedByClass().size();
             }
 
-            projectClass.getMetrics().setAddedLOC(LOCAdded);
+            projectClass.getMetrics().setAddedLOC(addedLOC);
             projectClass.getMetrics().setMaxAddedLOC(maxLOC);
             projectClass.getMetrics().setAvgAddedLOC(avgLOC);
             projectClass.getMetrics().setChurn(totalChurn);
