@@ -10,6 +10,9 @@ import java.time.LocalDate;
 
 public class CommitUtilities {
 
+    private CommitUtilities() {
+    }
+
     public static void printCommit(Commit commit) {
         RevCommit revCommit = commit.getRevCommit();
         Ticket ticket = commit.getTicket();

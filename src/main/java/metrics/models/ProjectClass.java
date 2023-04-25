@@ -63,16 +63,16 @@ public class ProjectClass {
         return lOCAddedByClass;
     }
 
-    public void addLOCAddedByClass(Integer LOCAddedByEntry) {
-        lOCAddedByClass.add(LOCAddedByEntry);
+    public void addLOCAddedByClass(Integer lOCAddedByEntry) {
+        lOCAddedByClass.add(lOCAddedByEntry);
     }
 
     public List<Integer> getlOCRemovedByClass() {
         return lOCRemovedByClass;
     }
 
-    public void addLOCRemovedByClass(Integer LOCRemovedByEntry) {
-        lOCRemovedByClass.add(LOCRemovedByEntry);
+    public void addLOCRemovedByClass(Integer lOCRemovedByEntry) {
+        lOCRemovedByClass.add(lOCRemovedByEntry);
     }
 
 

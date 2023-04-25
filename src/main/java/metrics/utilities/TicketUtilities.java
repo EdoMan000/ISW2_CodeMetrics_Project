@@ -35,26 +35,26 @@ public class TicketUtilities {
     }
 
     public static List<Ticket> returnCorrectTickets(List<Ticket> ticketsList){
-        List<Ticket> CorrectTickets = new ArrayList<>();
+        List<Ticket> correctTickets = new ArrayList<>();
         for (Ticket ticket : ticketsList) {
             if (isCorrectTicket(ticket)) {
-                CorrectTickets.add(ticket);
+                correctTickets.add(ticket);
             }
         }
-        CorrectTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
-        return CorrectTickets;
+        correctTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
+        return correctTickets;
     }
 
     //we filter out tickets that would make denominator zero in proportion computation
     public static List<Ticket> filterTicketsForProportion(List<Ticket> ticketCompleteList) {
-        List<Ticket> CorrectTickets = new ArrayList<>();
+        List<Ticket> correctTickets = new ArrayList<>();
         for (Ticket ticket : ticketCompleteList) {
             if (ticket.getFixedVersion().id() != ticket.getOpeningVersion().id()) {
-                CorrectTickets.add(ticket);
+                correctTickets.add(ticket);
             }
         }
-        CorrectTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
-        return CorrectTickets;
+        correctTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
+        return correctTickets;
     }
 
     private static void completeAffectedVersionsList(Ticket ticket, List<Release> releasesList) {
@@ -92,15 +92,15 @@ public class TicketUtilities {
     }
 
     public static void printTicket(Ticket ticket) {
-        List<String> IDs = new ArrayList<>();
+        List<String> iDs = new ArrayList<>();
         for(Release release : ticket.getAffectedVersions()) {
-            IDs.add(release.releaseName());
+            iDs.add(release.releaseName());
         }
         System.out.println("Ticket[key= " + ticket.getTicketKey()
                 + ", injectedVersion= " + ticket.getInjectedVersion().releaseName()
                 + ", openingVersion= " + ticket.getOpeningVersion().releaseName()
                 + ", fixedVersion= " + ticket.getFixedVersion().releaseName()
-                + ", affectedVersions= " + IDs
+                + ", affectedVersions= " + iDs
                 //+ ", numOfCommits= " + ticket.getCommitList().size()
                 + ", creationDate= " + ticket.getCreationDate()
                 + ", resolutionDate= " + ticket.getResolutionDate()
