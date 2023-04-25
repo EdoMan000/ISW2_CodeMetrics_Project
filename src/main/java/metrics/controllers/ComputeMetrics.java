@@ -1,6 +1,6 @@
 package metrics.controllers;
 
-import metrics.models.LOCMetrics_ValAvgMax;
+import metrics.models.LOCMetrics;
 import metrics.models.ProjectClass;
 
 import java.io.IOException;
@@ -23,9 +23,9 @@ public class ComputeMetrics {
     }
 
     private void computeLOCMetrics() throws IOException {
-        LOCMetrics_ValAvgMax valAvgMaxRemovedLOC = new LOCMetrics_ValAvgMax();
-        LOCMetrics_ValAvgMax valAvgMaxChurnLOC = new LOCMetrics_ValAvgMax();
-        LOCMetrics_ValAvgMax valAvgMaxAddedLOC = new LOCMetrics_ValAvgMax();
+        LOCMetrics valAvgMaxRemovedLOC = new LOCMetrics();
+        LOCMetrics valAvgMaxChurnLOC = new LOCMetrics();
+        LOCMetrics valAvgMaxAddedLOC = new LOCMetrics();
         int i;
         for(ProjectClass projectClass : allProjectClasses) {
             valAvgMaxAddedLOC.setVal(0);valAvgMaxAddedLOC.setAvgVal(0);valAvgMaxAddedLOC.setMaxVal(0);

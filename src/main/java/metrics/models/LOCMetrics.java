@@ -1,11 +1,11 @@
 package metrics.models;
 
-public class LOCMetrics_ValAvgMax {
+public class LOCMetrics {
     private int maxVal;
     private double avgVal;
     private int val;
 
-    public LOCMetrics_ValAvgMax() {
+    public LOCMetrics() {
     }
 
     public int getMaxVal() {

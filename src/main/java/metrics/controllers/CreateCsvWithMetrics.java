@@ -49,15 +49,15 @@ public class CreateCsvWithMetrics {
         String releaseID = Integer.toString(release.id());
         String isClassBugged = projectClass.getMetrics().getBuggyness() ? "YES" : "NO" ;
         String sizeOfClass = String.valueOf(projectClass.getMetrics().getSize());
-        String addedLOC = String.valueOf(projectClass.getMetrics().getAddedLOC());
-        String avgAddedLOC = String.valueOf(projectClass.getMetrics().getAvgAddedLOC());
-        String maxAddedLOC = String.valueOf(projectClass.getMetrics().getMaxAddedLOC());
-        String removedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOC());
-        String avgRemovedLOC = String.valueOf(projectClass.getMetrics().getAvgRemovedLOC());
-        String maxRemovedLOC = String.valueOf(projectClass.getMetrics().getMaxRemovedLOC());
-        String churn = String.valueOf(projectClass.getMetrics().getChurn());
-        String avgChurn = String.valueOf(projectClass.getMetrics().getAvgChurningFactor());
-        String maxChurn = String.valueOf(projectClass.getMetrics().getMaxChurningFactor());
+        String addedLOC = String.valueOf(projectClass.getMetrics().getAddedLOCMetrics().getVal());
+        String avgAddedLOC = String.valueOf(projectClass.getMetrics().getAddedLOCMetrics().getAvgVal());
+        String maxAddedLOC = String.valueOf(projectClass.getMetrics().getAddedLOCMetrics().getMaxVal());
+        String removedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOCMetrics().getVal());
+        String avgRemovedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOCMetrics().getAvgVal());
+        String maxRemovedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOCMetrics().getMaxVal());
+        String churn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getVal());
+        String avgChurn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getAvgVal());
+        String maxChurn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getMaxVal());
         String numOfCommitsThatTouchTheClass = String.valueOf(projectClass.getCommitsThatTouchTheClass().size());
         if (isClassBugged.equals("YES")) {
             count++;
