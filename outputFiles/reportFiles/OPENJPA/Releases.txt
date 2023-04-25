@@ -1,4 +1,4 @@
----------- Releases List ---------
+---------- /Releases List ---------
 
 Release[id= 1, releaseName= 0.9.0, releaseDate= 2006-08-26, numOfCommits= 161]
 

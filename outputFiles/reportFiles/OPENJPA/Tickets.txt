@@ -1,4 +1,4 @@
----------- Tickets List ---------
+---------- /Tickets List ---------
 
 Ticket[key= OPENJPA-35, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], creationDate= 2006-08-28, resolutionDate= 2007-03-10]
 

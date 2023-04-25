@@ -17,10 +17,20 @@ import java.util.List;
 public class CreateReportFile {
 
     private enum ReportTypes {
-        Releases,
-        Tickets,
-        Commits,
-        Summary
+        RELEASES("/Releases"),
+        TICKETS("/Tickets"),
+        COMMITS("/Commits"),
+        SUMMARY("/Summary");
+
+        private final String fileName;
+
+        ReportTypes(String fileName) {
+            this.fileName = fileName;
+        }
+
+        public String toString() {
+            return fileName;
+        }
     }
 
     private CreateReportFile() {
@@ -37,16 +47,16 @@ public class CreateReportFile {
                 }
             }
             for(ReportTypes reportType: ReportTypes.values()){
-                file = new File("outputFiles/reportFiles/" + projName + "/" + reportType + ".txt");
+                file = new File("outputFiles/reportFiles/" + projName + reportType.toString() + ".txt");
                 fileWriter = new FileWriter(file);
                 fileWriter.append("---------- ")
                         .append(String.valueOf(reportType))
-                        .append(" List ---------\n\n");
+                        .append(" List/ ---------\n\n");
                 switch (reportType) {
-                    case Releases -> appendReleasesInfo(releaseList, fileWriter);
-                    case Tickets -> appendTicketsInfo(ticketList, fileWriter);
-                    case Commits -> appendCommitsInfo(commitList, fileWriter);
-                    case Summary -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, buggyClassesPerRelease, fileWriter);
+                    case RELEASES -> appendReleasesInfo(releaseList, fileWriter);
+                    case TICKETS -> appendTicketsInfo(ticketList, fileWriter);
+                    case COMMITS -> appendCommitsInfo(commitList, fileWriter);
+                    case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, buggyClassesPerRelease, fileWriter);
                 }
                 try {
                     fileWriter.flush();
