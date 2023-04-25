@@ -118,7 +118,7 @@ public class CreateReportFile {
                     .append(", affectedVersions= ").append(String.valueOf(iDs))
                     //.append(", numOfCommits= ").append(String.valueOf(ticket.getCommitList().size()))
                     .append(", creationDate= ").append(String.valueOf(ticket.getCreationDate()))
-                    .append(", resolutionDate= ").append(String.valueOf(ticket.getResolutionDate())).append("]\n\n");
+                    .append(", resolutionDate= ").append(String.valueOf(ticket.getResolutionDate())).append(CLOSE_BRAKET_AND_NEW_LINE);
         }
     }
 
@@ -127,7 +127,7 @@ public class CreateReportFile {
             fileWriter.append("Release[id= ").append(String.valueOf(release.id()))
                     .append(", releaseName= ").append(release.releaseName())
                     .append(", releaseDate= ").append(String.valueOf(release.releaseDate()))
-                    .append(", numOfCommits= ").append(String.valueOf(release.getCommitList().size())).append("]\n\n");
+                    .append(", numOfCommits= ").append(String.valueOf(release.getCommitList().size())).append(CLOSE_BRAKET_AND_NEW_LINE);
         }
     }
 }
