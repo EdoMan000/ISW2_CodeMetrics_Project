@@ -16,6 +16,8 @@ import java.util.List;
 
 public class CreateReportFile {
 
+    public static final String CLOSE_BRAKET_AND_NEW_LINE = "]\n\n";
+
     private enum ReportTypes {
         RELEASES("/Releases"),
         TICKETS("/Tickets"),
@@ -27,7 +29,7 @@ public class CreateReportFile {
         ReportTypes(String fileName) {
             this.fileName = fileName;
         }
-
+        @Override
         public String toString() {
             return fileName;
         }
@@ -43,7 +45,7 @@ public class CreateReportFile {
             if (!file.exists()) {
                 boolean created = file.mkdirs();
                 if (!created) {
-                    throw new Exception();
+                    throw new IOException();
                 }
             }
             for(ReportTypes reportType: ReportTypes.values()){
@@ -58,15 +60,19 @@ public class CreateReportFile {
                     case COMMITS -> appendCommitsInfo(commitList, fileWriter);
                     case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, buggyClassesPerRelease, fileWriter);
                 }
-                try {
-                    fileWriter.flush();
-                    fileWriter.close();
-                } catch (IOException e) {
-                    System.out.println("Error while flushing/closing fileWriter !!!");
-                }
+                flushAndCloseFW(fileWriter);
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             System.out.println("Error in reportFiles writer");
+        }
+    }
+
+    private static void flushAndCloseFW(FileWriter fileWriter) {
+        try {
+            fileWriter.flush();
+            fileWriter.close();
+        } catch (IOException e) {
+            System.out.println("Error while flushing/closing fileWriter !!!");
         }
     }
 
@@ -93,7 +99,7 @@ public class CreateReportFile {
                     //.append(", message= ").append(revCommit.getFullMessage())
                     .append((ticket == null) ? "" : ", ticket= " + commit.getTicket().getTicketKey())
                     .append(", release= ").append(release.releaseName())
-                    .append(", creationDate= ").append(String.valueOf(LocalDate.parse((new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()))))).append("]\n\n");
+                    .append(", creationDate= ").append(String.valueOf(LocalDate.parse((new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()))))).append(CLOSE_BRAKET_AND_NEW_LINE);
         }
     }
 

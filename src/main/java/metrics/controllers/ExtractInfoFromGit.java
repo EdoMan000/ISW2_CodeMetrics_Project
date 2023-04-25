@@ -54,7 +54,7 @@ public class ExtractInfoFromGit {
         return ticketList;
     }
 
-    public static void deleteDirectory(String directoryPath) throws Exception {
+    public static void deleteDirectory(String directoryPath) {
         File directory = new File(directoryPath);
         if(directory.isDirectory()){
             File[] contents = directory.listFiles();
@@ -66,7 +66,7 @@ public class ExtractInfoFromGit {
         }
         try{
             if(!directory.delete()){
-                throw new Exception();
+                throw new IOException();
             }
         }catch (Exception e){
             System.out.println("Error while eliminating " + directoryPath);

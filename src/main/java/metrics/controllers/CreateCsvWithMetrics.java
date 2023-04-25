@@ -22,7 +22,7 @@ public class CreateCsvWithMetrics {
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {
-                    throw new Exception();
+                    throw new IOException();
                 }
             }
             file = new File("outputFiles/csvFiles/" + projName + "DataExtraction.csv");
@@ -37,16 +37,20 @@ public class CreateCsvWithMetrics {
                 }
                 buggyClassesList.add(count);
             }
-            try {
-                fileWriter.flush();
-                fileWriter.close();
-            } catch (IOException e) {
-                System.out.println("Error while flushing/closing fileWriter !!!");
-            }
-        } catch (Exception e) {
+            flushAndCloseFW(fileWriter);
+        } catch (IOException e) {
             System.out.println("Error in csv writer");
         }
         return buggyClassesList;
+    }
+
+    private static void flushAndCloseFW(FileWriter fileWriter) {
+        try {
+            fileWriter.flush();
+            fileWriter.close();
+        } catch (IOException e) {
+            System.out.println("Error while flushing/closing fileWriter !!!");
+        }
     }
 
     private static int appendEntriesOnCSV(FileWriter fileWriter, int count, Release release, ProjectClass projectClass) throws IOException {
