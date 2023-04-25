@@ -1,14 +1,11 @@
 package metrics.models;
 
 public class Metrics {
+    private final LOCMetrics_ValAvgMax valAvgMaxRemovedLOC = new LOCMetrics_ValAvgMax();
+    private final LOCMetrics_ValAvgMax valAvgMaxChurnLOC = new LOCMetrics_ValAvgMax();
+    private final LOCMetrics_ValAvgMax valAvgMaxAddedLOC = new LOCMetrics_ValAvgMax();
     private boolean bugged;
     private int size;
-    private int maxChurningFactor;
-    private double avgChurningFactor;
-    private int churn;
-    private int maxAddedLOC;
-    private double avgAddedLOC;
-    private int addedLOC;
 
     public Metrics() {
         bugged = false;
@@ -32,50 +29,83 @@ public class Metrics {
     }
 
     public void setAddedLOC(int addedLOC) {
-        this.addedLOC = addedLOC;
+        this.valAvgMaxAddedLOC.val = addedLOC;
     }
 
     public int getAddedLOC() {
-        return addedLOC;
+        return valAvgMaxAddedLOC.val;
     }
 
     public void setMaxAddedLOC(int maxAddedLOC) {
-        this.maxAddedLOC = maxAddedLOC;
+        this.valAvgMaxAddedLOC.maxVal = maxAddedLOC;
     }
 
     public int getMaxAddedLOC() {
-        return maxAddedLOC;
+        return valAvgMaxAddedLOC.maxVal;
     }
 
     public void setAvgAddedLOC(double avgAddedLOC) {
-        this.avgAddedLOC = avgAddedLOC;
+        this.valAvgMaxAddedLOC.avgVal = avgAddedLOC;
     }
 
     public double getAvgAddedLOC() {
-        return avgAddedLOC;
+        return valAvgMaxAddedLOC.avgVal;
     }
 
     public void setChurn(int churn) {
-        this.churn = churn;
+        this.valAvgMaxChurnLOC.val = churn;
     }
 
     public int getChurn() {
-        return churn;
+        return valAvgMaxChurnLOC.val;
     }
 
     public void setMaxChurningFactor(int maxChurningFactor) {
-        this.maxChurningFactor = maxChurningFactor;
+        this.valAvgMaxChurnLOC.maxVal = maxChurningFactor;
     }
 
     public int getMaxChurningFactor() {
-        return maxChurningFactor;
+        return valAvgMaxChurnLOC.maxVal;
     }
 
     public void setAvgChurningFactor(double avgChurningFactor) {
-        this.avgChurningFactor = avgChurningFactor;
+        this.valAvgMaxChurnLOC.avgVal = avgChurningFactor;
     }
 
     public double getAvgChurningFactor() {
-        return avgChurningFactor;
+        return valAvgMaxChurnLOC.avgVal;
+    }
+
+    public void setRemovedLOC(int removedLOC) {
+        this.valAvgMaxRemovedLOC.val = removedLOC;
+    }
+
+    public int getRemovedLOC() {
+        return valAvgMaxRemovedLOC.val;
+    }
+
+    public void setMaxRemovedLOC(int maxRemovedLOC) {
+        this.valAvgMaxRemovedLOC.maxVal = maxRemovedLOC;
+    }
+
+    public int getMaxRemovedLOC() {
+        return valAvgMaxRemovedLOC.maxVal;
+    }
+
+    public void setAvgRemovedLOC(double avgRemovedLOC) {
+        this.valAvgMaxRemovedLOC.avgVal = avgRemovedLOC;
+    }
+
+    public double getAvgRemovedLOC() {
+        return valAvgMaxRemovedLOC.avgVal;
+    }
+
+    public static class LOCMetrics_ValAvgMax {
+        private int maxVal;
+        private double avgVal;
+        private int val;
+
+        public LOCMetrics_ValAvgMax() {
+        }
     }
 }

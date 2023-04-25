@@ -71,8 +71,8 @@ public class ExtractInfoFromGit {
         List<RevCommit> revCommitList = new ArrayList<>();
         List<Ref> branchList = git.branchList().setListMode(ListBranchCommand.ListMode.ALL).call();
         for (Ref branch : branchList) {
-            Iterable<RevCommit> commitsList = git.log().add(repository.resolve(branch.getName())).call();
-            for (RevCommit revCommit : commitsList) {
+            Iterable<RevCommit> allRevCommits = git.log().add(repository.resolve(branch.getName())).call();
+            for (RevCommit revCommit : allRevCommits) {
                 if (!revCommitList.contains(revCommit)) {
                     revCommitList.add(revCommit);
                 }
@@ -85,12 +85,13 @@ public class ExtractInfoFromGit {
             LocalDate lowerBoundDate = LocalDate.parse("2000-01-01");
             for(Release release: releaseList){
                 //lowerBoundDate < commitDate <= releaseDate
-                if (commitDate.isAfter(lowerBoundDate) && !commitDate.isAfter(release.releaseDate())) {
+                LocalDate dateOfRelease = release.releaseDate();
+                if (commitDate.isAfter(lowerBoundDate) && !commitDate.isAfter(dateOfRelease)) {
                     Commit newCommit = new Commit(revCommit, release);
                     commitList.add(newCommit);
                     release.addCommit(newCommit);
                 }
-                lowerBoundDate = release.releaseDate();
+                lowerBoundDate = dateOfRelease;
             }
 
         }
@@ -122,7 +123,7 @@ public class ExtractInfoFromGit {
 
     public List<ProjectClass> extractAllProjectClasses(List<Commit> commitList, int releasesNumber) throws IOException {
 
-        List<Commit> lastCommits = new ArrayList<>();
+        List<Commit> lastCommitList = new ArrayList<>();
         for(int i = 1; i <= releasesNumber; i++){
             List<Commit> tempCommits = new ArrayList<>(commitList);
             int finalI = i;
@@ -130,20 +131,20 @@ public class ExtractInfoFromGit {
             if(tempCommits.isEmpty()){
                 continue;
             }
-            lastCommits.add(tempCommits.get(tempCommits.size()-1));
+            lastCommitList.add(tempCommits.get(tempCommits.size()-1));
         }
-        lastCommits.sort(Comparator.comparing(o -> o.getRevCommit().getCommitterIdent().getWhen()));
+        lastCommitList.sort(Comparator.comparing(o -> o.getRevCommit().getCommitterIdent().getWhen()));
         List<ProjectClass> allProjectClasses = new ArrayList<>();
-        for(Commit commit: lastCommits){
-            Map<String, String> nameAndContentOfClasses = getAllClassesNameAndContent(commit.getRevCommit());
+        for(Commit lastCommit: lastCommitList){
+            Map<String, String> nameAndContentOfClasses = getAllClassesNameAndContent(lastCommit.getRevCommit());
             for(Map.Entry<String, String> nameAndContentOfClass : nameAndContentOfClasses.entrySet()){
-                allProjectClasses.add(new ProjectClass(nameAndContentOfClass.getKey(), nameAndContentOfClass.getValue(), commit.getRelease()));
+                allProjectClasses.add(new ProjectClass(nameAndContentOfClass.getKey(), nameAndContentOfClass.getValue(), lastCommit.getRelease()));
             }
         }
         for(Ticket ticket: ticketList){
             completeClassesInfo(ticket, allProjectClasses);
         }
-        keepTrackOfCommitsThatModify(allProjectClasses, commitList);
+        keepTrackOfCommitsThatTouchTheClass(allProjectClasses, commitList);
         allProjectClasses.sort(Comparator.comparing(ProjectClass::getName));
         return allProjectClasses;
     }
@@ -152,11 +153,11 @@ public class ExtractInfoFromGit {
         List<Commit> commitsContainingTicket = ticket.getCommitList();
         Release injectedVersion = ticket.getInjectedVersion();
         for(Commit commit: commitsContainingTicket){
-            if(!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate())){
+            if(!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate()) && !commit.getRelease().releaseDate().isBefore(ticket.getInjectedVersion().releaseDate())){
                 // We assume as TRUE the Jira info about resolutionDATE (ticket FV is correct)
-                // -> the fact that the commit with older date contains ticketID is considered an error
+                // -> the fact that the commit with too old/too early date contains ticketID is considered an error
                 // -> class must not be labeled as buggy
-                List<String> modifiedClassesNames = getModifiedClassesNames(commit.getRevCommit());
+                List<String> modifiedClassesNames = getTouchedClassesNames(commit.getRevCommit());
                 Release release = commit.getRelease();
                 for(String modifiedClass: modifiedClassesNames){
                     labelBuggyClasses(modifiedClass, injectedVersion, release, allProjectClasses);
@@ -165,16 +166,18 @@ public class ExtractInfoFromGit {
         }
     }
 
-    private void keepTrackOfCommitsThatModify(List<ProjectClass> allProjectClasses, List<Commit> commitList) throws IOException {
+    private void keepTrackOfCommitsThatTouchTheClass(List<ProjectClass> allProjectClasses, List<Commit> commitList) throws IOException {
+        List<ProjectClass> tempProjClasses;
         for(Commit commit: commitList){
             Release release = commit.getRelease();
-            List<String> modifiedClassesNames = getModifiedClassesNames(commit.getRevCommit());
+            tempProjClasses = new ArrayList<>(allProjectClasses);
+            tempProjClasses.removeIf(tempProjClass -> !tempProjClass.getRelease().equals(release));
+            List<String> modifiedClassesNames = getTouchedClassesNames(commit.getRevCommit());
             for(String modifiedClass: modifiedClassesNames){
-                for(ProjectClass projectClass: allProjectClasses){
-                    if(projectClass.getName().equals(modifiedClass) && projectClass.getRelease().id() == release.id() && !projectClass.getCommitsThatModify().contains(commit)) {
-                        List<Commit> commitsThatModify = projectClass.getCommitsThatModify();
-                        commitsThatModify.add(commit);
-                        projectClass.setCommitsThatModify(commitsThatModify);
+                for(ProjectClass projectClass: tempProjClasses){
+                    List<Commit> commitsThatTouchTheClass = projectClass.getCommitsThatTouchTheClass();
+                    if(projectClass.getName().equals(modifiedClass) && !commitsThatTouchTheClass.contains(commit)) {
+                        commitsThatTouchTheClass.add(commit);
                     }
                 }
             }
@@ -189,8 +192,8 @@ public class ExtractInfoFromGit {
         }
     }
 
-    private List<String> getModifiedClassesNames(RevCommit commit) throws IOException {
-        List<String> modifiedClassesNames = new ArrayList<>();
+    private List<String> getTouchedClassesNames(RevCommit commit) throws IOException {
+        List<String> touchedClassesNames = new ArrayList<>();
         try(DiffFormatter diffFormatter = new DiffFormatter(DisabledOutputStream.INSTANCE);
             ObjectReader reader = repository.newObjectReader()) {
             CanonicalTreeParser newTreeIter = new CanonicalTreeParser();
@@ -203,13 +206,13 @@ public class ExtractInfoFromGit {
             diffFormatter.setRepository(repository);
             List<DiffEntry> entries = diffFormatter.scan(oldTreeIter, newTreeIter);
             for(DiffEntry entry : entries) {
-                if(entry.getChangeType().equals(DiffEntry.ChangeType.MODIFY) && entry.getNewPath().contains(".java") && !entry.getNewPath().contains("/test/")) {
-                    modifiedClassesNames.add(entry.getNewPath());
+                if(entry.getNewPath().contains(".java") && !entry.getNewPath().contains("/test/")) {
+                    touchedClassesNames.add(entry.getNewPath());
                 }
             }
         } catch(ArrayIndexOutOfBoundsException ignored) {
         }
-        return modifiedClassesNames;
+        return touchedClassesNames;
     }
 
     private Map<String, String> getAllClassesNameAndContent(RevCommit revCommit) throws IOException {
@@ -228,7 +231,7 @@ public class ExtractInfoFromGit {
     }
 
     public void extractAddedOrRemovedLOC(ProjectClass projectClass) throws IOException {
-        for(Commit commit : projectClass.getCommitsThatModify()) {
+        for(Commit commit : projectClass.getCommitsThatTouchTheClass()) {
             RevCommit revCommit = commit.getRevCommit();
             try(DiffFormatter diffFormatter = new DiffFormatter(DisabledOutputStream.INSTANCE)) {
                 RevCommit parentComm = revCommit.getParent(0);
@@ -249,7 +252,7 @@ public class ExtractInfoFromGit {
     private int getAddedLines(DiffFormatter diffFormatter, DiffEntry entry) throws IOException {
         int addedLines = 0;
         for(Edit edit : diffFormatter.toFileHeader(entry).toEditList()) {
-            addedLines += edit.getEndA() - edit.getBeginA();
+            addedLines += edit.getEndB() - edit.getBeginB();
         }
         return addedLines;
     }
@@ -257,7 +260,7 @@ public class ExtractInfoFromGit {
     private int getDeletedLines(DiffFormatter diffFormatter, DiffEntry entry) throws IOException {
         int deletedLines = 0;
         for(Edit edit : diffFormatter.toFileHeader(entry).toEditList()) {
-            deletedLines += edit.getEndB() - edit.getBeginB();
+            deletedLines += edit.getEndA() - edit.getBeginA();
         }
         return deletedLines;
     }

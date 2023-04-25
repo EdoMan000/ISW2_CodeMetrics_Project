@@ -18,7 +18,7 @@ public class CreateCsvWithMetrics {
         int count;
         try {
             fileWriter = new FileWriter(projName + "DataExtraction.csv");
-            fileWriter.append("ReleaseID,File Name,Size,LOCAdded,AvgLOCAdded,MaxLOCAdded,Churn,AvgChurn,MaxChurn,Buggy").append("\n");
+            fileWriter.append("ReleaseID,File Name,Size,LOCAdded,AvgLOCAdded,MaxLOCAdded,LOCRemoved,AvgLOCRemoved,MaxLOCRemoved,Churn,AvgChurn,MaxChurn,#Commits,Buggy").append("\n");
             for (Release release: releaseList) {
                 count = 0;
                 for(ProjectClass projectClass: allProjectClasses){
@@ -52,9 +52,13 @@ public class CreateCsvWithMetrics {
         String addedLOC = String.valueOf(projectClass.getMetrics().getAddedLOC());
         String avgAddedLOC = String.valueOf(projectClass.getMetrics().getAvgAddedLOC());
         String maxAddedLOC = String.valueOf(projectClass.getMetrics().getMaxAddedLOC());
+        String removedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOC());
+        String avgRemovedLOC = String.valueOf(projectClass.getMetrics().getAvgRemovedLOC());
+        String maxRemovedLOC = String.valueOf(projectClass.getMetrics().getMaxRemovedLOC());
         String churn = String.valueOf(projectClass.getMetrics().getChurn());
         String avgChurn = String.valueOf(projectClass.getMetrics().getAvgChurningFactor());
         String maxChurn = String.valueOf(projectClass.getMetrics().getMaxChurningFactor());
+        String numOfCommitsThatTouchTheClass = String.valueOf(projectClass.getCommitsThatTouchTheClass().size());
         if (isClassBugged.equals("YES")) {
             count++;
         }
@@ -65,9 +69,13 @@ public class CreateCsvWithMetrics {
                 .append(addedLOC).append(",")
                 .append(avgAddedLOC).append(",")
                 .append(maxAddedLOC).append(",")
+                .append(removedLOC).append(",")
+                .append(avgRemovedLOC).append(",")
+                .append(maxRemovedLOC).append(",")
                 .append(churn).append(",")
                 .append(avgChurn).append(",")
                 .append(maxChurn).append(",")
+                .append(numOfCommitsThatTouchTheClass).append(",")
                 .append(isClassBugged).append("\n");
         return count;
     }

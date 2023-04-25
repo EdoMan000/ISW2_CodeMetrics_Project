@@ -22,35 +22,56 @@ public class ComputeMetrics {
     }
 
     private void computeLOCMetrics() throws IOException {
-        int addedLOC; int maxLOC; int totalChurn; int maxChurn; int i;
-        double avgLOC; double avgChurn;
+        int addedLOC;
+        int maxAddedLOC;
+        int removedLOC;
+        int maxRemovedLOC;
+        int totalChurn;
+        int maxChurn;
+        int i;
+        double avgAddedLOC;
+        double avgRemovedLOC;
+        double avgChurn;
         for(ProjectClass projectClass : allProjectClasses) {
-            addedLOC = 0; maxLOC = 0; totalChurn = 0; maxChurn = 0; avgLOC = 0; avgChurn = 0;
+            addedLOC = 0; removedLOC = 0; maxAddedLOC = 0; maxRemovedLOC = 0; totalChurn = 0; maxChurn = 0; avgAddedLOC = 0; avgRemovedLOC = 0; avgChurn = 0;
             gitExtractor.extractAddedOrRemovedLOC(projectClass);
 
-            for(i = 0; i < projectClass.getLOCAddedByClass().size(); i++) {
-                int lineOfCode = projectClass.getLOCAddedByClass().get(i);
-                int churningFactor = Math.abs(projectClass.getLOCAddedByClass().get(i) - projectClass.getLOCRemovedByClass().get(i));
-                addedLOC = addedLOC + lineOfCode;
-                totalChurn = totalChurn + churningFactor;
-                if(lineOfCode > maxLOC) {
-                    maxLOC = lineOfCode;
+            List<Integer> locAddedByClass = projectClass.getLOCAddedByClass();
+            List<Integer> locRemovedByClass = projectClass.getLOCRemovedByClass();
+            for(i = 0; i < locAddedByClass.size(); i++) {
+                int addedLineOfCode = locAddedByClass.get(i);
+                int removedLineOfCode = locRemovedByClass.get(i);
+                int churningFactor = Math.abs(locAddedByClass.get(i) - locRemovedByClass.get(i));
+                addedLOC += addedLineOfCode;
+                removedLOC += removedLineOfCode;
+                totalChurn += churningFactor;
+                if(addedLineOfCode > maxAddedLOC) {
+                    maxAddedLOC = addedLineOfCode;
+                }
+                if(removedLineOfCode > maxRemovedLOC) {
+                    maxRemovedLOC = removedLineOfCode;
                 }
                 if(churningFactor > maxChurn) {
                     maxChurn = churningFactor;
                 }
             }
 
-            if(!projectClass.getLOCAddedByClass().isEmpty()) {
-                avgLOC = 1.0*addedLOC/projectClass.getLOCAddedByClass().size();
+            if(!locAddedByClass.isEmpty()) {
+                avgAddedLOC = 1.0*addedLOC/ locAddedByClass.size();
             }
-            if(!projectClass.getLOCAddedByClass().isEmpty()) {
-                avgChurn = 1.0*totalChurn/projectClass.getLOCAddedByClass().size();
+            if(!locRemovedByClass.isEmpty()) {
+                avgRemovedLOC = 1.0*removedLOC/ locRemovedByClass.size();
+            }
+            if(!locAddedByClass.isEmpty() || !locRemovedByClass.isEmpty()) {
+                avgChurn = 1.0*totalChurn/ (locAddedByClass.size() + locRemovedByClass.size());
             }
 
             projectClass.getMetrics().setAddedLOC(addedLOC);
-            projectClass.getMetrics().setMaxAddedLOC(maxLOC);
-            projectClass.getMetrics().setAvgAddedLOC(avgLOC);
+            projectClass.getMetrics().setMaxAddedLOC(maxAddedLOC);
+            projectClass.getMetrics().setAvgAddedLOC(avgAddedLOC);
+            projectClass.getMetrics().setRemovedLOC(removedLOC);
+            projectClass.getMetrics().setMaxRemovedLOC(maxRemovedLOC);
+            projectClass.getMetrics().setAvgRemovedLOC(avgRemovedLOC);
             projectClass.getMetrics().setChurn(totalChurn);
             projectClass.getMetrics().setMaxChurningFactor(maxChurn);
             projectClass.getMetrics().setAvgChurningFactor(avgChurn);

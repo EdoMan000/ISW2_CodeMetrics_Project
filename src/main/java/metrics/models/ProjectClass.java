@@ -8,22 +8,22 @@ public class ProjectClass {
     private final String contentOfClass;
     private final Release release;
     private final Metrics metrics;
-    private List<Commit> commitsThatModify;
+    private List<Commit> commitsThatTouchTheClass;
     private final List<Integer> LOCAddedByClass;
     private final List<Integer> LOCRemovedByClass;
 
     public ProjectClass(String name, String contentOfClass, Release release) {
 
         this.name = name;
-        this.contentOfClass = removeComments(contentOfClass);
+        this.contentOfClass = contentOfClass;
         this.release = release;
         metrics = new Metrics();
-        commitsThatModify = new ArrayList<>();
+        commitsThatTouchTheClass = new ArrayList<>();
         LOCAddedByClass = new ArrayList<>();
         LOCRemovedByClass = new ArrayList<>();
     }
 
-    private String removeComments(String contentOfClass) {
+    public static String removeComments(String contentOfClass) {
         List<String> lines = new java.util.ArrayList<>(List.of(contentOfClass.split("\r\n|\r|\n")));
         lines.removeIf(line -> line.replace("\t","").replace(" ","").startsWith("//"));
         lines.removeIf(line -> line.replace("\t","").replace(" ","").startsWith("/*"));
@@ -36,12 +36,12 @@ public class ProjectClass {
         return stringBuilder.toString();
     }
 
-    public List<Commit> getCommitsThatModify() {
-        return commitsThatModify;
+    public List<Commit> getCommitsThatTouchTheClass() {
+        return commitsThatTouchTheClass;
     }
 
-    public void setCommitsThatModify(List<Commit> commitsThatModify) {
-        this.commitsThatModify = commitsThatModify;
+    public void setCommitsThatTouchTheClass(List<Commit> commitsThatModify) {
+        this.commitsThatTouchTheClass = commitsThatModify;
     }
 
     public Release getRelease() {
