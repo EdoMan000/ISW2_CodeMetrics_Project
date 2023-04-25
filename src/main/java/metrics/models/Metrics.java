@@ -2,8 +2,8 @@ package metrics.models;
 
 public class Metrics {
     private final LOCMetrics removedLOCMetrics = new LOCMetrics();
-    private final LOCMetrics ChurnMetrics = new LOCMetrics();
-    private final LOCMetrics AddedLOCMetrics = new LOCMetrics();
+    private final LOCMetrics churnMetrics = new LOCMetrics();
+    private final LOCMetrics addedLOCMetrics = new LOCMetrics();
     private boolean bugged;
     private int size;
 
@@ -33,17 +33,17 @@ public class Metrics {
     }
 
     public LOCMetrics getChurnMetrics() {
-        return ChurnMetrics;
+        return churnMetrics;
     }
 
     public LOCMetrics getAddedLOCMetrics() {
-        return AddedLOCMetrics;
+        return addedLOCMetrics;
     }
 
     public void setAddedLOCMetrics(int addedLOC, int maxAddedLOC, double avgAddedLOC) {
-        this.AddedLOCMetrics.setVal(addedLOC);
-        this.AddedLOCMetrics.setMaxVal(maxAddedLOC);
-        this.AddedLOCMetrics.setAvgVal(avgAddedLOC);
+        this.addedLOCMetrics.setVal(addedLOC);
+        this.addedLOCMetrics.setMaxVal(maxAddedLOC);
+        this.addedLOCMetrics.setAvgVal(avgAddedLOC);
     }
 
     public void setRemovedLOCMetrics(int removedLOC, int maxRemovedLOC, double avgRemovedLOC) {
@@ -53,8 +53,8 @@ public class Metrics {
     }
 
     public void setChurnMetrics(int churn, int maxChurningFactor, double avgChurningFactor) {
-        this.ChurnMetrics.setVal(churn);
-        this.ChurnMetrics.setMaxVal(maxChurningFactor);
-        this.ChurnMetrics.setAvgVal(avgChurningFactor);
+        this.churnMetrics.setVal(churn);
+        this.churnMetrics.setMaxVal(maxChurningFactor);
+        this.churnMetrics.setAvgVal(avgChurningFactor);
     }
 }

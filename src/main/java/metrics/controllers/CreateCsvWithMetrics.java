@@ -30,7 +30,6 @@ public class CreateCsvWithMetrics {
             }
         } catch (Exception e) {
             System.out.println("Error in csv writer");
-            e.printStackTrace();
         } finally {
             try {
                 assert fileWriter != null;
@@ -38,7 +37,6 @@ public class CreateCsvWithMetrics {
                 fileWriter.close();
             } catch (IOException e) {
                 System.out.println("Error while flushing/closing fileWriter !!!");
-                e.printStackTrace();
             }
 
         }

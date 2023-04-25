@@ -5,9 +5,6 @@ public class LOCMetrics {
     private double avgVal;
     private int val;
 
-    public LOCMetrics() {
-    }
-
     public int getMaxVal() {
         return maxVal;
     }
