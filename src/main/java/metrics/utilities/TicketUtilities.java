@@ -91,23 +91,6 @@ public class TicketUtilities {
         ticket.setInjectedVersion(affectedVersionsList.get(0));
     }
 
-    public static void printTicket(Ticket ticket) {
-        List<String> iDs = new ArrayList<>();
-        for(Release release : ticket.getAffectedVersions()) {
-            iDs.add(release.releaseName());
-        }
-        System.out.println("Ticket[key= " + ticket.getTicketKey()
-                + ", injectedVersion= " + ticket.getInjectedVersion().releaseName()
-                + ", openingVersion= " + ticket.getOpeningVersion().releaseName()
-                + ", fixedVersion= " + ticket.getFixedVersion().releaseName()
-                + ", affectedVersions= " + iDs
-                //+ ", numOfCommits= " + ticket.getCommitList().size()
-                + ", creationDate= " + ticket.getCreationDate()
-                + ", resolutionDate= " + ticket.getResolutionDate()
-                + "]\n"
-        );
-    }
-
     private static boolean isCorrectTicket(Ticket ticket) {
         return !ticket.getAffectedVersions().isEmpty();
     }

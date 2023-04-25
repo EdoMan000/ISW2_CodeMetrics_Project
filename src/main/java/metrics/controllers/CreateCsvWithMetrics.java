@@ -3,6 +3,7 @@ package metrics.controllers;
 import metrics.models.ProjectClass;
 import metrics.models.Release;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,11 +14,19 @@ public class CreateCsvWithMetrics {
     private CreateCsvWithMetrics() {}
 
     public static List<Integer> writeOnCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses) {
-        FileWriter fileWriter = null;
+        FileWriter fileWriter;
         List<Integer> buggyClassesList = new ArrayList<>();
         int count;
         try {
-            fileWriter = new FileWriter(projName + "DataExtraction.csv");
+            File file = new File("outputFiles/csvFiles");
+            if (!file.exists()) {
+                boolean success = file.mkdirs();
+                if (!success) {
+                    throw new Exception();
+                }
+            }
+            file = new File("outputFiles/csvFiles/" + projName + "DataExtraction.csv");
+            fileWriter = new FileWriter(file);
             fileWriter.append("ReleaseID,File Name,Size,LOCAdded,AvgLOCAdded,MaxLOCAdded,LOCRemoved,AvgLOCRemoved,MaxLOCRemoved,Churn,AvgChurn,MaxChurn,#Commits,Buggy").append("\n");
             for (Release release: releaseList) {
                 count = 0;
@@ -28,17 +37,14 @@ public class CreateCsvWithMetrics {
                 }
                 buggyClassesList.add(count);
             }
-        } catch (Exception e) {
-            System.out.println("Error in csv writer");
-        } finally {
             try {
-                assert fileWriter != null;
                 fileWriter.flush();
                 fileWriter.close();
             } catch (IOException e) {
                 System.out.println("Error while flushing/closing fileWriter !!!");
             }
-
+        } catch (Exception e) {
+            System.out.println("Error in csv writer");
         }
         return buggyClassesList;
     }

@@ -38,13 +38,4 @@ public class ReleaseUtilities {
         }
         return null;
     }
-
-    public static void printRelease(Release release) {
-        System.out.println("Release[id= " + release.id()
-                + ", releaseName= " + release.releaseName()
-                + ", releaseDate= " + release.releaseDate()
-                + ", numOfCommits= " + release.getCommitList().size()
-                + "]\n"
-        );
-    }
 }

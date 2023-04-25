@@ -1,0 +1,30 @@
+---------- Releases List ---------
+
+Release[id= 1, releaseName= 4.0.0, releaseDate= 2011-12-07, numOfCommits= 92]
+
+Release[id= 2, releaseName= 4.1.0, releaseDate= 2012-06-13, numOfCommits= 111]
+
+Release[id= 3, releaseName= 4.1.1, releaseDate= 2013-01-16, numOfCommits= 198]
+
+Release[id= 4, releaseName= 4.2.0, releaseDate= 2013-01-19, numOfCommits= 0]
+
+Release[id= 5, releaseName= 4.2.1, releaseDate= 2013-03-27, numOfCommits= 23]
+
+Release[id= 6, releaseName= 4.2.2, releaseDate= 2013-10-10, numOfCommits= 51]
+
+Release[id= 7, releaseName= 4.3.0, releaseDate= 2014-02-02, numOfCommits= 33]
+
+Release[id= 8, releaseName= 4.2.3, releaseDate= 2014-06-27, numOfCommits= 35]
+
+Release[id= 9, releaseName= 4.3.1, releaseDate= 2015-05-24, numOfCommits= 73]
+
+Release[id= 10, releaseName= 4.3.2, releaseDate= 2015-11-17, numOfCommits= 15]
+
+Release[id= 11, releaseName= 4.4.0, releaseDate= 2016-05-16, numOfCommits= 46]
+
+Release[id= 12, releaseName= 4.5.0, releaseDate= 2017-08-10, numOfCommits= 324]
+
+Release[id= 13, releaseName= 4.5.1, releaseDate= 2017-09-10, numOfCommits= 54]
+
+Release[id= 14, releaseName= 4.6.0, releaseDate= 2017-11-10, numOfCommits= 72]
+

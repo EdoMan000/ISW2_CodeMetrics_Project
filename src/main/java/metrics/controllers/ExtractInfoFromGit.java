@@ -54,7 +54,7 @@ public class ExtractInfoFromGit {
         return ticketList;
     }
 
-    public static void deleteDirectory(String directoryPath) {
+    public static void deleteDirectory(String directoryPath) throws Exception {
         File directory = new File(directoryPath);
         if(directory.isDirectory()){
             File[] contents = directory.listFiles();
@@ -64,7 +64,13 @@ public class ExtractInfoFromGit {
                 }
             }
         }
-        directory.delete();
+        try{
+            if(!directory.delete()){
+                throw new Exception();
+            }
+        }catch (Exception e){
+            System.out.println("Error while eliminating " + directoryPath);
+        }
     }
 
     public List<Commit> extractAllCommits() throws IOException, GitAPIException {
