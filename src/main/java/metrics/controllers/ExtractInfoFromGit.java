@@ -127,7 +127,7 @@ public class ExtractInfoFromGit {
         for(int i = 1; i <= releasesNumber; i++){
             List<Commit> tempCommits = new ArrayList<>(commitList);
             int finalI = i;
-            tempCommits.removeIf(commit -> !(commit.getRelease().id() == finalI));
+            tempCommits.removeIf(commit -> (commit.getRelease().id() != finalI));
             if(tempCommits.isEmpty()){
                 continue;
             }
@@ -211,6 +211,7 @@ public class ExtractInfoFromGit {
                 }
             }
         } catch(ArrayIndexOutOfBoundsException ignored) {
+            //ignoring when no parent is found
         }
         return touchedClassesNames;
     }
@@ -245,6 +246,7 @@ public class ExtractInfoFromGit {
                     }
                 }
             } catch(ArrayIndexOutOfBoundsException ignored) {
+                //ignoring when no parent is found
             }
         }
     }

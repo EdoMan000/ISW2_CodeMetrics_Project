@@ -38,10 +38,9 @@ public class ComputeProportion {
             totalProportion+=propForTicket;
         }
         //System.out.println("#TICKETS FILTERED FOR INCREMENTAL PROPORTION: " + filteredTicketsList.size())
-        float average = totalProportion/filteredTicketsList.size();
+        return totalProportion/filteredTicketsList.size();
         //System.out.println("PROPORTION AVERAGE: " + average)
         //System.out.println("----------------------------------------------------------")
-        return average;
     }
 
 
