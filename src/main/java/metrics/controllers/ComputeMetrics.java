@@ -53,20 +53,24 @@ public class ComputeMetrics {
                 }
             }
 
-            if(!locAddedByClass.isEmpty()) {
-                valAvgMaxAddedLOC.setAvgVal(1.0*valAvgMaxAddedLOC.getVal()/ locAddedByClass.size());
-            }
-            if(!locRemovedByClass.isEmpty()) {
-                valAvgMaxRemovedLOC.setAvgVal(1.0*valAvgMaxRemovedLOC.getVal()/ locRemovedByClass.size());
-            }
-            if(!locAddedByClass.isEmpty() || !locRemovedByClass.isEmpty()) {
-                valAvgMaxChurnLOC.setAvgVal(1.0*valAvgMaxChurnLOC.getVal()/ (locAddedByClass.size() + locRemovedByClass.size()));
-            }
-
-            projectClass.getMetrics().setAddedLOCMetrics(valAvgMaxAddedLOC.getVal(), valAvgMaxAddedLOC.getMaxVal(), valAvgMaxAddedLOC.getAvgVal());
-            projectClass.getMetrics().setRemovedLOCMetrics(valAvgMaxRemovedLOC.getVal(), valAvgMaxRemovedLOC.getMaxVal(), valAvgMaxRemovedLOC.getAvgVal());
-            projectClass.getMetrics().setChurnMetrics(valAvgMaxChurnLOC.getVal(), valAvgMaxChurnLOC.getMaxVal(), valAvgMaxChurnLOC.getAvgVal());
+            setMetrics(valAvgMaxRemovedLOC, valAvgMaxChurnLOC, valAvgMaxAddedLOC, projectClass, locAddedByClass, locRemovedByClass);
         }
+    }
+
+    private static void setMetrics(LOCMetrics valAvgMaxRemovedLOC, LOCMetrics valAvgMaxChurnLOC, LOCMetrics valAvgMaxAddedLOC, ProjectClass projectClass, List<Integer> locAddedByClass, List<Integer> locRemovedByClass) {
+        if(!locAddedByClass.isEmpty()) {
+            valAvgMaxAddedLOC.setAvgVal(1.0* valAvgMaxAddedLOC.getVal()/ locAddedByClass.size());
+        }
+        if(!locRemovedByClass.isEmpty()) {
+            valAvgMaxRemovedLOC.setAvgVal(1.0* valAvgMaxRemovedLOC.getVal()/ locRemovedByClass.size());
+        }
+        if(!locAddedByClass.isEmpty() || !locRemovedByClass.isEmpty()) {
+            valAvgMaxChurnLOC.setAvgVal(1.0* valAvgMaxChurnLOC.getVal()/ (locAddedByClass.size() + locRemovedByClass.size()));
+        }
+
+        projectClass.getMetrics().setAddedLOCMetrics(valAvgMaxAddedLOC.getVal(), valAvgMaxAddedLOC.getMaxVal(), valAvgMaxAddedLOC.getAvgVal());
+        projectClass.getMetrics().setRemovedLOCMetrics(valAvgMaxRemovedLOC.getVal(), valAvgMaxRemovedLOC.getMaxVal(), valAvgMaxRemovedLOC.getAvgVal());
+        projectClass.getMetrics().setChurnMetrics(valAvgMaxChurnLOC.getVal(), valAvgMaxChurnLOC.getMaxVal(), valAvgMaxChurnLOC.getAvgVal());
     }
 
     public void computeAllMetrics() throws IOException {
