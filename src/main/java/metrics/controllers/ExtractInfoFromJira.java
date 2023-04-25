@@ -57,7 +57,9 @@ public class ExtractInfoFromJira {
     }
 
     public List<Ticket> getTickets(List<Release> releasesList) throws IOException {
-        int j, i = 0, total;
+        int j;
+        int i = 0;
+        int total;
         List<Ticket> ticketsList = new ArrayList<>();
         //Get JSON API for closed bugs w/ AV in the project
         do {

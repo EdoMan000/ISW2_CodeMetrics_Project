@@ -33,8 +33,8 @@ public class ComputeMetrics {
             valAvgMaxChurnLOC.setVal(0);valAvgMaxChurnLOC.setAvgVal(0);valAvgMaxChurnLOC.setMaxVal(0);
             gitExtractor.extractAddedOrRemovedLOC(projectClass);
 
-            List<Integer> locAddedByClass = projectClass.getLOCAddedByClass();
-            List<Integer> locRemovedByClass = projectClass.getLOCRemovedByClass();
+            List<Integer> locAddedByClass = projectClass.getlOCAddedByClass();
+            List<Integer> locRemovedByClass = projectClass.getlOCRemovedByClass();
             for(i = 0; i < locAddedByClass.size(); i++) {
                 int addedLineOfCode = locAddedByClass.get(i);
                 int removedLineOfCode = locRemovedByClass.get(i);

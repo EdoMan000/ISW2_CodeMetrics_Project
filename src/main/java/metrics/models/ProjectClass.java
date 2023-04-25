@@ -9,8 +9,8 @@ public class ProjectClass {
     private final Release release;
     private final Metrics metrics;
     private List<Commit> commitsThatTouchTheClass;
-    private final List<Integer> LOCAddedByClass;
-    private final List<Integer> LOCRemovedByClass;
+    private final List<Integer> lOCAddedByClass;
+    private final List<Integer> lOCRemovedByClass;
 
     public ProjectClass(String name, String contentOfClass, Release release) {
 
@@ -19,8 +19,8 @@ public class ProjectClass {
         this.release = release;
         metrics = new Metrics();
         commitsThatTouchTheClass = new ArrayList<>();
-        LOCAddedByClass = new ArrayList<>();
-        LOCRemovedByClass = new ArrayList<>();
+        lOCAddedByClass = new ArrayList<>();
+        lOCRemovedByClass = new ArrayList<>();
     }
 
     public static String removeComments(String contentOfClass) {
@@ -39,9 +39,8 @@ public class ProjectClass {
     public List<Commit> getCommitsThatTouchTheClass() {
         return commitsThatTouchTheClass;
     }
-
-    public void setCommitsThatTouchTheClass(List<Commit> commitsThatModify) {
-        this.commitsThatTouchTheClass = commitsThatModify;
+    public void addCommitThatTouchesTheClass(Commit commit) {
+        this.commitsThatTouchTheClass.add(commit);
     }
 
     public Release getRelease() {
@@ -60,20 +59,21 @@ public class ProjectClass {
         return metrics;
     }
 
-    public List<Integer> getLOCAddedByClass() {
-        return LOCAddedByClass;
+    public List<Integer> getlOCAddedByClass() {
+        return lOCAddedByClass;
     }
 
     public void addLOCAddedByClass(Integer LOCAddedByEntry) {
-        LOCAddedByClass.add(LOCAddedByEntry);
+        lOCAddedByClass.add(LOCAddedByEntry);
     }
 
-    public List<Integer> getLOCRemovedByClass() {
-        return LOCRemovedByClass;
+    public List<Integer> getlOCRemovedByClass() {
+        return lOCRemovedByClass;
     }
 
     public void addLOCRemovedByClass(Integer LOCRemovedByEntry) {
-        LOCRemovedByClass.add(LOCRemovedByEntry);
+        lOCRemovedByClass.add(LOCRemovedByEntry);
     }
+
 
 }

@@ -32,7 +32,7 @@ public class ExtractMetrics {
         metricsExtractor.computeAllMetrics();
         List<Integer> buggyClassesPerRelease = writeOnCsvFile(projName, releaseList, allProjectClasses);
         printExtracted(projName, releaseList, gitExtractor.getTicketList(), commitList, filteredCommitsOfIssues, buggyClassesPerRelease);
-        //ExtractInfoFromGit.deleteDirectory(projName.toLowerCase() + "Temp");
+        //ExtractInfoFromGit.deleteDirectory(projName.toLowerCase() + "Temp")
     }
 
 

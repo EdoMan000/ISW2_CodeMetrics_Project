@@ -175,9 +175,8 @@ public class ExtractInfoFromGit {
             List<String> modifiedClassesNames = getTouchedClassesNames(commit.getRevCommit());
             for(String modifiedClass: modifiedClassesNames){
                 for(ProjectClass projectClass: tempProjClasses){
-                    List<Commit> commitsThatTouchTheClass = projectClass.getCommitsThatTouchTheClass();
-                    if(projectClass.getName().equals(modifiedClass) && !commitsThatTouchTheClass.contains(commit)) {
-                        commitsThatTouchTheClass.add(commit);
+                    if(projectClass.getName().equals(modifiedClass) && !projectClass.getCommitsThatTouchTheClass().contains(commit)) {
+                        projectClass.addCommitThatTouchesTheClass(commit);
                     }
                 }
             }
