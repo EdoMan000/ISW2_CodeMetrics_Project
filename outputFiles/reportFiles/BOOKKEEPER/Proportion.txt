@@ -1,25 +1,32 @@
 COLD-START PROPORTION COMPUTATION STARTED ===================
 
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 117
 PROPORTION AVERAGE: 1.8694471
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 16
 PROPORTION AVERAGE: 1.9985119
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 86
 PROPORTION AVERAGE: 2.1358092
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 229
 PROPORTION AVERAGE: 2.337643
 ----------------------------------------------------------
-PROPORTION LIST: [1.8694471, 1.9985119, 2.1358092, 2.337643]
+PROPORTION LIST:  -----------------------------------------------
+[1.8694471, 1.9985119, 2.1358092, 2.337643]
 MEDIAN PROPORTION OUT OF ALL PROJECTS FOR COLD START: 2.0671606
+-----------------------------------------------------------------
+
+
 COLD-START PROPORTION COMPUTATION ENDED ===================
-----------------------------------------------------------
 
 [2] COLD-START VALUE RETRIEVED
 [3] COLD-START VALUE RETRIEVED
@@ -115,522 +122,652 @@ COLD-START PROPORTION COMPUTATION ENDED ===================
 [93] COLD-START VALUE RETRIEVED
 [94] COLD-START VALUE RETRIEVED
 [95] COLD-START VALUE RETRIEVED
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 6
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 7
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 7
 PROPORTION AVERAGE: 2.0
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
 PROPORTION AVERAGE: 1.9583334
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
 PROPORTION AVERAGE: 1.9629631
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
 PROPORTION AVERAGE: 1.9629631
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
 PROPORTION AVERAGE: 1.9629631
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
 PROPORTION AVERAGE: 1.9629631
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
 PROPORTION AVERAGE: 1.9629631
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
 PROPORTION AVERAGE: 1.9629631
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 10
 PROPORTION AVERAGE: 1.9666668
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 12
 PROPORTION AVERAGE: 1.9722223
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 12
 PROPORTION AVERAGE: 1.9722223
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 12
 PROPORTION AVERAGE: 1.9722223
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
 PROPORTION AVERAGE: 1.974359
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 14
 PROPORTION AVERAGE: 1.9761906
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 16
 PROPORTION AVERAGE: 1.9791667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 16
 PROPORTION AVERAGE: 1.9791667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 17
 PROPORTION AVERAGE: 1.9803922
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 17
 PROPORTION AVERAGE: 1.9803922
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 17
 PROPORTION AVERAGE: 1.9803922
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 19
 PROPORTION AVERAGE: 1.9824562
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
 PROPORTION AVERAGE: 1.9833333
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 21
 PROPORTION AVERAGE: 2.0317461
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
 PROPORTION AVERAGE: 2.0757577
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 23
 PROPORTION AVERAGE: 2.115942
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 23
 PROPORTION AVERAGE: 2.115942
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 24
 PROPORTION AVERAGE: 2.152778
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
 PROPORTION AVERAGE: 2.1866667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
 PROPORTION AVERAGE: 2.1866667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
 PROPORTION AVERAGE: 2.1866667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
 PROPORTION AVERAGE: 2.1866667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
 PROPORTION AVERAGE: 2.1866667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
 PROPORTION AVERAGE: 2.1866667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
 PROPORTION AVERAGE: 2.1866667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 26
 PROPORTION AVERAGE: 2.1923077
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 27
 PROPORTION AVERAGE: 2.1728396
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 28
 PROPORTION AVERAGE: 2.1845238
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
 PROPORTION AVERAGE: 2.1666667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
 PROPORTION AVERAGE: 2.1666667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
 PROPORTION AVERAGE: 2.1666667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
 PROPORTION AVERAGE: 2.1666667
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 30
 PROPORTION AVERAGE: 2.4277778
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 31
 PROPORTION AVERAGE: 2.4139786
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
 PROPORTION AVERAGE: 2.4010417
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
 PROPORTION AVERAGE: 2.4010417
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
 PROPORTION AVERAGE: 2.4010417
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
 PROPORTION AVERAGE: 2.4010417
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
 PROPORTION AVERAGE: 2.4010417
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
 PROPORTION AVERAGE: 2.419192
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
 PROPORTION AVERAGE: 2.419192
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
 PROPORTION AVERAGE: 2.419192
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
 PROPORTION AVERAGE: 2.419192
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
 PROPORTION AVERAGE: 2.419192
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 34
 PROPORTION AVERAGE: 2.4362745
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
 PROPORTION AVERAGE: 2.4142857
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
 PROPORTION AVERAGE: 2.4142857
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
 PROPORTION AVERAGE: 2.4142857
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
 PROPORTION AVERAGE: 2.4142857
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777
 ----------------------------------------------------------
+
 PROPORTION -----------------------------------------------
 #TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
 PROPORTION AVERAGE: 2.4027777

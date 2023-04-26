@@ -36,7 +36,7 @@ public class ComputeProportion {
     }
     private static float incrementalProportionComputation(List<Ticket> filteredTicketsList) throws IOException {
         filteredTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
-        outputToFile.append("PROPORTION -----------------------------------------------\n");
+        outputToFile.append("\nPROPORTION -----------------------------------------------\n");
         // PROPORTION = (FV-IV)/(FV-OV)
         float totalProportion = 0.0F;
         for (Ticket correctTicket : filteredTicketsList) {
@@ -72,7 +72,9 @@ public class ComputeProportion {
                 proportionList.add(ComputeProportion.incrementalProportionComputation(ticketFilteredList));
             }
         }
-        outputToFile.append("PROPORTION LIST: ").append(proportionList).append("\n");
+        outputToFile.append("PROPORTION LIST: ").append(" -----------------------------------------------\n")
+                .append(proportionList).append("\n");
+
         Collections.sort(proportionList);
         float median;
         int size = proportionList.size();
@@ -82,6 +84,7 @@ public class ComputeProportion {
             median = proportionList.get(size / 2);
         }
         outputToFile.append("MEDIAN PROPORTION OUT OF ALL PROJECTS FOR COLD START: ").append(median).append("\n")
+                .append("-----------------------------------------------------------------\n\n\n")
                 .append("COLD-START PROPORTION COMPUTATION ENDED ===================\n\n");
         coldStartComputedProportion = median;
         coldStartValueRetrievedCount++;
