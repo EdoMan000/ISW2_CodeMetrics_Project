@@ -13,10 +13,13 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class CreateReportFile {
 
-    public static final String CLOSE_BRAKET_AND_NEW_LINE = "]\n\n";
+    public static final String CLOSE_BRACKET_AND_NEW_LINE = "]\n\n";
+    private static final Logger logger = Logger.getLogger(CreateReportFile.class.getName());
 
     private enum ReportTypes {
         RELEASES("/Releases"),
@@ -63,7 +66,7 @@ public class CreateReportFile {
                 flushAndCloseFW(fileWriter);
             }
         } catch (IOException e) {
-            System.out.println("Error in reportFiles writer");
+            logger.log(Level.FINE, "Error in writeOnReportFiles when trying to create directory");
         }
     }
 
@@ -72,7 +75,7 @@ public class CreateReportFile {
             fileWriter.flush();
             fileWriter.close();
         } catch (IOException e) {
-            System.out.println("Error while flushing/closing fileWriter !!!");
+            logger.log(Level.FINE, "Error in writeOnReportFiles while flushing/closing fileWriter !!!");
         }
     }
 
@@ -99,7 +102,7 @@ public class CreateReportFile {
                     //.append(", message= ").append(revCommit.getFullMessage())
                     .append((ticket == null) ? "" : ", ticket= " + commit.getTicket().getTicketKey())
                     .append(", release= ").append(release.releaseName())
-                    .append(", creationDate= ").append(String.valueOf(LocalDate.parse((new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()))))).append(CLOSE_BRAKET_AND_NEW_LINE);
+                    .append(", creationDate= ").append(String.valueOf(LocalDate.parse((new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()))))).append(CLOSE_BRACKET_AND_NEW_LINE);
         }
     }
 
@@ -118,7 +121,7 @@ public class CreateReportFile {
                     .append(", affectedVersions= ").append(String.valueOf(iDs))
                     //.append(", numOfCommits= ").append(String.valueOf(ticket.getCommitList().size()))
                     .append(", creationDate= ").append(String.valueOf(ticket.getCreationDate()))
-                    .append(", resolutionDate= ").append(String.valueOf(ticket.getResolutionDate())).append(CLOSE_BRAKET_AND_NEW_LINE);
+                    .append(", resolutionDate= ").append(String.valueOf(ticket.getResolutionDate())).append(CLOSE_BRACKET_AND_NEW_LINE);
         }
     }
 
@@ -127,7 +130,7 @@ public class CreateReportFile {
             fileWriter.append("Release[id= ").append(String.valueOf(release.id()))
                     .append(", releaseName= ").append(release.releaseName())
                     .append(", releaseDate= ").append(String.valueOf(release.releaseDate()))
-                    .append(", numOfCommits= ").append(String.valueOf(release.getCommitList().size())).append(CLOSE_BRAKET_AND_NEW_LINE);
+                    .append(", numOfCommits= ").append(String.valueOf(release.getCommitList().size())).append(CLOSE_BRACKET_AND_NEW_LINE);
         }
     }
 }

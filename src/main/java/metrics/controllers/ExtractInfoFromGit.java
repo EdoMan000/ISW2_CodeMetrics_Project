@@ -28,10 +28,12 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 public class ExtractInfoFromGit {
-
+    private static final Logger logger = Logger.getLogger(ExtractInfoFromGit.class.getName());
     private final List<Ticket> ticketList;
     private final List<Release> releaseList;
     private final Git git;
@@ -69,7 +71,7 @@ public class ExtractInfoFromGit {
                 throw new IOException();
             }
         }catch (Exception e){
-            System.out.println("Error while eliminating " + directoryPath);
+            logger.log(Level.FINE, "Error in ExtractInfoFromGit while eliminating {0}", directoryPath);
         }
     }
 
