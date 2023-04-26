@@ -19,7 +19,7 @@ public class CreateCsvWithMetrics {
     private CreateCsvWithMetrics() {}
 
     public static List<Integer> writeOnCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses) {
-        FileWriter fileWriter;
+        FileWriter fileWriter = null;
         List<Integer> buggyClassesList = new ArrayList<>();
         int count;
         try {
@@ -42,9 +42,11 @@ public class CreateCsvWithMetrics {
                 }
                 buggyClassesList.add(count);
             }
-            FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         } catch (IOException e) {
             logger.info("Error in writeCsvOnFile when trying to create directory");
+        } finally {
+            assert fileWriter != null;
+            FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         }
         return buggyClassesList;
     }

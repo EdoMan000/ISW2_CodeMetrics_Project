@@ -43,7 +43,7 @@ public class CreateReportFiles {
     }
 
     public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues, List<Integer> buggyClassesPerRelease) {
-        FileWriter fileWriter;
+        FileWriter fileWriter = null;
         try {
             File file = new File("outputFiles/reportFiles/" + projName);
             if (!file.exists()) {
@@ -64,10 +64,12 @@ public class CreateReportFiles {
                     case COMMITS -> appendCommitsInfo(commitList, fileWriter);
                     case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, buggyClassesPerRelease, fileWriter);
                 }
-                FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
             }
         } catch (IOException e) {
             logger.info("Error in writeOnReportFiles when trying to create directory");
+        } finally {
+            assert fileWriter != null;
+            FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         }
     }
 
