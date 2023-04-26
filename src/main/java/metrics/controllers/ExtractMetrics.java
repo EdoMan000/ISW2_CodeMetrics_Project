@@ -20,24 +20,31 @@ public class ExtractMetrics {
     private ExtractMetrics(){}
 
     public static void extractDataAndElaborate(String projName, String repoURL) throws IOException, GitAPIException, URISyntaxException {
-        logger.info(projName + " DATA EXTRACTION STARTED...\n\n");
+        String loggerString = projName + " DATA EXTRACTION STARTED...\n\n";
+        logger.info(loggerString);
         ExtractInfoFromJira jiraExtractor = new ExtractInfoFromJira(projName.toUpperCase());
         List<Release> releaseList = jiraExtractor.extractAllReleases();
-        logger.info(projName + " RELEASES EXTRACTED - [*OK*]\n\n");
+        loggerString = projName + " RELEASES EXTRACTED - [*OK*]\n\n";
+        logger.info(loggerString);
         List<Ticket> ticketList = jiraExtractor.extractAllTickets(releaseList);
-        logger.info(projName + " TICKETS EXTRACTED - [*OK*]\n\n");
+        loggerString = projName + " TICKETS EXTRACTED - [*OK*]\n\n";
+        logger.info(loggerString);
         ExtractInfoFromGit gitExtractor = new ExtractInfoFromGit(projName, repoURL, releaseList, ticketList);
         List<Commit> commitList = gitExtractor.extractAllCommits();
         List<Commit> filteredCommitsOfIssues = gitExtractor.filterCommitsOfIssues(commitList);
-        logger.info(projName + " COMMITS EXTRACTED - [*OK*]\n\n");
+        loggerString = projName + " COMMITS EXTRACTED - [*OK*]\n\n";
+        logger.info(loggerString);
         List<ProjectClass> allProjectClasses = gitExtractor.extractAllProjectClasses(commitList, releaseList.size());
-        logger.info(projName + " CLASSES EXTRACTED - [*OK*]\n\n");
+        loggerString = projName + " CLASSES EXTRACTED - [*OK*]\n\n";
+        logger.info(loggerString);
         ComputeMetrics metricsExtractor = new ComputeMetrics(gitExtractor, allProjectClasses, filteredCommitsOfIssues);
         metricsExtractor.computeAllMetrics();
-        logger.info(projName + " METRICS COMPUTED - [*OK*]\n\n");
+        loggerString = projName + " METRICS COMPUTED - [*OK*]\n\n";
+        logger.info(loggerString);
         List<Integer> buggyClassesPerRelease = writeOnCsvFile(projName, releaseList, allProjectClasses);
         writeOnReportFiles(projName, releaseList, gitExtractor.getTicketList(), commitList, filteredCommitsOfIssues, buggyClassesPerRelease);
-        logger.info(projName + " FILE CREATION AND WRITING DONE - [*OK*]\n\n");
+        loggerString = projName + " FILE CREATION AND WRITING DONE - [*OK*]\n\n";
+        logger.info(loggerString);
         //ExtractInfoFromGit.deleteDirectory(projName.toLowerCase() + "Temp")
         //ExtractInfoFromGit.deleteDirectory("/reportFiles/")
     }
