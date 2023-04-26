@@ -13,7 +13,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class CreateReportFile {
@@ -66,7 +65,7 @@ public class CreateReportFile {
                 flushAndCloseFW(fileWriter);
             }
         } catch (IOException e) {
-            logger.log(Level.FINE, "Error in writeOnReportFiles when trying to create directory");
+            logger.info("Error in writeOnReportFiles when trying to create directory");
         }
     }
 
@@ -75,7 +74,7 @@ public class CreateReportFile {
             fileWriter.flush();
             fileWriter.close();
         } catch (IOException e) {
-            logger.log(Level.FINE, "Error in writeOnReportFiles while flushing/closing fileWriter !!!");
+            logger.info("Error in writeOnReportFiles while flushing/closing fileWriter !!!");
         }
     }
 

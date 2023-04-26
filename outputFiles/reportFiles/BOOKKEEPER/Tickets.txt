@@ -1,4 +1,4 @@
----------- /Tickets List ---------
+---------- /Tickets List/ ---------
 
 Ticket[key= BOOKKEEPER-142, injectedVersion= 4.0.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.0.0], creationDate= 2011-12-12, resolutionDate= 2011-12-16]
 

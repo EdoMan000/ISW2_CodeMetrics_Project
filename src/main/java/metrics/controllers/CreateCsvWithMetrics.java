@@ -8,7 +8,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class CreateCsvWithMetrics {
@@ -43,7 +42,7 @@ public class CreateCsvWithMetrics {
             }
             flushAndCloseFW(fileWriter);
         } catch (IOException e) {
-            logger.log(Level.FINE, "Error in writeCsvOnFile when trying to create directory");
+            logger.info("Error in writeCsvOnFile when trying to create directory");
         }
         return buggyClassesList;
     }
@@ -53,7 +52,7 @@ public class CreateCsvWithMetrics {
             fileWriter.flush();
             fileWriter.close();
         } catch (IOException e) {
-            logger.log(Level.FINE, "Error in writeCsvOnFile while flushing/closing fileWriter !!!");
+            logger.info("Error in writeCsvOnFile while flushing/closing fileWriter !!!");
         }
     }
 

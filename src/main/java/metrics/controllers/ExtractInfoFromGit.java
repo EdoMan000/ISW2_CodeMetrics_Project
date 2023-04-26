@@ -28,7 +28,6 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.*;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
@@ -71,7 +70,7 @@ public class ExtractInfoFromGit {
                 throw new IOException();
             }
         }catch (Exception e){
-            logger.log(Level.FINE, "Error in ExtractInfoFromGit while eliminating {0}", directoryPath);
+            logger.info( "Error in ExtractInfoFromGit while eliminating" + directoryPath);
         }
     }
 
