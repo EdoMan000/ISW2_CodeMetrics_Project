@@ -4,7 +4,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.*;
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 
 public class JsonUtilities {
@@ -22,10 +23,12 @@ public class JsonUtilities {
     }
 
     public static JSONObject readJsonFromUrl(String url) throws IOException, JSONException {
-        try (InputStream is = new URL(url).openStream()) {
+        try (InputStream is = new URI(url).toURL().openStream()) {
             BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
             String jsonText = readAll(rd);
             return new JSONObject(jsonText);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
         }
     }
 }
