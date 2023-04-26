@@ -22,13 +22,10 @@ public class JsonUtilities {
         return sb.toString();
     }
 
-    public static JSONObject readJsonFromUrl(String url) throws IOException, JSONException {
-        try (InputStream is = new URI(url).toURL().openStream()) {
-            BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
-            String jsonText = readAll(rd);
-            return new JSONObject(jsonText);
-        } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
-        }
+    public static JSONObject readJsonFromUrl(String url) throws IOException, JSONException, URISyntaxException {
+        InputStream is = new URI(url).toURL().openStream();
+        BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+        String jsonText = readAll(rd);
+        return new JSONObject(jsonText);
     }
 }

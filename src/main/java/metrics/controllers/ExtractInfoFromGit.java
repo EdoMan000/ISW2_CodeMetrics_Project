@@ -30,11 +30,9 @@ import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.*;
-import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 public class ExtractInfoFromGit {
-    private static final Logger logger = Logger.getLogger(ExtractInfoFromGit.class.getName());
     private final List<Ticket> ticketList;
     private final List<Release> releaseList;
     private final Git git;

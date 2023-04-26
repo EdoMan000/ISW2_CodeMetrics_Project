@@ -7,6 +7,7 @@ import metrics.models.Ticket;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.List;
 
 import static metrics.controllers.CreateCsvWithMetrics.writeOnCsvFile;
@@ -16,7 +17,7 @@ import static metrics.controllers.CreateReportFiles.writeOnReportFiles;
 public class ExtractMetrics {
     private ExtractMetrics(){}
 
-    public static void extractDataAndElaborate(String projName, String repoURL) throws IOException, GitAPIException {
+    public static void extractDataAndElaborate(String projName, String repoURL) throws IOException, GitAPIException, URISyntaxException {
         ExtractInfoFromJira jiraExtractor = new ExtractInfoFromJira(projName.toUpperCase());
         List<Release> releaseList = jiraExtractor.extractAllReleases();
         List<Ticket> ticketList = jiraExtractor.extractAllTickets(releaseList);

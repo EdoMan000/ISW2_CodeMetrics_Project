@@ -10,6 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -23,7 +24,7 @@ public class ExtractInfoFromJira {
         this.projName = projName.toUpperCase();
     }
 
-    public List<Release> extractAllReleases() throws IOException, JSONException {
+    public List<Release> extractAllReleases() throws IOException, JSONException, URISyntaxException {
         //Fills the arraylist with releases dates and orders them
         //Ignores releases with missing dates
         List<Release> releases = new ArrayList<>();
@@ -48,7 +49,7 @@ public class ExtractInfoFromJira {
         return releases;
     }
 
-    public List<Ticket> extractAllTickets(List<Release> releasesList) throws IOException, JSONException {
+    public List<Ticket> extractAllTickets(List<Release> releasesList) throws IOException, JSONException, URISyntaxException {
         List<Ticket> ticketsList = getTickets(releasesList);
         List<Ticket> fixedTicketsList;
         fixedTicketsList = TicketUtilities.fixTicketList(ticketsList, releasesList, projName);
@@ -56,7 +57,7 @@ public class ExtractInfoFromJira {
         return fixedTicketsList;
     }
 
-    public List<Ticket> getTickets(List<Release> releasesList) throws IOException {
+    public List<Ticket> getTickets(List<Release> releasesList) throws IOException, URISyntaxException {
         int j;
         int i = 0;
         int total;

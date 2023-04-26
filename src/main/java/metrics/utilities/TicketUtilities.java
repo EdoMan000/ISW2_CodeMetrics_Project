@@ -4,6 +4,7 @@ import metrics.controllers.ComputeProportion;
 import metrics.models.Release;
 import metrics.models.Ticket;
 
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -16,7 +17,7 @@ public class TicketUtilities {
     private TicketUtilities() {
     }
 
-    public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList, String projName) {
+    public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList, String projName) throws URISyntaxException {
         //if there is no AV -> there is no IV -> need to compute Proportion
         // verify IV <= OV <= FV
         List<Ticket> fixedTicketsList = new ArrayList<>();

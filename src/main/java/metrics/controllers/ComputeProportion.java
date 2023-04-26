@@ -8,6 +8,7 @@ import metrics.utilities.FileWriterUtils;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -53,7 +54,7 @@ public class ComputeProportion {
     }
 
 
-    private static float coldStartProportionComputation() throws IOException {
+    private static float coldStartProportionComputation() throws IOException, URISyntaxException {
         if(coldStartComputedProportion != null){
             coldStartValueRetrievedCount++;
             outputToFile.append("[").append(coldStartValueRetrievedCount)
@@ -91,7 +92,7 @@ public class ComputeProportion {
         return median;
     }
 
-    public static float computeProportion(List<Ticket> fixedTicketsList, String projName) {
+    public static float computeProportion(List<Ticket> fixedTicketsList, String projName) throws URISyntaxException {
         float proportion = 0;
         try {
             File file = new File("outputFiles/reportFiles/" + projName);
