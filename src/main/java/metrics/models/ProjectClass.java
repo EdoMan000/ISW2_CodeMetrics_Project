@@ -13,7 +13,6 @@ public class ProjectClass {
     private final List<Integer> lOCRemovedByClass;
 
     public ProjectClass(String name, String contentOfClass, Release release) {
-
         this.name = name;
         this.contentOfClass = contentOfClass;
         this.release = release;
