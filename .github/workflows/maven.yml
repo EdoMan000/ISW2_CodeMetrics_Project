@@ -1,4 +1,4 @@
-name: Maven and SonarCloud
+name: Build Maven and SonarCloud Analysis
 on:
   push:
     branches:
