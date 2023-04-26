@@ -8,7 +8,7 @@ public class ProjectClass {
     private final String contentOfClass;
     private final Release release;
     private final Metrics metrics;
-    private List<Commit> commitsThatTouchTheClass;
+    private final List<Commit> commitsThatTouchTheClass;
     private final List<Integer> lOCAddedByClass;
     private final List<Integer> lOCRemovedByClass;
 
@@ -20,19 +20,6 @@ public class ProjectClass {
         commitsThatTouchTheClass = new ArrayList<>();
         lOCAddedByClass = new ArrayList<>();
         lOCRemovedByClass = new ArrayList<>();
-    }
-
-    public static String removeComments(String contentOfClass) {
-        List<String> lines = new java.util.ArrayList<>(List.of(contentOfClass.split("\r\n|\r|\n")));
-        lines.removeIf(line -> line.replace("\t","").replace(" ","").startsWith("//"));
-        lines.removeIf(line -> line.replace("\t","").replace(" ","").startsWith("/*"));
-        lines.removeIf(line -> line.replace("\t","").replace(" ","").startsWith("*"));
-        lines.removeIf(line -> line.replace(" ","").endsWith("*/"));
-        StringBuilder stringBuilder = new StringBuilder();
-        for(String line: lines){
-            stringBuilder.append(line).append("\r\n");
-        }
-        return stringBuilder.toString();
     }
 
     public List<Commit> getCommitsThatTouchTheClass() {
@@ -58,7 +45,7 @@ public class ProjectClass {
         return metrics;
     }
 
-    public List<Integer> getlOCAddedByClass() {
+    public List<Integer> getLOCAddedByClass() {
         return lOCAddedByClass;
     }
 
@@ -66,7 +53,7 @@ public class ProjectClass {
         lOCAddedByClass.add(lOCAddedByEntry);
     }
 
-    public List<Integer> getlOCRemovedByClass() {
+    public List<Integer> getLOCRemovedByClass() {
         return lOCRemovedByClass;
     }
 

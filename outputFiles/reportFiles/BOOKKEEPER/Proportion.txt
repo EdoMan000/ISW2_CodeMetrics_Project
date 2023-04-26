@@ -1,0 +1,774 @@
+COLD-START PROPORTION COMPUTATION STARTED ===================
+
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 117
+PROPORTION AVERAGE: 1.8694471
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 16
+PROPORTION AVERAGE: 1.9985119
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 86
+PROPORTION AVERAGE: 2.1358092
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 229
+PROPORTION AVERAGE: 2.337643
+----------------------------------------------------------
+PROPORTION LIST:  -----------------------------------------------
+[1.8694471, 1.9985119, 2.1358092, 2.337643]
+MEDIAN PROPORTION OUT OF ALL PROJECTS FOR COLD START: 2.0671606
+-----------------------------------------------------------------
+
+
+COLD-START PROPORTION COMPUTATION ENDED ===================
+
+[2] COLD-START VALUE RETRIEVED
+[3] COLD-START VALUE RETRIEVED
+[4] COLD-START VALUE RETRIEVED
+[5] COLD-START VALUE RETRIEVED
+[6] COLD-START VALUE RETRIEVED
+[7] COLD-START VALUE RETRIEVED
+[8] COLD-START VALUE RETRIEVED
+[9] COLD-START VALUE RETRIEVED
+[10] COLD-START VALUE RETRIEVED
+[11] COLD-START VALUE RETRIEVED
+[12] COLD-START VALUE RETRIEVED
+[13] COLD-START VALUE RETRIEVED
+[14] COLD-START VALUE RETRIEVED
+[15] COLD-START VALUE RETRIEVED
+[16] COLD-START VALUE RETRIEVED
+[17] COLD-START VALUE RETRIEVED
+[18] COLD-START VALUE RETRIEVED
+[19] COLD-START VALUE RETRIEVED
+[20] COLD-START VALUE RETRIEVED
+[21] COLD-START VALUE RETRIEVED
+[22] COLD-START VALUE RETRIEVED
+[23] COLD-START VALUE RETRIEVED
+[24] COLD-START VALUE RETRIEVED
+[25] COLD-START VALUE RETRIEVED
+[26] COLD-START VALUE RETRIEVED
+[27] COLD-START VALUE RETRIEVED
+[28] COLD-START VALUE RETRIEVED
+[29] COLD-START VALUE RETRIEVED
+[30] COLD-START VALUE RETRIEVED
+[31] COLD-START VALUE RETRIEVED
+[32] COLD-START VALUE RETRIEVED
+[33] COLD-START VALUE RETRIEVED
+[34] COLD-START VALUE RETRIEVED
+[35] COLD-START VALUE RETRIEVED
+[36] COLD-START VALUE RETRIEVED
+[37] COLD-START VALUE RETRIEVED
+[38] COLD-START VALUE RETRIEVED
+[39] COLD-START VALUE RETRIEVED
+[40] COLD-START VALUE RETRIEVED
+[41] COLD-START VALUE RETRIEVED
+[42] COLD-START VALUE RETRIEVED
+[43] COLD-START VALUE RETRIEVED
+[44] COLD-START VALUE RETRIEVED
+[45] COLD-START VALUE RETRIEVED
+[46] COLD-START VALUE RETRIEVED
+[47] COLD-START VALUE RETRIEVED
+[48] COLD-START VALUE RETRIEVED
+[49] COLD-START VALUE RETRIEVED
+[50] COLD-START VALUE RETRIEVED
+[51] COLD-START VALUE RETRIEVED
+[52] COLD-START VALUE RETRIEVED
+[53] COLD-START VALUE RETRIEVED
+[54] COLD-START VALUE RETRIEVED
+[55] COLD-START VALUE RETRIEVED
+[56] COLD-START VALUE RETRIEVED
+[57] COLD-START VALUE RETRIEVED
+[58] COLD-START VALUE RETRIEVED
+[59] COLD-START VALUE RETRIEVED
+[60] COLD-START VALUE RETRIEVED
+[61] COLD-START VALUE RETRIEVED
+[62] COLD-START VALUE RETRIEVED
+[63] COLD-START VALUE RETRIEVED
+[64] COLD-START VALUE RETRIEVED
+[65] COLD-START VALUE RETRIEVED
+[66] COLD-START VALUE RETRIEVED
+[67] COLD-START VALUE RETRIEVED
+[68] COLD-START VALUE RETRIEVED
+[69] COLD-START VALUE RETRIEVED
+[70] COLD-START VALUE RETRIEVED
+[71] COLD-START VALUE RETRIEVED
+[72] COLD-START VALUE RETRIEVED
+[73] COLD-START VALUE RETRIEVED
+[74] COLD-START VALUE RETRIEVED
+[75] COLD-START VALUE RETRIEVED
+[76] COLD-START VALUE RETRIEVED
+[77] COLD-START VALUE RETRIEVED
+[78] COLD-START VALUE RETRIEVED
+[79] COLD-START VALUE RETRIEVED
+[80] COLD-START VALUE RETRIEVED
+[81] COLD-START VALUE RETRIEVED
+[82] COLD-START VALUE RETRIEVED
+[83] COLD-START VALUE RETRIEVED
+[84] COLD-START VALUE RETRIEVED
+[85] COLD-START VALUE RETRIEVED
+[86] COLD-START VALUE RETRIEVED
+[87] COLD-START VALUE RETRIEVED
+[88] COLD-START VALUE RETRIEVED
+[89] COLD-START VALUE RETRIEVED
+[90] COLD-START VALUE RETRIEVED
+[91] COLD-START VALUE RETRIEVED
+[92] COLD-START VALUE RETRIEVED
+[93] COLD-START VALUE RETRIEVED
+[94] COLD-START VALUE RETRIEVED
+[95] COLD-START VALUE RETRIEVED
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 5
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 6
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 7
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 7
+PROPORTION AVERAGE: 2.0
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 8
+PROPORTION AVERAGE: 1.9583334
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
+PROPORTION AVERAGE: 1.9629631
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
+PROPORTION AVERAGE: 1.9629631
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
+PROPORTION AVERAGE: 1.9629631
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
+PROPORTION AVERAGE: 1.9629631
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
+PROPORTION AVERAGE: 1.9629631
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 9
+PROPORTION AVERAGE: 1.9629631
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 10
+PROPORTION AVERAGE: 1.9666668
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 12
+PROPORTION AVERAGE: 1.9722223
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 12
+PROPORTION AVERAGE: 1.9722223
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 12
+PROPORTION AVERAGE: 1.9722223
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 13
+PROPORTION AVERAGE: 1.974359
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 14
+PROPORTION AVERAGE: 1.9761906
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 16
+PROPORTION AVERAGE: 1.9791667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 16
+PROPORTION AVERAGE: 1.9791667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 17
+PROPORTION AVERAGE: 1.9803922
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 17
+PROPORTION AVERAGE: 1.9803922
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 17
+PROPORTION AVERAGE: 1.9803922
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 19
+PROPORTION AVERAGE: 1.9824562
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 20
+PROPORTION AVERAGE: 1.9833333
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 21
+PROPORTION AVERAGE: 2.0317461
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 22
+PROPORTION AVERAGE: 2.0757577
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 23
+PROPORTION AVERAGE: 2.115942
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 23
+PROPORTION AVERAGE: 2.115942
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 24
+PROPORTION AVERAGE: 2.152778
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
+PROPORTION AVERAGE: 2.1866667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
+PROPORTION AVERAGE: 2.1866667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
+PROPORTION AVERAGE: 2.1866667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
+PROPORTION AVERAGE: 2.1866667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
+PROPORTION AVERAGE: 2.1866667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
+PROPORTION AVERAGE: 2.1866667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 25
+PROPORTION AVERAGE: 2.1866667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 26
+PROPORTION AVERAGE: 2.1923077
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 27
+PROPORTION AVERAGE: 2.1728396
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 28
+PROPORTION AVERAGE: 2.1845238
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
+PROPORTION AVERAGE: 2.1666667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
+PROPORTION AVERAGE: 2.1666667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
+PROPORTION AVERAGE: 2.1666667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 29
+PROPORTION AVERAGE: 2.1666667
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 30
+PROPORTION AVERAGE: 2.4277778
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 31
+PROPORTION AVERAGE: 2.4139786
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
+PROPORTION AVERAGE: 2.4010417
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
+PROPORTION AVERAGE: 2.4010417
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
+PROPORTION AVERAGE: 2.4010417
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
+PROPORTION AVERAGE: 2.4010417
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 32
+PROPORTION AVERAGE: 2.4010417
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
+PROPORTION AVERAGE: 2.419192
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
+PROPORTION AVERAGE: 2.419192
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
+PROPORTION AVERAGE: 2.419192
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
+PROPORTION AVERAGE: 2.419192
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 33
+PROPORTION AVERAGE: 2.419192
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 34
+PROPORTION AVERAGE: 2.4362745
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
+PROPORTION AVERAGE: 2.4142857
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
+PROPORTION AVERAGE: 2.4142857
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
+PROPORTION AVERAGE: 2.4142857
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 35
+PROPORTION AVERAGE: 2.4142857
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------
+
+PROPORTION -----------------------------------------------
+#TICKETS FILTERED FOR INCREMENTAL PROPORTION: 36
+PROPORTION AVERAGE: 2.4027777
+----------------------------------------------------------

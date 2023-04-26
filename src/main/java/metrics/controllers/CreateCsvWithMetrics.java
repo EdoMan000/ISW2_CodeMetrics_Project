@@ -32,7 +32,7 @@ public class CreateCsvWithMetrics {
             }
             file = new File("outputFiles/csvFiles/" + projName + "DataExtraction.csv");
             fileWriter = new FileWriter(file);
-            fileWriter.append("ReleaseID,File Name,Size,LOCAdded,AvgLOCAdded,MaxLOCAdded,LOCRemoved,AvgLOCRemoved,MaxLOCRemoved,Churn,AvgChurn,MaxChurn,#Commits,Buggy").append("\n");
+            fileWriter.append("ReleaseID,File Name,Size,LOCAdded,AvgLOCAdded,MaxLOCAdded,LOCRemoved,AvgLOCRemoved,MaxLOCRemoved,Churn,AvgChurn,MaxChurn,NR,Nfix,NAuth,Buggy").append("\n");
             for (Release release: releaseList) {
                 count = 0;
                 for(ProjectClass projectClass: allProjectClasses){
@@ -62,7 +62,9 @@ public class CreateCsvWithMetrics {
         String churn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getVal());
         String avgChurn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getAvgVal());
         String maxChurn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getMaxVal());
-        String numOfCommitsThatTouchTheClass = String.valueOf(projectClass.getCommitsThatTouchTheClass().size());
+        String nRevisions = String.valueOf(projectClass.getMetrics().getNumberOfRevisions());
+        String nDefectFixes = String.valueOf(projectClass.getMetrics().getNumberOfDefectFixes());
+        String nAuthors = String.valueOf(projectClass.getMetrics().getNumberOfAuthors());
         if (isClassBugged.equals("YES")) {
             count++;
         }
@@ -79,7 +81,9 @@ public class CreateCsvWithMetrics {
                 .append(churn).append(",")
                 .append(avgChurn).append(",")
                 .append(maxChurn).append(",")
-                .append(numOfCommitsThatTouchTheClass).append(",")
+                .append(nRevisions).append(",")
+                .append(nDefectFixes).append(",")
+                .append(nAuthors).append(",")
                 .append(isClassBugged).append("\n");
         return count;
     }

@@ -1,17 +1,22 @@
 package metrics.controllers;
 
+import metrics.models.Commit;
 import metrics.models.LOCMetrics;
 import metrics.models.ProjectClass;
+import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ComputeMetrics {
 
     private final List<ProjectClass> allProjectClasses;
+    private final List<Commit> filteredCommitsOfIssues;
     private final ExtractInfoFromGit gitExtractor;
-    public ComputeMetrics(ExtractInfoFromGit gitExtractor, List<ProjectClass> allProjectClasses) {
+    public ComputeMetrics(ExtractInfoFromGit gitExtractor, List<ProjectClass> allProjectClasses, List<Commit> filteredCommitsOfIssues) {
         this.allProjectClasses = allProjectClasses;
+        this.filteredCommitsOfIssues = filteredCommitsOfIssues;
         this.gitExtractor = gitExtractor;
     }
 
@@ -19,6 +24,38 @@ public class ComputeMetrics {
         for(ProjectClass projectClass : allProjectClasses) {
             String[] lines = projectClass.getContentOfClass().split("\r\n|\r|\n");
             projectClass.getMetrics().setSize(lines.length);
+        }
+    }
+
+    private void computeNR() {
+        for(ProjectClass projectClass : allProjectClasses) {
+            projectClass.getMetrics().setNumberOfRevisions(projectClass.getCommitsThatTouchTheClass().size());
+        }
+    }
+
+    private void computeNfix(){
+        int nFix;
+        for(ProjectClass projectClass : allProjectClasses) {
+            nFix = 0;
+            for(Commit commitThatTouchesTheClass: projectClass.getCommitsThatTouchTheClass()) {
+                if (filteredCommitsOfIssues.contains(commitThatTouchesTheClass)) {
+                    nFix++;
+                }
+            }
+            projectClass.getMetrics().setNumberOfDefectFixes(nFix);
+        }
+    }
+
+    private void computeNAuth() {
+        for(ProjectClass projectClass : allProjectClasses) {
+            List<String> authorsOfClass = new ArrayList<>();
+            for(Commit commit : projectClass.getCommitsThatTouchTheClass()) {
+                RevCommit revCommit = commit.getRevCommit();
+                if(!authorsOfClass.contains(revCommit.getAuthorIdent().getName())) {
+                    authorsOfClass.add(revCommit.getAuthorIdent().getName());
+                }
+            }
+            projectClass.getMetrics().setNumberOfAuthors(authorsOfClass.size());
         }
     }
 
@@ -33,8 +70,8 @@ public class ComputeMetrics {
             valAvgMaxChurnLOC.setVal(0);valAvgMaxChurnLOC.setAvgVal(0);valAvgMaxChurnLOC.setMaxVal(0);
             gitExtractor.extractAddedOrRemovedLOC(projectClass);
 
-            List<Integer> locAddedByClass = projectClass.getlOCAddedByClass();
-            List<Integer> locRemovedByClass = projectClass.getlOCRemovedByClass();
+            List<Integer> locAddedByClass = projectClass.getLOCAddedByClass();
+            List<Integer> locRemovedByClass = projectClass.getLOCRemovedByClass();
             for(i = 0; i < locAddedByClass.size(); i++) {
                 int addedLineOfCode = locAddedByClass.get(i);
                 int removedLineOfCode = locRemovedByClass.get(i);
@@ -75,6 +112,9 @@ public class ComputeMetrics {
 
     public void computeAllMetrics() throws IOException {
         computeSize();
+        computeNR();
+        computeNfix();
+        computeNAuth();
         computeLOCMetrics();
     }
 }

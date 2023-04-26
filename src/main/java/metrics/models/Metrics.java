@@ -6,6 +6,9 @@ public class Metrics {
     private final LOCMetrics addedLOCMetrics = new LOCMetrics();
     private boolean bugged;
     private int size;
+    private int numberOfRevisions;
+    private int numberOfDefectFixes;
+    private int numberOfAuthors;
 
     public Metrics() {
         bugged = false;
@@ -56,5 +59,30 @@ public class Metrics {
         this.churnMetrics.setVal(churn);
         this.churnMetrics.setMaxVal(maxChurningFactor);
         this.churnMetrics.setAvgVal(avgChurningFactor);
+    }
+
+    public void setNumberOfRevisions(int numberOfRevisions) {
+        this.numberOfRevisions = numberOfRevisions;
+    }
+
+
+    public int getNumberOfRevisions() {
+        return numberOfRevisions;
+    }
+
+    public void setNumberOfDefectFixes(int numberOfDefectFixes) {
+        this.numberOfDefectFixes = numberOfDefectFixes;
+    }
+
+    public int getNumberOfDefectFixes() {
+        return numberOfDefectFixes;
+    }
+
+    public void setNumberOfAuthors(int numberOfAuthors) {
+        this.numberOfAuthors = numberOfAuthors;
+    }
+
+    public int getNumberOfAuthors() {
+        return numberOfAuthors;
     }
 }
