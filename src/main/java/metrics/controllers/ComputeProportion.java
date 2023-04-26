@@ -34,7 +34,7 @@ public class ComputeProportion {
         TAJO,
         ZOOKEEPER
     }
-    private static float incrementalProportionComputation(List<Ticket> filteredTicketsList) throws IOException {
+    private static float incrementalProportionComputation(List<Ticket> filteredTicketsList) {
         filteredTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         outputToFile.append("\nPROPORTION -----------------------------------------------\n");
         // PROPORTION = (FV-IV)/(FV-OV)
