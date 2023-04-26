@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 public class FileWriterUtils {
+    private FileWriterUtils() {
+    }
+
     public static void flushAndCloseFW(FileWriter fileWriter, Logger logger, String className) {
         try {
             fileWriter.flush();
