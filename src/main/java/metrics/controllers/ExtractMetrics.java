@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 
 import static metrics.controllers.CreateCsvWithMetrics.writeOnCsvFile;
-import static metrics.controllers.CreateReportFile.writeOnReportFiles;
+import static metrics.controllers.CreateReportFiles.writeOnReportFiles;
 
 
 public class ExtractMetrics {

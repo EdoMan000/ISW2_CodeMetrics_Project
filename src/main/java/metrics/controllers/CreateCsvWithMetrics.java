@@ -2,6 +2,7 @@ package metrics.controllers;
 
 import metrics.models.ProjectClass;
 import metrics.models.Release;
+import metrics.utilities.FileWriterUtils;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -12,7 +13,8 @@ import java.util.logging.Logger;
 
 public class CreateCsvWithMetrics {
 
-    private static final Logger logger = Logger.getLogger(CreateCsvWithMetrics.class.getName());
+    public static final String NAME_OF_THIS_CLASS = CreateCsvWithMetrics.class.getName();
+    private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
 
     private CreateCsvWithMetrics() {}
 
@@ -40,20 +42,11 @@ public class CreateCsvWithMetrics {
                 }
                 buggyClassesList.add(count);
             }
-            flushAndCloseFW(fileWriter);
+            FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         } catch (IOException e) {
             logger.info("Error in writeCsvOnFile when trying to create directory");
         }
         return buggyClassesList;
-    }
-
-    private static void flushAndCloseFW(FileWriter fileWriter) {
-        try {
-            fileWriter.flush();
-            fileWriter.close();
-        } catch (IOException e) {
-            logger.info("Error in writeCsvOnFile while flushing/closing fileWriter !!!");
-        }
     }
 
     private static int appendEntriesOnCSV(FileWriter fileWriter, int count, Release release, ProjectClass projectClass) throws IOException {

@@ -3,6 +3,7 @@ package metrics.controllers;
 import metrics.models.Commit;
 import metrics.models.Release;
 import metrics.models.Ticket;
+import metrics.utilities.FileWriterUtils;
 import org.eclipse.jgit.revwalk.RevCommit;
 
 import java.io.File;
@@ -15,10 +16,11 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Logger;
 
-public class CreateReportFile {
+public class CreateReportFiles {
 
     public static final String CLOSE_BRACKET_AND_NEW_LINE = "]\n\n";
-    private static final Logger logger = Logger.getLogger(CreateReportFile.class.getName());
+    public static final String NAME_OF_THIS_CLASS = CreateReportFiles.class.getName();
+    private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
 
     private enum ReportTypes {
         RELEASES("/Releases"),
@@ -37,7 +39,7 @@ public class CreateReportFile {
         }
     }
 
-    private CreateReportFile() {
+    private CreateReportFiles() {
     }
 
     public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues, List<Integer> buggyClassesPerRelease) {
@@ -62,19 +64,10 @@ public class CreateReportFile {
                     case COMMITS -> appendCommitsInfo(commitList, fileWriter);
                     case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, buggyClassesPerRelease, fileWriter);
                 }
-                flushAndCloseFW(fileWriter);
+                FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
             }
         } catch (IOException e) {
             logger.info("Error in writeOnReportFiles when trying to create directory");
-        }
-    }
-
-    private static void flushAndCloseFW(FileWriter fileWriter) {
-        try {
-            fileWriter.flush();
-            fileWriter.close();
-        } catch (IOException e) {
-            logger.info("Error in writeOnReportFiles while flushing/closing fileWriter !!!");
         }
     }
 

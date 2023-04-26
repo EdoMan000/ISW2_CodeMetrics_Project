@@ -17,14 +17,14 @@ public class TicketUtilities {
     private TicketUtilities() {
     }
 
-    public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList) throws IOException {
+    public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList, String projName) throws IOException {
         //if there is no AV -> there is no IV -> need to compute Proportion
         // verify IV <= OV <= FV
         List<Ticket> fixedTicketsList = new ArrayList<>();
         float proportion;
         for(Ticket ticket : ticketsList){
             if(!isCorrectTicket(ticket)){
-                proportion = ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList));
+                proportion = ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList), projName);
                 fixTicketWithProportion(ticket, releasesList, proportion);
             }
             completeAffectedVersionsList(ticket, releasesList);

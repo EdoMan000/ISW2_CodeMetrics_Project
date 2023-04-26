@@ -51,7 +51,7 @@ public class ExtractInfoFromJira {
     public List<Ticket> extractAllTickets(List<Release> releasesList) throws IOException, JSONException {
         List<Ticket> ticketsList = getTickets(releasesList);
         List<Ticket> fixedTicketsList;
-        fixedTicketsList = TicketUtilities.fixTicketList(ticketsList, releasesList);
+        fixedTicketsList = TicketUtilities.fixTicketList(ticketsList, releasesList, projName);
         fixedTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         return fixedTicketsList;
     }
