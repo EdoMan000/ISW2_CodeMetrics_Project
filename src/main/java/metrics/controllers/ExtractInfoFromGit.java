@@ -36,7 +36,7 @@ public class ExtractInfoFromGit {
     private final List<Ticket> ticketList;
     private final List<Release> releaseList;
     private final Git git;
-    private static Repository repository = null;
+    private static Repository repository;
     public ExtractInfoFromGit(String projName, String repoURL, List<Release> releaseList, List<Ticket> ticketList) throws IOException, GitAPIException {
         String filename = projName.toLowerCase() + "Temp";
         File directory = new File(filename);
