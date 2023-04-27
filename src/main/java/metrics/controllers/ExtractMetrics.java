@@ -55,7 +55,7 @@ public class ExtractMetrics {
             firstITickets.removeIf(ticket -> ticket.getFixedVersion().id() > firstIReleases.get(firstIReleases.size()-1).id());
             List<ProjectClass> firstIProjectClassesTraining = new ArrayList<>(allProjectClasses);
             firstIProjectClassesTraining.removeIf(projectClass -> projectClass.getRelease().id() > firstIReleases.get(firstIReleases.size()-1).id());
-            ExtractInfoFromGit.completeClassesInfo(firstITickets, firstIProjectClassesTraining);
+            gitExtractor.completeClassesInfo(firstITickets, firstIProjectClassesTraining);
             writeOnArffFile(projName, firstIReleases, firstIProjectClassesTraining, "Training");
             if(i==1){
                 loggerString = projName + " TRAINING SET BUILT ON FIRST RELEASE - [*OK*]\n\n";

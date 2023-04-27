@@ -36,7 +36,7 @@ public class ExtractInfoFromGit {
     private final List<Ticket> ticketList;
     private final List<Release> releaseList;
     private final Git git;
-    private static Repository repository;
+    private final Repository repository;
     public ExtractInfoFromGit(String projName, String repoURL, List<Release> releaseList, List<Ticket> ticketList) throws IOException, GitAPIException {
         String filename = projName.toLowerCase() + "Temp";
         File directory = new File(filename);
@@ -147,7 +147,7 @@ public class ExtractInfoFromGit {
         return allProjectClasses;
     }
 
-    public static void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> allProjectClasses) throws IOException {
+    public void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> allProjectClasses) throws IOException {
         for(Ticket ticket: ticketList) {
             List<Commit> commitsContainingTicket = ticket.getCommitList();
             Release injectedVersion = ticket.getInjectedVersion();
@@ -191,7 +191,7 @@ public class ExtractInfoFromGit {
         }
     }
 
-    private static List<String> getTouchedClassesNames(RevCommit commit) throws IOException {
+    private List<String> getTouchedClassesNames(RevCommit commit) throws IOException {
         List<String> touchedClassesNames = new ArrayList<>();
         try(DiffFormatter diffFormatter = new DiffFormatter(DisabledOutputStream.INSTANCE);
             ObjectReader reader = repository.newObjectReader()) {
