@@ -42,7 +42,7 @@ public class CreateReportFiles {
     private CreateReportFiles() {
     }
 
-    public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues, List<Integer> buggyClassesPerRelease) {
+    public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues) {
         FileWriter fileWriter = null;
         try {
             File file = new File("outputFiles/reportFiles/" + projName);
@@ -62,7 +62,7 @@ public class CreateReportFiles {
                     case RELEASES -> appendReleasesInfo(releaseList, fileWriter);
                     case TICKETS -> appendTicketsInfo(ticketList, fileWriter);
                     case COMMITS -> appendCommitsInfo(commitList, fileWriter);
-                    case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, buggyClassesPerRelease, fileWriter);
+                    case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, fileWriter);
                 }
             }
         } catch (IOException e) {
@@ -73,7 +73,7 @@ public class CreateReportFiles {
         }
     }
 
-    private static void appendSummaryInfo(List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues, List<Integer> buggyClassesPerRelease, FileWriter fileWriter) throws IOException {
+    private static void appendSummaryInfo(List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues, FileWriter fileWriter) throws IOException {
         fileWriter.append("----------------------------------------------------------\n")
                 .append("EXTRACTION INFO:\n")
                 .append(String.valueOf(releaseList.size())).append(" RELEASES \n")
@@ -81,9 +81,6 @@ public class CreateReportFiles {
                 .append(String.valueOf(commitList.size())).append(" TOTAL COMMITS \n")
                 .append(String.valueOf(filteredCommitsOfIssues.size())).append(" COMMITS CONTAINING BUG-ISSUES")
                 .append("\n----------------------------------------------------------\n\n");
-        for (Release release : releaseList) {
-            fileWriter.append("RELEASE ").append(release.releaseName()).append(" HAS ").append(String.valueOf(buggyClassesPerRelease.get(release.id() - 1))).append(" BUGGY CLASSES\n\n");
-        }
     }
 
     private static void appendCommitsInfo(List<Commit> commitList, FileWriter fileWriter) throws IOException {

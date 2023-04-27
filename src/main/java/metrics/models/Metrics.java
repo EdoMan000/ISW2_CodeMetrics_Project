@@ -1,9 +1,9 @@
 package metrics.models;
 
 public class Metrics {
-    private final LOCMetrics removedLOCMetrics = new LOCMetrics();
-    private final LOCMetrics churnMetrics = new LOCMetrics();
-    private final LOCMetrics addedLOCMetrics = new LOCMetrics();
+    private final LOCMetrics removedLOCMetrics;
+    private final LOCMetrics churnMetrics;
+    private final LOCMetrics addedLOCMetrics;
     private boolean bugged;
     private int size;
     private int numberOfRevisions;
@@ -13,6 +13,12 @@ public class Metrics {
     public Metrics() {
         bugged = false;
         size = 0;
+        numberOfRevisions = 0;
+        numberOfDefectFixes = 0;
+        numberOfAuthors = 0;
+        removedLOCMetrics = new LOCMetrics();
+        churnMetrics = new LOCMetrics();
+        addedLOCMetrics = new LOCMetrics();
     }
 
     public boolean getBuggyness() {

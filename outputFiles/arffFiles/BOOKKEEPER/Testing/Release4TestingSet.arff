@@ -1,0 +1,16 @@
+@relation Release4TestingSet
+@attribute SIZE numeric
+@attribute LOC_ADDED numeric
+@attribute LOC_ADDED_AVG numeric
+@attribute LOC_ADDED_MAX numeric
+@attribute LOC_REMOVED numeric
+@attribute LOC_REMOVED_AVG numeric
+@attribute LOC_REMOVED_MAX numeric
+@attribute CHURN numeric
+@attribute CHURN_AVG numeric
+@attribute CHURN_MAX numeric
+@attribute NUMBER_OF_REVISIONS numeric
+@attribute NUMBER_OF_DEFECT_FIXES numeric
+@attribute NUMBER_OF_AUTHORS numeric
+@attribute IS_BUGGY {'YES', 'NO'}
+@data

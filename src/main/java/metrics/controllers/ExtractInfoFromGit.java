@@ -36,7 +36,7 @@ public class ExtractInfoFromGit {
     private final List<Ticket> ticketList;
     private final List<Release> releaseList;
     private final Git git;
-    private final Repository repository;
+    private static Repository repository = null;
     public ExtractInfoFromGit(String projName, String repoURL, List<Release> releaseList, List<Ticket> ticketList) throws IOException, GitAPIException {
         String filename = projName.toLowerCase() + "Temp";
         File directory = new File(filename);
@@ -123,7 +123,6 @@ public class ExtractInfoFromGit {
     }
 
     public List<ProjectClass> extractAllProjectClasses(List<Commit> commitList, int releasesNumber) throws IOException {
-
         List<Commit> lastCommitList = new ArrayList<>();
         for(int i = 1; i <= releasesNumber; i++){
             List<Commit> tempCommits = new ArrayList<>(commitList);
@@ -142,26 +141,26 @@ public class ExtractInfoFromGit {
                 allProjectClasses.add(new ProjectClass(nameAndContentOfClass.getKey(), nameAndContentOfClass.getValue(), lastCommit.getRelease()));
             }
         }
-        for(Ticket ticket: ticketList){
-            completeClassesInfo(ticket, allProjectClasses);
-        }
+        completeClassesInfo(ticketList, allProjectClasses);
         keepTrackOfCommitsThatTouchTheClass(allProjectClasses, commitList);
         allProjectClasses.sort(Comparator.comparing(ProjectClass::getName));
         return allProjectClasses;
     }
 
-    private void completeClassesInfo(Ticket ticket, List<ProjectClass> allProjectClasses) throws IOException {
-        List<Commit> commitsContainingTicket = ticket.getCommitList();
-        Release injectedVersion = ticket.getInjectedVersion();
-        for(Commit commit: commitsContainingTicket){
-            if(!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate()) && !commit.getRelease().releaseDate().isBefore(ticket.getInjectedVersion().releaseDate())){
-                // We assume as TRUE the Jira info about resolutionDATE (ticket FV is correct)
-                // -> the fact that the commit with too old/too early date contains ticketID is considered an error
-                // -> class must not be labeled as buggy
-                List<String> modifiedClassesNames = getTouchedClassesNames(commit.getRevCommit());
-                Release release = commit.getRelease();
-                for(String modifiedClass: modifiedClassesNames){
-                    labelBuggyClasses(modifiedClass, injectedVersion, release, allProjectClasses);
+    public static void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> allProjectClasses) throws IOException {
+        for(Ticket ticket: ticketList) {
+            List<Commit> commitsContainingTicket = ticket.getCommitList();
+            Release injectedVersion = ticket.getInjectedVersion();
+            for (Commit commit : commitsContainingTicket) {
+                if (!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate()) && !commit.getRelease().releaseDate().isBefore(ticket.getInjectedVersion().releaseDate())) {
+                    // We assume as TRUE the Jira info about resolutionDATE (ticket FV is correct)
+                    // -> the fact that the commit with too old/too early date contains ticketID is considered an error
+                    // -> class must not be labeled as buggy
+                    List<String> modifiedClassesNames = getTouchedClassesNames(commit.getRevCommit());
+                    Release release = commit.getRelease();
+                    for (String modifiedClass : modifiedClassesNames) {
+                        labelBuggyClasses(modifiedClass, injectedVersion, release, allProjectClasses);
+                    }
                 }
             }
         }
@@ -184,7 +183,7 @@ public class ExtractInfoFromGit {
         }
     }
 
-    private void labelBuggyClasses(String modifiedClass, Release injectedVersion, Release fixedVersion, List<ProjectClass> allProjectClasses) {
+    private static void labelBuggyClasses(String modifiedClass, Release injectedVersion, Release fixedVersion, List<ProjectClass> allProjectClasses) {
         for(ProjectClass projectClass: allProjectClasses){
             if(projectClass.getName().equals(modifiedClass) && projectClass.getRelease().id() < fixedVersion.id() && projectClass.getRelease().id() >= injectedVersion.id()){
                 projectClass.getMetrics().setBuggyness(true);
@@ -192,7 +191,7 @@ public class ExtractInfoFromGit {
         }
     }
 
-    private List<String> getTouchedClassesNames(RevCommit commit) throws IOException {
+    private static List<String> getTouchedClassesNames(RevCommit commit) throws IOException {
         List<String> touchedClassesNames = new ArrayList<>();
         try(DiffFormatter diffFormatter = new DiffFormatter(DisabledOutputStream.INSTANCE);
             ObjectReader reader = repository.newObjectReader()) {
