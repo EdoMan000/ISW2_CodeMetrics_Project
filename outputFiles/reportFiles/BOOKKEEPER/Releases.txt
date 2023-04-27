@@ -24,4 +24,7 @@ Release[id= 11, releaseName= 4.4.0, releaseDate= 2016-05-16, numOfCommits= 46]
 
 Release[id= 12, releaseName= 4.5.0, releaseDate= 2017-08-10, numOfCommits= 324]
 
-Release[id= 13, releaseName= 4.5.
+Release[id= 13, releaseName= 4.5.1, releaseDate= 2017-09-10, numOfCommits= 54]
+
+Release[id= 14, releaseName= 4.6.0, releaseDate= 2017-11-10, numOfCommits= 72]
+

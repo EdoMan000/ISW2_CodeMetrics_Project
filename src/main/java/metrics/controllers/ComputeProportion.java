@@ -93,11 +93,9 @@ public class ComputeProportion {
     }
 
     public static float computeProportion(List<Ticket> fixedTicketsList, String projName) throws URISyntaxException {
-        FileWriter fileWriter = null;
         float proportion = 0;
-        File file;
         try {
-            file = new File("outputFiles/reportFiles/" + projName);
+            File file = new File("outputFiles/reportFiles/" + projName);
             if (!file.exists()) {
                 boolean created = file.mkdirs();
                 if (!created) {
@@ -105,19 +103,18 @@ public class ComputeProportion {
                 }
             }
             file = new File("outputFiles/reportFiles/" + projName + "/Proportion.txt");
-            fileWriter = new FileWriter(file);
-            if (fixedTicketsList.size() >= THRESHOLD_FOR_COLD_START) {
-                proportion = ComputeProportion.incrementalProportionComputation(fixedTicketsList);
-            } else {
-                proportion = ComputeProportion.coldStartProportionComputation();
+            try(FileWriter fileWriter = new FileWriter(file)) {
+                if (fixedTicketsList.size() >= THRESHOLD_FOR_COLD_START) {
+                    proportion = ComputeProportion.incrementalProportionComputation(fixedTicketsList);
+                } else {
+                    proportion = ComputeProportion.coldStartProportionComputation();
+                }
+                fileWriter.append(outputToFile.toString());
+                FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
             }
-            fileWriter.append(outputToFile.toString());
         } catch(IOException e){
             logger.info("Error in ComputeProportion when trying to create directory");
-        } finally {
-        assert fileWriter != null;
-        FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
-    }
+        }
         return proportion;
     }
 

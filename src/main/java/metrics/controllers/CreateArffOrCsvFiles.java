@@ -18,12 +18,10 @@ public class CreateArffOrCsvFiles {
     private CreateArffOrCsvFiles() {}
 
     public static void writeOnArffFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType){
-        FileWriter fileWriter = null;
-        File file;
         try {
             StringBuilder pathname = new StringBuilder();
             pathname.append("outputFiles/arffFiles/").append(projName).append("/").append(setType);
-            file = new File(pathname.toString());
+            File file = new File(pathname.toString());
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {
@@ -38,45 +36,42 @@ public class CreateArffOrCsvFiles {
                 iDs.append(release.id());
             }
             file = new File("outputFiles/arffFiles/" + projName + pathName + iDs + setType + "Set.arff");
-            fileWriter = new FileWriter(file);
-            fileWriter.append("@relation ").append(String.valueOf(iDs).replace("/","")).append(setType).append("Set\n")
-                    .append("""
-                            @attribute SIZE numeric
-                            @attribute LOC_ADDED numeric
-                            @attribute LOC_ADDED_AVG numeric
-                            @attribute LOC_ADDED_MAX numeric
-                            @attribute LOC_REMOVED numeric
-                            @attribute LOC_REMOVED_AVG numeric
-                            @attribute LOC_REMOVED_MAX numeric
-                            @attribute CHURN numeric
-                            @attribute CHURN_AVG numeric
-                            @attribute CHURN_MAX numeric
-                            @attribute NUMBER_OF_REVISIONS numeric
-                            @attribute NUMBER_OF_DEFECT_FIXES numeric
-                            @attribute NUMBER_OF_AUTHORS numeric
-                            @attribute IS_BUGGY {'YES', 'NO'}
-                            @data
-                            """);
-            for (Release release: releaseList) {
-                for(ProjectClass projectClass: allProjectClasses){
-                    if(projectClass.getRelease().id()==release.id()){
-                        appendEntriesLikeCSV(fileWriter, release, projectClass, true);
+            try(FileWriter fileWriter = new FileWriter(file)) {
+                fileWriter.append("@relation ").append(String.valueOf(iDs).replace("/", "")).append(setType).append("Set\n")
+                        .append("""
+                                @attribute SIZE numeric
+                                @attribute LOC_ADDED numeric
+                                @attribute LOC_ADDED_AVG numeric
+                                @attribute LOC_ADDED_MAX numeric
+                                @attribute LOC_REMOVED numeric
+                                @attribute LOC_REMOVED_AVG numeric
+                                @attribute LOC_REMOVED_MAX numeric
+                                @attribute CHURN numeric
+                                @attribute CHURN_AVG numeric
+                                @attribute CHURN_MAX numeric
+                                @attribute NUMBER_OF_REVISIONS numeric
+                                @attribute NUMBER_OF_DEFECT_FIXES numeric
+                                @attribute NUMBER_OF_AUTHORS numeric
+                                @attribute IS_BUGGY {'YES', 'NO'}
+                                @data
+                                """);
+                for (Release release : releaseList) {
+                    for (ProjectClass projectClass : allProjectClasses) {
+                        if (projectClass.getRelease().id() == release.id()) {
+                            appendEntriesLikeCSV(fileWriter, release, projectClass, true);
+                        }
                     }
                 }
+                FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
             }
         } catch (IOException e) {
             logger.info("Error in writeCsvOnFile when trying to create directory");
-        } finally {
-            assert fileWriter != null;
-            FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         }
     }
 
     public static void writeOnCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses) {
-        FileWriter fileWriter = null;
-        File file;
         try {
-            file = new File("outputFiles/csvFiles");
+            File file = new File("outputFiles/csvFiles");
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {
@@ -84,29 +79,28 @@ public class CreateArffOrCsvFiles {
                 }
             }
             file = new File("outputFiles/csvFiles/" + projName + "DataExtraction.csv");
-            fileWriter = new FileWriter(file);
-            fileWriter.append("RELEASE_ID," +
-                            "FILE_NAME," +
-                            "SIZE," +
-                            "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +
-                            "LOC_REMOVED,LOC_REMOVED_AVG,LOC_REMOVED_MAX," +
-                            "CHURN,CHURN_AVG,CHURN_MAX," +
-                            "NUMBER_OF_REVISIONS," +
-                            "NUMBER_OF_DEFECT_FIXES," +
-                            "NUMBER_OF_AUTHORS," +
-                            "IS_BUGGY").append("\n");
-            for (Release release: releaseList) {
-                for(ProjectClass projectClass: allProjectClasses){
-                    if(projectClass.getRelease().id()==release.id()){
-                        appendEntriesLikeCSV(fileWriter, release, projectClass, false);
+            try(FileWriter fileWriter = new FileWriter(file);) {
+                fileWriter.append("RELEASE_ID," +
+                        "FILE_NAME," +
+                        "SIZE," +
+                        "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +
+                        "LOC_REMOVED,LOC_REMOVED_AVG,LOC_REMOVED_MAX," +
+                        "CHURN,CHURN_AVG,CHURN_MAX," +
+                        "NUMBER_OF_REVISIONS," +
+                        "NUMBER_OF_DEFECT_FIXES," +
+                        "NUMBER_OF_AUTHORS," +
+                        "IS_BUGGY").append("\n");
+                for (Release release : releaseList) {
+                    for (ProjectClass projectClass : allProjectClasses) {
+                        if (projectClass.getRelease().id() == release.id()) {
+                            appendEntriesLikeCSV(fileWriter, release, projectClass, false);
+                        }
                     }
                 }
+                FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
             }
         } catch (IOException e) {
             logger.info("Error in writeCsvOnFile when trying to create directory");
-        } finally {
-            assert fileWriter != null;
-            FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         }
     }
 

@@ -43,10 +43,8 @@ public class CreateReportFiles {
     }
 
     public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues) {
-        FileWriter fileWriter = null;
-        File file;
         try {
-            file = new File("outputFiles/reportFiles/" + projName);
+            File file = new File("outputFiles/reportFiles/" + projName);
             if (!file.exists()) {
                 boolean created = file.mkdirs();
                 if (!created) {
@@ -55,22 +53,21 @@ public class CreateReportFiles {
             }
             for(ReportTypes reportType: ReportTypes.values()){
                 file = new File("outputFiles/reportFiles/" + projName + reportType.toString() + ".txt");
-                fileWriter = new FileWriter(file);
-                fileWriter.append("---------- ")
-                        .append(String.valueOf(reportType))
-                        .append(" List/ ---------\n\n");
-                switch (reportType) {
-                    case RELEASES -> appendReleasesInfo(releaseList, fileWriter);
-                    case TICKETS -> appendTicketsInfo(ticketList, fileWriter);
-                    case COMMITS -> appendCommitsInfo(commitList, fileWriter);
-                    case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, fileWriter);
+                try(FileWriter fileWriter = new FileWriter(file)) {
+                    fileWriter.append("---------- ")
+                            .append(String.valueOf(reportType))
+                            .append(" List/ ---------\n\n");
+                    switch (reportType) {
+                        case RELEASES -> appendReleasesInfo(releaseList, fileWriter);
+                        case TICKETS -> appendTicketsInfo(ticketList, fileWriter);
+                        case COMMITS -> appendCommitsInfo(commitList, fileWriter);
+                        case SUMMARY -> appendSummaryInfo(releaseList, ticketList, commitList, filteredCommitsOfIssues, fileWriter);
+                    }
+                    FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
                 }
             }
         } catch (IOException e) {
             logger.info("Error in writeOnReportFiles when trying to create directory");
-        } finally {
-            assert fileWriter != null;
-            FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
         }
     }
 

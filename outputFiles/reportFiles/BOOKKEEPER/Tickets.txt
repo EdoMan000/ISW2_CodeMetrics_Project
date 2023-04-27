@@ -606,4 +606,9 @@ Ticket[key= BOOKKEEPER-1077, injectedVersion= 4.3.1, openingVersion= 4.5.0, fixe
 
 Ticket[key= BOOKKEEPER-1074, injectedVersion= 4.3.1, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.3.1, 4.3.2, 4.4.0], creationDate= 2017-05-25, resolutionDate= 2017-06-01]
 
-Ticket[key= BOOKKEEPER-1073, injectedVersion= 4.3.1, openingVersion= 
+Ticket[key= BOOKKEEPER-1073, injectedVersion= 4.3.1, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.3.1, 4.3.2, 4.4.0], creationDate= 2017-05-25, resolutionDate= 2017-06-01]
+
+Ticket[key= BOOKKEEPER-1098, injectedVersion= 4.3.1, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.3.1, 4.3.2, 4.4.0], creationDate= 2017-06-14, resolutionDate= 2017-06-28]
+
+Ticket[key= BOOKKEEPER-1104, injectedVersion= 4.3.1, openingVersion= 4.5.0, fixedVersion= 4.5.0, affectedVersions= [4.3.1, 4.3.2, 4.4.0], creationDate= 2017-07-27, resolutionDate= 2017-07-28]
+
