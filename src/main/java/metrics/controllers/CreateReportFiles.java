@@ -44,8 +44,9 @@ public class CreateReportFiles {
 
     public static void writeOnReportFiles(String projName, List<Release> releaseList, List<Ticket> ticketList, List<Commit> commitList, List<Commit> filteredCommitsOfIssues) {
         FileWriter fileWriter = null;
+        File file;
         try {
-            File file = new File("outputFiles/reportFiles/" + projName);
+            file = new File("outputFiles/reportFiles/" + projName);
             if (!file.exists()) {
                 boolean created = file.mkdirs();
                 if (!created) {

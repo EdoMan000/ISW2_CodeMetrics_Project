@@ -19,10 +19,11 @@ public class CreateArffOrCsvFiles {
 
     public static void writeOnArffFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType){
         FileWriter fileWriter = null;
+        File file;
         try {
             StringBuilder pathname = new StringBuilder();
             pathname.append("outputFiles/arffFiles/").append(projName).append("/").append(setType);
-            File file = new File(pathname.toString());
+            file = new File(pathname.toString());
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {
@@ -73,8 +74,9 @@ public class CreateArffOrCsvFiles {
 
     public static void writeOnCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses) {
         FileWriter fileWriter = null;
+        File file;
         try {
-            File file = new File("outputFiles/csvFiles");
+            file = new File("outputFiles/csvFiles");
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {

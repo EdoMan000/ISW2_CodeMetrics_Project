@@ -95,8 +95,9 @@ public class ComputeProportion {
     public static float computeProportion(List<Ticket> fixedTicketsList, String projName) throws URISyntaxException {
         FileWriter fileWriter = null;
         float proportion = 0;
+        File file;
         try {
-            File file = new File("outputFiles/reportFiles/" + projName);
+            file = new File("outputFiles/reportFiles/" + projName);
             if (!file.exists()) {
                 boolean created = file.mkdirs();
                 if (!created) {
