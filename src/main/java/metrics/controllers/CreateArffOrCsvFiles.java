@@ -17,10 +17,14 @@ public class CreateArffOrCsvFiles {
 
     private CreateArffOrCsvFiles() {}
 
-    public static void writeOnArffFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType){
+    public static void writeOnArffOrCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType, boolean isArff){
         try {
             StringBuilder pathname = new StringBuilder();
-            pathname.append("outputFiles/arffFiles/").append(projName).append("/").append(setType);
+            if (isArff) {
+                pathname.append("outputFiles/arffFiles/").append(projName).append("/").append(setType);
+            }else{
+                pathname.append("outputFiles/csvFiles/").append(projName).append("/").append(setType);
+            }
             File file = new File(pathname.toString());
             if (!file.exists()) {
                 boolean success = file.mkdirs();
@@ -35,10 +39,15 @@ public class CreateArffOrCsvFiles {
             for(Release release: releaseList){
                 iDs.append(release.id());
             }
-            file = new File("outputFiles/arffFiles/" + projName + pathName + iDs + setType + "Set.arff");
+            if (isArff) {
+                file = new File("outputFiles/arffFiles/" + projName + pathName + iDs + setType + "Set.arff");
+            }else{
+                file = new File("outputFiles/csvFiles/" + projName + pathName + iDs + setType + "Set.csv");
+            }
             try(FileWriter fileWriter = new FileWriter(file)) {
-                fileWriter.append("@relation ").append(String.valueOf(iDs).replace("/", "")).append(setType).append("Set\n")
-                        .append("""
+                if(isArff){
+                    fileWriter.append("@relation ").append(String.valueOf(iDs).replace("/", "")).append(setType).append("Set\n")
+                            .append("""
                                 @attribute SIZE numeric
                                 @attribute LOC_ADDED numeric
                                 @attribute LOC_ADDED_AVG numeric
@@ -55,52 +64,41 @@ public class CreateArffOrCsvFiles {
                                 @attribute IS_BUGGY {'YES', 'NO'}
                                 @data
                                 """);
-                for (Release release : releaseList) {
-                    for (ProjectClass projectClass : allProjectClasses) {
-                        if (projectClass.getRelease().id() == release.id()) {
-                            appendEntriesLikeCSV(fileWriter, release, projectClass, true);
+                    for (Release release : releaseList) {
+                        for (ProjectClass projectClass : allProjectClasses) {
+                            if (projectClass.getRelease().id() == release.id()) {
+                                appendEntriesLikeCSV(fileWriter, release, projectClass, true);
+                            }
+                        }
+                    }
+                }else{
+                    fileWriter.append("RELEASE_ID," +
+                            "FILE_NAME," +
+                            "SIZE," +
+                            "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +
+                            "LOC_REMOVED,LOC_REMOVED_AVG,LOC_REMOVED_MAX," +
+                            "CHURN,CHURN_AVG,CHURN_MAX," +
+                            "NUMBER_OF_REVISIONS," +
+                            "NUMBER_OF_DEFECT_FIXES," +
+                            "NUMBER_OF_AUTHORS," +
+                            "IS_BUGGY").append("\n");
+                    for (Release release : releaseList) {
+                        for (ProjectClass projectClass : allProjectClasses) {
+                            if (projectClass.getRelease().id() == release.id()) {
+                                appendEntriesLikeCSV(fileWriter, release, projectClass, false);
+                            }
                         }
                     }
                 }
                 FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
             }
         } catch (IOException e) {
-            logger.info("Error in writeCsvOnFile when trying to create directory");
-        }
-    }
+            if (isArff) {
+                logger.info("Error in .arff creation when trying to create directory");
 
-    public static void writeOnCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses) {
-        try {
-            File file = new File("outputFiles/csvFiles");
-            if (!file.exists()) {
-                boolean success = file.mkdirs();
-                if (!success) {
-                    throw new IOException();
-                }
+            }else{
+                logger.info("Error in .csv creation when trying to create directory");
             }
-            file = new File("outputFiles/csvFiles/" + projName + "DataExtraction.csv");
-            try(FileWriter fileWriter = new FileWriter(file);) {
-                fileWriter.append("RELEASE_ID," +
-                        "FILE_NAME," +
-                        "SIZE," +
-                        "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +
-                        "LOC_REMOVED,LOC_REMOVED_AVG,LOC_REMOVED_MAX," +
-                        "CHURN,CHURN_AVG,CHURN_MAX," +
-                        "NUMBER_OF_REVISIONS," +
-                        "NUMBER_OF_DEFECT_FIXES," +
-                        "NUMBER_OF_AUTHORS," +
-                        "IS_BUGGY").append("\n");
-                for (Release release : releaseList) {
-                    for (ProjectClass projectClass : allProjectClasses) {
-                        if (projectClass.getRelease().id() == release.id()) {
-                            appendEntriesLikeCSV(fileWriter, release, projectClass, false);
-                        }
-                    }
-                }
-                FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
-            }
-        } catch (IOException e) {
-            logger.info("Error in writeCsvOnFile when trying to create directory");
         }
     }
 

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-import static metrics.controllers.CreateArffOrCsvFiles.writeOnArffFile;
+import static metrics.controllers.CreateArffOrCsvFiles.writeOnArffOrCsvFile;
 import static metrics.controllers.CreateReportFiles.writeOnReportFiles;
 
 
@@ -46,8 +46,8 @@ public class ExtractMetrics {
         //WALK FORWARD APPROACH
         loggerString = projName + " STARTING WALK FORWARD TO BUILD TRAINING AND TESTING SETS - [*OK*]\n\n";
         logger.info(loggerString);
-        int idOfLastRelease = releaseList.get(releaseList.size()/2).id();
-        for(int i = 1; i <= idOfLastRelease; i++){
+        int idOfLastConsideredRelease = releaseList.get((releaseList.size()/2)-1).id();
+        for(int i = 1; i <= idOfLastConsideredRelease; i++){
             List<Release> firstIReleases = new ArrayList<>(releaseList);
             int finalI = i;
             firstIReleases.removeIf(release -> release.id() > finalI);
@@ -56,7 +56,8 @@ public class ExtractMetrics {
             List<ProjectClass> firstIProjectClassesTraining = new ArrayList<>(allProjectClasses);
             firstIProjectClassesTraining.removeIf(projectClass -> projectClass.getRelease().id() > firstIReleases.get(firstIReleases.size()-1).id());
             gitExtractor.completeClassesInfo(firstITickets, firstIProjectClassesTraining);
-            writeOnArffFile(projName, firstIReleases, firstIProjectClassesTraining, "Training");
+            writeOnArffOrCsvFile(projName, firstIReleases, firstIProjectClassesTraining, "Training", true);
+            writeOnArffOrCsvFile(projName, firstIReleases, firstIProjectClassesTraining, "Training", false);
             if(i==1){
                 loggerString = projName + " TRAINING SET BUILT ON FIRST RELEASE - [*OK*]\n\n";
             }else{
@@ -72,7 +73,8 @@ public class ExtractMetrics {
             }
             List<ProjectClass> firstIProjectClassesTesting = new ArrayList<>(allProjectClasses);
             firstIProjectClassesTesting.removeIf(projectClass -> projectClass.getRelease().id() != testingSetReleaseList.get(0).id());
-            writeOnArffFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing");
+            writeOnArffOrCsvFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", true);
+            writeOnArffOrCsvFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", false);
             if(i==1){
                 loggerString = projName + " TESTING SET BUILT ON FIRST RELEASE - [*OK*]\n\n";
             }else{
