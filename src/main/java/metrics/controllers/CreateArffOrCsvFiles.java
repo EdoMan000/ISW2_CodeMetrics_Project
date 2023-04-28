@@ -77,13 +77,7 @@ public class CreateArffOrCsvFiles {
                         @attribute IS_BUGGY {'YES', 'NO'}
                         @data
                         """);
-            for (Release release : releaseList) {
-                for (ProjectClass projectClass : allProjectClasses) {
-                    if (projectClass.getRelease().id() == release.id()) {
-                        appendEntriesLikeCSV(fileWriter, release, projectClass, true);
-                    }
-                }
-            }
+            appendByRelease(releaseList, allProjectClasses, fileWriter, true);
         }else{
             fileWriter.append("RELEASE_ID," +
                     "FILE_NAME," +
@@ -95,15 +89,19 @@ public class CreateArffOrCsvFiles {
                     "NUMBER_OF_DEFECT_FIXES," +
                     "NUMBER_OF_AUTHORS," +
                     "IS_BUGGY").append("\n");
-            for (Release release : releaseList) {
-                for (ProjectClass projectClass : allProjectClasses) {
-                    if (projectClass.getRelease().id() == release.id()) {
-                        appendEntriesLikeCSV(fileWriter, release, projectClass, false);
-                    }
+            appendByRelease(releaseList, allProjectClasses, fileWriter, false);
+        }
+        FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
+    }
+
+    private static void appendByRelease(List<Release> releaseList, List<ProjectClass> allProjectClasses, FileWriter fileWriter, boolean isArff) throws IOException {
+        for (Release release : releaseList) {
+            for (ProjectClass projectClass : allProjectClasses) {
+                if (projectClass.getRelease().id() == release.id()) {
+                    appendEntriesLikeCSV(fileWriter, release, projectClass, isArff);
                 }
             }
         }
-        FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
     }
 
     private static void appendEntriesLikeCSV(FileWriter fileWriter, Release release, ProjectClass projectClass, boolean isArff) throws IOException {
