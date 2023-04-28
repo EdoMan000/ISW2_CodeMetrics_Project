@@ -45,52 +45,7 @@ public class CreateArffOrCsvFiles {
                 file = new File("outputFiles/csvFiles/" + projName + pathName + iDs + setType + "Set.csv");
             }
             try(FileWriter fileWriter = new FileWriter(file)) {
-                if(isArff){
-                    fileWriter.append("@relation ").append(String.valueOf(iDs).replace("/", "")).append(setType).append("Set\n")
-                            .append("""
-                                @attribute SIZE numeric
-                                @attribute LOC_ADDED numeric
-                                @attribute LOC_ADDED_AVG numeric
-                                @attribute LOC_ADDED_MAX numeric
-                                @attribute LOC_REMOVED numeric
-                                @attribute LOC_REMOVED_AVG numeric
-                                @attribute LOC_REMOVED_MAX numeric
-                                @attribute CHURN numeric
-                                @attribute CHURN_AVG numeric
-                                @attribute CHURN_MAX numeric
-                                @attribute NUMBER_OF_REVISIONS numeric
-                                @attribute NUMBER_OF_DEFECT_FIXES numeric
-                                @attribute NUMBER_OF_AUTHORS numeric
-                                @attribute IS_BUGGY {'YES', 'NO'}
-                                @data
-                                """);
-                    for (Release release : releaseList) {
-                        for (ProjectClass projectClass : allProjectClasses) {
-                            if (projectClass.getRelease().id() == release.id()) {
-                                appendEntriesLikeCSV(fileWriter, release, projectClass, true);
-                            }
-                        }
-                    }
-                }else{
-                    fileWriter.append("RELEASE_ID," +
-                            "FILE_NAME," +
-                            "SIZE," +
-                            "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +
-                            "LOC_REMOVED,LOC_REMOVED_AVG,LOC_REMOVED_MAX," +
-                            "CHURN,CHURN_AVG,CHURN_MAX," +
-                            "NUMBER_OF_REVISIONS," +
-                            "NUMBER_OF_DEFECT_FIXES," +
-                            "NUMBER_OF_AUTHORS," +
-                            "IS_BUGGY").append("\n");
-                    for (Release release : releaseList) {
-                        for (ProjectClass projectClass : allProjectClasses) {
-                            if (projectClass.getRelease().id() == release.id()) {
-                                appendEntriesLikeCSV(fileWriter, release, projectClass, false);
-                            }
-                        }
-                    }
-                }
-                FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
+                appendOnFile(releaseList, allProjectClasses, setType, isArff, iDs, fileWriter);
             }
         } catch (IOException e) {
             if (isArff) {
@@ -100,6 +55,55 @@ public class CreateArffOrCsvFiles {
                 logger.info("Error in .csv creation when trying to create directory");
             }
         }
+    }
+
+    private static void appendOnFile(List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType, boolean isArff, StringBuilder iDs, FileWriter fileWriter) throws IOException {
+        if(isArff){
+            fileWriter.append("@relation ").append(String.valueOf(iDs).replace("/", "")).append(setType).append("Set\n")
+                    .append("""
+                        @attribute SIZE numeric
+                        @attribute LOC_ADDED numeric
+                        @attribute LOC_ADDED_AVG numeric
+                        @attribute LOC_ADDED_MAX numeric
+                        @attribute LOC_REMOVED numeric
+                        @attribute LOC_REMOVED_AVG numeric
+                        @attribute LOC_REMOVED_MAX numeric
+                        @attribute CHURN numeric
+                        @attribute CHURN_AVG numeric
+                        @attribute CHURN_MAX numeric
+                        @attribute NUMBER_OF_REVISIONS numeric
+                        @attribute NUMBER_OF_DEFECT_FIXES numeric
+                        @attribute NUMBER_OF_AUTHORS numeric
+                        @attribute IS_BUGGY {'YES', 'NO'}
+                        @data
+                        """);
+            for (Release release : releaseList) {
+                for (ProjectClass projectClass : allProjectClasses) {
+                    if (projectClass.getRelease().id() == release.id()) {
+                        appendEntriesLikeCSV(fileWriter, release, projectClass, true);
+                    }
+                }
+            }
+        }else{
+            fileWriter.append("RELEASE_ID," +
+                    "FILE_NAME," +
+                    "SIZE," +
+                    "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +
+                    "LOC_REMOVED,LOC_REMOVED_AVG,LOC_REMOVED_MAX," +
+                    "CHURN,CHURN_AVG,CHURN_MAX," +
+                    "NUMBER_OF_REVISIONS," +
+                    "NUMBER_OF_DEFECT_FIXES," +
+                    "NUMBER_OF_AUTHORS," +
+                    "IS_BUGGY").append("\n");
+            for (Release release : releaseList) {
+                for (ProjectClass projectClass : allProjectClasses) {
+                    if (projectClass.getRelease().id() == release.id()) {
+                        appendEntriesLikeCSV(fileWriter, release, projectClass, false);
+                    }
+                }
+            }
+        }
+        FileWriterUtils.flushAndCloseFW(fileWriter, logger, NAME_OF_THIS_CLASS);
     }
 
     private static void appendEntriesLikeCSV(FileWriter fileWriter, Release release, ProjectClass projectClass, boolean isArff) throws IOException {

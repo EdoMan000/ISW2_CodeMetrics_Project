@@ -84,7 +84,7 @@ public class ExtractMetrics {
             }
             logger.info(loggerString);
         }
-        //ExtractInfoFromGit.deleteDirectory(projName.toLowerCase() + "Temp")
-        //ExtractInfoFromGit.deleteDirectory("outputFiles")
+        //deleteDirectory(projName.toLowerCase() + "Temp")
+        //deleteDirectory("outputFiles")
     }
 }

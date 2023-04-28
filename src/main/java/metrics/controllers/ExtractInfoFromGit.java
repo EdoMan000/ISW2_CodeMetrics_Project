@@ -25,8 +25,6 @@ import org.eclipse.jgit.util.io.DisabledOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.*;
@@ -58,19 +56,6 @@ public class ExtractInfoFromGit {
 
     public List<Release> getReleaseList() {
         return releaseList;
-    }
-
-    public static void deleteDirectory(String directoryPath) throws IOException {
-        File directory = new File(directoryPath);
-        if(directory.isDirectory()){
-            File[] contents = directory.listFiles();
-            if(contents!=null){
-                for(File content : contents){
-                    deleteDirectory(content.getAbsolutePath());
-                }
-            }
-        }
-        Files.delete(Path.of(directory.toURI()));
     }
 
     public List<Commit> extractAllCommits() throws IOException, GitAPIException {
