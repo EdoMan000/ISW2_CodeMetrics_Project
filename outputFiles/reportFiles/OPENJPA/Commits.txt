@@ -9714,7 +9714,7 @@ Commit[ID= ed28ddca1a1ff1026cc068a0a85540eb756f655e, release= 2.4.3, creationDat
 
 Commit[ID= 5c94a7ff67ad38f6fdcaa7a950eeb9622ff960aa, ticket= OPENJPA-2705, release= 2.4.3, creationDate= 2017-07-20]
 
-Commit[ID= 2898b4e342591dc98848663caa74a9bb7fee35b4, release= 2.4.3, creationDate= 2017-07-26]
+Commit[ID= 2898b4e342591dc98848663caa74a9bb7fee35b4, ticket= OPENJPA-2707, release= 2.4.3, creationDate= 2017-07-26]
 
 Commit[ID= 778e8e9449210bda0f3fad71081ae3dc954e8a64, release= 2.4.3, creationDate= 2017-09-01]
 

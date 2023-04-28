@@ -166,7 +166,7 @@ Ticket[key= OPENJPA-346, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVer
 
 Ticket[key= OPENJPA-347, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [1.0.0], creationDate= 2007-08-30, resolutionDate= 2007-08-31]
 
-Ticket[key= OPENJPA-345, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 3.2.0, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.0.0, 3.1.0, 3.1.1, 3.1.2], creationDate= 2007-08-30, resolutionDate= 2021-04-04]
+Ticket[key= OPENJPA-345, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 3.2.0, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.1.0, 3.1.1, 3.1.2], creationDate= 2007-08-30, resolutionDate= 2021-04-04]
 
 Ticket[key= OPENJPA-349, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.3, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0], creationDate= 2007-09-05, resolutionDate= 2008-07-16]
 
@@ -206,7 +206,7 @@ Ticket[key= OPENJPA-380, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVer
 
 Ticket[key= OPENJPA-379, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0], creationDate= 2007-09-21, resolutionDate= 2007-09-21]
 
-Ticket[key= OPENJPA-382, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 2.1.1, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2007-09-24, resolutionDate= 2011-02-25]
+Ticket[key= OPENJPA-382, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 2.1.1, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2007-09-24, resolutionDate= 2011-02-25]
 
 Ticket[key= OPENJPA-385, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [1.0.0], creationDate= 2007-09-26, resolutionDate= 2007-09-27]
 
@@ -252,7 +252,7 @@ Ticket[key= OPENJPA-425, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVer
 
 Ticket[key= OPENJPA-427, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], creationDate= 2007-11-01, resolutionDate= 2007-11-15]
 
-Ticket[key= OPENJPA-428, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 2.2.1, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2007-11-01, resolutionDate= 2012-08-08]
+Ticket[key= OPENJPA-428, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 2.2.1, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2007-11-01, resolutionDate= 2012-08-08]
 
 Ticket[key= OPENJPA-437, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], creationDate= 2007-11-08, resolutionDate= 2008-01-25]
 
@@ -300,7 +300,7 @@ Ticket[key= OPENJPA-518, injectedVersion= 1.0.1, openingVersion= 1.0.2, fixedVer
 
 Ticket[key= OPENJPA-525, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 2.0.0-M3, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2], creationDate= 2008-02-27, resolutionDate= 2009-09-27]
 
-Ticket[key= OPENJPA-526, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 2.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2008-02-27, resolutionDate= 2010-09-20]
+Ticket[key= OPENJPA-526, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 2.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2008-02-27, resolutionDate= 2010-09-20]
 
 Ticket[key= OPENJPA-528, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2], creationDate= 2008-02-29, resolutionDate= 2008-03-24]
 
@@ -394,7 +394,7 @@ Ticket[key= OPENJPA-669, injectedVersion= 0.9.6, openingVersion= 1.2.0, fixedVer
 
 Ticket[key= OPENJPA-674, injectedVersion= 1.0.2, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.0.2, 1.1.0, 1.0.3], creationDate= 2008-08-06, resolutionDate= 2008-08-06]
 
-Ticket[key= OPENJPA-677, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 2.2.0, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2008-08-06, resolutionDate= 2011-09-21]
+Ticket[key= OPENJPA-677, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 2.2.0, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2008-08-06, resolutionDate= 2011-09-21]
 
 Ticket[key= OPENJPA-678, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 2.0.0-M1, affectedVersions= [1.1.0, 1.0.3, 1.2.0], creationDate= 2008-08-07, resolutionDate= 2008-08-15]
 
@@ -408,7 +408,7 @@ Ticket[key= OPENJPA-693, injectedVersion= 1.1.0, openingVersion= 2.0.0-M1, fixed
 
 Ticket[key= OPENJPA-695, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], creationDate= 2008-08-19, resolutionDate= 2008-09-11]
 
-Ticket[key= OPENJPA-696, injectedVersion= 1.0.0, openingVersion= 2.0.0-M1, fixedVersion= 2.3.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2008-08-21, resolutionDate= 2013-07-10]
+Ticket[key= OPENJPA-696, injectedVersion= 1.0.0, openingVersion= 2.0.0-M1, fixedVersion= 2.3.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2008-08-21, resolutionDate= 2013-07-10]
 
 Ticket[key= OPENJPA-700, injectedVersion= 1.1.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.1.0, 1.0.3, 1.2.0], creationDate= 2008-08-22, resolutionDate= 2008-08-22]
 
@@ -468,7 +468,7 @@ Ticket[key= OPENJPA-815, injectedVersion= 1.1.0, openingVersion= 2.0.0-M1, fixed
 
 Ticket[key= OPENJPA-824, injectedVersion= 1.1.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.1.0, 1.0.3, 1.2.0], creationDate= 2008-12-11, resolutionDate= 2008-12-16]
 
-Ticket[key= OPENJPA-828, injectedVersion= 0.9.0, openingVersion= 2.0.0-M1, fixedVersion= 1.2.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2008-12-16, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-828, injectedVersion= 0.9.0, openingVersion= 2.0.0-M1, fixedVersion= 1.2.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2008-12-16, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-835, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], creationDate= 2008-12-18, resolutionDate= 2008-12-19]
 
@@ -488,7 +488,7 @@ Ticket[key= OPENJPA-864, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixed
 
 Ticket[key= OPENJPA-866, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], creationDate= 2009-01-23, resolutionDate= 2009-03-12]
 
-Ticket[key= OPENJPA-867, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.2.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2009-01-23, resolutionDate= 2011-08-29]
+Ticket[key= OPENJPA-867, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.2.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2009-01-23, resolutionDate= 2011-08-29]
 
 Ticket[key= OPENJPA-873, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], creationDate= 2009-01-26, resolutionDate= 2009-02-04]
 
@@ -510,7 +510,7 @@ Ticket[key= OPENJPA-913, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVer
 
 Ticket[key= OPENJPA-917, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], creationDate= 2009-02-10, resolutionDate= 2009-02-12]
 
-Ticket[key= OPENJPA-922, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 2.4.1, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], creationDate= 2009-02-16, resolutionDate= 2015-09-01]
+Ticket[key= OPENJPA-922, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 2.4.1, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], creationDate= 2009-02-16, resolutionDate= 2015-09-01]
 
 Ticket[key= OPENJPA-925, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], creationDate= 2009-02-18, resolutionDate= 2009-02-19]
 
@@ -520,7 +520,7 @@ Ticket[key= OPENJPA-933, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVer
 
 Ticket[key= OPENJPA-935, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 2.0.0-beta3, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], creationDate= 2009-02-21, resolutionDate= 2010-03-15]
 
-Ticket[key= OPENJPA-940, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 2.1.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2009-02-25, resolutionDate= 2011-02-17]
+Ticket[key= OPENJPA-940, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 2.1.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2009-02-25, resolutionDate= 2011-02-17]
 
 Ticket[key= OPENJPA-944, injectedVersion= 1.0.0, openingVersion= 1.2.1, fixedVersion= 1.2.2, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3], creationDate= 2009-02-26, resolutionDate= 2010-01-18]
 
@@ -596,7 +596,7 @@ Ticket[key= OPENJPA-1224, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixe
 
 Ticket[key= OPENJPA-1227, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.1, 2.0.0-M2], creationDate= 2009-08-05, resolutionDate= 2009-09-14]
 
-Ticket[key= OPENJPA-1226, injectedVersion= 0.9.0, openingVersion= 2.0.0-M3, fixedVersion= 1.2.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2009-08-05, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-1226, injectedVersion= 0.9.0, openingVersion= 2.0.0-M3, fixedVersion= 1.2.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2009-08-05, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-1232, injectedVersion= 2.0.0-M2, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [2.0.0-M2], creationDate= 2009-08-07, resolutionDate= 2009-08-07]
 
@@ -652,11 +652,11 @@ Ticket[key= OPENJPA-1367, injectedVersion= 2.0.0-M1, openingVersion= 1.2.2, fixe
 
 Ticket[key= OPENJPA-1371, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], creationDate= 2009-10-30, resolutionDate= 2010-03-24]
 
-Ticket[key= OPENJPA-1372, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 2.1.0, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2009-10-31, resolutionDate= 2010-09-07]
+Ticket[key= OPENJPA-1372, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 2.1.0, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2009-10-31, resolutionDate= 2010-09-07]
 
 Ticket[key= OPENJPA-1375, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], creationDate= 2009-11-04, resolutionDate= 2009-11-06]
 
-Ticket[key= OPENJPA-1376, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 2.1.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2009-11-04, resolutionDate= 2011-03-13]
+Ticket[key= OPENJPA-1376, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 2.1.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2009-11-04, resolutionDate= 2011-03-13]
 
 Ticket[key= OPENJPA-1377, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], creationDate= 2009-11-06, resolutionDate= 2009-11-19]
 
@@ -672,7 +672,7 @@ Ticket[key= OPENJPA-1384, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVe
 
 Ticket[key= OPENJPA-1386, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], creationDate= 2009-11-13, resolutionDate= 2009-11-16]
 
-Ticket[key= OPENJPA-1387, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.3, affectedVersions= [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2009-11-13, resolutionDate= 2013-01-23]
+Ticket[key= OPENJPA-1387, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.3, affectedVersions= [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2009-11-13, resolutionDate= 2013-01-23]
 
 Ticket[key= OPENJPA-1388, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3], creationDate= 2009-11-16, resolutionDate= 2009-11-17]
 
@@ -780,7 +780,7 @@ Ticket[key= OPENJPA-1562, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-be
 
 Ticket[key= OPENJPA-1570, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-beta2], creationDate= 2010-03-13, resolutionDate= 2010-03-16]
 
-Ticket[key= OPENJPA-1569, injectedVersion= 1.2.2, openingVersion= 2.0.0-beta3, fixedVersion= 1.2.3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2010-03-13, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-1569, injectedVersion= 1.2.2, openingVersion= 2.0.0-beta3, fixedVersion= 1.2.3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2010-03-13, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-1575, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-beta2], creationDate= 2010-03-15, resolutionDate= 2010-03-15]
 
@@ -794,7 +794,7 @@ Ticket[key= OPENJPA-1580, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-be
 
 Ticket[key= OPENJPA-1581, injectedVersion= 1.2.2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0-beta3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2], creationDate= 2010-03-18, resolutionDate= 2010-03-22]
 
-Ticket[key= OPENJPA-1583, injectedVersion= 1.0.0, openingVersion= 2.0.0-beta3, fixedVersion= 1.2.3, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2010-03-18, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-1583, injectedVersion= 1.0.2, openingVersion= 2.0.0-beta3, fixedVersion= 1.2.3, affectedVersions= [1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2010-03-18, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-1596, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-beta2], creationDate= 2010-03-23, resolutionDate= 2010-03-23]
 
@@ -802,13 +802,13 @@ Ticket[key= OPENJPA-1599, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-be
 
 Ticket[key= OPENJPA-1605, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.0, fixedVersion= 2.0.0, affectedVersions= [2.0.0-beta3], creationDate= 2010-03-31, resolutionDate= 2010-04-15]
 
-Ticket[key= OPENJPA-1613, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-04-06, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1613, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-04-06, resolutionDate= 2011-01-12]
 
 Ticket[key= OPENJPA-1618, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.0, fixedVersion= 2.0.0, affectedVersions= [2.0.0-beta3], creationDate= 2010-04-08, resolutionDate= 2010-04-08]
 
 Ticket[key= OPENJPA-1626, injectedVersion= 1.1.0, openingVersion= 2.0.0, fixedVersion= 2.0.1, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], creationDate= 2010-04-12, resolutionDate= 2010-07-14]
 
-Ticket[key= OPENJPA-1627, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-04-12, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1627, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-04-12, resolutionDate= 2011-01-12]
 
 Ticket[key= OPENJPA-1631, injectedVersion= 1.2.2, openingVersion= 2.0.0, fixedVersion= 2.0.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3], creationDate= 2010-04-13, resolutionDate= 2010-04-15]
 
@@ -816,19 +816,19 @@ Ticket[key= OPENJPA-1630, injectedVersion= 1.2.2, openingVersion= 2.0.0, fixedVe
 
 Ticket[key= OPENJPA-1641, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0], creationDate= 2010-04-27, resolutionDate= 2010-06-14]
 
-Ticket[key= OPENJPA-1644, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 1.2.3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2010-04-30, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-1644, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 1.2.3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2010-04-30, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-1646, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], creationDate= 2010-05-03, resolutionDate= 2010-05-03]
 
-Ticket[key= OPENJPA-1648, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-05-04, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1648, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-05-04, resolutionDate= 2011-01-12]
 
-Ticket[key= OPENJPA-1650, injectedVersion= 2.0.0-M3, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2010-05-04, resolutionDate= 2011-09-21]
+Ticket[key= OPENJPA-1650, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2010-05-04, resolutionDate= 2011-09-21]
 
-Ticket[key= OPENJPA-1657, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2010-05-10, resolutionDate= 2011-04-27]
+Ticket[key= OPENJPA-1657, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2010-05-10, resolutionDate= 2011-04-27]
 
-Ticket[key= OPENJPA-1662, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-05-11, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1662, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-05-11, resolutionDate= 2011-01-12]
 
-Ticket[key= OPENJPA-1665, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2010-05-12, resolutionDate= 2011-03-23]
+Ticket[key= OPENJPA-1665, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], creationDate= 2010-05-12, resolutionDate= 2011-03-23]
 
 Ticket[key= OPENJPA-1667, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-05-16, resolutionDate= 2010-05-26]
 
@@ -840,25 +840,25 @@ Ticket[key= OPENJPA-1676, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVe
 
 Ticket[key= OPENJPA-1678, injectedVersion= 1.1.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], creationDate= 2010-06-02, resolutionDate= 2010-07-15]
 
-Ticket[key= OPENJPA-1683, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-06-05, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1683, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-06-05, resolutionDate= 2011-01-12]
 
 Ticket[key= OPENJPA-1685, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-06-07, resolutionDate= 2010-06-08]
 
-Ticket[key= OPENJPA-1686, injectedVersion= 2.0.0-M3, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2010-06-08, resolutionDate= 2011-09-21]
+Ticket[key= OPENJPA-1686, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2010-06-08, resolutionDate= 2011-09-21]
 
 Ticket[key= OPENJPA-1690, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-06-09, resolutionDate= 2010-06-09]
 
 Ticket[key= OPENJPA-1689, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-06-09, resolutionDate= 2010-06-24]
 
-Ticket[key= OPENJPA-1692, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-06-10, resolutionDate= 2010-10-11]
+Ticket[key= OPENJPA-1692, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-06-10, resolutionDate= 2010-10-11]
 
-Ticket[key= OPENJPA-1691, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2010-06-10, resolutionDate= 2011-07-27]
+Ticket[key= OPENJPA-1691, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2010-06-10, resolutionDate= 2011-07-27]
 
 Ticket[key= OPENJPA-1695, injectedVersion= 1.1.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], creationDate= 2010-06-11, resolutionDate= 2010-06-15]
 
 Ticket[key= OPENJPA-1696, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-06-12, resolutionDate= 2010-07-24]
 
-Ticket[key= OPENJPA-1702, injectedVersion= 1.2.0, openingVersion= 2.0.1, fixedVersion= 2.4.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2010-06-18, resolutionDate= 2014-02-05]
+Ticket[key= OPENJPA-1702, injectedVersion= 1.2.0, openingVersion= 2.0.1, fixedVersion= 2.4.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2010-06-18, resolutionDate= 2014-02-05]
 
 Ticket[key= OPENJPA-1704, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], creationDate= 2010-06-21, resolutionDate= 2010-07-19]
 
@@ -868,7 +868,7 @@ Ticket[key= OPENJPA-1719, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVe
 
 Ticket[key= OPENJPA-1722, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-07-12, resolutionDate= 2010-08-16]
 
-Ticket[key= OPENJPA-1725, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2010-07-14, resolutionDate= 2011-05-11]
+Ticket[key= OPENJPA-1725, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2010-07-14, resolutionDate= 2011-05-11]
 
 Ticket[key= OPENJPA-1727, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-07-16, resolutionDate= 2010-08-09]
 
@@ -880,9 +880,9 @@ Ticket[key= OPENJPA-1738, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVe
 
 Ticket[key= OPENJPA-1736, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-07-21, resolutionDate= 2010-08-21]
 
-Ticket[key= OPENJPA-1743, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-07-22, resolutionDate= 2010-10-12]
+Ticket[key= OPENJPA-1743, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-07-22, resolutionDate= 2010-10-12]
 
-Ticket[key= OPENJPA-1746, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2010-07-23, resolutionDate= 2011-09-21]
+Ticket[key= OPENJPA-1746, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2010-07-23, resolutionDate= 2011-09-21]
 
 Ticket[key= OPENJPA-1749, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-07-28, resolutionDate= 2010-07-28]
 
@@ -890,113 +890,113 @@ Ticket[key= OPENJPA-1756, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, f
 
 Ticket[key= OPENJPA-1757, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-08-02, resolutionDate= 2010-08-09]
 
-Ticket[key= OPENJPA-1765, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-08-12, resolutionDate= 2010-09-13]
+Ticket[key= OPENJPA-1765, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-08-12, resolutionDate= 2010-09-13]
 
-Ticket[key= OPENJPA-1768, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2010-08-13, resolutionDate= 2011-06-27]
+Ticket[key= OPENJPA-1768, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], creationDate= 2010-08-13, resolutionDate= 2011-06-27]
 
 Ticket[key= OPENJPA-1769, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-08-18, resolutionDate= 2010-08-18]
 
 Ticket[key= OPENJPA-1770, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], creationDate= 2010-08-19, resolutionDate= 2010-08-19]
 
-Ticket[key= OPENJPA-1784, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-09-08, resolutionDate= 2010-09-10]
+Ticket[key= OPENJPA-1784, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-09-08, resolutionDate= 2010-09-10]
 
-Ticket[key= OPENJPA-1788, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-09-10, resolutionDate= 2010-09-10]
+Ticket[key= OPENJPA-1788, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-09-10, resolutionDate= 2010-09-10]
 
-Ticket[key= OPENJPA-1787, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0], creationDate= 2010-09-10, resolutionDate= 2011-03-16]
+Ticket[key= OPENJPA-1787, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 2.1.0], creationDate= 2010-09-10, resolutionDate= 2011-03-16]
 
-Ticket[key= OPENJPA-1790, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-09-13, resolutionDate= 2010-09-23]
+Ticket[key= OPENJPA-1790, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-09-13, resolutionDate= 2010-09-23]
 
-Ticket[key= OPENJPA-1794, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.3.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2010-09-15, resolutionDate= 2013-10-17]
+Ticket[key= OPENJPA-1794, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.3.0, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2010-09-15, resolutionDate= 2013-10-17]
 
-Ticket[key= OPENJPA-1800, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-09-16, resolutionDate= 2010-09-21]
+Ticket[key= OPENJPA-1800, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-09-16, resolutionDate= 2010-09-21]
 
-Ticket[key= OPENJPA-1801, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-09-16, resolutionDate= 2010-10-05]
+Ticket[key= OPENJPA-1801, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-09-16, resolutionDate= 2010-10-05]
 
-Ticket[key= OPENJPA-1804, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-09-18, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1804, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-09-18, resolutionDate= 2011-01-12]
 
-Ticket[key= OPENJPA-1809, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-09-21, resolutionDate= 2010-09-21]
+Ticket[key= OPENJPA-1809, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-09-21, resolutionDate= 2010-09-21]
 
-Ticket[key= OPENJPA-1810, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-09-21, resolutionDate= 2010-11-04]
+Ticket[key= OPENJPA-1810, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-09-21, resolutionDate= 2010-11-04]
 
-Ticket[key= OPENJPA-1811, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-09-22, resolutionDate= 2010-09-22]
+Ticket[key= OPENJPA-1811, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-09-22, resolutionDate= 2010-09-22]
 
-Ticket[key= OPENJPA-1814, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-09-24, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1814, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-09-24, resolutionDate= 2011-01-12]
 
-Ticket[key= OPENJPA-1818, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-09-29, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1818, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-09-29, resolutionDate= 2011-01-12]
 
-Ticket[key= OPENJPA-1819, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.3.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2010-09-30, resolutionDate= 2013-10-18]
+Ticket[key= OPENJPA-1819, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.3.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2010-09-30, resolutionDate= 2013-10-18]
 
-Ticket[key= OPENJPA-1830, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-10-11, resolutionDate= 2010-10-11]
+Ticket[key= OPENJPA-1830, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-10-11, resolutionDate= 2010-10-11]
 
-Ticket[key= OPENJPA-1831, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-10-12, resolutionDate= 2010-10-15]
+Ticket[key= OPENJPA-1831, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-10-12, resolutionDate= 2010-10-15]
 
-Ticket[key= OPENJPA-1837, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-10-15, resolutionDate= 2010-10-20]
+Ticket[key= OPENJPA-1837, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-10-15, resolutionDate= 2010-10-20]
 
-Ticket[key= OPENJPA-1845, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0], creationDate= 2010-10-20, resolutionDate= 2011-05-24]
+Ticket[key= OPENJPA-1845, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 2.1.0], creationDate= 2010-10-20, resolutionDate= 2011-05-24]
 
-Ticket[key= OPENJPA-1853, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-10-24, resolutionDate= 2010-11-03]
+Ticket[key= OPENJPA-1853, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-10-24, resolutionDate= 2010-11-03]
 
-Ticket[key= OPENJPA-1856, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-10-26, resolutionDate= 2011-01-10]
+Ticket[key= OPENJPA-1856, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-10-26, resolutionDate= 2011-01-10]
 
-Ticket[key= OPENJPA-1866, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-01, resolutionDate= 2010-11-19]
+Ticket[key= OPENJPA-1866, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-01, resolutionDate= 2010-11-19]
 
-Ticket[key= OPENJPA-1870, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-11-03, resolutionDate= 2010-11-05]
+Ticket[key= OPENJPA-1870, injectedVersion= 2.0.0-beta3, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-11-03, resolutionDate= 2010-11-05]
 
-Ticket[key= OPENJPA-1873, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2010-11-04, resolutionDate= 2011-12-08]
+Ticket[key= OPENJPA-1873, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2010-11-04, resolutionDate= 2011-12-08]
 
-Ticket[key= OPENJPA-1874, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-11-05, resolutionDate= 2010-11-08]
+Ticket[key= OPENJPA-1874, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-11-05, resolutionDate= 2010-11-08]
 
-Ticket[key= OPENJPA-1877, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-08, resolutionDate= 2010-11-08]
+Ticket[key= OPENJPA-1877, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-08, resolutionDate= 2010-11-08]
 
-Ticket[key= OPENJPA-1890, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-17, resolutionDate= 2011-01-12]
+Ticket[key= OPENJPA-1890, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-17, resolutionDate= 2011-01-12]
 
-Ticket[key= OPENJPA-1892, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-11-19, resolutionDate= 2010-11-19]
+Ticket[key= OPENJPA-1892, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-11-19, resolutionDate= 2010-11-19]
 
-Ticket[key= OPENJPA-1893, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-22, resolutionDate= 2010-11-22]
+Ticket[key= OPENJPA-1893, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-22, resolutionDate= 2010-11-22]
 
-Ticket[key= OPENJPA-1897, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-23, resolutionDate= 2010-11-23]
+Ticket[key= OPENJPA-1897, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-23, resolutionDate= 2010-11-23]
 
-Ticket[key= OPENJPA-1896, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-23, resolutionDate= 2011-01-10]
+Ticket[key= OPENJPA-1896, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-23, resolutionDate= 2011-01-10]
 
-Ticket[key= OPENJPA-1898, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-29, resolutionDate= 2010-11-30]
+Ticket[key= OPENJPA-1898, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-29, resolutionDate= 2010-11-30]
 
-Ticket[key= OPENJPA-1902, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-11-30, resolutionDate= 2010-11-30]
+Ticket[key= OPENJPA-1902, injectedVersion= 2.0.0-beta3, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-11-30, resolutionDate= 2010-11-30]
 
-Ticket[key= OPENJPA-1900, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2010-11-30, resolutionDate= 2010-12-17]
+Ticket[key= OPENJPA-1900, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2010-11-30, resolutionDate= 2010-12-17]
 
-Ticket[key= OPENJPA-1901, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2010-11-30, resolutionDate= 2012-02-06]
+Ticket[key= OPENJPA-1901, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2010-11-30, resolutionDate= 2012-02-06]
 
-Ticket[key= OPENJPA-1903, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2010-12-06, resolutionDate= 2012-02-03]
+Ticket[key= OPENJPA-1903, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1], creationDate= 2010-12-06, resolutionDate= 2012-02-03]
 
-Ticket[key= OPENJPA-1905, injectedVersion= 1.2.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2010-12-10, resolutionDate= 2011-01-25]
+Ticket[key= OPENJPA-1905, injectedVersion= 1.2.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2010-12-10, resolutionDate= 2011-01-25]
 
-Ticket[key= OPENJPA-1909, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2010-12-31, resolutionDate= 2011-01-07]
+Ticket[key= OPENJPA-1909, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2010-12-31, resolutionDate= 2011-01-07]
 
-Ticket[key= OPENJPA-1910, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2011-01-02, resolutionDate= 2011-01-11]
+Ticket[key= OPENJPA-1910, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2011-01-02, resolutionDate= 2011-01-11]
 
-Ticket[key= OPENJPA-1911, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2011-01-03, resolutionDate= 2011-02-15]
+Ticket[key= OPENJPA-1911, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2011-01-03, resolutionDate= 2011-02-15]
 
-Ticket[key= OPENJPA-1912, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2011-01-03, resolutionDate= 2011-02-16]
+Ticket[key= OPENJPA-1912, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], creationDate= 2011-01-03, resolutionDate= 2011-02-16]
 
-Ticket[key= OPENJPA-1918, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2011-01-06, resolutionDate= 2011-01-06]
+Ticket[key= OPENJPA-1918, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2011-01-06, resolutionDate= 2011-01-06]
 
-Ticket[key= OPENJPA-1923, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4], creationDate= 2011-01-14, resolutionDate= 2011-01-31]
+Ticket[key= OPENJPA-1923, injectedVersion= 2.0.0-beta3, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2011-01-14, resolutionDate= 2011-01-31]
 
-Ticket[key= OPENJPA-1928, injectedVersion= 1.2.1, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2011-01-20, resolutionDate= 2011-03-22]
+Ticket[key= OPENJPA-1928, injectedVersion= 1.2.1, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2011-01-20, resolutionDate= 2011-03-22]
 
-Ticket[key= OPENJPA-1939, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4], creationDate= 2011-02-14, resolutionDate= 2011-02-21]
+Ticket[key= OPENJPA-1939, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], creationDate= 2011-02-14, resolutionDate= 2011-02-21]
 
-Ticket[key= OPENJPA-1943, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1, 1.0.4], creationDate= 2011-02-17, resolutionDate= 2011-02-18]
+Ticket[key= OPENJPA-1943, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], creationDate= 2011-02-17, resolutionDate= 2011-02-18]
 
-Ticket[key= OPENJPA-1944, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2011-02-18, resolutionDate= 2011-03-22]
+Ticket[key= OPENJPA-1944, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2011-02-18, resolutionDate= 2011-03-22]
 
-Ticket[key= OPENJPA-1954, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.3.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2011-03-02, resolutionDate= 2013-10-17]
+Ticket[key= OPENJPA-1954, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.3.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2011-03-02, resolutionDate= 2013-10-17]
 
-Ticket[key= OPENJPA-1957, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2011-03-09, resolutionDate= 2011-03-09]
+Ticket[key= OPENJPA-1957, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2011-03-09, resolutionDate= 2011-03-09]
 
-Ticket[key= OPENJPA-1959, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2011-03-12, resolutionDate= 2011-03-12]
+Ticket[key= OPENJPA-1959, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2011-03-12, resolutionDate= 2011-03-12]
 
-Ticket[key= OPENJPA-1958, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2011-03-12, resolutionDate= 2011-03-12]
+Ticket[key= OPENJPA-1958, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], creationDate= 2011-03-12, resolutionDate= 2011-03-12]
 
 Ticket[key= OPENJPA-1960, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-03-15, resolutionDate= 2011-03-22]
 
@@ -1006,9 +1006,9 @@ Ticket[key= OPENJPA-1969, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVe
 
 Ticket[key= OPENJPA-1974, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-04-04, resolutionDate= 2011-04-05]
 
-Ticket[key= OPENJPA-1975, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0], creationDate= 2011-04-07, resolutionDate= 2011-04-11]
+Ticket[key= OPENJPA-1975, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 2.1.0], creationDate= 2011-04-07, resolutionDate= 2011-04-11]
 
-Ticket[key= OPENJPA-1979, injectedVersion= 2.0.0-M1, openingVersion= 2.1.1, fixedVersion= 1.2.3, affectedVersions= [2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2011-04-12, resolutionDate= 2013-03-28]
+Ticket[key= OPENJPA-1979, injectedVersion= 2.0.0-M1, openingVersion= 2.1.1, fixedVersion= 1.2.3, affectedVersions= [2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2011-04-12, resolutionDate= 2013-03-28]
 
 Ticket[key= OPENJPA-1981, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-04-14, resolutionDate= 2011-04-19]
 
@@ -1018,17 +1018,17 @@ Ticket[key= OPENJPA-1984, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVe
 
 Ticket[key= OPENJPA-1985, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-04-26, resolutionDate= 2011-04-27]
 
-Ticket[key= OPENJPA-1986, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0], creationDate= 2011-04-27, resolutionDate= 2011-04-27]
+Ticket[key= OPENJPA-1986, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 2.1.0], creationDate= 2011-04-27, resolutionDate= 2011-04-27]
 
 Ticket[key= OPENJPA-1989, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-04-28, resolutionDate= 2011-05-11]
 
 Ticket[key= OPENJPA-1992, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-05-04, resolutionDate= 2011-05-09]
 
-Ticket[key= OPENJPA-1993, injectedVersion= 1.0.0, openingVersion= 2.1.1, fixedVersion= 3.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.0.0], creationDate= 2011-05-04, resolutionDate= 2018-08-15]
+Ticket[key= OPENJPA-1993, injectedVersion= 1.0.0, openingVersion= 2.1.1, fixedVersion= 3.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3], creationDate= 2011-05-04, resolutionDate= 2018-08-15]
 
-Ticket[key= OPENJPA-1994, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0], creationDate= 2011-05-05, resolutionDate= 2011-05-05]
+Ticket[key= OPENJPA-1994, injectedVersion= 2.0.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], creationDate= 2011-05-05, resolutionDate= 2011-05-05]
 
-Ticket[key= OPENJPA-1995, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0], creationDate= 2011-05-10, resolutionDate= 2011-05-10]
+Ticket[key= OPENJPA-1995, injectedVersion= 2.0.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], creationDate= 2011-05-10, resolutionDate= 2011-05-10]
 
 Ticket[key= OPENJPA-1996, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-05-10, resolutionDate= 2011-07-11]
 
@@ -1036,15 +1036,15 @@ Ticket[key= OPENJPA-2000, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVe
 
 Ticket[key= OPENJPA-2005, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-05-24, resolutionDate= 2011-05-26]
 
-Ticket[key= OPENJPA-2007, injectedVersion= 2.0.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0], creationDate= 2011-05-25, resolutionDate= 2011-05-26]
+Ticket[key= OPENJPA-2007, injectedVersion= 2.0.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], creationDate= 2011-05-25, resolutionDate= 2011-05-26]
 
-Ticket[key= OPENJPA-2006, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2011-05-25, resolutionDate= 2012-02-03]
+Ticket[key= OPENJPA-2006, injectedVersion= 1.2.2, openingVersion= 2.1.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2011-05-25, resolutionDate= 2012-02-03]
 
 Ticket[key= OPENJPA-2008, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.2.0, affectedVersions= [2.1.0, 2.1.1], creationDate= 2011-06-06, resolutionDate= 2011-08-08]
 
-Ticket[key= OPENJPA-2011, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2011-06-08, resolutionDate= 2011-07-27]
+Ticket[key= OPENJPA-2011, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1], creationDate= 2011-06-08, resolutionDate= 2011-07-27]
 
-Ticket[key= OPENJPA-2010, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2011-06-08, resolutionDate= 2011-07-27]
+Ticket[key= OPENJPA-2010, injectedVersion= 2.0.1, openingVersion= 2.1.1, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1], creationDate= 2011-06-08, resolutionDate= 2011-07-27]
 
 Ticket[key= OPENJPA-2013, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], creationDate= 2011-06-09, resolutionDate= 2011-06-09]
 
@@ -1064,55 +1064,55 @@ Ticket[key= OPENJPA-2038, injectedVersion= 2.1.1, openingVersion= 2.2.0, fixedVe
 
 Ticket[key= OPENJPA-2039, injectedVersion= 2.1.1, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.1.1], creationDate= 2011-08-10, resolutionDate= 2011-08-16]
 
-Ticket[key= OPENJPA-2044, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2011-08-25, resolutionDate= 2012-02-02]
+Ticket[key= OPENJPA-2044, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1], creationDate= 2011-08-25, resolutionDate= 2012-02-02]
 
 Ticket[key= OPENJPA-2045, injectedVersion= 2.1.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.1.0, 2.1.1], creationDate= 2011-09-01, resolutionDate= 2011-09-15]
 
-Ticket[key= OPENJPA-2051, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-09-15, resolutionDate= 2012-06-01]
+Ticket[key= OPENJPA-2051, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-09-15, resolutionDate= 2012-06-01]
 
-Ticket[key= OPENJPA-2053, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-09-29, resolutionDate= 2012-03-28]
+Ticket[key= OPENJPA-2053, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-09-29, resolutionDate= 2012-03-28]
 
 Ticket[key= OPENJPA-2055, injectedVersion= 2.1.0, openingVersion= 2.2.0, fixedVersion= 2.4.0, affectedVersions= [2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2011-09-30, resolutionDate= 2014-02-05]
 
-Ticket[key= OPENJPA-2056, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2011-10-04, resolutionDate= 2011-10-09]
+Ticket[key= OPENJPA-2056, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2011-10-04, resolutionDate= 2011-10-09]
 
 Ticket[key= OPENJPA-2065, injectedVersion= 2.1.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.1.0, 2.1.1], creationDate= 2011-10-25, resolutionDate= 2011-11-05]
 
-Ticket[key= OPENJPA-2066, injectedVersion= 1.1.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2011-10-26, resolutionDate= 2011-11-06]
+Ticket[key= OPENJPA-2066, injectedVersion= 1.1.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2011-10-26, resolutionDate= 2011-11-06]
 
-Ticket[key= OPENJPA-2072, injectedVersion= 1.2.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-11-09, resolutionDate= 2012-06-01]
+Ticket[key= OPENJPA-2072, injectedVersion= 1.2.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-11-09, resolutionDate= 2012-06-01]
 
 Ticket[key= OPENJPA-2083, injectedVersion= 2.1.1, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.1.1], creationDate= 2011-11-29, resolutionDate= 2012-01-03]
 
-Ticket[key= OPENJPA-2088, injectedVersion= 1.0.4, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [1.0.4, 2.1.0, 2.1.1], creationDate= 2011-12-07, resolutionDate= 2011-12-07]
+Ticket[key= OPENJPA-2088, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1], creationDate= 2011-12-07, resolutionDate= 2011-12-07]
 
-Ticket[key= OPENJPA-2094, injectedVersion= 2.0.0-beta, openingVersion= 2.2.0, fixedVersion= 2.4.0, affectedVersions= [2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2011-12-13, resolutionDate= 2013-12-02]
+Ticket[key= OPENJPA-2094, injectedVersion= 1.2.2, openingVersion= 2.2.0, fixedVersion= 2.4.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2011-12-13, resolutionDate= 2013-12-02]
 
-Ticket[key= OPENJPA-2102, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-12-28, resolutionDate= 2012-05-31]
+Ticket[key= OPENJPA-2102, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2011-12-28, resolutionDate= 2012-05-31]
 
-Ticket[key= OPENJPA-2107, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-01-11, resolutionDate= 2012-06-01]
+Ticket[key= OPENJPA-2107, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-01-11, resolutionDate= 2012-06-01]
 
-Ticket[key= OPENJPA-2110, injectedVersion= 1.2.2, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-01-17, resolutionDate= 2012-04-11]
+Ticket[key= OPENJPA-2110, injectedVersion= 1.2.2, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-01-17, resolutionDate= 2012-04-11]
 
 Ticket[key= OPENJPA-2117, injectedVersion= 2.1.1, openingVersion= 2.2.0, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], creationDate= 2012-01-26, resolutionDate= 2013-04-10]
 
-Ticket[key= OPENJPA-2118, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-01-30, resolutionDate= 2012-05-31]
+Ticket[key= OPENJPA-2118, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-01-30, resolutionDate= 2012-05-31]
 
-Ticket[key= OPENJPA-2124, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1], creationDate= 2012-02-09, resolutionDate= 2012-02-10]
+Ticket[key= OPENJPA-2124, injectedVersion= 2.0.0, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1], creationDate= 2012-02-09, resolutionDate= 2012-02-10]
 
 Ticket[key= OPENJPA-2131, injectedVersion= 2.1.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.1.1, 2.2.0], creationDate= 2012-02-14, resolutionDate= 2012-04-05]
 
-Ticket[key= OPENJPA-2132, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-02-14, resolutionDate= 2012-10-09]
+Ticket[key= OPENJPA-2132, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-02-14, resolutionDate= 2012-10-09]
 
 Ticket[key= OPENJPA-2133, injectedVersion= 2.1.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.1.1, 2.2.0], creationDate= 2012-02-15, resolutionDate= 2012-05-07]
 
-Ticket[key= OPENJPA-2136, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-02-21, resolutionDate= 2012-02-21]
+Ticket[key= OPENJPA-2136, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-02-21, resolutionDate= 2012-02-21]
 
 Ticket[key= OPENJPA-2145, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-02-27, resolutionDate= 2012-02-27]
 
-Ticket[key= OPENJPA-2146, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-02-27, resolutionDate= 2012-05-03]
+Ticket[key= OPENJPA-2146, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-02-27, resolutionDate= 2012-05-03]
 
-Ticket[key= OPENJPA-2149, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-03-05, resolutionDate= 2012-08-24]
+Ticket[key= OPENJPA-2149, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-03-05, resolutionDate= 2012-08-24]
 
 Ticket[key= OPENJPA-2153, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-03-09, resolutionDate= 2012-03-12]
 
@@ -1124,7 +1124,7 @@ Ticket[key= OPENJPA-2158, injectedVersion= 2.1.1, openingVersion= 2.2.1, fixedVe
 
 Ticket[key= OPENJPA-2161, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-03-25, resolutionDate= 2012-05-02]
 
-Ticket[key= OPENJPA-2163, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-03-27, resolutionDate= 2012-04-01]
+Ticket[key= OPENJPA-2163, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-03-27, resolutionDate= 2012-04-01]
 
 Ticket[key= OPENJPA-2170, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-04-10, resolutionDate= 2012-04-11]
 
@@ -1136,25 +1136,25 @@ Ticket[key= OPENJPA-2178, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVe
 
 Ticket[key= OPENJPA-2187, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-05-09, resolutionDate= 2012-05-11]
 
-Ticket[key= OPENJPA-2191, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-05-12, resolutionDate= 2012-05-12]
+Ticket[key= OPENJPA-2191, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-05-12, resolutionDate= 2012-05-12]
 
 Ticket[key= OPENJPA-2197, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-05-16, resolutionDate= 2012-05-17]
 
 Ticket[key= OPENJPA-2196, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-05-16, resolutionDate= 2012-07-25]
 
-Ticket[key= OPENJPA-2199, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-05-17, resolutionDate= 2012-07-26]
+Ticket[key= OPENJPA-2199, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-05-17, resolutionDate= 2012-07-26]
 
 Ticket[key= OPENJPA-2221, injectedVersion= 2.1.0, openingVersion= 2.2.1, fixedVersion= 2.3.0, affectedVersions= [2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2012-06-28, resolutionDate= 2013-10-18]
 
-Ticket[key= OPENJPA-2227, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-07-09, resolutionDate= 2012-08-24]
+Ticket[key= OPENJPA-2227, injectedVersion= 2.0.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-07-09, resolutionDate= 2012-08-24]
 
 Ticket[key= OPENJPA-2228, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-07-10, resolutionDate= 2012-07-17]
 
 Ticket[key= OPENJPA-2229, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], creationDate= 2012-07-12, resolutionDate= 2012-08-03]
 
-Ticket[key= OPENJPA-2233, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.4.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2012-07-17, resolutionDate= 2013-12-17]
+Ticket[key= OPENJPA-2233, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.4.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2012-07-17, resolutionDate= 2013-12-17]
 
-Ticket[key= OPENJPA-2234, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-07-19, resolutionDate= 2012-10-16]
+Ticket[key= OPENJPA-2234, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-07-19, resolutionDate= 2012-10-16]
 
 Ticket[key= OPENJPA-2235, injectedVersion= 2.1.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], creationDate= 2012-07-19, resolutionDate= 2013-04-10]
 
@@ -1162,11 +1162,11 @@ Ticket[key= OPENJPA-2238, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVe
 
 Ticket[key= OPENJPA-2240, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.2.0, 2.2.1], creationDate= 2012-07-25, resolutionDate= 2013-04-10]
 
-Ticket[key= OPENJPA-2244, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2012-08-01, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-2244, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2012-08-01, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-2245, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.4.2, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1], creationDate= 2012-08-02, resolutionDate= 2016-08-19]
 
-Ticket[key= OPENJPA-2247, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-08-03, resolutionDate= 2012-10-09]
+Ticket[key= OPENJPA-2247, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], creationDate= 2012-08-03, resolutionDate= 2012-10-09]
 
 Ticket[key= OPENJPA-2253, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.3.0, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2012-08-20, resolutionDate= 2013-10-29]
 
@@ -1184,7 +1184,7 @@ Ticket[key= OPENJPA-2269, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVe
 
 Ticket[key= OPENJPA-2271, injectedVersion= 2.1.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.1.0, 2.1.1, 2.2.0], creationDate= 2012-10-02, resolutionDate= 2012-10-02]
 
-Ticket[key= OPENJPA-2284, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2012-10-25, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-2284, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2012-10-25, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-2286, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.4.2, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1], creationDate= 2012-10-26, resolutionDate= 2016-09-08]
 
@@ -1192,7 +1192,7 @@ Ticket[key= OPENJPA-2288, injectedVersion= 2.1.1, openingVersion= 2.2.1, fixedVe
 
 Ticket[key= OPENJPA-2287, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.4.0, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2012-10-29, resolutionDate= 2015-04-16]
 
-Ticket[key= OPENJPA-2289, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2012-10-31, resolutionDate= 2013-04-10]
+Ticket[key= OPENJPA-2289, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], creationDate= 2012-10-31, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-2298, injectedVersion= 2.2.0, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.2.0, 2.2.1], creationDate= 2012-11-16, resolutionDate= 2013-04-10]
 
@@ -1212,7 +1212,7 @@ Ticket[key= OPENJPA-2330, injectedVersion= 2.2.0, openingVersion= 1.2.3, fixedVe
 
 Ticket[key= OPENJPA-2336, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], creationDate= 2013-02-19, resolutionDate= 2013-03-28]
 
-Ticket[key= OPENJPA-2335, injectedVersion= 2.1.0, openingVersion= 1.2.3, fixedVersion= 2.3.0, affectedVersions= [2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2013-02-19, resolutionDate= 2013-11-18]
+Ticket[key= OPENJPA-2335, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 2.3.0, affectedVersions= [2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], creationDate= 2013-02-19, resolutionDate= 2013-11-18]
 
 Ticket[key= OPENJPA-2341, injectedVersion= 2.2.0, openingVersion= 1.2.3, fixedVersion= 2.4.1, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], creationDate= 2013-02-27, resolutionDate= 2015-10-06]
 
@@ -1250,11 +1250,11 @@ Ticket[key= OPENJPA-2435, injectedVersion= 2.1.0, openingVersion= 2.3.0, fixedVe
 
 Ticket[key= OPENJPA-2437, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], creationDate= 2013-10-11, resolutionDate= 2013-10-29]
 
-Ticket[key= OPENJPA-2463, injectedVersion= 2.0.1, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2013-12-04, resolutionDate= 2013-12-17]
+Ticket[key= OPENJPA-2463, injectedVersion= 2.0.1, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2013-12-04, resolutionDate= 2013-12-17]
 
 Ticket[key= OPENJPA-2467, injectedVersion= 2.2.2, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.2.2, 2.3.0], creationDate= 2013-12-20, resolutionDate= 2014-02-05]
 
-Ticket[key= OPENJPA-2470, injectedVersion= 2.0.1, openingVersion= 2.4.0, fixedVersion= 2.4.1, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], creationDate= 2014-01-15, resolutionDate= 2015-10-12]
+Ticket[key= OPENJPA-2470, injectedVersion= 2.0.1, openingVersion= 2.4.0, fixedVersion= 2.4.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], creationDate= 2014-01-15, resolutionDate= 2015-10-12]
 
 Ticket[key= OPENJPA-2472, injectedVersion= 2.2.2, openingVersion= 2.4.0, fixedVersion= 2.4.1, affectedVersions= [2.2.2, 2.3.0, 2.4.0], creationDate= 2014-01-17, resolutionDate= 2016-01-22]
 
@@ -1272,7 +1272,7 @@ Ticket[key= OPENJPA-2502, injectedVersion= 2.2.1, openingVersion= 2.4.0, fixedVe
 
 Ticket[key= OPENJPA-2505, injectedVersion= 2.1.0, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2014-05-16, resolutionDate= 2014-09-23]
 
-Ticket[key= OPENJPA-2506, injectedVersion= 2.0.1, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2014-05-23, resolutionDate= 2014-06-17]
+Ticket[key= OPENJPA-2506, injectedVersion= 2.0.1, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2014-05-23, resolutionDate= 2014-06-17]
 
 Ticket[key= OPENJPA-2507, injectedVersion= 2.2.0, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], creationDate= 2014-05-27, resolutionDate= 2014-07-09]
 
@@ -1296,11 +1296,11 @@ Ticket[key= OPENJPA-2542, injectedVersion= 2.3.0, openingVersion= 2.4.0, fixedVe
 
 Ticket[key= OPENJPA-2547, injectedVersion= 2.2.2, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.2.2, 2.3.0], creationDate= 2014-11-25, resolutionDate= 2015-01-14]
 
-Ticket[key= OPENJPA-2555, injectedVersion= 2.2.2, openingVersion= 2.4.0, fixedVersion= 3.1.0, affectedVersions= [2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.0.0], creationDate= 2015-01-06, resolutionDate= 2019-04-06]
+Ticket[key= OPENJPA-2555, injectedVersion= 2.2.2, openingVersion= 2.4.0, fixedVersion= 3.1.0, affectedVersions= [2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3], creationDate= 2015-01-06, resolutionDate= 2019-04-06]
 
 Ticket[key= OPENJPA-2557, injectedVersion= 2.2.2, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.2.2, 2.3.0], creationDate= 2015-01-10, resolutionDate= 2015-02-27]
 
-Ticket[key= OPENJPA-2567, injectedVersion= 2.3.0, openingVersion= 2.4.0, fixedVersion= 3.1.0, affectedVersions= [2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.0.0], creationDate= 2015-02-02, resolutionDate= 2018-09-03]
+Ticket[key= OPENJPA-2567, injectedVersion= 2.3.0, openingVersion= 2.4.0, fixedVersion= 3.1.0, affectedVersions= [2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3], creationDate= 2015-02-02, resolutionDate= 2018-09-03]
 
 Ticket[key= OPENJPA-2576, injectedVersion= 2.3.0, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.3.0], creationDate= 2015-04-07, resolutionDate= 2015-04-16]
 
@@ -1320,9 +1320,9 @@ Ticket[key= OPENJPA-2605, injectedVersion= 2.2.2, openingVersion= 2.4.1, fixedVe
 
 Ticket[key= OPENJPA-2609, injectedVersion= 2.4.0, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [2.4.0], creationDate= 2015-10-05, resolutionDate= 2015-10-19]
 
-Ticket[key= OPENJPA-2614, injectedVersion= 2.4.0, openingVersion= 2.4.1, fixedVersion= 3.2.1, affectedVersions= [2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.0.0, 3.1.0, 3.1.1, 3.1.2, 3.2.0], creationDate= 2015-11-17, resolutionDate= 2021-06-16]
+Ticket[key= OPENJPA-2614, injectedVersion= 2.4.0, openingVersion= 2.4.1, fixedVersion= 3.2.1, affectedVersions= [2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.1.0, 3.1.1, 3.1.2, 3.2.0], creationDate= 2015-11-17, resolutionDate= 2021-06-16]
 
-Ticket[key= OPENJPA-2616, injectedVersion= 1.0.0, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 1.0.4, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], creationDate= 2015-11-23, resolutionDate= 2016-02-15]
+Ticket[key= OPENJPA-2616, injectedVersion= 1.0.0, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], creationDate= 2015-11-23, resolutionDate= 2016-02-15]
 
 Ticket[key= OPENJPA-2617, injectedVersion= 2.4.0, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [2.4.0], creationDate= 2015-11-27, resolutionDate= 2015-11-27]
 
@@ -1334,7 +1334,7 @@ Ticket[key= OPENJPA-2640, injectedVersion= 2.4.1, openingVersion= 2.4.2, fixedVe
 
 Ticket[key= OPENJPA-2646, injectedVersion= 2.4.1, openingVersion= 2.4.2, fixedVersion= 2.4.3, affectedVersions= [2.4.1, 2.4.2], creationDate= 2016-06-21, resolutionDate= 2018-05-14]
 
-Ticket[key= OPENJPA-2648, injectedVersion= 2.4.1, openingVersion= 2.4.2, fixedVersion= 3.2.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3, 3.0.0, 3.1.0, 3.1.1, 3.1.2], creationDate= 2016-07-01, resolutionDate= 2021-04-04]
+Ticket[key= OPENJPA-2648, injectedVersion= 2.4.1, openingVersion= 2.4.2, fixedVersion= 3.2.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3, 3.1.0, 3.1.1, 3.1.2], creationDate= 2016-07-01, resolutionDate= 2021-04-04]
 
 Ticket[key= OPENJPA-2650, injectedVersion= 2.3.0, openingVersion= 2.4.2, fixedVersion= 2.4.2, affectedVersions= [2.3.0, 2.4.0, 2.4.1], creationDate= 2016-07-15, resolutionDate= 2016-08-18]
 
@@ -1356,45 +1356,47 @@ Ticket[key= OPENJPA-2690, injectedVersion= 2.4.2, openingVersion= 2.4.3, fixedVe
 
 Ticket[key= OPENJPA-2698, injectedVersion= 2.2.2, openingVersion= 2.4.3, fixedVersion= 2.4.3, affectedVersions= [2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2], creationDate= 2017-05-01, resolutionDate= 2017-05-03]
 
-Ticket[key= OPENJPA-2704, injectedVersion= 2.2.2, openingVersion= 2.4.3, fixedVersion= 3.1.0, affectedVersions= [2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.0.0], creationDate= 2017-07-07, resolutionDate= 2018-07-02]
+Ticket[key= OPENJPA-2704, injectedVersion= 2.2.2, openingVersion= 2.4.3, fixedVersion= 3.1.0, affectedVersions= [2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3], creationDate= 2017-07-07, resolutionDate= 2018-07-02]
 
 Ticket[key= OPENJPA-2705, injectedVersion= 2.1.1, openingVersion= 2.4.3, fixedVersion= 2.4.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2], creationDate= 2017-07-14, resolutionDate= 2017-07-20]
 
+Ticket[key= OPENJPA-2707, injectedVersion= 2.4.0, openingVersion= 2.4.3, fixedVersion= 2.4.3, affectedVersions= [2.4.0, 2.4.1, 2.4.2], creationDate= 2017-07-21, resolutionDate= 2017-07-27]
+
 Ticket[key= OPENJPA-2725, injectedVersion= 2.4.2, openingVersion= 2.4.3, fixedVersion= 2.4.3, affectedVersions= [2.4.2], creationDate= 2018-01-03, resolutionDate= 2018-01-03]
 
-Ticket[key= OPENJPA-2733, injectedVersion= 2.4.2, openingVersion= 2.4.3, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3, 3.0.0], creationDate= 2018-04-09, resolutionDate= 2019-02-14]
+Ticket[key= OPENJPA-2733, injectedVersion= 2.4.2, openingVersion= 2.4.3, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3], creationDate= 2018-04-09, resolutionDate= 2019-02-14]
 
-Ticket[key= OPENJPA-2743, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.1, affectedVersions= [2.4.2, 2.4.3, 3.0.0, 3.1.0], creationDate= 2018-07-12, resolutionDate= 2019-07-29]
+Ticket[key= OPENJPA-2743, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.1, affectedVersions= [2.4.2, 2.4.3, 3.1.0], creationDate= 2018-07-12, resolutionDate= 2019-07-29]
 
-Ticket[key= OPENJPA-2746, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3, 3.0.0], creationDate= 2018-08-16, resolutionDate= 2018-08-16]
+Ticket[key= OPENJPA-2746, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2018-08-16, resolutionDate= 2018-08-16]
 
-Ticket[key= OPENJPA-2757, injectedVersion= 3.0.0, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [3.0.0], creationDate= 2018-11-10, resolutionDate= 2018-11-10]
+Ticket[key= OPENJPA-2757, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2018-11-10, resolutionDate= 2018-11-10]
 
-Ticket[key= OPENJPA-2756, injectedVersion= 3.0.0, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [3.0.0], creationDate= 2018-11-10, resolutionDate= 2018-11-10]
+Ticket[key= OPENJPA-2756, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2018-11-10, resolutionDate= 2018-11-10]
 
-Ticket[key= OPENJPA-2761, injectedVersion= 2.2.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 3.0.0], creationDate= 2018-12-07, resolutionDate= 2019-01-14]
+Ticket[key= OPENJPA-2761, injectedVersion= 2.2.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3], creationDate= 2018-12-07, resolutionDate= 2019-01-14]
 
-Ticket[key= OPENJPA-2764, injectedVersion= 3.0.0, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [3.0.0], creationDate= 2019-01-02, resolutionDate= 2019-01-02]
+Ticket[key= OPENJPA-2764, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2019-01-02, resolutionDate= 2019-01-02]
 
-Ticket[key= OPENJPA-2768, injectedVersion= 3.0.0, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [3.0.0], creationDate= 2019-01-10, resolutionDate= 2019-01-10]
+Ticket[key= OPENJPA-2768, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2019-01-10, resolutionDate= 2019-01-10]
 
-Ticket[key= OPENJPA-2770, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3, 3.0.0], creationDate= 2019-01-22, resolutionDate= 2019-01-23]
+Ticket[key= OPENJPA-2770, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3], creationDate= 2019-01-22, resolutionDate= 2019-01-23]
 
-Ticket[key= OPENJPA-2772, injectedVersion= 3.0.0, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [3.0.0], creationDate= 2019-02-02, resolutionDate= 2019-02-02]
+Ticket[key= OPENJPA-2772, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2019-02-02, resolutionDate= 2019-02-02]
 
-Ticket[key= OPENJPA-2771, injectedVersion= 3.0.0, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [3.0.0], creationDate= 2019-02-02, resolutionDate= 2019-02-02]
+Ticket[key= OPENJPA-2771, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2019-02-02, resolutionDate= 2019-02-02]
 
-Ticket[key= OPENJPA-2777, injectedVersion= 3.0.0, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [3.0.0], creationDate= 2019-03-01, resolutionDate= 2019-03-05]
+Ticket[key= OPENJPA-2777, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2019-03-01, resolutionDate= 2019-03-05]
 
-Ticket[key= OPENJPA-2780, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3, 3.0.0], creationDate= 2019-03-20, resolutionDate= 2019-03-24]
+Ticket[key= OPENJPA-2780, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3], creationDate= 2019-03-20, resolutionDate= 2019-03-24]
 
-Ticket[key= OPENJPA-2781, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3, 3.0.0], creationDate= 2019-03-21, resolutionDate= 2019-03-24]
+Ticket[key= OPENJPA-2781, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], creationDate= 2019-03-21, resolutionDate= 2019-03-24]
 
 Ticket[key= OPENJPA-2788, injectedVersion= 3.1.0, openingVersion= 3.1.1, fixedVersion= 3.2.0, affectedVersions= [3.1.0, 3.1.1, 3.1.2], creationDate= 2019-04-18, resolutionDate= 2020-12-14]
 
-Ticket[key= OPENJPA-2789, injectedVersion= 2.4.3, openingVersion= 3.1.1, fixedVersion= 3.2.0, affectedVersions= [2.4.3, 3.0.0, 3.1.0, 3.1.1, 3.1.2], creationDate= 2019-06-18, resolutionDate= 2021-04-18]
+Ticket[key= OPENJPA-2789, injectedVersion= 2.4.3, openingVersion= 3.1.1, fixedVersion= 3.2.0, affectedVersions= [2.4.3, 3.1.0, 3.1.1, 3.1.2], creationDate= 2019-06-18, resolutionDate= 2021-04-18]
 
-Ticket[key= OPENJPA-2795, injectedVersion= 2.4.3, openingVersion= 3.1.1, fixedVersion= 3.2.0, affectedVersions= [2.4.3, 3.0.0, 3.1.0, 3.1.1, 3.1.2], creationDate= 2019-08-29, resolutionDate= 2020-09-04]
+Ticket[key= OPENJPA-2795, injectedVersion= 2.4.3, openingVersion= 3.1.1, fixedVersion= 3.2.0, affectedVersions= [2.4.3, 3.1.0, 3.1.1, 3.1.2], creationDate= 2019-08-29, resolutionDate= 2020-09-04]
 
 Ticket[key= OPENJPA-2799, injectedVersion= 3.1.0, openingVersion= 3.1.1, fixedVersion= 3.1.1, affectedVersions= [3.1.0], creationDate= 2019-12-18, resolutionDate= 2019-12-25]
 
@@ -1450,7 +1452,7 @@ Ticket[key= OPENJPA-2865, injectedVersion= 3.1.2, openingVersion= 3.2.0, fixedVe
 
 Ticket[key= OPENJPA-2866, injectedVersion= 3.1.2, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.2], creationDate= 2021-04-10, resolutionDate= 2021-04-18]
 
-Ticket[key= OPENJPA-2876, injectedVersion= 3.0.0, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.0.0, 3.1.0, 3.1.1, 3.1.2, 3.2.0], creationDate= 2021-06-10, resolutionDate= 2021-06-16]
+Ticket[key= OPENJPA-2876, injectedVersion= 3.1.1, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.1.1, 3.1.2, 3.2.0], creationDate= 2021-06-10, resolutionDate= 2021-06-16]
 
 Ticket[key= OPENJPA-2877, injectedVersion= 3.1.1, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.1.1, 3.1.2, 3.2.0], creationDate= 2021-07-12, resolutionDate= 2021-10-27]
 

@@ -31,12 +31,13 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 public class ExtractInfoFromGit {
-    private final List<Ticket> ticketList;
+
+    private List<Ticket> ticketList;
 
     private final List<Release> releaseList;
     private final Git git;
     private final Repository repository;
-    public ExtractInfoFromGit(String projName, String repoURL, List<Release> releaseList, List<Ticket> ticketList) throws IOException, GitAPIException {
+    public ExtractInfoFromGit(String projName, String repoURL, List<Release> releaseList) throws IOException, GitAPIException {
         String filename = projName.toLowerCase() + "Temp";
         File directory = new File(filename);
         if(directory.exists()){
@@ -47,11 +48,14 @@ public class ExtractInfoFromGit {
             repository = git.getRepository();
         }
         this.releaseList = releaseList;
-        this.ticketList = ticketList;
+        this.ticketList = null;
     }
 
     public List<Ticket> getTicketList() {
         return ticketList;
+    }
+    public void setTicketList(List<Ticket> ticketList) {
+        this.ticketList = ticketList;
     }
 
     public List<Release> getReleaseList() {

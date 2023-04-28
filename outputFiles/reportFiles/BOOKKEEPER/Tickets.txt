@@ -82,6 +82,8 @@ Ticket[key= BOOKKEEPER-274, injectedVersion= 4.0.0, openingVersion= 4.1.0, fixed
 
 Ticket[key= BOOKKEEPER-279, injectedVersion= 4.0.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.0.0], creationDate= 2012-05-31, resolutionDate= 2012-06-05]
 
+Ticket[key= BOOKKEEPER-280, injectedVersion= 4.0.0, openingVersion= 4.1.0, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-05-31, resolutionDate= 2012-06-29]
+
 Ticket[key= BOOKKEEPER-281, injectedVersion= 4.0.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.0.0], creationDate= 2012-06-01, resolutionDate= 2012-06-05]
 
 Ticket[key= BOOKKEEPER-287, injectedVersion= 4.0.0, openingVersion= 4.1.0, fixedVersion= 4.1.0, affectedVersions= [4.0.0], creationDate= 2012-06-05, resolutionDate= 2012-06-06]
@@ -126,9 +128,17 @@ Ticket[key= BOOKKEEPER-343, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixed
 
 Ticket[key= BOOKKEEPER-349, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2012-07-23, resolutionDate= 2012-07-26]
 
+Ticket[key= BOOKKEEPER-351, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-07-23, resolutionDate= 2012-12-03]
+
+Ticket[key= BOOKKEEPER-352, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-07-26, resolutionDate= 2012-07-27]
+
+Ticket[key= BOOKKEEPER-354, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-08-07, resolutionDate= 2012-08-21]
+
 Ticket[key= BOOKKEEPER-355, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2012-08-08, resolutionDate= 2013-01-07]
 
 Ticket[key= BOOKKEEPER-365, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-08-14, resolutionDate= 2012-12-13]
+
+Ticket[key= BOOKKEEPER-363, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.3, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0], creationDate= 2012-08-14, resolutionDate= 2014-03-07]
 
 Ticket[key= BOOKKEEPER-372, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-08-17, resolutionDate= 2012-08-17]
 
@@ -148,6 +158,10 @@ Ticket[key= BOOKKEEPER-395, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixed
 
 Ticket[key= BOOKKEEPER-396, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2012-09-07, resolutionDate= 2012-09-11]
 
+Ticket[key= BOOKKEEPER-397, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-09-10, resolutionDate= 2012-09-26]
+
+Ticket[key= BOOKKEEPER-403, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-09-13, resolutionDate= 2012-09-14]
+
 Ticket[key= BOOKKEEPER-404, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-09-13, resolutionDate= 2012-12-13]
 
 Ticket[key= BOOKKEEPER-408, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2012-09-17, resolutionDate= 2012-12-13]
@@ -158,6 +172,8 @@ Ticket[key= BOOKKEEPER-415, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixed
 
 Ticket[key= BOOKKEEPER-424, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-10-07, resolutionDate= 2012-10-25]
 
+Ticket[key= BOOKKEEPER-427, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-10-09, resolutionDate= 2012-10-23]
+
 Ticket[key= BOOKKEEPER-425, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-10-09, resolutionDate= 2012-10-26]
 
 Ticket[key= BOOKKEEPER-434, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-10-15, resolutionDate= 2012-10-31]
@@ -166,7 +182,13 @@ Ticket[key= BOOKKEEPER-436, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixed
 
 Ticket[key= BOOKKEEPER-439, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2012-10-19, resolutionDate= 2012-10-26]
 
+Ticket[key= BOOKKEEPER-441, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-10-24, resolutionDate= 2012-10-26]
+
 Ticket[key= BOOKKEEPER-442, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2012-10-25, resolutionDate= 2012-12-03]
+
+Ticket[key= BOOKKEEPER-446, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.2, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.1], creationDate= 2012-10-29, resolutionDate= 2013-09-10]
+
+Ticket[key= BOOKKEEPER-447, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-10-30, resolutionDate= 2012-12-24]
 
 Ticket[key= BOOKKEEPER-454, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-11-02, resolutionDate= 2012-11-22]
 
@@ -175,6 +197,8 @@ Ticket[key= BOOKKEEPER-457, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixed
 Ticket[key= BOOKKEEPER-458, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-11-06, resolutionDate= 2012-12-13]
 
 Ticket[key= BOOKKEEPER-461, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-11-11, resolutionDate= 2012-12-04]
+
+Ticket[key= BOOKKEEPER-465, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-11-14, resolutionDate= 2012-12-10]
 
 Ticket[key= BOOKKEEPER-468, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-11-19, resolutionDate= 2012-11-21]
 
@@ -236,6 +260,8 @@ Ticket[key= BOOKKEEPER-520, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixed
 
 Ticket[key= BOOKKEEPER-522, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-12-20, resolutionDate= 2012-12-24]
 
+Ticket[key= BOOKKEEPER-524, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2012-12-21, resolutionDate= 2013-01-07]
+
 Ticket[key= BOOKKEEPER-530, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2012-12-29, resolutionDate= 2013-01-10]
 
 Ticket[key= BOOKKEEPER-534, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.0.0, 4.1.0], creationDate= 2013-01-05, resolutionDate= 2013-01-07]
@@ -252,71 +278,69 @@ Ticket[key= BOOKKEEPER-539, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixed
 
 Ticket[key= BOOKKEEPER-543, injectedVersion= 4.1.0, openingVersion= 4.1.1, fixedVersion= 4.1.1, affectedVersions= [4.1.0], creationDate= 2013-01-10, resolutionDate= 2013-01-10]
 
-Ticket[key= BOOKKEEPER-544, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.2, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.0, 4.2.1], creationDate= 2013-01-11, resolutionDate= 2013-06-06]
+Ticket[key= BOOKKEEPER-544, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.2, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.1], creationDate= 2013-01-11, resolutionDate= 2013-06-06]
 
-Ticket[key= BOOKKEEPER-549, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.0], creationDate= 2013-01-16, resolutionDate= 2013-02-19]
+Ticket[key= BOOKKEEPER-549, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-01-16, resolutionDate= 2013-02-19]
 
-Ticket[key= BOOKKEEPER-548, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.0], creationDate= 2013-01-16, resolutionDate= 2013-02-19]
+Ticket[key= BOOKKEEPER-548, injectedVersion= 4.0.0, openingVersion= 4.1.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-01-16, resolutionDate= 2013-02-19]
 
-Ticket[key= BOOKKEEPER-554, injectedVersion= 4.2.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.2.0], creationDate= 2013-01-20, resolutionDate= 2013-02-12]
+Ticket[key= BOOKKEEPER-554, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-01-20, resolutionDate= 2013-02-12]
 
-Ticket[key= BOOKKEEPER-556, injectedVersion= 4.1.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.0, 4.1.1, 4.2.0], creationDate= 2013-01-24, resolutionDate= 2013-02-09]
+Ticket[key= BOOKKEEPER-556, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-01-24, resolutionDate= 2013-02-09]
 
-Ticket[key= BOOKKEEPER-557, injectedVersion= 4.1.1, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.1, 4.2.0], creationDate= 2013-01-24, resolutionDate= 2013-03-25]
+Ticket[key= BOOKKEEPER-557, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-01-24, resolutionDate= 2013-03-25]
 
-Ticket[key= BOOKKEEPER-559, injectedVersion= 4.2.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.2.0], creationDate= 2013-01-28, resolutionDate= 2013-03-05]
+Ticket[key= BOOKKEEPER-559, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-01-28, resolutionDate= 2013-03-05]
 
-Ticket[key= BOOKKEEPER-561, injectedVersion= 4.1.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.0, 4.1.1, 4.2.0], creationDate= 2013-02-05, resolutionDate= 2013-02-08]
+Ticket[key= BOOKKEEPER-561, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-02-05, resolutionDate= 2013-02-08]
 
-Ticket[key= BOOKKEEPER-567, injectedVersion= 4.1.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.0, 4.1.1, 4.2.0], creationDate= 2013-02-09, resolutionDate= 2013-02-19]
+Ticket[key= BOOKKEEPER-567, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-02-09, resolutionDate= 2013-02-19]
 
-Ticket[key= BOOKKEEPER-568, injectedVersion= 4.2.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.2.0], creationDate= 2013-02-11, resolutionDate= 2013-02-15]
+Ticket[key= BOOKKEEPER-568, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-02-11, resolutionDate= 2013-02-15]
 
-Ticket[key= BOOKKEEPER-569, injectedVersion= 4.1.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.0, 4.1.1, 4.2.0], creationDate= 2013-02-13, resolutionDate= 2013-02-16]
+Ticket[key= BOOKKEEPER-569, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-02-13, resolutionDate= 2013-02-16]
 
-Ticket[key= BOOKKEEPER-579, injectedVersion= 4.1.1, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.1, 4.2.0], creationDate= 2013-02-27, resolutionDate= 2013-03-08]
+Ticket[key= BOOKKEEPER-579, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-02-27, resolutionDate= 2013-03-08]
 
-Ticket[key= BOOKKEEPER-580, injectedVersion= 4.2.0, openingVersion= 4.2.1, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-02-27, resolutionDate= 2013-08-23]
+Ticket[key= BOOKKEEPER-580, injectedVersion= 4.1.0, openingVersion= 4.2.1, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-02-27, resolutionDate= 2013-08-23]
 
-Ticket[key= BOOKKEEPER-578, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.4.0, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.0, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2013-02-27, resolutionDate= 2016-04-05]
+Ticket[key= BOOKKEEPER-578, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.4.0, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2013-02-27, resolutionDate= 2016-04-05]
 
-Ticket[key= BOOKKEEPER-581, injectedVersion= 4.2.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.2.0], creationDate= 2013-03-05, resolutionDate= 2013-03-25]
+Ticket[key= BOOKKEEPER-584, injectedVersion= 4.1.0, openingVersion= 4.2.1, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-03-12, resolutionDate= 2013-04-26]
 
-Ticket[key= BOOKKEEPER-584, injectedVersion= 4.2.0, openingVersion= 4.2.1, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-03-12, resolutionDate= 2013-04-26]
+Ticket[key= BOOKKEEPER-585, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-03-14, resolutionDate= 2013-03-17]
 
-Ticket[key= BOOKKEEPER-585, injectedVersion= 4.1.1, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.1, 4.2.0], creationDate= 2013-03-14, resolutionDate= 2013-03-17]
+Ticket[key= BOOKKEEPER-586, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.0.0, 4.1.0, 4.1.1], creationDate= 2013-03-20, resolutionDate= 2013-03-25]
 
-Ticket[key= BOOKKEEPER-586, injectedVersion= 4.1.1, openingVersion= 4.2.1, fixedVersion= 4.2.1, affectedVersions= [4.1.1, 4.2.0], creationDate= 2013-03-20, resolutionDate= 2013-03-25]
+Ticket[key= BOOKKEEPER-594, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.4.0, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2013-03-26, resolutionDate= 2016-03-16]
 
-Ticket[key= BOOKKEEPER-594, injectedVersion= 4.0.0, openingVersion= 4.2.1, fixedVersion= 4.4.0, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.0, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2013-03-26, resolutionDate= 2016-03-16]
+Ticket[key= BOOKKEEPER-596, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-03-28, resolutionDate= 2013-07-26]
 
-Ticket[key= BOOKKEEPER-596, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-03-28, resolutionDate= 2013-07-26]
-
-Ticket[key= BOOKKEEPER-597, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-04-02, resolutionDate= 2013-04-02]
+Ticket[key= BOOKKEEPER-597, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-04-02, resolutionDate= 2013-04-02]
 
 Ticket[key= BOOKKEEPER-598, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-04-04, resolutionDate= 2013-04-07]
 
-Ticket[key= BOOKKEEPER-599, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-04-05, resolutionDate= 2013-04-07]
+Ticket[key= BOOKKEEPER-599, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-04-05, resolutionDate= 2013-04-07]
 
-Ticket[key= BOOKKEEPER-601, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-04-05, resolutionDate= 2013-07-13]
+Ticket[key= BOOKKEEPER-601, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-04-05, resolutionDate= 2013-07-13]
 
-Ticket[key= BOOKKEEPER-600, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-04-05, resolutionDate= 2013-07-14]
+Ticket[key= BOOKKEEPER-600, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-04-05, resolutionDate= 2013-07-14]
 
-Ticket[key= BOOKKEEPER-602, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.3, affectedVersions= [4.2.0, 4.2.1, 4.2.2, 4.3.0], creationDate= 2013-04-05, resolutionDate= 2014-03-10]
+Ticket[key= BOOKKEEPER-602, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2013-04-05, resolutionDate= 2014-03-10]
 
-Ticket[key= BOOKKEEPER-603, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-04-08, resolutionDate= 2013-06-03]
+Ticket[key= BOOKKEEPER-603, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-04-08, resolutionDate= 2013-06-03]
 
-Ticket[key= BOOKKEEPER-604, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-04-08, resolutionDate= 2013-08-12]
+Ticket[key= BOOKKEEPER-604, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-04-08, resolutionDate= 2013-08-12]
 
-Ticket[key= BOOKKEEPER-607, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-04-22, resolutionDate= 2013-07-22]
+Ticket[key= BOOKKEEPER-607, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-04-22, resolutionDate= 2013-07-22]
 
-Ticket[key= BOOKKEEPER-610, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-05-10, resolutionDate= 2013-07-20]
+Ticket[key= BOOKKEEPER-610, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-05-10, resolutionDate= 2013-07-20]
 
-Ticket[key= BOOKKEEPER-617, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-06-03, resolutionDate= 2013-06-05]
+Ticket[key= BOOKKEEPER-617, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-06-03, resolutionDate= 2013-06-05]
 
 Ticket[key= BOOKKEEPER-619, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-06-06, resolutionDate= 2013-06-21]
 
-Ticket[key= BOOKKEEPER-620, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-06-07, resolutionDate= 2013-06-28]
+Ticket[key= BOOKKEEPER-620, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-06-07, resolutionDate= 2013-06-28]
 
 Ticket[key= BOOKKEEPER-623, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-06-12, resolutionDate= 2013-06-26]
 
@@ -328,21 +352,21 @@ Ticket[key= BOOKKEEPER-632, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixed
 
 Ticket[key= BOOKKEEPER-636, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-06-26, resolutionDate= 2013-07-04]
 
-Ticket[key= BOOKKEEPER-635, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-06-26, resolutionDate= 2013-07-20]
+Ticket[key= BOOKKEEPER-635, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-06-26, resolutionDate= 2013-07-20]
 
 Ticket[key= BOOKKEEPER-641, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-07-02, resolutionDate= 2013-07-03]
 
-Ticket[key= BOOKKEEPER-642, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-07-05, resolutionDate= 2013-07-24]
+Ticket[key= BOOKKEEPER-642, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-07-05, resolutionDate= 2013-07-24]
 
 Ticket[key= BOOKKEEPER-646, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-07-08, resolutionDate= 2013-07-20]
 
-Ticket[key= BOOKKEEPER-649, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-07-16, resolutionDate= 2013-08-22]
+Ticket[key= BOOKKEEPER-649, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-07-16, resolutionDate= 2013-08-22]
 
-Ticket[key= BOOKKEEPER-652, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-07-20, resolutionDate= 2013-07-20]
+Ticket[key= BOOKKEEPER-652, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-07-20, resolutionDate= 2013-07-20]
 
-Ticket[key= BOOKKEEPER-654, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.3, affectedVersions= [4.2.0, 4.2.1, 4.2.2, 4.3.0], creationDate= 2013-07-21, resolutionDate= 2014-02-21]
+Ticket[key= BOOKKEEPER-654, injectedVersion= 4.0.0, openingVersion= 4.2.2, fixedVersion= 4.2.3, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0], creationDate= 2013-07-21, resolutionDate= 2014-02-21]
 
-Ticket[key= BOOKKEEPER-663, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-07-26, resolutionDate= 2013-07-29]
+Ticket[key= BOOKKEEPER-663, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-07-26, resolutionDate= 2013-07-29]
 
 Ticket[key= BOOKKEEPER-664, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-07-29, resolutionDate= 2013-10-22]
 
@@ -350,85 +374,85 @@ Ticket[key= BOOKKEEPER-667, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixed
 
 Ticket[key= BOOKKEEPER-668, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.1], creationDate= 2013-08-06, resolutionDate= 2013-08-20]
 
-Ticket[key= BOOKKEEPER-673, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-08-21, resolutionDate= 2013-10-14]
+Ticket[key= BOOKKEEPER-673, injectedVersion= 4.1.1, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2013-08-21, resolutionDate= 2013-10-14]
 
-Ticket[key= BOOKKEEPER-676, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-08-23, resolutionDate= 2013-10-14]
+Ticket[key= BOOKKEEPER-676, injectedVersion= 4.1.1, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2013-08-23, resolutionDate= 2013-10-14]
 
-Ticket[key= BOOKKEEPER-678, injectedVersion= 4.2.1, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-09-01, resolutionDate= 2013-11-22]
+Ticket[key= BOOKKEEPER-678, injectedVersion= 4.1.1, openingVersion= 4.2.2, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2013-09-01, resolutionDate= 2013-11-22]
 
-Ticket[key= BOOKKEEPER-683, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-09-12, resolutionDate= 2013-09-27]
+Ticket[key= BOOKKEEPER-683, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-09-12, resolutionDate= 2013-09-27]
 
-Ticket[key= BOOKKEEPER-686, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.2.0, 4.2.1], creationDate= 2013-09-29, resolutionDate= 2013-10-02]
+Ticket[key= BOOKKEEPER-686, injectedVersion= 4.1.0, openingVersion= 4.2.2, fixedVersion= 4.2.2, affectedVersions= [4.1.0, 4.1.1, 4.2.1], creationDate= 2013-09-29, resolutionDate= 2013-10-02]
 
-Ticket[key= BOOKKEEPER-688, injectedVersion= 4.2.0, openingVersion= 4.2.2, fixedVersion= 4.2.3, affectedVersions= [4.2.0, 4.2.1, 4.2.2, 4.3.0], creationDate= 2013-10-04, resolutionDate= 2014-03-04]
+Ticket[key= BOOKKEEPER-688, injectedVersion= 4.0.0, openingVersion= 4.2.2, fixedVersion= 4.2.3, affectedVersions= [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0], creationDate= 2013-10-04, resolutionDate= 2014-03-04]
 
-Ticket[key= BOOKKEEPER-698, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-10-29, resolutionDate= 2013-10-30]
+Ticket[key= BOOKKEEPER-698, injectedVersion= 4.1.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2013-10-29, resolutionDate= 2013-10-30]
 
-Ticket[key= BOOKKEEPER-700, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-10-30, resolutionDate= 2013-10-30]
+Ticket[key= BOOKKEEPER-700, injectedVersion= 4.1.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2013-10-30, resolutionDate= 2013-10-30]
 
-Ticket[key= BOOKKEEPER-708, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-11-10, resolutionDate= 2014-02-02]
+Ticket[key= BOOKKEEPER-708, injectedVersion= 4.1.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2013-11-10, resolutionDate= 2014-02-02]
 
-Ticket[key= BOOKKEEPER-709, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-11-23, resolutionDate= 2014-01-03]
+Ticket[key= BOOKKEEPER-709, injectedVersion= 4.1.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2013-11-23, resolutionDate= 2014-01-03]
 
-Ticket[key= BOOKKEEPER-710, injectedVersion= 4.2.2, openingVersion= 4.3.0, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2013-11-23, resolutionDate= 2014-04-11]
+Ticket[key= BOOKKEEPER-710, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2013-11-23, resolutionDate= 2014-04-11]
 
 Ticket[key= BOOKKEEPER-711, injectedVersion= 4.2.2, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.2], creationDate= 2013-12-03, resolutionDate= 2013-12-05]
 
 Ticket[key= BOOKKEEPER-712, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2013-12-05, resolutionDate= 2013-12-05]
 
-Ticket[key= BOOKKEEPER-714, injectedVersion= 4.2.2, openingVersion= 4.3.0, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2013-12-31, resolutionDate= 2014-03-10]
+Ticket[key= BOOKKEEPER-714, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2013-12-31, resolutionDate= 2014-03-10]
 
-Ticket[key= BOOKKEEPER-719, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2014-01-21, resolutionDate= 2014-01-21]
+Ticket[key= BOOKKEEPER-719, injectedVersion= 4.1.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2014-01-21, resolutionDate= 2014-01-21]
 
-Ticket[key= BOOKKEEPER-720, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.2.1, 4.2.2], creationDate= 2014-01-21, resolutionDate= 2014-01-22]
+Ticket[key= BOOKKEEPER-720, injectedVersion= 4.1.1, openingVersion= 4.3.0, fixedVersion= 4.3.0, affectedVersions= [4.1.1, 4.2.1, 4.2.2], creationDate= 2014-01-21, resolutionDate= 2014-01-22]
 
-Ticket[key= BOOKKEEPER-724, injectedVersion= 4.2.2, openingVersion= 4.3.0, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-02, resolutionDate= 2014-02-06]
+Ticket[key= BOOKKEEPER-724, injectedVersion= 4.2.1, openingVersion= 4.3.0, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-02, resolutionDate= 2014-02-06]
 
-Ticket[key= BOOKKEEPER-727, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-05]
+Ticket[key= BOOKKEEPER-727, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-05]
 
-Ticket[key= BOOKKEEPER-729, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-06]
+Ticket[key= BOOKKEEPER-729, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-06]
 
-Ticket[key= BOOKKEEPER-728, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-06]
+Ticket[key= BOOKKEEPER-728, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-06]
 
-Ticket[key= BOOKKEEPER-725, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-06]
+Ticket[key= BOOKKEEPER-725, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-02-06]
 
-Ticket[key= BOOKKEEPER-726, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-03-10]
+Ticket[key= BOOKKEEPER-726, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-04, resolutionDate= 2014-03-10]
 
-Ticket[key= BOOKKEEPER-731, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-06, resolutionDate= 2014-02-10]
+Ticket[key= BOOKKEEPER-731, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-06, resolutionDate= 2014-02-10]
 
-Ticket[key= BOOKKEEPER-730, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-02-06, resolutionDate= 2014-03-07]
+Ticket[key= BOOKKEEPER-730, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-02-06, resolutionDate= 2014-03-07]
 
 Ticket[key= BOOKKEEPER-739, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.3.1, affectedVersions= [4.2.2, 4.3.0, 4.2.3], creationDate= 2014-03-04, resolutionDate= 2014-07-23]
 
-Ticket[key= BOOKKEEPER-740, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-03-07, resolutionDate= 2014-03-10]
+Ticket[key= BOOKKEEPER-740, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-03-07, resolutionDate= 2014-03-10]
 
-Ticket[key= BOOKKEEPER-743, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-04-24]
+Ticket[key= BOOKKEEPER-743, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-04-24]
 
-Ticket[key= BOOKKEEPER-742, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-04-24]
+Ticket[key= BOOKKEEPER-742, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-04-24]
 
-Ticket[key= BOOKKEEPER-744, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-05-06]
+Ticket[key= BOOKKEEPER-744, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-05-06]
 
-Ticket[key= BOOKKEEPER-745, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-06-02]
+Ticket[key= BOOKKEEPER-745, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-06-02]
 
-Ticket[key= BOOKKEEPER-746, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-06-03]
+Ticket[key= BOOKKEEPER-746, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-04-04, resolutionDate= 2014-06-03]
 
-Ticket[key= BOOKKEEPER-750, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-04-29, resolutionDate= 2014-05-23]
+Ticket[key= BOOKKEEPER-750, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-04-29, resolutionDate= 2014-05-23]
 
-Ticket[key= BOOKKEEPER-751, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-05-07, resolutionDate= 2014-05-30]
+Ticket[key= BOOKKEEPER-751, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-05-07, resolutionDate= 2014-05-30]
 
-Ticket[key= BOOKKEEPER-755, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-05-08, resolutionDate= 2014-05-14]
+Ticket[key= BOOKKEEPER-755, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-05-08, resolutionDate= 2014-05-14]
 
-Ticket[key= BOOKKEEPER-763, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-05-29, resolutionDate= 2014-05-30]
+Ticket[key= BOOKKEEPER-763, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-05-29, resolutionDate= 2014-05-30]
 
-Ticket[key= BOOKKEEPER-766, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-06-03, resolutionDate= 2014-06-05]
+Ticket[key= BOOKKEEPER-766, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-06-03, resolutionDate= 2014-06-05]
 
-Ticket[key= BOOKKEEPER-765, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-06-03, resolutionDate= 2014-06-10]
+Ticket[key= BOOKKEEPER-765, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-06-03, resolutionDate= 2014-06-10]
 
-Ticket[key= BOOKKEEPER-767, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.2, 4.3.0], creationDate= 2014-06-04, resolutionDate= 2014-06-06]
+Ticket[key= BOOKKEEPER-767, injectedVersion= 4.2.1, openingVersion= 4.2.3, fixedVersion= 4.2.3, affectedVersions= [4.2.1, 4.2.2, 4.3.0], creationDate= 2014-06-04, resolutionDate= 2014-06-06]
 
 Ticket[key= BOOKKEEPER-768, injectedVersion= 4.2.2, openingVersion= 4.2.3, fixedVersion= 4.3.1, affectedVersions= [4.2.2, 4.3.0, 4.2.3], creationDate= 2014-06-17, resolutionDate= 2014-07-15]
 
-Ticket[key= BOOKKEEPER-769, injectedVersion= 4.2.0, openingVersion= 4.2.3, fixedVersion= 4.4.0, affectedVersions= [4.2.0, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2014-06-19, resolutionDate= 2016-03-16]
+Ticket[key= BOOKKEEPER-769, injectedVersion= 4.1.0, openingVersion= 4.2.3, fixedVersion= 4.4.0, affectedVersions= [4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2014-06-19, resolutionDate= 2016-03-16]
 
 Ticket[key= BOOKKEEPER-774, injectedVersion= 4.2.2, openingVersion= 4.3.1, fixedVersion= 4.3.1, affectedVersions= [4.2.2, 4.3.0, 4.2.3], creationDate= 2014-07-26, resolutionDate= 2014-08-14]
 
@@ -450,7 +474,7 @@ Ticket[key= BOOKKEEPER-786, injectedVersion= 4.2.2, openingVersion= 4.3.1, fixed
 
 Ticket[key= BOOKKEEPER-793, injectedVersion= 4.2.2, openingVersion= 4.3.1, fixedVersion= 4.3.1, affectedVersions= [4.2.2, 4.3.0, 4.2.3], creationDate= 2014-10-13, resolutionDate= 2014-10-15]
 
-Ticket[key= BOOKKEEPER-794, injectedVersion= 4.2.2, openingVersion= 4.3.1, fixedVersion= 4.4.0, affectedVersions= [4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2014-10-17, resolutionDate= 2016-04-05]
+Ticket[key= BOOKKEEPER-794, injectedVersion= 4.2.1, openingVersion= 4.3.1, fixedVersion= 4.4.0, affectedVersions= [4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2], creationDate= 2014-10-17, resolutionDate= 2016-04-05]
 
 Ticket[key= BOOKKEEPER-795, injectedVersion= 4.2.2, openingVersion= 4.3.1, fixedVersion= 4.3.1, affectedVersions= [4.2.2, 4.3.0, 4.2.3], creationDate= 2014-10-27, resolutionDate= 2014-12-09]
 
