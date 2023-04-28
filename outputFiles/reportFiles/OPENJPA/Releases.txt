@@ -38,41 +38,37 @@ Release[id= 18, releaseName= 2.0.0, releaseDate= 2010-04-22, numOfCommits= 73]
 
 Release[id= 19, releaseName= 2.0.1, releaseDate= 2010-08-30, numOfCommits= 363]
 
-Release[id= 20, releaseName= 1.0.4, releaseDate= 2010-09-03, numOfCommits= 0]
+Release[id= 20, releaseName= 2.1.0, releaseDate= 2011-02-21, numOfCommits= 369]
 
-Release[id= 21, releaseName= 2.1.0, releaseDate= 2011-02-21, numOfCommits= 369]
+Release[id= 21, releaseName= 2.1.1, releaseDate= 2011-07-25, numOfCommits= 128]
 
-Release[id= 22, releaseName= 2.1.1, releaseDate= 2011-07-25, numOfCommits= 128]
+Release[id= 22, releaseName= 2.2.0, releaseDate= 2012-02-20, numOfCommits= 181]
 
-Release[id= 23, releaseName= 2.2.0, releaseDate= 2012-02-20, numOfCommits= 181]
+Release[id= 23, releaseName= 2.2.1, releaseDate= 2012-11-01, numOfCommits= 158]
 
-Release[id= 24, releaseName= 2.2.1, releaseDate= 2012-11-01, numOfCommits= 158]
+Release[id= 24, releaseName= 1.2.3, releaseDate= 2013-04-17, numOfCommits= 80]
 
-Release[id= 25, releaseName= 1.2.3, releaseDate= 2013-04-17, numOfCommits= 80]
+Release[id= 25, releaseName= 2.2.2, releaseDate= 2013-04-22, numOfCommits= 5]
 
-Release[id= 26, releaseName= 2.2.2, releaseDate= 2013-04-22, numOfCommits= 5]
+Release[id= 26, releaseName= 2.3.0, releaseDate= 2013-11-24, numOfCommits= 68]
 
-Release[id= 27, releaseName= 2.3.0, releaseDate= 2013-11-24, numOfCommits= 68]
+Release[id= 27, releaseName= 2.4.0, releaseDate= 2015-04-22, numOfCommits= 89]
 
-Release[id= 28, releaseName= 2.4.0, releaseDate= 2015-04-22, numOfCommits= 89]
+Release[id= 28, releaseName= 2.4.1, releaseDate= 2016-02-21, numOfCommits= 58]
 
-Release[id= 29, releaseName= 2.4.1, releaseDate= 2016-02-21, numOfCommits= 58]
+Release[id= 29, releaseName= 2.4.2, releaseDate= 2017-01-03, numOfCommits= 70]
 
-Release[id= 30, releaseName= 2.4.2, releaseDate= 2017-01-03, numOfCommits= 70]
+Release[id= 30, releaseName= 2.4.3, releaseDate= 2018-06-12, numOfCommits= 22]
 
-Release[id= 31, releaseName= 2.4.3, releaseDate= 2018-06-12, numOfCommits= 22]
+Release[id= 31, releaseName= 3.1.0, releaseDate= 2019-04-14, numOfCommits= 126]
 
-Release[id= 32, releaseName= 3.0.0, releaseDate= 2018-06-12, numOfCommits= 0]
+Release[id= 32, releaseName= 3.1.1, releaseDate= 2020-02-03, numOfCommits= 12]
 
-Release[id= 33, releaseName= 3.1.0, releaseDate= 2019-04-14, numOfCommits= 126]
+Release[id= 33, releaseName= 3.1.2, releaseDate= 2020-07-13, numOfCommits= 31]
 
-Release[id= 34, releaseName= 3.1.1, releaseDate= 2020-02-03, numOfCommits= 12]
+Release[id= 34, releaseName= 3.2.0, releaseDate= 2021-05-14, numOfCommits= 169]
 
-Release[id= 35, releaseName= 3.1.2, releaseDate= 2020-07-13, numOfCommits= 31]
+Release[id= 35, releaseName= 3.2.1, releaseDate= 2022-02-03, numOfCommits= 33]
 
-Release[id= 36, releaseName= 3.2.0, releaseDate= 2021-05-14, numOfCommits= 169]
-
-Release[id= 37, releaseName= 3.2.1, releaseDate= 2022-02-03, numOfCommits= 33]
-
-Release[id= 38, releaseName= 3.2.2, releaseDate= 2022-03-16, numOfCommits= 7]
+Release[id= 36, releaseName= 3.2.2, releaseDate= 2022-03-16, numOfCommits= 7]
 

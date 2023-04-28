@@ -27,7 +27,7 @@ public class ExtractInfoFromJira {
     public List<Release> extractAllReleases() throws IOException, JSONException, URISyntaxException {
         //Fills the arraylist with releases dates and orders them
         //Ignores releases with missing dates
-        List<Release> releases = new ArrayList<>();
+        List<Release> releaseList = new ArrayList<>();
         int i=0;
         String url = "https://issues.apache.org/jira/rest/api/latest/project/" + this.projName;
         JSONObject json = JsonUtilities.readJsonFromUrl(url);
@@ -38,15 +38,15 @@ public class ExtractInfoFromJira {
             if (versions.getJSONObject(i).has("releaseDate") && versions.getJSONObject(i).has("name")) {
                 releaseDate = versions.getJSONObject(i).get("releaseDate").toString();
                 releaseName = versions.getJSONObject(i).get("name").toString();
-                releases.add(new Release(releaseName, LocalDate.parse(releaseDate)));
+                releaseList.add(new Release(releaseName, LocalDate.parse(releaseDate)));
             }
         }
-        releases.sort(Comparator.comparing(Release::releaseDate));
+        releaseList.sort(Comparator.comparing(Release::releaseDate));
         i = 0;
-        for (Release element : releases) {
-            element.setId(++i);
+        for (Release release : releaseList) {
+            release.setId(++i);
         }
-        return releases;
+        return releaseList;
     }
 
     public List<Ticket> extractAllTickets(List<Release> releasesList) throws IOException, JSONException, URISyntaxException {

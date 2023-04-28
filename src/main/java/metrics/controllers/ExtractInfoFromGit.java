@@ -34,6 +34,7 @@ import java.util.regex.Pattern;
 
 public class ExtractInfoFromGit {
     private final List<Ticket> ticketList;
+
     private final List<Release> releaseList;
     private final Git git;
     private final Repository repository;
@@ -53,6 +54,10 @@ public class ExtractInfoFromGit {
 
     public List<Ticket> getTicketList() {
         return ticketList;
+    }
+
+    public List<Release> getReleaseList() {
+        return releaseList;
     }
 
     public static void deleteDirectory(String directoryPath) throws IOException {
@@ -94,7 +99,11 @@ public class ExtractInfoFromGit {
                 }
                 lowerBoundDate = dateOfRelease;
             }
-
+        }
+        releaseList.removeIf(release -> release.getCommitList().isEmpty());
+        int i = 0;
+        for (Release release : releaseList) {
+            release.setId(++i);
         }
         commitList.sort(Comparator.comparing(o -> o.getRevCommit().getCommitterIdent().getWhen()));
         return commitList;
@@ -265,4 +274,5 @@ public class ExtractInfoFromGit {
         }
         return deletedLines;
     }
+
 }

@@ -42,7 +42,9 @@ public class ExtractMetrics {
         metricsExtractor.computeAllMetrics();
         loggerString = projName + " METRICS COMPUTED - [*OK*]\n\n";
         logger.info(loggerString);
-        writeOnReportFiles(projName, releaseList, gitExtractor.getTicketList(), commitList, filteredCommitsOfIssues);
+        ticketList = gitExtractor.getTicketList();
+        releaseList = gitExtractor.getReleaseList();
+        writeOnReportFiles(projName, releaseList, ticketList, commitList, filteredCommitsOfIssues);
         //WALK FORWARD APPROACH
         loggerString = projName + " STARTING WALK FORWARD TO BUILD TRAINING AND TESTING SETS - [*OK*]\n\n";
         logger.info(loggerString);
