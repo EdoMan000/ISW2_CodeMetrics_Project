@@ -77,7 +77,7 @@ public class ExtractInfoFromGit {
         List<Commit> commitList = new ArrayList<>();
         for (RevCommit revCommit : revCommitList) {
             LocalDate commitDate = LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()));
-            LocalDate lowerBoundDate = LocalDate.parse("2000-01-01");
+            LocalDate lowerBoundDate = LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(new Date(0)));
             for(Release release: releaseList){
                 //lowerBoundDate < commitDate <= releaseDate
                 LocalDate dateOfRelease = release.releaseDate();
@@ -146,11 +146,15 @@ public class ExtractInfoFromGit {
     }
 
     public void completeClassesInfo(List<Ticket> ticketList, List<ProjectClass> allProjectClasses) throws IOException {
+        for(ProjectClass projectClass: allProjectClasses){
+            projectClass.getMetrics().setBuggyness(false);
+        }
         for(Ticket ticket: ticketList) {
             List<Commit> commitsContainingTicket = ticket.getCommitList();
             Release injectedVersion = ticket.getInjectedVersion();
             for (Commit commit : commitsContainingTicket) {
-                if (!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate()) && !commit.getRelease().releaseDate().isBefore(ticket.getInjectedVersion().releaseDate())) {
+                if (!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate())
+                        && !commit.getRelease().releaseDate().isBefore(ticket.getInjectedVersion().releaseDate())) {
                     // We assume as TRUE the Jira info about resolutionDATE (ticket FV is correct)
                     // -> the fact that the commit with too old/too early date contains ticketID is considered an error
                     // -> class must not be labeled as buggy

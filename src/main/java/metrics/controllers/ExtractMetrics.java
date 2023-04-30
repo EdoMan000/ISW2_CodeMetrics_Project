@@ -75,6 +75,7 @@ public class ExtractMetrics {
             }
             List<ProjectClass> firstIProjectClassesTesting = new ArrayList<>(allProjectClasses);
             firstIProjectClassesTesting.removeIf(projectClass -> projectClass.getRelease().id() != testingSetReleaseList.get(0).id());
+            //no need to re-compute buggyness because is already computed before doing walk forward
             writeOnArffOrCsvFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", true, finalI);
             writeOnArffOrCsvFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", false, finalI);
             if(i==1){

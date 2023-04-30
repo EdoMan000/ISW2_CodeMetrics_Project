@@ -35,9 +35,10 @@ public class ExtractInfoFromJira {
         for (; i < versions.length(); i++) {
             String releaseName;
             String releaseDate;
-            if (versions.getJSONObject(i).has("releaseDate") && versions.getJSONObject(i).has("name")) {
-                releaseDate = versions.getJSONObject(i).get("releaseDate").toString();
-                releaseName = versions.getJSONObject(i).get("name").toString();
+            JSONObject releaseJsonObject = versions.getJSONObject(i);
+            if (releaseJsonObject.has("releaseDate") && releaseJsonObject.has("name")) {
+                releaseDate = releaseJsonObject.get("releaseDate").toString();
+                releaseName = releaseJsonObject.get("name").toString();
                 releaseList.add(new Release(releaseName, LocalDate.parse(releaseDate)));
             }
         }
