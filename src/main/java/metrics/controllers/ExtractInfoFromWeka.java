@@ -26,11 +26,13 @@ import static metrics.utilities.ResultOfClassifierUtils.computeAvgOfAllLists;
 public class ExtractInfoFromWeka {
     private final String projName;
     private final int howManyIterations;
+    private final List<Classifier> classifiers;
     private final Logger logger = Logger.getLogger(ExtractInfoFromWeka.class.getName());
 
     public ExtractInfoFromWeka(String projName, int howManyIterations) {
         this.projName = projName;
         this.howManyIterations = howManyIterations;
+        classifiers = new ArrayList<>();
     }
 
     public AllResultsOfClassifiers retrieveAllEvaluationsFromClassifiers() {
@@ -45,7 +47,6 @@ public class ExtractInfoFromWeka {
                 RandomForest randomForestClassifier = new RandomForest();
                 NaiveBayes naiveBayesClassifier = new NaiveBayes();
                 IBk iBkClassifier = new IBk();
-                List<Classifier> classifiers = new ArrayList<>();
                 classifiers.add(randomForestClassifier);
                 classifiers.add(naiveBayesClassifier);
                 classifiers.add(iBkClassifier);
@@ -58,13 +59,13 @@ public class ExtractInfoFromWeka {
 
                 //NO FEATURE SELECTION AND NO SAMPLING
                 doEvaluation(allResultsOfClassifiers.getAllBasicLists(), i, trainingSetInstance, testingSetInstance,
-                        classifiers, evaluation, false, false);
+                        evaluation, false, false);
                 doEvaluation(allResultsOfClassifiers.getAllFeatureSelectionLists(), i, trainingSetInstance, testingSetInstance,
-                        classifiers, evaluation, true, false);
+                        evaluation, true, false);
                 doEvaluation(allResultsOfClassifiers.getAllSamplingLists(), i, trainingSetInstance, testingSetInstance,
-                        classifiers, evaluation, false, true);
+                        evaluation, false, true);
                 doEvaluation(allResultsOfClassifiers.getAllCompleteLists(), i, trainingSetInstance, testingSetInstance,
-                        classifiers, evaluation, true, true);
+                        evaluation, true, true);
             } catch (Exception e) {
                 logger.info("Error in wekaExtractor retrieveAllEvaluationsFromClassifiers() function");
             }
@@ -74,7 +75,7 @@ public class ExtractInfoFromWeka {
         return allResultsOfClassifiers;
     }
 
-    private void doEvaluation(List<List<ResultOfClassifier>> lists, int iterationNumber, Instances trainingSetInstance, Instances testingSetInstance, List<Classifier> classifiers, Evaluation evaluation, boolean hasFeatureSelection, boolean hasSampling) throws Exception {
+    private void doEvaluation(List<List<ResultOfClassifier>> lists, int iterationNumber, Instances trainingSetInstance, Instances testingSetInstance, Evaluation evaluation, boolean hasFeatureSelection, boolean hasSampling) throws Exception {
         CfsSubsetEval subsetEval;
         GreedyStepwise search;
         AttributeSelection filter;
@@ -100,9 +101,9 @@ public class ExtractInfoFromWeka {
         for(int i = 0; i<3; i++) {
             ResultOfClassifier resultOfClassifier;
             if(hasFeatureSelection){
-                resultOfClassifier = initializeResultOfClassifier(iterationNumber, classifiers, evaluation, true, hasSampling, filteredTrainingInstance, filteredTestingInstance, i);
+                resultOfClassifier = initializeResultOfClassifier(iterationNumber, evaluation, true, hasSampling, filteredTrainingInstance, filteredTestingInstance, i);
             }else{
-                resultOfClassifier = initializeResultOfClassifier(iterationNumber, classifiers, evaluation, false, hasSampling, trainingSetInstance, testingSetInstance, i);
+                resultOfClassifier = initializeResultOfClassifier(iterationNumber, evaluation, false, hasSampling, trainingSetInstance, testingSetInstance, i);
             }
             resultOfClassifier.setPrecision(evaluation.precision(0));
             resultOfClassifier.setRecall(evaluation.recall(0));
@@ -116,7 +117,7 @@ public class ExtractInfoFromWeka {
         }
     }
 
-    private ResultOfClassifier initializeResultOfClassifier(int iterationNumber, List<Classifier> classifiers, Evaluation evaluation, boolean hasFeatureSelection, boolean hasSampling, Instances training, Instances testing, int i) throws Exception {
+    private ResultOfClassifier initializeResultOfClassifier(int iterationNumber, Evaluation evaluation, boolean hasFeatureSelection, boolean hasSampling, Instances training, Instances testing, int i) throws Exception {
         if(hasSampling){
             SpreadSubsample spreadSubsample = new SpreadSubsample();
             spreadSubsample.setInputFormat(training);
