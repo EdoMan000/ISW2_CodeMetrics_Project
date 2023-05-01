@@ -1,4 +1,5 @@
-@relation BOOKKEEPER_6_TestingSet.arffTestingSet
+@relation BOOKKEEPER_6_TestingSet.arff
+
 @attribute SIZE numeric
 @attribute LOC_ADDED numeric
 @attribute LOC_ADDED_AVG numeric
@@ -13,6 +14,7 @@
 @attribute NUMBER_OF_DEFECT_FIXES numeric
 @attribute NUMBER_OF_AUTHORS numeric
 @attribute IS_BUGGY {'YES', 'NO'}
+
 @data
 212,12,12.0,12,15,15.0,15,3,3.0,3,1,0,1,NO
 274,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES

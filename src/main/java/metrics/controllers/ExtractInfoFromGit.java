@@ -76,8 +76,9 @@ public class ExtractInfoFromGit {
         revCommitList.sort(Comparator.comparing(o -> o.getCommitterIdent().getWhen()));
         List<Commit> commitList = new ArrayList<>();
         for (RevCommit revCommit : revCommitList) {
-            LocalDate commitDate = LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(revCommit.getCommitterIdent().getWhen()));
-            LocalDate lowerBoundDate = LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(new Date(0)));
+            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+            LocalDate commitDate = LocalDate.parse(formatter.format(revCommit.getCommitterIdent().getWhen()));
+            LocalDate lowerBoundDate = LocalDate.parse(formatter.format(new Date(0)));
             for(Release release: releaseList){
                 //lowerBoundDate < commitDate <= releaseDate
                 LocalDate dateOfRelease = release.releaseDate();
@@ -153,15 +154,19 @@ public class ExtractInfoFromGit {
             List<Commit> commitsContainingTicket = ticket.getCommitList();
             Release injectedVersion = ticket.getInjectedVersion();
             for (Commit commit : commitsContainingTicket) {
-                if (!commit.getRelease().releaseDate().isAfter(ticket.getFixedVersion().releaseDate())
-                        && !commit.getRelease().releaseDate().isBefore(ticket.getInjectedVersion().releaseDate())) {
-                    // We assume as TRUE the Jira info about resolutionDATE (ticket FV is correct)
-                    // -> the fact that the commit with too old/too early date contains ticketID is considered an error
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+                RevCommit revCommit = commit.getRevCommit();
+                LocalDate commitDate = LocalDate.parse(formatter.format(revCommit.getCommitterIdent().getWhen()));
+                if (!commitDate.isAfter(ticket.getResolutionDate())
+                        && !commitDate.isBefore(ticket.getCreationDate())) {
+                    // We assume as TRUE the Jira info about resolutionDATE
+                    // -> we consider an error the fact that the commit that contains a certain ticketID in the comment
+                    //    has a date which is after the resolution or before the creation of the ticket
                     // -> class must not be labeled as buggy
-                    List<String> modifiedClassesNames = getTouchedClassesNames(commit.getRevCommit());
-                    Release release = commit.getRelease();
+                    List<String> modifiedClassesNames = getTouchedClassesNames(revCommit);
+                    Release releaseOfCommit = commit.getRelease();
                     for (String modifiedClass : modifiedClassesNames) {
-                        labelBuggyClasses(modifiedClass, injectedVersion, release, allProjectClasses);
+                        labelBuggyClasses(modifiedClass, injectedVersion, releaseOfCommit, allProjectClasses);
                     }
                 }
             }

@@ -426,7 +426,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaGroup.java,582,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaParser.java,65,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaSerializer.java,81,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1541,8,8.0,8,3,3.0,3,5,5.0,5,1,0,1,YES
+19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1541,8,8.0,8,3,3.0,3,5,5.0,5,1,0,1,NO
 19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Schemas.java,242,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Sequence.java,263,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SimpleDriverDataSource.java,228,2,2.0,2,1,1.0,1,1,1.0,1,1,1,1,NO
@@ -740,7 +740,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3388,9,9.0,9,9,9.0,9,0,0.0,0,1,0,1,YES
 19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreContext.java,525,22,22.0,22,0,0.0,0,22,22.0,22,1,0,1,YES
 19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreManager.java,434,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,366,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,366,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TCleanState.java,67,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TDirtyState.java,78,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TLoadedState.java,45,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -874,7 +874,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataFactory.java,188,1,1.0,1,1,1.0,1,0,0.0,0,1,0,1,NO
 19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataInheritanceComparator.java,62,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataModes.java,39,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataRepository.java,2459,67,16.75,24,226,56.5,205,229,57.25,192,4,1,2,YES
+19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataRepository.java,2459,67,16.75,24,226,56.5,205,229,57.25,192,4,1,2,NO
 19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataTool.java,351,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
 19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/NonPersistentMetaData.java,149,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 19,openjpa-kernel/src/main/java/org/apache/openjpa/meta/NoneMetaDataFactory.java,172,1,1.0,1,1,1.0,1,0,0.0,0,1,0,1,NO

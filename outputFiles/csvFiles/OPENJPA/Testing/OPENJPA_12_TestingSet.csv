@@ -80,7 +80,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/BindVariableExpression.java,75,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/CoalesceExpression.java,192,3,1.5,2,4,2.0,2,1,0.5,1,2,0,2,NO
 13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/CollectionParam.java,192,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/CompareEqualExpression.java,141,10,5.0,6,0,0.0,0,10,5.0,6,2,0,2,YES
+13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/CompareEqualExpression.java,141,10,5.0,6,0,0.0,0,10,5.0,6,2,0,2,NO
 13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/CompareExpression.java,95,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Concat.java,160,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 13,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Const.java,193,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -1131,7 +1131,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaExpression.java,50,61,12.2,39,11,2.2,7,50,10.0,39,5,0,1,NO
 13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaExpressionBuilder.java,380,695,27.8,235,315,12.6,68,510,20.4,235,25,0,4,NO
 13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaExpressionVisitor.java,106,126,42.0,83,20,6.666666666666667,19,108,36.0,83,3,0,1,NO
-13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaQueryImpl.java,706,941,33.607142857142854,143,677,24.178571428571427,254,928,33.142857142857146,219,28,0,3,YES
+13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaQueryImpl.java,706,941,33.607142857142854,143,677,24.178571428571427,254,928,33.142857142857146,219,28,0,3,NO
 13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/ExpressionImpl.java,129,113,8.692307692307692,43,84,6.461538461538462,25,91,7.0,38,13,0,2,NO
 13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,1815,2581,107.54166666666667,682,1806,75.25,462,2105,87.70833333333333,496,24,0,3,YES
 13,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/FetchPathImpl.java,115,143,17.875,108,28,3.5,11,119,14.875,108,8,0,2,NO

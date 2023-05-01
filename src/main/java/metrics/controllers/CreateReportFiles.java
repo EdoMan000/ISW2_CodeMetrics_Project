@@ -108,7 +108,7 @@ public class CreateReportFiles {
                     .append(", openingVersion= ").append(ticket.getOpeningVersion().releaseName())
                     .append(", fixedVersion= ") .append(ticket.getFixedVersion().releaseName())
                     .append(", affectedVersions= ").append(String.valueOf(iDs))
-                    //.append(", numOfCommits= ").append(String.valueOf(ticket.getCommitList().size()))
+                    .append(", numOfCommits= ").append(String.valueOf(ticket.getCommitList().size()))
                     .append(", creationDate= ").append(String.valueOf(ticket.getCreationDate()))
                     .append(", resolutionDate= ").append(String.valueOf(ticket.getResolutionDate())).append(CLOSE_BRACKET_AND_NEW_LINE);
         }

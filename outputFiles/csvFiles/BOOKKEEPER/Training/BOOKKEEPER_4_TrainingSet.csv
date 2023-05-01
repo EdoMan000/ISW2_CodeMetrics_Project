@@ -512,7 +512,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/BookieLedgerIndexer.java,136,142,47.333333333333336,139,6,2.0,5,142,47.333333333333336,139,3,1,2,NO
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationEnableCb.java,56,56,56.0,56,0,0.0,0,56,56.0,56,1,0,1,NO
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationException.java,74,81,27.0,63,7,2.3333333333333335,7,74,24.666666666666668,63,3,0,2,NO
-3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java,357,466,58.25,289,109,13.625,87,359,44.875,289,8,0,1,YES
+3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java,357,466,58.25,289,109,13.625,87,359,44.875,289,8,0,1,NO
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java,174,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerOutputStream.java,148,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/BookKeeperTools.java,92,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO

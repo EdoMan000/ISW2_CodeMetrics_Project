@@ -927,7 +927,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceExceptions.java,246,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
 2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceListenerAdapter.java,109,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceMetaDataDefaults.java,300,81,20.25,34,34,8.5,33,51,12.75,33,4,0,3,NO
-2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceMetaDataFactory.java,408,37,7.4,18,28,5.6,19,29,5.8,18,5,0,3,YES
+2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceMetaDataFactory.java,408,37,7.4,18,28,5.6,19,29,5.8,18,5,0,3,NO
 2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,514,522,47.45454545454545,392,74,6.7272727272727275,32,454,41.27272727272727,360,11,1,3,NO
 2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProviderImpl.java,143,101,14.428571428571429,32,83,11.857142857142858,33,50,7.142857142857143,18,7,0,3,NO
 2,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceStrategy.java,41,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO

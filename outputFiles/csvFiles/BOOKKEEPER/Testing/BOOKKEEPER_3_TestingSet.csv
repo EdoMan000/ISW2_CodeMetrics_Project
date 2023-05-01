@@ -217,7 +217,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/VoidCallbackAdapter.java,42,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/AbstractHChannelManager.java,624,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/AbstractSubscribeResponseHandler.java,377,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/ActiveSubscriber.java,383,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/ActiveSubscriber.java,383,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/ClientChannelPipelineFactory.java,72,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/DefaultServerChannel.java,92,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/HChannelHandler.java,282,1,1.0,1,3,3.0,3,2,2.0,2,1,1,1,NO

@@ -149,7 +149,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingDefaults.java,307,13,13.0,13,10,10.0,10,3,3.0,3,1,0,1,NO
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingDefaultsImpl.java,707,13,13.0,13,10,10.0,10,3,3.0,3,1,0,1,YES
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingInfo.java,1772,56,9.333333333333334,25,50,8.333333333333334,36,30,5.0,13,6,0,4,YES
-3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingRepository.java,1194,18,9.0,14,12,6.0,11,6,3.0,3,2,0,2,YES
+3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingRepository.java,1194,18,9.0,14,12,6.0,11,6,3.0,3,2,0,2,NO
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingStrategyInstaller.java,71,13,13.0,13,10,10.0,10,3,3.0,3,1,0,1,NO
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingTool.java,1127,2301,383.5,1123,2297,382.8333333333333,1123,4,0.6666666666666666,3,6,1,5,NO
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MetaDataPlusMappingFactory.java,142,13,13.0,13,10,10.0,10,3,3.0,3,1,0,1,NO

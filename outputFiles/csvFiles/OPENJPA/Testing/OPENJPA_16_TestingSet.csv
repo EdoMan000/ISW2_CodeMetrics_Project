@@ -938,7 +938,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/J2DoPrivHelper.java,1215,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/JavaVersions.java,263,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/LRUMap.java,95,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Localizer.java,302,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Localizer.java,302,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/MultiClassLoader.java,279,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Options.java,642,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/OrderedMap.java,120,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -1156,8 +1156,8 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SelectionImpl.java,150,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,371,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AbstractManagedType.java,1048,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,503,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
-17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/CompileTimeLogger.java,93,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,503,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
+17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/CompileTimeLogger.java,93,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/Members.java,344,2,2.0,2,1,1.0,1,1,1.0,1,1,0,1,NO
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/MetadataProcessor.java,83,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/MetamodelImpl.java,425,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO

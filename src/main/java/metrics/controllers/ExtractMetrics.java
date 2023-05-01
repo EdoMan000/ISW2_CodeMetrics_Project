@@ -9,7 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-import static metrics.controllers.CreateArffOrCsvFiles.writeOnArffOrCsvFile;
+import static metrics.controllers.CreateArffOrCsvDataFiles.writeOnArffOrCsvDataFile;
+import static metrics.controllers.CreateCsvFinalResultsFile.writeCsvFinalResultsFile;
 import static metrics.controllers.CreateReportFiles.writeOnReportFiles;
 
 
@@ -58,8 +59,8 @@ public class ExtractMetrics {
             List<ProjectClass> firstIProjectClassesTraining = new ArrayList<>(allProjectClasses);
             firstIProjectClassesTraining.removeIf(projectClass -> projectClass.getRelease().id() > firstIReleases.get(firstIReleases.size()-1).id());
             gitExtractor.completeClassesInfo(firstITickets, firstIProjectClassesTraining);
-            writeOnArffOrCsvFile(projName, firstIReleases, firstIProjectClassesTraining, "Training", true, finalI);
-            writeOnArffOrCsvFile(projName, firstIReleases, firstIProjectClassesTraining, "Training", false, finalI);
+            writeOnArffOrCsvDataFile(projName, firstIReleases, firstIProjectClassesTraining, "Training", true, finalI);
+            writeOnArffOrCsvDataFile(projName, firstIReleases, firstIProjectClassesTraining, "Training", false, finalI);
             if(i==1){
                 loggerString = projName + " TRAINING SET BUILT ON FIRST RELEASE - [*OK*]\n\n";
             }else{
@@ -75,9 +76,9 @@ public class ExtractMetrics {
             }
             List<ProjectClass> firstIProjectClassesTesting = new ArrayList<>(allProjectClasses);
             firstIProjectClassesTesting.removeIf(projectClass -> projectClass.getRelease().id() != testingSetReleaseList.get(0).id());
-            //no need to re-compute buggyness because is already computed before doing walk forward
-            writeOnArffOrCsvFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", true, finalI);
-            writeOnArffOrCsvFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", false, finalI);
+            //no need to re-compute buggyness because is already computed with all the tickets before doing walk forward
+            writeOnArffOrCsvDataFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", true, finalI);
+            writeOnArffOrCsvDataFile(projName, testingSetReleaseList, firstIProjectClassesTesting, "Testing", false, finalI);
             if(i==1){
                 loggerString = projName + " TESTING SET BUILT ON FIRST RELEASE - [*OK*]\n\n";
             }else{
@@ -87,6 +88,8 @@ public class ExtractMetrics {
         }
         ExtractInfoFromWeka wekaExtractor = new ExtractInfoFromWeka(projName, (releaseList.size()/2)-1);
         AllResultsOfClassifiers resultOfClassifierList = wekaExtractor.retrieveAllEvaluationsFromClassifiers();
+        writeCsvFinalResultsFile(projName, resultOfClassifierList.getAllResultsList(), "completeInfo");
+        writeCsvFinalResultsFile(projName, resultOfClassifierList.getAvgResultsList(), "avg");
         //deleteDirectory(projName.toLowerCase() + "Temp")
         //deleteDirectory("outputFiles")
     }

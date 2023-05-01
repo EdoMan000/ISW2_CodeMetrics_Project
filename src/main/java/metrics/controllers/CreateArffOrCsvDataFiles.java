@@ -10,22 +10,22 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
-public class CreateArffOrCsvFiles {
+public class CreateArffOrCsvDataFiles {
 
-    public static final String NAME_OF_THIS_CLASS = CreateArffOrCsvFiles.class.getName();
+    public static final String NAME_OF_THIS_CLASS = CreateArffOrCsvDataFiles.class.getName();
     private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
 
-    private CreateArffOrCsvFiles() {}
+    private CreateArffOrCsvDataFiles() {}
 
-    public static void writeOnArffOrCsvFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType, boolean isArff, int iterationNumber){
+    public static void writeOnArffOrCsvDataFile(String projName, List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType, boolean isArff, int iterationNumber){
         try {
-            StringBuilder pathname = new StringBuilder();
+            StringBuilder folderName = new StringBuilder();
             if (isArff) {
-                pathname.append("outputFiles/arffFiles/").append(projName).append("/").append(setType);
+                folderName.append("outputFiles/arffFiles/").append(projName).append("/").append(setType);
             }else{
-                pathname.append("outputFiles/csvFiles/").append(projName).append("/").append(setType);
+                folderName.append("outputFiles/csvFiles/").append(projName).append("/").append(setType);
             }
-            File file = new File(pathname.toString());
+            File file = new File(folderName.toString());
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {
@@ -44,7 +44,7 @@ public class CreateArffOrCsvFiles {
                 file = new File("outputFiles/csvFiles/" + projName + pathName + setType + "Set.csv");
             }
             try(FileWriter fileWriter = new FileWriter(file)) {
-                appendOnFile(releaseList, allProjectClasses, setType, isArff, fileName.toString(), fileWriter);
+                appendOnFile(releaseList, allProjectClasses, isArff, fileName.toString(), fileWriter);
             }
         } catch (IOException e) {
             if (isArff) {
@@ -56,9 +56,9 @@ public class CreateArffOrCsvFiles {
         }
     }
 
-    private static void appendOnFile(List<Release> releaseList, List<ProjectClass> allProjectClasses, String setType, boolean isArff, String fileName, FileWriter fileWriter) throws IOException {
+    private static void appendOnFile(List<Release> releaseList, List<ProjectClass> allProjectClasses, boolean isArff, String fileName, FileWriter fileWriter) throws IOException {
         if(isArff){
-            fileWriter.append("@relation ").append(fileName).append(setType).append("Set\n")
+            fileWriter.append("@relation ").append(fileName).append("\n\n")
                     .append("""
                         @attribute SIZE numeric
                         @attribute LOC_ADDED numeric
@@ -74,6 +74,7 @@ public class CreateArffOrCsvFiles {
                         @attribute NUMBER_OF_DEFECT_FIXES numeric
                         @attribute NUMBER_OF_AUTHORS numeric
                         @attribute IS_BUGGY {'YES', 'NO'}
+                        
                         @data
                         """);
             appendByRelease(releaseList, allProjectClasses, fileWriter, true);
