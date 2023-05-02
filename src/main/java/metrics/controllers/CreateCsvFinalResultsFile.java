@@ -28,7 +28,7 @@ public class CreateCsvFinalResultsFile {
             }
             StringBuilder fileName = new StringBuilder();
             fileName.append("/").append(projName).append("_finalReport_").append(type).append(".csv");
-            file = new File("outputFiles/arffFiles/" + projName + fileName);
+            file = new File("outputFiles/FinalResults/" + projName + fileName);
             try(FileWriter fileWriter = new FileWriter(file)) {
                 fileWriter.append("DATASET," +
                         "#TRAINING_RELEASES," +

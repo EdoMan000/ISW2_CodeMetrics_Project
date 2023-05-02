@@ -3,8 +3,8 @@
 ----------------------------------------------------------
 EXTRACTION INFO:
 13 RELEASES 
-318 TICKETS 
+85 TICKETS 
 1127 TOTAL COMMITS 
-332 COMMITS CONTAINING BUG-ISSUES
+91 COMMITS CONTAINING BUG-ISSUES
 ----------------------------------------------------------
 

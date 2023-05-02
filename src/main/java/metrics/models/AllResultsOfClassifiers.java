@@ -22,7 +22,7 @@ public class AllResultsOfClassifiers {
         addInnerLists(allBasicLists);
         addInnerLists(allFeatureSelectionLists);
         addInnerLists(allSamplingLists);
-        addInnerLists(allSamplingLists);
+        addInnerLists(allCompleteLists);
     }
 
     private void addInnerLists(List<List<ResultOfClassifier>> lists) {

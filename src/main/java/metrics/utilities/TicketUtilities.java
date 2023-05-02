@@ -24,11 +24,14 @@ public class TicketUtilities {
         float proportion;
         for(Ticket ticket : ticketsList){
             if(!isCorrectTicket(ticket)){
-                proportion = ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList), projName);
+                proportion = ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList), projName, ticket, true);
                 fixTicketWithProportion(ticket, releasesList, proportion);
+                completeAffectedVersionsList(ticket, releasesList);
+            }else{
+                ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList), projName, ticket, false);
+                completeAffectedVersionsList(ticket, releasesList);
+                fixedTicketsList.add(ticket);
             }
-            completeAffectedVersionsList(ticket, releasesList);
-            fixedTicketsList.add(ticket);
         }
         fixedTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         return fixedTicketsList;

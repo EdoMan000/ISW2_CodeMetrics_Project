@@ -3,6 +3,27 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\outputFiles\FinalResults\BOOKKEEPER\BOOKKEEPER_finalReport_avg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\FinalResults\BOOKKEEPER\BOOKKEEPER_finalReport_completeInfo.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\FinalResults\OPENJPA\OPENJPA_finalReport_avg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\outputFiles\csvFiles\BOOKKEEPER\Testing\BOOKKEEPER_6_TestingSet.csv">
           <value>
             <Attribute>

@@ -45,7 +45,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PagingResultObjectProvider.java,460,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PessimisticLockManager.java,198,13,4.333333333333333,8,28,9.333333333333334,19,17,5.666666666666667,16,3,0,2,YES
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedQueryCacheImpl.java,346,398,56.857142857142854,368,52,7.428571428571429,28,414,59.142857142857146,368,7,1,1,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedQueryImpl.java,332,407,58.142857142857146,161,75,10.714285714285714,21,332,47.42857142857143,161,7,0,1,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedQueryImpl.java,332,407,58.142857142857146,161,75,10.714285714285714,21,332,47.42857142857143,161,7,0,1,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedResultObjectProvider.java,53,53,53.0,53,0,0.0,0,53,53.0,53,1,0,1,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedSQLStoreQuery.java,147,155,38.75,106,8,2.0,8,147,36.75,106,4,0,2,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedStatementManager.java,47,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -80,7 +80,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/ContainsExpression.java,63,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/ContainsKeyExpression.java,46,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Count.java,54,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/CurrentDate.java,70,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/CurrentDate.java,70,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Distinct.java,44,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EmptyExpression.java,51,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EndsWithExpression.java,207,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -106,7 +106,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/IsEmptyExpression.java,65,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/IsNotEmptyExpression.java,65,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/JDBCAggregateListener.java,45,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/JDBCExpressionFactory.java,513,17,5.666666666666667,8,4,1.3333333333333333,3,13,4.333333333333333,8,3,0,2,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/JDBCExpressionFactory.java,513,17,5.666666666666667,8,4,1.3333333333333333,3,13,4.333333333333333,8,3,0,2,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/JDBCFilterListener.java,47,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/JDBCPath.java,32,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/JDBCStringContains.java,56,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -130,7 +130,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SQLEmbed.java,71,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SQLExpression.java,41,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SQLValue.java,39,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SelectConstructor.java,345,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SelectConstructor.java,345,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SimpleCaseExpression.java,227,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Size.java,57,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Sqrt.java,47,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -150,7 +150,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Variable.java,177,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/WhenCondition.java,93,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/WhenScalar.java,89,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMapping.java,1102,12,12.0,12,15,15.0,15,3,3.0,3,1,1,1,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMapping.java,1102,12,12.0,12,15,15.0,15,3,3.0,3,1,0,1,YES
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMappingInfo.java,494,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassStrategy.java,115,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/DelegatingJoinable.java,128,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -190,9 +190,9 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ValueMapping.java,269,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ValueMappingImpl.java,544,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ValueMappingInfo.java,334,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/Version.java,379,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/Version.java,379,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/VersionMappingInfo.java,168,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/VersionStrategy.java,87,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/VersionStrategy.java,87,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/AbstractClassStrategy.java,82,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/AbstractDiscriminatorStrategy.java,96,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/AbstractFieldStrategy.java,184,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -209,7 +209,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ContainerFieldStrategy.java,138,1,1.0,1,1,1.0,1,0,0.0,0,1,0,1,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ElementEmbedValueHandler.java,183,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbedFieldStrategy.java,1625,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbedValueHandler.java,284,47,15.666666666666666,44,2,0.6666666666666666,1,45,15.0,43,3,0,1,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbedValueHandler.java,284,47,15.666666666666666,44,2,0.6666666666666666,1,45,15.0,43,3,0,1,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbeddedClassStrategy.java,95,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EnumValueHandler.java,103,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/FlatClassStrategy.java,68,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -239,7 +239,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NoneDiscriminatorStrategy.java,58,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NoneFieldStrategy.java,54,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NoneVersionStrategy.java,55,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NumberVersionStrategy.java,76,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NumberVersionStrategy.java,76,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ObjectIdClassStrategy.java,49,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ObjectIdValueHandler.java,84,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/PrimitiveFieldStrategy.java,405,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -302,7 +302,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Calendard.java,38,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DB2Dictionary.java,854,73,18.25,47,54,13.5,53,31,7.75,21,4,1,3,YES
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,4698,159,31.8,78,28,5.6,22,131,26.2,77,5,0,3,YES
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionaryFactory.java,647,1,1.0,1,1,1.0,1,0,0.0,0,1,1,1,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionaryFactory.java,647,1,1.0,1,1,1.0,1,0,0.0,0,1,0,1,YES
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DerbyDictionary.java,122,17,8.5,16,1,0.5,1,16,8.0,16,2,0,2,YES
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/EmpressDictionary.java,174,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/FirebirdDictionary.java,61,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
@@ -330,7 +330,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowImpl.java,972,9,9.0,9,0,0.0,0,9,9.0,9,1,0,1,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowManager.java,74,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowManagerImpl.java,294,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLBuffer.java,707,69,23.0,60,62,20.666666666666668,56,7,2.3333333333333335,4,3,0,1,YES
+11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLBuffer.java,707,69,23.0,60,62,20.666666666666668,56,7,2.3333333333333335,4,3,0,1,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLErrorCodeReader.java,155,1,1.0,1,1,1.0,1,0,0.0,0,1,0,1,NO
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLExceptions.java,139,24,8.0,21,5,1.6666666666666667,4,21,7.0,17,3,0,2,YES
 11,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLFactory.java,46,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -498,7 +498,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachManager.java,868,62,31.0,43,30,15.0,17,32,16.0,26,2,0,2,YES
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachState.java,50,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachedStateAttachStrategy.java,197,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachedStateManager.java,952,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachedStateManager.java,952,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachedValueStateManager.java,596,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ECleanState.java,85,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ECopyState.java,83,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -552,7 +552,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryContext.java,284,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryFlushModes.java,57,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryHints.java,95,64,32.0,47,0,0.0,0,64,32.0,47,2,0,1,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,2219,102,34.0,51,61,20.333333333333332,57,53,17.666666666666668,43,3,0,1,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,2219,102,34.0,51,61,20.333333333333332,57,53,17.666666666666668,43,3,0,1,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryLanguages.java,71,1,1.0,1,0,0.0,0,1,1.0,1,1,0,1,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryOperations.java,51,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryStatistics.java,237,255,127.5,237,18,9.0,18,237,118.5,237,2,0,1,NO
@@ -563,8 +563,8 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/SavepointFieldManager.java,246,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/SavepointManager.java,39,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Seq.java,73,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/SingleFieldManager.java,865,13,4.333333333333333,7,13,4.333333333333333,12,22,7.333333333333333,11,3,0,1,YES
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3291,57,14.25,25,35,8.75,19,46,11.5,18,4,0,1,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/SingleFieldManager.java,865,13,4.333333333333333,7,13,4.333333333333333,12,22,7.333333333333333,11,3,0,1,NO
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3291,57,14.25,25,35,8.75,19,46,11.5,18,4,0,1,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreContext.java,461,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreManager.java,426,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,339,14,14.0,14,0,0.0,0,14,14.0,14,1,0,1,NO
@@ -578,7 +578,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/UUIDStringSeq.java,66,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/UUIDType4HexSeq.java,66,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/UUIDType4StringSeq.java,66,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/VersionAttachStrategy.java,389,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/VersionAttachStrategy.java,389,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/VersionLockManager.java,150,14,7.0,9,4,2.0,4,10,5.0,5,2,0,1,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Abs.java,70,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/AbstractExpressionBuilder.java,523,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -609,14 +609,14 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/ContainsKeyExpression.java,45,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/ContainsValueExpression.java,45,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Count.java,52,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/CurrentDate.java,44,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/CurrentDate.java,44,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Distinct.java,71,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Divide.java,41,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/EndsWithExpression.java,41,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/EqualExpression.java,40,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Exp.java,82,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Expression.java,36,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/ExpressionFactory.java,484,19,6.333333333333333,12,2,0.6666666666666666,2,17,5.666666666666667,12,3,0,2,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/ExpressionFactory.java,484,19,6.333333333333333,12,2,0.6666666666666666,2,17,5.666666666666667,12,3,0,2,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/ExpressionParser.java,64,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/ExpressionVisitor.java,49,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Extension.java,92,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -626,7 +626,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/GetObjectId.java,57,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/GreaterThanEqualExpression.java,41,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/GreaterThanExpression.java,41,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InMemoryExpressionFactory.java,791,15,5.0,9,2,0.6666666666666666,2,13,4.333333333333333,9,3,0,2,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InMemoryExpressionFactory.java,791,15,5.0,9,2,0.6666666666666666,2,13,4.333333333333333,9,3,0,2,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Index.java,47,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/IndexOf.java,71,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InstanceofExpression.java,69,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -716,8 +716,8 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/meta/XMLFieldMetaData.java,122,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/meta/XMLMetaData.java,123,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/AbstractChangeTracker.java,235,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/AbstractLRSProxyCollection.java,427,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/AbstractLRSProxyMap.java,527,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/AbstractLRSProxyCollection.java,427,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/AbstractLRSProxyMap.java,527,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ApplicationIds.java,691,79,26.333333333333332,73,2,0.6666666666666666,2,77,25.666666666666668,71,3,0,1,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ArrayStateImage.java,107,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/BigDecimalId.java,74,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
@@ -730,7 +730,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ClassResolver.java,45,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ClassResolverImpl.java,68,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/CollectionChangeTracker.java,41,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/CollectionChangeTrackerImpl.java,126,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/CollectionChangeTrackerImpl.java,126,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/DateId.java,74,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/DoubleId.java,69,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ExceptionInfo.java,82,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -747,7 +747,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/LockException.java,104,18,9.0,14,2,1.0,2,16,8.0,12,2,0,1,YES
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/LongId.java,65,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/MapChangeTracker.java,62,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/MapChangeTrackerImpl.java,132,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/MapChangeTrackerImpl.java,132,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/MetaDataException.java,54,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/MultiLoaderClassResolver.java,52,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/NoResultException.java,45,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -763,12 +763,12 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/Proxy.java,61,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyBean.java,35,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyCalendar.java,34,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyCollection.java,42,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyCollection.java,42,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyCollections.java,471,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyDate.java,34,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManager.java,116,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManagerImpl.java,1664,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
-11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyMap.java,47,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManager.java,116,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManagerImpl.java,1664,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
+11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyMap.java,47,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyMaps.java,285,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/QueryException.java,87,87,87.0,87,0,0.0,0,87,87.0,87,1,0,1,NO
 11,openjpa-kernel/src/main/java/org/apache/openjpa/util/ReferentialIntegrityException.java,94,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -817,7 +817,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DecoratingDataSource.java,103,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingCallableStatement.java,801,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingConnection.java,591,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingDataSource.java,120,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingDataSource.java,120,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingDatabaseMetaData.java,772,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingPreparedStatement.java,459,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingResultSet.java,674,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -908,7 +908,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/TemporaryClassLoader.java,115,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/TimestampHelper.java,61,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/TypedProperties.java,332,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/UUIDGenerator.java,275,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/UUIDGenerator.java,275,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/ZipResourceBundleProvider.java,72,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/AbstractConcurrentEventManager.java,144,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,941,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -1119,7 +1119,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LikeExpression.java,54,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LiteralExpression.java,31,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LocateExpression.java,66,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LogicalPredicate.java,60,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,YES
+11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LogicalPredicate.java,60,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LowerExpression.java,33,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/MaxExpression.java,33,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/MemberOfExpression.java,34,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
@@ -1160,7 +1160,7 @@ RELEASE_ID,FILE_NAME,SIZE,LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX,LOC_REMOVED,LOC_
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/VarArgsExpression.java,56,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/Visitable.java,51,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/WhenClause.java,55,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
-11,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributedBrokerImpl.java,127,30,15.0,29,1,0.5,1,29,14.5,29,2,1,1,NO
+11,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributedBrokerImpl.java,127,30,15.0,29,1,0.5,1,29,14.5,29,2,0,1,NO
 11,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributedConfiguration.java,84,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
 11,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributedQueryImpl.java,50,50,50.0,50,0,0.0,0,50,50.0,50,1,0,1,NO
 11,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributionPolicy.java,65,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,NO
