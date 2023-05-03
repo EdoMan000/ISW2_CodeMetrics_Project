@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\outputFiles\FinalResults\BOOKKEEPER\BOOKKEEPER_finalReport.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\outputFiles\FinalResults\BOOKKEEPER\BOOKKEEPER_finalReport_avg.csv">
           <value>
             <Attribute>
@@ -17,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\outputFiles\FinalResults\OPENJPA\OPENJPA_finalReport.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\outputFiles\FinalResults\OPENJPA\OPENJPA_finalReport_avg.csv">
           <value>
             <Attribute>
@@ -24,7 +38,175 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\outputFiles\FinalResults\OPENJPA\OPENJPA_finalReport_completeInfo.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\BOOKKEEPER\Testing\BOOKKEEPER_1_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\BOOKKEEPER\Testing\BOOKKEEPER_2_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\BOOKKEEPER\Testing\BOOKKEEPER_3_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\outputFiles\csvFiles\BOOKKEEPER\Testing\BOOKKEEPER_6_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\BOOKKEEPER\Training\BOOKKEEPER_1_TrainingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\BOOKKEEPER\Training\BOOKKEEPER_2_TrainingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_10_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_11_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_12_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_13_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_14_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_15_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_16_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_17_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_18_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_1_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_2_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_3_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_4_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_5_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_6_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_7_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_8_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_9_TestingSet.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

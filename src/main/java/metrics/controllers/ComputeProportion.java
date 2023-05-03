@@ -2,8 +2,8 @@ package metrics.controllers;
 
 import metrics.models.Release;
 import metrics.models.Ticket;
-import metrics.utilities.TicketUtilities;
 import metrics.utilities.FileWriterUtils;
+import metrics.utilities.TicketUtilities;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -30,19 +30,12 @@ public class ComputeProportion {
     private enum OtherProjects {
         AVRO,
         SYNCOPE,
-        OPENJPA,
+        STORM,
         TAJO,
         ZOOKEEPER
     }
     private static float incrementalProportionComputation(List<Ticket> filteredTicketsList, Ticket ticket, boolean writeInfo, boolean doActualComputation) {
-        if(!doActualComputation){
-            if (ticket.getFixedVersion().id() != ticket.getOpeningVersion().id()) {
-                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: NULL --> USING IT FOR PROPORTION").append("\n----------------------\n");
-            }else{
-                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: NULL").append("\n----------------------\n");
-            }
-            return 0;
-        }
+        if (writeUsedOrNot(ticket, doActualComputation)) return 0;
         filteredTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         outputToFile.append("\n[*]PROPORTION[*]-----------------------------------------------\n");
         if (writeInfo) {
@@ -50,10 +43,15 @@ public class ComputeProportion {
         }
         // PROPORTION = (FV-IV)/(FV-OV)
         float totalProportion = 0.0F;
+        float denominator;
         for (Ticket correctTicket : filteredTicketsList) {
+            if (correctTicket.getFixedVersion().id() != correctTicket.getOpeningVersion().id()) {
+                denominator = ((float) correctTicket.getFixedVersion().id() - (float) correctTicket.getOpeningVersion().id());
+            }else{
+                denominator = 1;
+            }
             float propForTicket = ((float) correctTicket.getFixedVersion().id() - (float) correctTicket.getInjectedVersion().id())
-                    /
-                    ((float) correctTicket.getFixedVersion().id() - (float) correctTicket.getOpeningVersion().id());
+                    / denominator;
             totalProportion+=propForTicket;
         }
         outputToFile.append("SIZE_OF_FILTERED_TICKET_LIST: ").append(filteredTicketsList.size()).append("\n");
@@ -63,16 +61,21 @@ public class ComputeProportion {
         return average;
     }
 
-
-    private static float coldStartProportionComputation(Ticket ticket, boolean doActualComputation) throws IOException, URISyntaxException {
+    private static boolean writeUsedOrNot(Ticket ticket, boolean doActualComputation) {
         if(!doActualComputation){
             if (ticket.getFixedVersion().id() != ticket.getOpeningVersion().id()) {
-                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: NULL --> USING IT FOR PROPORTION").append("\n----------------------\n");
+                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: WILL USE FOR PROPORTION AS IT IS!").append("\n----------------------\n");
             }else{
-                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: NULL").append("\n----------------------\n");
+                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: WILL SET DENOMINATOR=1!").append("\n----------------------\n");
             }
-            return 0;
+            return true;
         }
+        return false;
+    }
+
+
+    private static float coldStartProportionComputation(Ticket ticket, boolean doActualComputation) throws IOException, URISyntaxException {
+        if (writeUsedOrNot(ticket, doActualComputation)) return 0;
         if(coldStartComputedProportion != null){
             outputToFile.append("\n[*]COLD-START RETRIEVED[*]---------------------------------------\n");
             outputToFile.append("----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: ").append(coldStartComputedProportion).append("\n----------------------\n");
@@ -86,15 +89,13 @@ public class ComputeProportion {
             List<Release> releaseList = jiraExtractor.extractAllReleases();
             List<Ticket> ticketCompleteList = jiraExtractor.getTickets(releaseList);
             List<Ticket> ticketCorrectList = TicketUtilities.returnCorrectTickets(ticketCompleteList);
-            List<Ticket> ticketFilteredList = TicketUtilities.filterTicketsForProportion(ticketCorrectList);
-            if(ticketFilteredList.size() >= THRESHOLD_FOR_COLD_START){
-                proportionList.add(ComputeProportion.incrementalProportionComputation(ticketFilteredList, ticket, false, doActualComputation));
+            if(ticketCorrectList.size() >= THRESHOLD_FOR_COLD_START){
+                proportionList.add(ComputeProportion.incrementalProportionComputation(ticketCorrectList, ticket, false, doActualComputation));
             }
         }
+        Collections.sort(proportionList);
         outputToFile.append("\nPROPORTION LIST: ").append(" -----------------------------------------------\n")
                 .append(proportionList).append("\n");
-
-        Collections.sort(proportionList);
         float median;
         int size = proportionList.size();
         if (size % 2 == 0) {

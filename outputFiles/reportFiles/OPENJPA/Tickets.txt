@@ -2,9 +2,81 @@
 
 Ticket[key= OPENJPA-35, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2006-08-28, resolutionDate= 2007-03-10]
 
+Ticket[key= OPENJPA-42, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.6, affectedVersions= [0.9.0], numOfCommits= 1, creationDate= 2006-09-07, resolutionDate= 2006-09-10]
+
+Ticket[key= OPENJPA-44, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 1.2.0, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3], numOfCommits= 2, creationDate= 2006-09-11, resolutionDate= 2008-07-28]
+
+Ticket[key= OPENJPA-46, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2006-09-18, resolutionDate= 2007-03-08]
+
+Ticket[key= OPENJPA-60, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2006-09-27, resolutionDate= 2007-02-06]
+
+Ticket[key= OPENJPA-61, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 1.0.0, affectedVersions= [0.9.0, 0.9.6, 0.9.7], numOfCommits= 1, creationDate= 2006-09-28, resolutionDate= 2007-06-26]
+
+Ticket[key= OPENJPA-67, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.6, affectedVersions= [0.9.0], numOfCommits= 1, creationDate= 2006-10-24, resolutionDate= 2006-10-27]
+
+Ticket[key= OPENJPA-68, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.6, affectedVersions= [0.9.0], numOfCommits= 1, creationDate= 2006-10-27, resolutionDate= 2006-10-27]
+
+Ticket[key= OPENJPA-70, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.6, affectedVersions= [0.9.0], numOfCommits= 2, creationDate= 2006-10-30, resolutionDate= 2006-10-30]
+
 Ticket[key= OPENJPA-71, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2006-10-31, resolutionDate= 2007-03-08]
 
+Ticket[key= OPENJPA-74, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.6, affectedVersions= [0.9.0], numOfCommits= 1, creationDate= 2006-11-02, resolutionDate= 2006-11-03]
+
+Ticket[key= OPENJPA-75, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 1.2.0, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3], numOfCommits= 1, creationDate= 2006-11-06, resolutionDate= 2008-08-01]
+
+Ticket[key= OPENJPA-76, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.6, affectedVersions= [0.9.0], numOfCommits= 1, creationDate= 2006-11-07, resolutionDate= 2006-11-07]
+
+Ticket[key= OPENJPA-77, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2006-11-09, resolutionDate= 2006-12-29]
+
+Ticket[key= OPENJPA-80, injectedVersion= 0.9.0, openingVersion= 0.9.6, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2006-11-13, resolutionDate= 2007-03-06]
+
+Ticket[key= OPENJPA-90, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2006-12-15, resolutionDate= 2006-12-15]
+
+Ticket[key= OPENJPA-100, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-01-10, resolutionDate= 2007-01-10]
+
+Ticket[key= OPENJPA-104, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 2, creationDate= 2007-01-17, resolutionDate= 2007-01-17]
+
+Ticket[key= OPENJPA-103, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-01-17, resolutionDate= 2007-01-17]
+
+Ticket[key= OPENJPA-102, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 2, creationDate= 2007-01-17, resolutionDate= 2007-01-17]
+
+Ticket[key= OPENJPA-113, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 1.0.1, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-01-25, resolutionDate= 2007-10-24]
+
+Ticket[key= OPENJPA-112, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 1.0.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2007-01-25, resolutionDate= 2008-06-19]
+
+Ticket[key= OPENJPA-116, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 2, creationDate= 2007-01-29, resolutionDate= 2007-01-30]
+
+Ticket[key= OPENJPA-115, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-01-29, resolutionDate= 2007-02-01]
+
+Ticket[key= OPENJPA-118, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-01-31, resolutionDate= 2007-01-31]
+
+Ticket[key= OPENJPA-119, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-01-31, resolutionDate= 2007-02-02]
+
+Ticket[key= OPENJPA-122, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 3, creationDate= 2007-02-01, resolutionDate= 2007-02-01]
+
+Ticket[key= OPENJPA-121, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-01, resolutionDate= 2007-03-07]
+
+Ticket[key= OPENJPA-133, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-07, resolutionDate= 2007-02-08]
+
+Ticket[key= OPENJPA-132, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-07, resolutionDate= 2007-03-20]
+
+Ticket[key= OPENJPA-134, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-08, resolutionDate= 2007-04-11]
+
+Ticket[key= OPENJPA-139, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-09, resolutionDate= 2007-02-27]
+
 Ticket[key= OPENJPA-142, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-13, resolutionDate= 2007-03-10]
+
+Ticket[key= OPENJPA-143, injectedVersion= 0.9.6, openingVersion= 0.9.7, fixedVersion= 1.0.0, affectedVersions= [0.9.6, 0.9.7], numOfCommits= 1, creationDate= 2007-02-13, resolutionDate= 2007-08-16]
+
+Ticket[key= OPENJPA-146, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-14, resolutionDate= 2007-02-20]
+
+Ticket[key= OPENJPA-148, injectedVersion= 0.9.6, openingVersion= 0.9.7, fixedVersion= 1.0.0, affectedVersions= [0.9.6, 0.9.7], numOfCommits= 4, creationDate= 2007-02-14, resolutionDate= 2007-05-22]
+
+Ticket[key= OPENJPA-150, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-15, resolutionDate= 2007-02-20]
+
+Ticket[key= OPENJPA-154, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-20, resolutionDate= 2007-02-20]
+
+Ticket[key= OPENJPA-157, injectedVersion= 0.9.0, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.0, 0.9.6], numOfCommits= 1, creationDate= 2007-02-21, resolutionDate= 2007-02-21]
 
 Ticket[key= OPENJPA-162, injectedVersion= 0.9.6, openingVersion= 0.9.7, fixedVersion= 0.9.7, affectedVersions= [0.9.6], numOfCommits= 1, creationDate= 2007-03-05, resolutionDate= 2007-03-05]
 
@@ -40,7 +112,11 @@ Ticket[key= OPENJPA-248, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVer
 
 Ticket[key= OPENJPA-251, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.2, affectedVersions= [0.9.7, 1.0.0, 1.0.1], numOfCommits= 1, creationDate= 2007-06-06, resolutionDate= 2008-01-31]
 
+Ticket[key= OPENJPA-256, injectedVersion= 0.9.6, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.6, 0.9.7], numOfCommits= 1, creationDate= 2007-06-09, resolutionDate= 2007-08-21]
+
 Ticket[key= OPENJPA-258, injectedVersion= 0.9.6, openingVersion= 1.0.0, fixedVersion= 1.0.2, affectedVersions= [0.9.6, 0.9.7, 1.0.0, 1.0.1], numOfCommits= 2, creationDate= 2007-06-12, resolutionDate= 2008-01-31]
+
+Ticket[key= OPENJPA-269, injectedVersion= 0.9.6, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.6, 0.9.7], numOfCommits= 1, creationDate= 2007-06-27, resolutionDate= 2007-06-27]
 
 Ticket[key= OPENJPA-272, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.7], numOfCommits= 1, creationDate= 2007-06-29, resolutionDate= 2007-08-06]
 
@@ -49,6 +125,8 @@ Ticket[key= OPENJPA-274, injectedVersion= 0.9.0, openingVersion= 1.0.0, fixedVer
 Ticket[key= OPENJPA-278, injectedVersion= 0.9.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.0, 0.9.6, 0.9.7], numOfCommits= 1, creationDate= 2007-07-05, resolutionDate= 2007-07-05]
 
 Ticket[key= OPENJPA-281, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.7], numOfCommits= 1, creationDate= 2007-07-09, resolutionDate= 2007-08-05]
+
+Ticket[key= OPENJPA-282, injectedVersion= 0.9.6, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.6, 0.9.7], numOfCommits= 3, creationDate= 2007-07-09, resolutionDate= 2007-08-28]
 
 Ticket[key= OPENJPA-287, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.7], numOfCommits= 1, creationDate= 2007-07-19, resolutionDate= 2007-07-19]
 
@@ -62,15 +140,25 @@ Ticket[key= OPENJPA-308, injectedVersion= 0.9.0, openingVersion= 1.0.0, fixedVer
 
 Ticket[key= OPENJPA-311, injectedVersion= 0.9.0, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.0, 0.9.6, 0.9.7], numOfCommits= 1, creationDate= 2007-08-09, resolutionDate= 2007-08-10]
 
+Ticket[key= OPENJPA-313, injectedVersion= 0.9.6, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.6, 0.9.7], numOfCommits= 3, creationDate= 2007-08-10, resolutionDate= 2007-08-16]
+
+Ticket[key= OPENJPA-314, injectedVersion= 0.9.6, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.6, 0.9.7], numOfCommits= 1, creationDate= 2007-08-14, resolutionDate= 2007-08-20]
+
+Ticket[key= OPENJPA-315, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.1, affectedVersions= [0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-08-14, resolutionDate= 2007-08-29]
+
 Ticket[key= OPENJPA-320, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.7], numOfCommits= 1, creationDate= 2007-08-16, resolutionDate= 2007-08-17]
 
 Ticket[key= OPENJPA-321, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.0, affectedVersions= [0.9.7], numOfCommits= 2, creationDate= 2007-08-17, resolutionDate= 2007-08-21]
 
 Ticket[key= OPENJPA-326, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.1, affectedVersions= [0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-08-22, resolutionDate= 2007-09-24]
 
+Ticket[key= OPENJPA-329, injectedVersion= 0.9.6, openingVersion= 1.0.0, fixedVersion= 1.0.2, affectedVersions= [0.9.6, 0.9.7, 1.0.0, 1.0.1], numOfCommits= 1, creationDate= 2007-08-22, resolutionDate= 2008-01-31]
+
 Ticket[key= OPENJPA-331, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.2, affectedVersions= [0.9.7, 1.0.0, 1.0.1], numOfCommits= 2, creationDate= 2007-08-23, resolutionDate= 2008-01-31]
 
 Ticket[key= OPENJPA-339, injectedVersion= 0.9.7, openingVersion= 1.0.0, fixedVersion= 1.0.1, affectedVersions= [0.9.7, 1.0.0], numOfCommits= 2, creationDate= 2007-08-27, resolutionDate= 2007-09-17]
+
+Ticket[key= OPENJPA-340, injectedVersion= 0.9.0, openingVersion= 1.0.0, fixedVersion= 1.0.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0], numOfCommits= 5, creationDate= 2007-08-28, resolutionDate= 2008-07-16]
 
 Ticket[key= OPENJPA-343, injectedVersion= 0.9.7, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-08-29, resolutionDate= 2007-09-04]
 
@@ -104,6 +192,8 @@ Ticket[key= OPENJPA-367, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVer
 
 Ticket[key= OPENJPA-366, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], numOfCommits= 2, creationDate= 2007-09-12, resolutionDate= 2008-01-31]
 
+Ticket[key= OPENJPA-365, injectedVersion= 0.9.6, openingVersion= 1.0.1, fixedVersion= 1.0.3, affectedVersions= [0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2007-09-12, resolutionDate= 2008-07-16]
+
 Ticket[key= OPENJPA-368, injectedVersion= 0.9.7, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-09-13, resolutionDate= 2007-10-03]
 
 Ticket[key= OPENJPA-369, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [1.0.0], numOfCommits= 2, creationDate= 2007-09-14, resolutionDate= 2007-10-15]
@@ -115,6 +205,8 @@ Ticket[key= OPENJPA-378, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVer
 Ticket[key= OPENJPA-380, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-09-21, resolutionDate= 2007-09-21]
 
 Ticket[key= OPENJPA-379, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-09-21, resolutionDate= 2007-09-21]
+
+Ticket[key= OPENJPA-382, injectedVersion= 0.9.0, openingVersion= 1.0.1, fixedVersion= 2.1.1, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], numOfCommits= 1, creationDate= 2007-09-24, resolutionDate= 2011-02-25]
 
 Ticket[key= OPENJPA-385, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2007-09-26, resolutionDate= 2007-09-27]
 
@@ -135,6 +227,8 @@ Ticket[key= OPENJPA-395, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVer
 Ticket[key= OPENJPA-396, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2007-10-08, resolutionDate= 2007-10-09]
 
 Ticket[key= OPENJPA-401, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], numOfCommits= 3, creationDate= 2007-10-12, resolutionDate= 2008-02-05]
+
+Ticket[key= OPENJPA-405, injectedVersion= 0.9.7, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [0.9.7, 1.0.0], numOfCommits= 1, creationDate= 2007-10-16, resolutionDate= 2007-10-16]
 
 Ticket[key= OPENJPA-409, injectedVersion= 1.0.0, openingVersion= 1.0.1, fixedVersion= 1.0.1, affectedVersions= [1.0.0], numOfCommits= 1, creationDate= 2007-10-18, resolutionDate= 2007-10-18]
 
@@ -166,6 +260,8 @@ Ticket[key= OPENJPA-439, injectedVersion= 0.9.0, openingVersion= 1.0.2, fixedVer
 
 Ticket[key= OPENJPA-446, injectedVersion= 1.0.1, openingVersion= 1.0.2, fixedVersion= 1.0.2, affectedVersions= [1.0.1], numOfCommits= 2, creationDate= 2007-11-19, resolutionDate= 2007-11-20]
 
+Ticket[key= OPENJPA-452, injectedVersion= 1.0.0, openingVersion= 1.0.2, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], numOfCommits= 1, creationDate= 2007-11-26, resolutionDate= 2008-01-02]
+
 Ticket[key= OPENJPA-455, injectedVersion= 1.0.0, openingVersion= 1.0.2, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], numOfCommits= 1, creationDate= 2007-11-27, resolutionDate= 2008-01-30]
 
 Ticket[key= OPENJPA-458, injectedVersion= 1.0.1, openingVersion= 1.0.2, fixedVersion= 1.0.3, affectedVersions= [1.0.1, 1.0.2, 1.1.0], numOfCommits= 2, creationDate= 2007-12-03, resolutionDate= 2008-07-16]
@@ -182,11 +278,17 @@ Ticket[key= OPENJPA-470, injectedVersion= 0.9.0, openingVersion= 1.0.2, fixedVer
 
 Ticket[key= OPENJPA-484, injectedVersion= 1.0.1, openingVersion= 1.0.2, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 1, creationDate= 2008-01-11, resolutionDate= 2008-02-20]
 
+Ticket[key= OPENJPA-485, injectedVersion= 0.9.7, openingVersion= 1.0.2, fixedVersion= 1.2.0, affectedVersions= [0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3], numOfCommits= 3, creationDate= 2008-01-14, resolutionDate= 2008-08-01]
+
 Ticket[key= OPENJPA-489, injectedVersion= 1.0.0, openingVersion= 1.0.2, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], numOfCommits= 3, creationDate= 2008-01-16, resolutionDate= 2008-01-16]
+
+Ticket[key= OPENJPA-495, injectedVersion= 1.0.0, openingVersion= 1.0.2, fixedVersion= 1.0.3, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2008-01-16, resolutionDate= 2008-06-19]
 
 Ticket[key= OPENJPA-497, injectedVersion= 1.0.1, openingVersion= 1.0.2, fixedVersion= 1.2.0, affectedVersions= [1.0.1, 1.0.2, 1.1.0, 1.0.3], numOfCommits= 2, creationDate= 2008-01-18, resolutionDate= 2008-08-02]
 
 Ticket[key= OPENJPA-508, injectedVersion= 1.0.0, openingVersion= 1.0.2, fixedVersion= 1.0.2, affectedVersions= [1.0.0, 1.0.1], numOfCommits= 1, creationDate= 2008-02-01, resolutionDate= 2008-02-02]
+
+Ticket[key= OPENJPA-509, injectedVersion= 1.0.0, openingVersion= 1.0.2, fixedVersion= 1.0.3, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2008-02-05, resolutionDate= 2008-06-19]
 
 Ticket[key= OPENJPA-511, injectedVersion= 1.0.1, openingVersion= 1.0.2, fixedVersion= 1.0.2, affectedVersions= [1.0.1], numOfCommits= 1, creationDate= 2008-02-06, resolutionDate= 2008-02-07]
 
@@ -199,6 +301,8 @@ Ticket[key= OPENJPA-518, injectedVersion= 1.0.1, openingVersion= 1.0.2, fixedVer
 Ticket[key= OPENJPA-525, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 2.0.0-M3, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2], numOfCommits= 2, creationDate= 2008-02-27, resolutionDate= 2009-09-27]
 
 Ticket[key= OPENJPA-526, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 2.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 4, creationDate= 2008-02-27, resolutionDate= 2010-09-20]
+
+Ticket[key= OPENJPA-528, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 3, creationDate= 2008-02-29, resolutionDate= 2008-03-24]
 
 Ticket[key= OPENJPA-533, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.0.3, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2008-03-06, resolutionDate= 2008-06-18]
 
@@ -214,6 +318,8 @@ Ticket[key= OPENJPA-543, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVer
 
 Ticket[key= OPENJPA-542, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2], numOfCommits= 2, creationDate= 2008-03-24, resolutionDate= 2008-03-24]
 
+Ticket[key= OPENJPA-547, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 2, creationDate= 2008-03-27, resolutionDate= 2008-04-11]
+
 Ticket[key= OPENJPA-550, injectedVersion= 1.0.2, openingVersion= 1.1.0, fixedVersion= 1.2.0, affectedVersions= [1.0.2, 1.1.0, 1.0.3], numOfCommits= 1, creationDate= 2008-04-01, resolutionDate= 2008-08-01]
 
 Ticket[key= OPENJPA-552, injectedVersion= 1.0.2, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.2], numOfCommits= 1, creationDate= 2008-04-02, resolutionDate= 2008-04-04]
@@ -228,7 +334,31 @@ Ticket[key= OPENJPA-567, injectedVersion= 1.0.2, openingVersion= 1.1.0, fixedVer
 
 Ticket[key= OPENJPA-573, injectedVersion= 1.0.2, openingVersion= 1.1.0, fixedVersion= 2.0.0-M2, affectedVersions= [1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1], numOfCommits= 1, creationDate= 2008-04-16, resolutionDate= 2009-04-01]
 
+Ticket[key= OPENJPA-576, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 1, creationDate= 2008-04-18, resolutionDate= 2008-04-27]
+
+Ticket[key= OPENJPA-580, injectedVersion= 1.0.0, openingVersion= 1.1.0, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-04-23, resolutionDate= 2008-11-05]
+
+Ticket[key= OPENJPA-586, injectedVersion= 1.0.2, openingVersion= 1.1.0, fixedVersion= 1.0.3, affectedVersions= [1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2008-05-01, resolutionDate= 2008-06-09]
+
+Ticket[key= OPENJPA-588, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 1, creationDate= 2008-05-02, resolutionDate= 2008-05-03]
+
+Ticket[key= OPENJPA-590, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 2, creationDate= 2008-05-04, resolutionDate= 2008-05-05]
+
+Ticket[key= OPENJPA-589, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 3, creationDate= 2008-05-04, resolutionDate= 2008-05-12]
+
 Ticket[key= OPENJPA-594, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 1, creationDate= 2008-05-08, resolutionDate= 2008-05-08]
+
+Ticket[key= OPENJPA-596, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 1, creationDate= 2008-05-08, resolutionDate= 2008-05-22]
+
+Ticket[key= OPENJPA-605, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 2, creationDate= 2008-05-20, resolutionDate= 2008-05-21]
+
+Ticket[key= OPENJPA-607, injectedVersion= 1.0.1, openingVersion= 1.1.0, fixedVersion= 1.1.0, affectedVersions= [1.0.1, 1.0.2], numOfCommits= 1, creationDate= 2008-05-22, resolutionDate= 2008-05-22]
+
+Ticket[key= OPENJPA-612, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.0.2, 1.1.0], numOfCommits= 2, creationDate= 2008-05-25, resolutionDate= 2008-05-28]
+
+Ticket[key= OPENJPA-614, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2008-05-28, resolutionDate= 2008-05-28]
+
+Ticket[key= OPENJPA-617, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.0.2, 1.1.0], numOfCommits= 3, creationDate= 2008-05-29, resolutionDate= 2008-05-29]
 
 Ticket[key= OPENJPA-619, injectedVersion= 1.1.0, openingVersion= 1.0.3, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.0.3], numOfCommits= 1, creationDate= 2008-06-02, resolutionDate= 2008-07-28]
 
@@ -240,27 +370,55 @@ Ticket[key= OPENJPA-630, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVer
 
 Ticket[key= OPENJPA-628, injectedVersion= 1.1.0, openingVersion= 1.0.3, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.0.3], numOfCommits= 3, creationDate= 2008-06-09, resolutionDate= 2008-08-05]
 
+Ticket[key= OPENJPA-642, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2008-06-24, resolutionDate= 2008-06-25]
+
 Ticket[key= OPENJPA-645, injectedVersion= 1.1.0, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.1.0], numOfCommits= 2, creationDate= 2008-06-26, resolutionDate= 2008-06-26]
 
 Ticket[key= OPENJPA-647, injectedVersion= 1.1.0, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.1.0], numOfCommits= 3, creationDate= 2008-06-30, resolutionDate= 2008-07-02]
 
 Ticket[key= OPENJPA-650, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.2, 1.1.0, 1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-07-02, resolutionDate= 2008-09-17]
 
+Ticket[key= OPENJPA-657, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.0.2, 1.1.0], numOfCommits= 1, creationDate= 2008-07-10, resolutionDate= 2008-07-10]
+
 Ticket[key= OPENJPA-659, injectedVersion= 1.1.0, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.1.0], numOfCommits= 1, creationDate= 2008-07-14, resolutionDate= 2008-07-14]
 
 Ticket[key= OPENJPA-660, injectedVersion= 1.0.0, openingVersion= 1.0.3, fixedVersion= 1.2.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3], numOfCommits= 1, creationDate= 2008-07-16, resolutionDate= 2008-07-25]
 
+Ticket[key= OPENJPA-662, injectedVersion= 1.0.2, openingVersion= 1.0.3, fixedVersion= 1.0.3, affectedVersions= [1.0.2, 1.1.0], numOfCommits= 2, creationDate= 2008-07-17, resolutionDate= 2008-07-23]
+
+Ticket[key= OPENJPA-664, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.0.3], numOfCommits= 1, creationDate= 2008-07-24, resolutionDate= 2008-07-24]
+
+Ticket[key= OPENJPA-665, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.0.3], numOfCommits= 2, creationDate= 2008-07-24, resolutionDate= 2008-08-05]
+
 Ticket[key= OPENJPA-669, injectedVersion= 0.9.6, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3], numOfCommits= 1, creationDate= 2008-07-28, resolutionDate= 2008-07-28]
+
+Ticket[key= OPENJPA-674, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 1.2.0, affectedVersions= [1.1.0, 1.0.3], numOfCommits= 1, creationDate= 2008-08-06, resolutionDate= 2008-08-06]
 
 Ticket[key= OPENJPA-677, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 2.2.0, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], numOfCommits= 3, creationDate= 2008-08-06, resolutionDate= 2011-09-21]
 
 Ticket[key= OPENJPA-678, injectedVersion= 1.1.0, openingVersion= 1.2.0, fixedVersion= 2.0.0-M1, affectedVersions= [1.1.0, 1.0.3, 1.2.0], numOfCommits= 3, creationDate= 2008-08-07, resolutionDate= 2008-08-15]
 
+Ticket[key= OPENJPA-679, injectedVersion= 1.0.2, openingVersion= 1.2.0, fixedVersion= 2.0.0-M2, affectedVersions= [1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1], numOfCommits= 2, creationDate= 2008-08-07, resolutionDate= 2009-03-24]
+
+Ticket[key= OPENJPA-685, injectedVersion= 1.0.3, openingVersion= 1.2.0, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-08-08, resolutionDate= 2008-09-22]
+
+Ticket[key= OPENJPA-692, injectedVersion= 1.0.3, openingVersion= 1.2.0, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 3, creationDate= 2008-08-09, resolutionDate= 2008-08-25]
+
+Ticket[key= OPENJPA-693, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 2, creationDate= 2008-08-13, resolutionDate= 2008-08-25]
+
 Ticket[key= OPENJPA-695, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 3, creationDate= 2008-08-19, resolutionDate= 2008-09-11]
 
 Ticket[key= OPENJPA-696, injectedVersion= 1.0.0, openingVersion= 2.0.0-M1, fixedVersion= 2.3.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2008-08-21, resolutionDate= 2013-07-10]
 
+Ticket[key= OPENJPA-700, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-08-22, resolutionDate= 2008-08-22]
+
+Ticket[key= OPENJPA-698, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-08-22, resolutionDate= 2008-08-25]
+
 Ticket[key= OPENJPA-699, injectedVersion= 1.0.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0], numOfCommits= 2, creationDate= 2008-08-22, resolutionDate= 2008-08-27]
+
+Ticket[key= OPENJPA-702, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-08-25, resolutionDate= 2008-08-25]
+
+Ticket[key= OPENJPA-705, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-08-25, resolutionDate= 2008-08-26]
 
 Ticket[key= OPENJPA-710, injectedVersion= 1.0.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-09-02, resolutionDate= 2008-09-03]
 
@@ -276,6 +434,8 @@ Ticket[key= OPENJPA-719, injectedVersion= 1.1.0, openingVersion= 2.0.0-M1, fixed
 
 Ticket[key= OPENJPA-724, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2008-09-13, resolutionDate= 2008-09-17]
 
+Ticket[key= OPENJPA-727, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-09-17, resolutionDate= 2008-09-17]
+
 Ticket[key= OPENJPA-731, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2008-09-19, resolutionDate= 2008-09-26]
 
 Ticket[key= OPENJPA-733, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 2, creationDate= 2008-09-25, resolutionDate= 2008-10-06]
@@ -284,9 +444,17 @@ Ticket[key= OPENJPA-740, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixed
 
 Ticket[key= OPENJPA-745, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 3, creationDate= 2008-10-13, resolutionDate= 2008-10-22]
 
+Ticket[key= OPENJPA-750, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 3, creationDate= 2008-10-17, resolutionDate= 2008-10-23]
+
+Ticket[key= OPENJPA-751, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-10-23, resolutionDate= 2008-10-29]
+
+Ticket[key= OPENJPA-755, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 2, creationDate= 2008-10-30, resolutionDate= 2008-11-14]
+
 Ticket[key= OPENJPA-762, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2008-11-04, resolutionDate= 2008-11-04]
 
 Ticket[key= OPENJPA-761, injectedVersion= 1.1.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.1.0, 1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-11-04, resolutionDate= 2008-11-04]
+
+Ticket[key= OPENJPA-764, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-11-10, resolutionDate= 2008-11-10]
 
 Ticket[key= OPENJPA-774, injectedVersion= 1.1.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-beta3, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 1, creationDate= 2008-11-19, resolutionDate= 2010-03-03]
 
@@ -296,11 +464,19 @@ Ticket[key= OPENJPA-795, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixed
 
 Ticket[key= OPENJPA-811, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], numOfCommits= 1, creationDate= 2008-12-03, resolutionDate= 2009-03-17]
 
+Ticket[key= OPENJPA-815, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-12-04, resolutionDate= 2008-12-04]
+
+Ticket[key= OPENJPA-824, injectedVersion= 1.0.3, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.0.3, 1.2.0], numOfCommits= 1, creationDate= 2008-12-11, resolutionDate= 2008-12-16]
+
+Ticket[key= OPENJPA-828, injectedVersion= 0.9.0, openingVersion= 2.0.0-M1, fixedVersion= 1.2.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2008-12-16, resolutionDate= 2013-04-10]
+
 Ticket[key= OPENJPA-835, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2008-12-18, resolutionDate= 2008-12-19]
 
 Ticket[key= OPENJPA-836, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2008-12-19, resolutionDate= 2009-01-14]
 
 Ticket[key= OPENJPA-838, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 2, creationDate= 2008-12-19, resolutionDate= 2009-01-29]
+
+Ticket[key= OPENJPA-845, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], numOfCommits= 2, creationDate= 2008-12-23, resolutionDate= 2009-02-26]
 
 Ticket[key= OPENJPA-853, injectedVersion= 1.2.0, openingVersion= 2.0.0-M1, fixedVersion= 2.0.0-M1, affectedVersions= [1.2.0], numOfCommits= 1, creationDate= 2009-01-09, resolutionDate= 2009-01-10]
 
@@ -354,6 +530,10 @@ Ticket[key= OPENJPA-955, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVer
 
 Ticket[key= OPENJPA-970, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], numOfCommits= 1, creationDate= 2009-03-10, resolutionDate= 2009-03-17]
 
+Ticket[key= OPENJPA-973, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2], numOfCommits= 3, creationDate= 2009-03-10, resolutionDate= 2009-08-17]
+
+Ticket[key= OPENJPA-981, injectedVersion= 1.2.0, openingVersion= 1.2.1, fixedVersion= 1.2.1, affectedVersions= [1.2.0, 2.0.0-M1], numOfCommits= 2, creationDate= 2009-03-16, resolutionDate= 2009-03-18]
+
 Ticket[key= OPENJPA-993, injectedVersion= 1.2.0, openingVersion= 2.0.0-M2, fixedVersion= 1.2.2, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 1, creationDate= 2009-03-20, resolutionDate= 2009-12-21]
 
 Ticket[key= OPENJPA-1001, injectedVersion= 1.2.1, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-beta2, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta], numOfCommits= 1, creationDate= 2009-03-29, resolutionDate= 2010-02-11]
@@ -362,9 +542,15 @@ Ticket[key= OPENJPA-1020, injectedVersion= 1.2.1, openingVersion= 2.0.0-M2, fixe
 
 Ticket[key= OPENJPA-1025, injectedVersion= 1.2.1, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-M2, affectedVersions= [1.2.1], numOfCommits= 1, creationDate= 2009-04-07, resolutionDate= 2009-04-30]
 
+Ticket[key= OPENJPA-1031, injectedVersion= 2.0.0-M1, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-M2, affectedVersions= [2.0.0-M1, 1.2.1], numOfCommits= 1, creationDate= 2009-04-09, resolutionDate= 2009-05-07]
+
+Ticket[key= OPENJPA-1039, injectedVersion= 2.0.0-M1, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-M2, affectedVersions= [2.0.0-M1, 1.2.1], numOfCommits= 1, creationDate= 2009-04-15, resolutionDate= 2009-05-08]
+
 Ticket[key= OPENJPA-1049, injectedVersion= 1.2.1, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.1, 2.0.0-M2], numOfCommits= 1, creationDate= 2009-04-22, resolutionDate= 2009-08-28]
 
 Ticket[key= OPENJPA-1051, injectedVersion= 1.0.0, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-M2, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1], numOfCommits= 5, creationDate= 2009-04-28, resolutionDate= 2009-05-13]
+
+Ticket[key= OPENJPA-1054, injectedVersion= 2.0.0-M1, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-M2, affectedVersions= [2.0.0-M1, 1.2.1], numOfCommits= 2, creationDate= 2009-04-29, resolutionDate= 2009-05-28]
 
 Ticket[key= OPENJPA-1061, injectedVersion= 1.2.0, openingVersion= 2.0.0-M2, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2], numOfCommits= 4, creationDate= 2009-05-05, resolutionDate= 2009-06-30]
 
@@ -386,6 +572,10 @@ Ticket[key= OPENJPA-1127, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixe
 
 Ticket[key= OPENJPA-1141, injectedVersion= 1.2.0, openingVersion= 2.0.0-M3, fixedVersion= 1.2.2, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 1, creationDate= 2009-06-19, resolutionDate= 2010-01-08]
 
+Ticket[key= OPENJPA-1168, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.1, 2.0.0-M2], numOfCommits= 1, creationDate= 2009-07-08, resolutionDate= 2009-07-14]
+
+Ticket[key= OPENJPA-1163, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.1, 2.0.0-M2], numOfCommits= 2, creationDate= 2009-07-08, resolutionDate= 2009-08-03]
+
 Ticket[key= OPENJPA-1184, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.1, 2.0.0-M2], numOfCommits= 3, creationDate= 2009-07-20, resolutionDate= 2009-09-11]
 
 Ticket[key= OPENJPA-1197, injectedVersion= 1.0.3, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2], numOfCommits= 1, creationDate= 2009-07-27, resolutionDate= 2009-07-27]
@@ -393,6 +583,8 @@ Ticket[key= OPENJPA-1197, injectedVersion= 1.0.3, openingVersion= 2.0.0-M3, fixe
 Ticket[key= OPENJPA-1200, injectedVersion= 2.0.0-M2, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [2.0.0-M2], numOfCommits= 1, creationDate= 2009-07-28, resolutionDate= 2009-08-21]
 
 Ticket[key= OPENJPA-1201, injectedVersion= 1.2.0, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2], numOfCommits= 1, creationDate= 2009-07-28, resolutionDate= 2009-09-14]
+
+Ticket[key= OPENJPA-1204, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.1, 2.0.0-M2], numOfCommits= 1, creationDate= 2009-07-29, resolutionDate= 2009-07-29]
 
 Ticket[key= OPENJPA-1205, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-beta3, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 1, creationDate= 2009-07-29, resolutionDate= 2010-03-23]
 
@@ -404,7 +596,11 @@ Ticket[key= OPENJPA-1224, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixe
 
 Ticket[key= OPENJPA-1227, injectedVersion= 1.2.1, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [1.2.1, 2.0.0-M2], numOfCommits= 2, creationDate= 2009-08-05, resolutionDate= 2009-09-14]
 
+Ticket[key= OPENJPA-1226, injectedVersion= 0.9.0, openingVersion= 2.0.0-M3, fixedVersion= 1.2.3, affectedVersions= [0.9.0, 0.9.6, 0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2009-08-05, resolutionDate= 2013-04-10]
+
 Ticket[key= OPENJPA-1232, injectedVersion= 2.0.0-M2, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [2.0.0-M2], numOfCommits= 2, creationDate= 2009-08-07, resolutionDate= 2009-08-07]
+
+Ticket[key= OPENJPA-1234, injectedVersion= 1.0.3, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-beta3, affectedVersions= [1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 2, creationDate= 2009-08-09, resolutionDate= 2010-03-04]
 
 Ticket[key= OPENJPA-1242, injectedVersion= 2.0.0-M2, openingVersion= 2.0.0-M3, fixedVersion= 2.0.0-M3, affectedVersions= [2.0.0-M2], numOfCommits= 1, creationDate= 2009-08-12, resolutionDate= 2009-08-13]
 
@@ -448,6 +644,8 @@ Ticket[key= OPENJPA-1350, injectedVersion= 1.0.3, openingVersion= 1.2.2, fixedVe
 
 Ticket[key= OPENJPA-1352, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 1, creationDate= 2009-10-15, resolutionDate= 2009-10-16]
 
+Ticket[key= OPENJPA-1354, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 1, creationDate= 2009-10-19, resolutionDate= 2009-11-12]
+
 Ticket[key= OPENJPA-1370, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 2, creationDate= 2009-10-30, resolutionDate= 2009-11-02]
 
 Ticket[key= OPENJPA-1367, injectedVersion= 2.0.0-M1, openingVersion= 1.2.2, fixedVersion= 2.0.0-beta2, affectedVersions= [2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta], numOfCommits= 1, creationDate= 2009-10-30, resolutionDate= 2010-02-08]
@@ -476,6 +674,8 @@ Ticket[key= OPENJPA-1386, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixe
 
 Ticket[key= OPENJPA-1387, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.3, affectedVersions= [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], numOfCommits= 6, creationDate= 2009-11-13, resolutionDate= 2013-01-23]
 
+Ticket[key= OPENJPA-1388, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 1, creationDate= 2009-11-16, resolutionDate= 2009-11-17]
+
 Ticket[key= OPENJPA-1391, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 1, creationDate= 2009-11-17, resolutionDate= 2009-11-30]
 
 Ticket[key= OPENJPA-1390, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 1, creationDate= 2009-11-17, resolutionDate= 2009-11-30]
@@ -494,11 +694,15 @@ Ticket[key= OPENJPA-1400, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVe
 
 Ticket[key= OPENJPA-1401, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 2, creationDate= 2009-11-25, resolutionDate= 2009-12-18]
 
+Ticket[key= OPENJPA-1409, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 2, creationDate= 2009-12-01, resolutionDate= 2010-01-18]
+
 Ticket[key= OPENJPA-1410, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 4, creationDate= 2009-12-02, resolutionDate= 2010-03-22]
 
 Ticket[key= OPENJPA-1413, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 1, creationDate= 2009-12-03, resolutionDate= 2009-12-03]
 
 Ticket[key= OPENJPA-1424, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 2.0.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], numOfCommits= 3, creationDate= 2009-12-10, resolutionDate= 2010-05-03]
+
+Ticket[key= OPENJPA-1425, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 2, creationDate= 2009-12-11, resolutionDate= 2010-01-18]
 
 Ticket[key= OPENJPA-1431, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 1, creationDate= 2009-12-15, resolutionDate= 2009-12-15]
 
@@ -516,7 +720,11 @@ Ticket[key= OPENJPA-1460, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixe
 
 Ticket[key= OPENJPA-1461, injectedVersion= 2.0.0-M3, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M3], numOfCommits= 2, creationDate= 2010-01-15, resolutionDate= 2010-01-15]
 
+Ticket[key= OPENJPA-1464, injectedVersion= 1.2.1, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 1, creationDate= 2010-01-15, resolutionDate= 2010-01-18]
+
 Ticket[key= OPENJPA-1467, injectedVersion= 2.0.0-M1, openingVersion= 1.2.2, fixedVersion= 1.2.2, affectedVersions= [2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3], numOfCommits= 1, creationDate= 2010-01-18, resolutionDate= 2010-01-18]
+
+Ticket[key= OPENJPA-1477, injectedVersion= 2.0.0-M2, openingVersion= 2.0.0-beta, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 1, creationDate= 2010-01-21, resolutionDate= 2010-03-15]
 
 Ticket[key= OPENJPA-1478, injectedVersion= 2.0.0-M3, openingVersion= 2.0.0-beta, fixedVersion= 2.0.0-beta, affectedVersions= [2.0.0-M3, 1.2.2], numOfCommits= 1, creationDate= 2010-01-22, resolutionDate= 2010-01-22]
 
@@ -531,6 +739,8 @@ Ticket[key= OPENJPA-1496, injectedVersion= 2.0.0-beta, openingVersion= 2.0.0-bet
 Ticket[key= OPENJPA-1500, injectedVersion= 1.0.3, openingVersion= 2.0.0-beta2, fixedVersion= 2.0.0-beta3, affectedVersions= [1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 1, creationDate= 2010-02-08, resolutionDate= 2010-03-04]
 
 Ticket[key= OPENJPA-1501, injectedVersion= 1.2.2, openingVersion= 2.0.0-beta2, fixedVersion= 2.0.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], numOfCommits= 1, creationDate= 2010-02-08, resolutionDate= 2010-07-15]
+
+Ticket[key= OPENJPA-1503, injectedVersion= 1.2.2, openingVersion= 2.0.0-beta2, fixedVersion= 2.0.0-beta3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 6, creationDate= 2010-02-09, resolutionDate= 2010-03-15]
 
 Ticket[key= OPENJPA-1504, injectedVersion= 2.0.0-beta, openingVersion= 2.0.0-beta2, fixedVersion= 2.0.0-beta2, affectedVersions= [2.0.0-beta], numOfCommits= 1, creationDate= 2010-02-10, resolutionDate= 2010-02-10]
 
@@ -582,6 +792,10 @@ Ticket[key= OPENJPA-1577, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-be
 
 Ticket[key= OPENJPA-1580, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-beta2], numOfCommits= 2, creationDate= 2010-03-17, resolutionDate= 2010-03-19]
 
+Ticket[key= OPENJPA-1581, injectedVersion= 1.2.2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0-beta3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2], numOfCommits= 1, creationDate= 2010-03-18, resolutionDate= 2010-03-22]
+
+Ticket[key= OPENJPA-1583, injectedVersion= 1.1.0, openingVersion= 2.0.0-beta3, fixedVersion= 1.2.3, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], numOfCommits= 3, creationDate= 2010-03-18, resolutionDate= 2013-04-10]
+
 Ticket[key= OPENJPA-1596, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0-beta3, affectedVersions= [2.0.0-beta2], numOfCommits= 3, creationDate= 2010-03-23, resolutionDate= 2010-03-23]
 
 Ticket[key= OPENJPA-1599, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.0-beta3, fixedVersion= 2.0.0, affectedVersions= [2.0.0-beta2, 2.0.0-beta3], numOfCommits= 2, creationDate= 2010-03-25, resolutionDate= 2010-04-10]
@@ -600,9 +814,19 @@ Ticket[key= OPENJPA-1631, injectedVersion= 1.2.2, openingVersion= 2.0.0, fixedVe
 
 Ticket[key= OPENJPA-1630, injectedVersion= 1.2.2, openingVersion= 2.0.0, fixedVersion= 2.0.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3], numOfCommits= 1, creationDate= 2010-04-13, resolutionDate= 2010-04-15]
 
+Ticket[key= OPENJPA-1641, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0], numOfCommits= 1, creationDate= 2010-04-27, resolutionDate= 2010-06-14]
+
 Ticket[key= OPENJPA-1644, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 1.2.3, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2010-04-30, resolutionDate= 2013-04-10]
 
 Ticket[key= OPENJPA-1646, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], numOfCommits= 1, creationDate= 2010-05-03, resolutionDate= 2010-05-03]
+
+Ticket[key= OPENJPA-1648, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 1, creationDate= 2010-05-04, resolutionDate= 2011-01-12]
+
+Ticket[key= OPENJPA-1650, injectedVersion= 2.0.0-beta, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], numOfCommits= 1, creationDate= 2010-05-04, resolutionDate= 2011-09-21]
+
+Ticket[key= OPENJPA-1657, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], numOfCommits= 1, creationDate= 2010-05-10, resolutionDate= 2011-04-27]
+
+Ticket[key= OPENJPA-1662, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 4, creationDate= 2010-05-11, resolutionDate= 2011-01-12]
 
 Ticket[key= OPENJPA-1665, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], numOfCommits= 1, creationDate= 2010-05-12, resolutionDate= 2011-03-23]
 
@@ -616,7 +840,11 @@ Ticket[key= OPENJPA-1676, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVe
 
 Ticket[key= OPENJPA-1678, injectedVersion= 1.1.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0], numOfCommits= 3, creationDate= 2010-06-02, resolutionDate= 2010-07-15]
 
+Ticket[key= OPENJPA-1683, injectedVersion= 2.0.0-beta3, openingVersion= 2.0.1, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 1, creationDate= 2010-06-05, resolutionDate= 2011-01-12]
+
 Ticket[key= OPENJPA-1685, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], numOfCommits= 1, creationDate= 2010-06-07, resolutionDate= 2010-06-08]
+
+Ticket[key= OPENJPA-1686, injectedVersion= 2.0.0-beta, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], numOfCommits= 8, creationDate= 2010-06-08, resolutionDate= 2011-09-21]
 
 Ticket[key= OPENJPA-1690, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], numOfCommits= 2, creationDate= 2010-06-09, resolutionDate= 2010-06-09]
 
@@ -657,6 +885,8 @@ Ticket[key= OPENJPA-1743, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVe
 Ticket[key= OPENJPA-1746, injectedVersion= 1.2.2, openingVersion= 2.0.1, fixedVersion= 2.2.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1], numOfCommits= 2, creationDate= 2010-07-23, resolutionDate= 2011-09-21]
 
 Ticket[key= OPENJPA-1749, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], numOfCommits= 1, creationDate= 2010-07-28, resolutionDate= 2010-07-28]
+
+Ticket[key= OPENJPA-1756, injectedVersion= 2.0.0-beta2, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0-beta2, 2.0.0-beta3, 2.0.0], numOfCommits= 1, creationDate= 2010-08-01, resolutionDate= 2010-08-01]
 
 Ticket[key= OPENJPA-1757, injectedVersion= 2.0.0, openingVersion= 2.0.1, fixedVersion= 2.0.1, affectedVersions= [2.0.0], numOfCommits= 1, creationDate= 2010-08-02, resolutionDate= 2010-08-09]
 
@@ -710,6 +940,8 @@ Ticket[key= OPENJPA-1856, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVe
 
 Ticket[key= OPENJPA-1866, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], numOfCommits= 1, creationDate= 2010-11-01, resolutionDate= 2010-11-19]
 
+Ticket[key= OPENJPA-1870, injectedVersion= 2.0.0-beta3, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 2, creationDate= 2010-11-03, resolutionDate= 2010-11-05]
+
 Ticket[key= OPENJPA-1873, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1], numOfCommits= 2, creationDate= 2010-11-04, resolutionDate= 2011-12-08]
 
 Ticket[key= OPENJPA-1874, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 1, creationDate= 2010-11-05, resolutionDate= 2010-11-08]
@@ -728,6 +960,8 @@ Ticket[key= OPENJPA-1896, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVe
 
 Ticket[key= OPENJPA-1898, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], numOfCommits= 1, creationDate= 2010-11-29, resolutionDate= 2010-11-30]
 
+Ticket[key= OPENJPA-1902, injectedVersion= 2.0.0-beta3, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 1, creationDate= 2010-11-30, resolutionDate= 2010-11-30]
+
 Ticket[key= OPENJPA-1900, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], numOfCommits= 2, creationDate= 2010-11-30, resolutionDate= 2010-12-17]
 
 Ticket[key= OPENJPA-1901, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.2.0, affectedVersions= [2.0.0, 2.0.1, 2.1.0, 2.1.1], numOfCommits= 1, creationDate= 2010-11-30, resolutionDate= 2012-02-06]
@@ -745,6 +979,8 @@ Ticket[key= OPENJPA-1911, injectedVersion= 1.2.2, openingVersion= 2.1.0, fixedVe
 Ticket[key= OPENJPA-1912, injectedVersion= 2.0.0, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0, 2.0.1], numOfCommits= 4, creationDate= 2011-01-03, resolutionDate= 2011-02-16]
 
 Ticket[key= OPENJPA-1918, injectedVersion= 2.0.1, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.1], numOfCommits= 1, creationDate= 2011-01-06, resolutionDate= 2011-01-06]
+
+Ticket[key= OPENJPA-1923, injectedVersion= 2.0.0-beta3, openingVersion= 2.1.0, fixedVersion= 2.1.0, affectedVersions= [2.0.0-beta3, 2.0.0, 2.0.1], numOfCommits= 2, creationDate= 2011-01-14, resolutionDate= 2011-01-31]
 
 Ticket[key= OPENJPA-1928, injectedVersion= 1.2.1, openingVersion= 2.1.0, fixedVersion= 2.1.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0], numOfCommits= 1, creationDate= 2011-01-20, resolutionDate= 2011-03-22]
 
@@ -789,6 +1025,10 @@ Ticket[key= OPENJPA-1989, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVe
 Ticket[key= OPENJPA-1992, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], numOfCommits= 1, creationDate= 2011-05-04, resolutionDate= 2011-05-09]
 
 Ticket[key= OPENJPA-1993, injectedVersion= 1.0.0, openingVersion= 2.1.1, fixedVersion= 3.1.0, affectedVersions= [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3], numOfCommits= 3, creationDate= 2011-05-04, resolutionDate= 2018-08-15]
+
+Ticket[key= OPENJPA-1994, injectedVersion= 2.0.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], numOfCommits= 1, creationDate= 2011-05-05, resolutionDate= 2011-05-05]
+
+Ticket[key= OPENJPA-1995, injectedVersion= 2.0.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.0.0, 2.0.1, 2.1.0], numOfCommits= 1, creationDate= 2011-05-10, resolutionDate= 2011-05-10]
 
 Ticket[key= OPENJPA-1996, injectedVersion= 2.1.0, openingVersion= 2.1.1, fixedVersion= 2.1.1, affectedVersions= [2.1.0], numOfCommits= 1, creationDate= 2011-05-10, resolutionDate= 2011-07-11]
 
@@ -843,6 +1083,10 @@ Ticket[key= OPENJPA-2066, injectedVersion= 1.1.0, openingVersion= 2.2.0, fixedVe
 Ticket[key= OPENJPA-2072, injectedVersion= 1.2.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0], numOfCommits= 1, creationDate= 2011-11-09, resolutionDate= 2012-06-01]
 
 Ticket[key= OPENJPA-2083, injectedVersion= 2.1.1, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.1.1], numOfCommits= 1, creationDate= 2011-11-29, resolutionDate= 2012-01-03]
+
+Ticket[key= OPENJPA-2088, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1], numOfCommits= 2, creationDate= 2011-12-07, resolutionDate= 2011-12-07]
+
+Ticket[key= OPENJPA-2094, injectedVersion= 2.0.0-beta, openingVersion= 2.2.0, fixedVersion= 2.4.0, affectedVersions= [2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], numOfCommits= 2, creationDate= 2011-12-13, resolutionDate= 2013-12-02]
 
 Ticket[key= OPENJPA-2102, injectedVersion= 2.0.1, openingVersion= 2.2.0, fixedVersion= 2.2.1, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0], numOfCommits= 1, creationDate= 2011-12-28, resolutionDate= 2012-05-31]
 
@@ -928,6 +1172,8 @@ Ticket[key= OPENJPA-2253, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVe
 
 Ticket[key= OPENJPA-2255, injectedVersion= 2.1.1, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.1.1, 2.2.0], numOfCommits= 1, creationDate= 2012-08-31, resolutionDate= 2012-09-11]
 
+Ticket[key= OPENJPA-2257, injectedVersion= 2.1.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.1.0, 2.1.1, 2.2.0], numOfCommits= 2, creationDate= 2012-09-03, resolutionDate= 2012-09-05]
+
 Ticket[key= OPENJPA-2261, injectedVersion= 2.1.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.1.0, 2.1.1, 2.2.0], numOfCommits= 1, creationDate= 2012-09-10, resolutionDate= 2012-09-13]
 
 Ticket[key= OPENJPA-2260, injectedVersion= 2.1.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.1.0, 2.1.1, 2.2.0], numOfCommits= 1, creationDate= 2012-09-10, resolutionDate= 2012-09-13]
@@ -935,6 +1181,8 @@ Ticket[key= OPENJPA-2260, injectedVersion= 2.1.0, openingVersion= 2.2.1, fixedVe
 Ticket[key= OPENJPA-2267, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], numOfCommits= 1, creationDate= 2012-09-26, resolutionDate= 2012-09-27]
 
 Ticket[key= OPENJPA-2269, injectedVersion= 2.2.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.2.0], numOfCommits= 2, creationDate= 2012-09-27, resolutionDate= 2012-10-09]
+
+Ticket[key= OPENJPA-2271, injectedVersion= 2.1.0, openingVersion= 2.2.1, fixedVersion= 2.2.1, affectedVersions= [2.1.0, 2.1.1, 2.2.0], numOfCommits= 1, creationDate= 2012-10-02, resolutionDate= 2012-10-02]
 
 Ticket[key= OPENJPA-2284, injectedVersion= 2.0.1, openingVersion= 2.2.1, fixedVersion= 1.2.3, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2012-10-25, resolutionDate= 2013-04-10]
 
@@ -950,15 +1198,27 @@ Ticket[key= OPENJPA-2298, injectedVersion= 2.2.0, openingVersion= 1.2.3, fixedVe
 
 Ticket[key= OPENJPA-2300, injectedVersion= 2.2.1, openingVersion= 1.2.3, fixedVersion= 2.4.2, affectedVersions= [2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1], numOfCommits= 1, creationDate= 2012-11-26, resolutionDate= 2016-08-23]
 
+Ticket[key= OPENJPA-2304, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2012-12-11, resolutionDate= 2013-01-10]
+
 Ticket[key= OPENJPA-2318, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 2.3.0, affectedVersions= [2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-01-05, resolutionDate= 2013-08-16]
+
+Ticket[key= OPENJPA-2320, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2013-01-08, resolutionDate= 2013-01-10]
+
+Ticket[key= OPENJPA-2321, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2013-01-10, resolutionDate= 2013-01-10]
 
 Ticket[key= OPENJPA-2328, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2013-01-31, resolutionDate= 2013-02-19]
 
 Ticket[key= OPENJPA-2330, injectedVersion= 2.2.0, openingVersion= 1.2.3, fixedVersion= 2.3.0, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2], numOfCommits= 2, creationDate= 2013-02-07, resolutionDate= 2013-11-05]
 
+Ticket[key= OPENJPA-2336, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2013-02-19, resolutionDate= 2013-03-28]
+
+Ticket[key= OPENJPA-2335, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 2.3.0, affectedVersions= [2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], numOfCommits= 2, creationDate= 2013-02-19, resolutionDate= 2013-11-18]
+
 Ticket[key= OPENJPA-2341, injectedVersion= 2.2.0, openingVersion= 1.2.3, fixedVersion= 2.4.1, affectedVersions= [2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0], numOfCommits= 2, creationDate= 2013-02-27, resolutionDate= 2015-10-06]
 
 Ticket[key= OPENJPA-2343, injectedVersion= 2.2.1, openingVersion= 1.2.3, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-03-01, resolutionDate= 2013-10-17]
+
+Ticket[key= OPENJPA-2355, injectedVersion= 2.1.1, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1], numOfCommits= 2, creationDate= 2013-03-20, resolutionDate= 2013-03-28]
 
 Ticket[key= OPENJPA-2357, injectedVersion= 2.2.0, openingVersion= 1.2.3, fixedVersion= 1.2.3, affectedVersions= [2.2.0, 2.2.1], numOfCommits= 1, creationDate= 2013-03-22, resolutionDate= 2013-03-26]
 
@@ -966,9 +1226,17 @@ Ticket[key= OPENJPA-2369, injectedVersion= 2.2.1, openingVersion= 1.2.3, fixedVe
 
 Ticket[key= OPENJPA-2374, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.4.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2, 2.3.0], numOfCommits= 1, creationDate= 2013-04-23, resolutionDate= 2014-02-05]
 
+Ticket[key= OPENJPA-2377, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-04-25, resolutionDate= 2013-05-14]
+
 Ticket[key= OPENJPA-2381, injectedVersion= 2.2.2, openingVersion= 2.3.0, fixedVersion= 2.4.0, affectedVersions= [2.2.2, 2.3.0], numOfCommits= 2, creationDate= 2013-05-15, resolutionDate= 2014-11-24]
 
 Ticket[key= OPENJPA-2390, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-05-29, resolutionDate= 2013-06-24]
+
+Ticket[key= OPENJPA-2391, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-05-31, resolutionDate= 2013-06-24]
+
+Ticket[key= OPENJPA-2400, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 2, creationDate= 2013-06-14, resolutionDate= 2013-10-07]
+
+Ticket[key= OPENJPA-2405, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-06-25, resolutionDate= 2013-07-01]
 
 Ticket[key= OPENJPA-2409, injectedVersion= 2.2.2, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.2], numOfCommits= 1, creationDate= 2013-07-11, resolutionDate= 2013-10-18]
 
@@ -976,7 +1244,11 @@ Ticket[key= OPENJPA-2421, injectedVersion= 2.2.2, openingVersion= 2.3.0, fixedVe
 
 Ticket[key= OPENJPA-2423, injectedVersion= 2.1.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], numOfCommits= 2, creationDate= 2013-08-26, resolutionDate= 2013-11-05]
 
+Ticket[key= OPENJPA-2432, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-09-27, resolutionDate= 2013-09-27]
+
 Ticket[key= OPENJPA-2435, injectedVersion= 2.1.0, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-10-09, resolutionDate= 2013-10-18]
+
+Ticket[key= OPENJPA-2437, injectedVersion= 2.2.1, openingVersion= 2.3.0, fixedVersion= 2.3.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2], numOfCommits= 1, creationDate= 2013-10-11, resolutionDate= 2013-10-29]
 
 Ticket[key= OPENJPA-2463, injectedVersion= 2.0.1, openingVersion= 2.4.0, fixedVersion= 2.4.0, affectedVersions= [2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0], numOfCommits= 1, creationDate= 2013-12-04, resolutionDate= 2013-12-17]
 
@@ -1038,6 +1310,8 @@ Ticket[key= OPENJPA-2586, injectedVersion= 2.2.2, openingVersion= 2.4.1, fixedVe
 
 Ticket[key= OPENJPA-2596, injectedVersion= 2.4.0, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [2.4.0], numOfCommits= 1, creationDate= 2015-06-06, resolutionDate= 2015-06-07]
 
+Ticket[key= OPENJPA-2597, injectedVersion= 2.2.2, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [2.2.2, 2.3.0, 2.4.0], numOfCommits= 1, creationDate= 2015-06-29, resolutionDate= 2015-06-29]
+
 Ticket[key= OPENJPA-2600, injectedVersion= 2.4.0, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [2.4.0], numOfCommits= 2, creationDate= 2015-06-29, resolutionDate= 2015-06-30]
 
 Ticket[key= OPENJPA-2601, injectedVersion= 2.3.0, openingVersion= 2.4.1, fixedVersion= 2.4.1, affectedVersions= [2.3.0, 2.4.0], numOfCommits= 1, creationDate= 2015-07-20, resolutionDate= 2015-07-21]
@@ -1086,17 +1360,37 @@ Ticket[key= OPENJPA-2704, injectedVersion= 2.2.2, openingVersion= 2.4.3, fixedVe
 
 Ticket[key= OPENJPA-2705, injectedVersion= 2.1.1, openingVersion= 2.4.3, fixedVersion= 2.4.3, affectedVersions= [2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2], numOfCommits= 1, creationDate= 2017-07-14, resolutionDate= 2017-07-20]
 
+Ticket[key= OPENJPA-2707, injectedVersion= 2.4.0, openingVersion= 2.4.3, fixedVersion= 2.4.3, affectedVersions= [2.4.0, 2.4.1, 2.4.2], numOfCommits= 1, creationDate= 2017-07-21, resolutionDate= 2017-07-27]
+
 Ticket[key= OPENJPA-2725, injectedVersion= 2.4.2, openingVersion= 2.4.3, fixedVersion= 2.4.3, affectedVersions= [2.4.2], numOfCommits= 1, creationDate= 2018-01-03, resolutionDate= 2018-01-03]
 
 Ticket[key= OPENJPA-2733, injectedVersion= 2.4.2, openingVersion= 2.4.3, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3], numOfCommits= 3, creationDate= 2018-04-09, resolutionDate= 2019-02-14]
 
 Ticket[key= OPENJPA-2743, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.1, affectedVersions= [2.4.2, 2.4.3, 3.1.0], numOfCommits= 1, creationDate= 2018-07-12, resolutionDate= 2019-07-29]
 
+Ticket[key= OPENJPA-2746, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2018-08-16, resolutionDate= 2018-08-16]
+
+Ticket[key= OPENJPA-2757, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2018-11-10, resolutionDate= 2018-11-10]
+
+Ticket[key= OPENJPA-2756, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2018-11-10, resolutionDate= 2018-11-10]
+
 Ticket[key= OPENJPA-2761, injectedVersion= 2.2.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.2.1, 1.2.3, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2018-12-07, resolutionDate= 2019-01-14]
+
+Ticket[key= OPENJPA-2764, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2019-01-02, resolutionDate= 2019-01-02]
+
+Ticket[key= OPENJPA-2768, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 2, creationDate= 2019-01-10, resolutionDate= 2019-01-10]
 
 Ticket[key= OPENJPA-2770, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2019-01-22, resolutionDate= 2019-01-23]
 
+Ticket[key= OPENJPA-2772, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2019-02-02, resolutionDate= 2019-02-02]
+
+Ticket[key= OPENJPA-2771, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2019-02-02, resolutionDate= 2019-02-02]
+
+Ticket[key= OPENJPA-2777, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2019-03-01, resolutionDate= 2019-03-05]
+
 Ticket[key= OPENJPA-2780, injectedVersion= 2.4.2, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2019-03-20, resolutionDate= 2019-03-24]
+
+Ticket[key= OPENJPA-2781, injectedVersion= 2.4.1, openingVersion= 3.1.0, fixedVersion= 3.1.0, affectedVersions= [2.4.1, 2.4.2, 2.4.3], numOfCommits= 1, creationDate= 2019-03-21, resolutionDate= 2019-03-24]
 
 Ticket[key= OPENJPA-2788, injectedVersion= 3.1.0, openingVersion= 3.1.1, fixedVersion= 3.2.0, affectedVersions= [3.1.0, 3.1.1, 3.1.2], numOfCommits= 1, creationDate= 2019-04-18, resolutionDate= 2020-12-14]
 
@@ -1112,7 +1406,13 @@ Ticket[key= OPENJPA-2810, injectedVersion= 3.1.1, openingVersion= 3.1.2, fixedVe
 
 Ticket[key= OPENJPA-2821, injectedVersion= 3.1.2, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.2], numOfCommits= 1, creationDate= 2020-07-23, resolutionDate= 2020-07-23]
 
+Ticket[key= OPENJPA-2830, injectedVersion= 3.1.0, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.0, 3.1.1, 3.1.2], numOfCommits= 1, creationDate= 2020-09-15, resolutionDate= 2020-09-15]
+
+Ticket[key= OPENJPA-2829, injectedVersion= 3.1.0, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.0, 3.1.1, 3.1.2], numOfCommits= 1, creationDate= 2020-09-15, resolutionDate= 2020-09-15]
+
 Ticket[key= OPENJPA-2828, injectedVersion= 3.1.2, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.2], numOfCommits= 1, creationDate= 2020-09-15, resolutionDate= 2020-09-22]
+
+Ticket[key= OPENJPA-2832, injectedVersion= 3.1.0, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.0, 3.1.1, 3.1.2], numOfCommits= 2, creationDate= 2020-09-28, resolutionDate= 2020-09-30]
 
 Ticket[key= OPENJPA-2834, injectedVersion= 3.1.1, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.1, 3.1.2], numOfCommits= 6, creationDate= 2020-09-30, resolutionDate= 2020-09-30]
 
@@ -1152,9 +1452,17 @@ Ticket[key= OPENJPA-2865, injectedVersion= 3.1.2, openingVersion= 3.2.0, fixedVe
 
 Ticket[key= OPENJPA-2866, injectedVersion= 3.1.2, openingVersion= 3.2.0, fixedVersion= 3.2.0, affectedVersions= [3.1.2], numOfCommits= 3, creationDate= 2021-04-10, resolutionDate= 2021-04-18]
 
+Ticket[key= OPENJPA-2876, injectedVersion= 3.1.1, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.1.1, 3.1.2, 3.2.0], numOfCommits= 2, creationDate= 2021-06-10, resolutionDate= 2021-06-16]
+
+Ticket[key= OPENJPA-2877, injectedVersion= 3.1.1, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.1.1, 3.1.2, 3.2.0], numOfCommits= 5, creationDate= 2021-07-12, resolutionDate= 2021-10-27]
+
+Ticket[key= OPENJPA-2882, injectedVersion= 3.1.1, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.1.1, 3.1.2, 3.2.0], numOfCommits= 2, creationDate= 2021-10-12, resolutionDate= 2021-10-21]
+
 Ticket[key= OPENJPA-2883, injectedVersion= 3.2.0, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.2.0], numOfCommits= 2, creationDate= 2021-10-21, resolutionDate= 2021-10-22]
 
 Ticket[key= OPENJPA-2889, injectedVersion= 3.2.0, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.2.0], numOfCommits= 2, creationDate= 2021-11-22, resolutionDate= 2021-12-05]
 
 Ticket[key= OPENJPA-2891, injectedVersion= 3.2.0, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.2.0], numOfCommits= 4, creationDate= 2021-11-30, resolutionDate= 2021-12-01]
+
+Ticket[key= OPENJPA-2896, injectedVersion= 3.1.1, openingVersion= 3.2.1, fixedVersion= 3.2.1, affectedVersions= [3.1.1, 3.1.2, 3.2.0], numOfCommits= 1, creationDate= 2021-12-17, resolutionDate= 2021-12-23]
 

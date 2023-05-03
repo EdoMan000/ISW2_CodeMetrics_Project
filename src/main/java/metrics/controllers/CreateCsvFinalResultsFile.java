@@ -17,7 +17,7 @@ public class CreateCsvFinalResultsFile {
 
     private CreateCsvFinalResultsFile() {}
 
-    public static void writeCsvFinalResultsFile(String projName, List<ResultOfClassifier> finalResultsList, String type){
+    public static void writeCsvFinalResultsFile(String projName, List<ResultOfClassifier> finalResultsList){
         try {
             File file = new File("outputFiles/FinalResults/" + projName );
             if (!file.exists()) {
@@ -27,7 +27,7 @@ public class CreateCsvFinalResultsFile {
                 }
             }
             StringBuilder fileName = new StringBuilder();
-            fileName.append("/").append(projName).append("_finalReport_").append(type).append(".csv");
+            fileName.append("/").append(projName).append("_finalReport").append(".csv");
             file = new File("outputFiles/FinalResults/" + projName + fileName);
             try(FileWriter fileWriter = new FileWriter(file)) {
                 fileWriter.append("DATASET," +
@@ -45,22 +45,17 @@ public class CreateCsvFinalResultsFile {
                         "TRUE_NEGATIVES," +
                         "FALSE_NEGATIVES").append("\n");
                 for(ResultOfClassifier resultOfClassifier: finalResultsList){
-                    fileWriter.append(projName).append(",");
-                    if(type.equals("completeInfo")){
-                        fileWriter.append(String.valueOf(resultOfClassifier.getWalkForwardIteration())).append(",")
-                                .append(String.valueOf(resultOfClassifier.getTrainingPercent())).append(",");
-                    }else {
-                        fileWriter.append("None").append(",")
-                                .append("None").append(",");
-                    }
-                    fileWriter.append(resultOfClassifier.getClassifierName()).append(",");
+                    fileWriter.append(projName).append(",")
+                            .append(String.valueOf(resultOfClassifier.getWalkForwardIteration())).append(",")
+                            .append(String.valueOf(resultOfClassifier.getTrainingPercent())).append(",")
+                            .append(resultOfClassifier.getClassifierName()).append(",");
                     if(resultOfClassifier.hasFeatureSelection()){
-                        fileWriter.append("Greedy backward search").append(",");
+                        fileWriter.append(resultOfClassifier.getCustomClassifier().getFeatureSelectionFilterName()).append(",");
                     }else {
                         fileWriter.append("None").append(",");
                     }
                     if(resultOfClassifier.hasSampling()){
-                        fileWriter.append("Undersampling").append(",");
+                        fileWriter.append(resultOfClassifier.getCustomClassifier().getSamplingFilterName()).append(",");
                     }else {
                         fileWriter.append("None").append(",");
                     }

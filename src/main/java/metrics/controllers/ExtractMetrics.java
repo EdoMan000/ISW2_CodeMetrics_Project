@@ -64,7 +64,7 @@ public class ExtractMetrics {
             if(i==1){
                 loggerString = projName + " TRAINING SET BUILT ON FIRST RELEASE - [*OK*]\n\n";
             }else{
-                loggerString = projName + " TRAINING SET BUILT ON RELEASES 1->" + i + " - [*OK*]\n\n";
+                loggerString = projName + " TRAINING SET BUILT FROM RELEASE 1--to-->" + i + " - [*OK*]\n\n";
             }
             logger.info(loggerString);
             List<Release> testingSetReleaseList = new ArrayList<>();
@@ -82,15 +82,32 @@ public class ExtractMetrics {
             if(i==1){
                 loggerString = projName + " TESTING SET BUILT ON FIRST RELEASE - [*OK*]\n\n";
             }else{
-                loggerString = projName + " TESTING SET BUILT ON RELEASES 1->" + i + " - [*OK*]\n\n";
+                loggerString = projName + " TESTING SET BUILT ON RELEASE " + i + " - [*OK*]\n\n";
             }
             logger.info(loggerString);
         }
-        ExtractInfoFromWeka wekaExtractor = new ExtractInfoFromWeka(projName, (releaseList.size()/2)-1);
-        AllResultsOfClassifiers resultOfClassifierList = wekaExtractor.retrieveAllEvaluationsFromClassifiers();
-        writeCsvFinalResultsFile(projName, resultOfClassifierList.getAllResultsList(), "completeInfo");
-        writeCsvFinalResultsFile(projName, resultOfClassifierList.getAvgResultsList(), "avg");
+        ExtractInfoFromWeka wekaExtractor = new ExtractInfoFromWeka(projName, (releaseList.size()/2));
+        List<ResultOfClassifier> resultsOfClassifierList = wekaExtractor.retrieveAllResultsFromClassifiers();
+        writeCsvFinalResultsFile(projName, resultsOfClassifierList);
         //deleteDirectory(projName.toLowerCase() + "Temp")
         //deleteDirectory("outputFiles")
+    }
+
+    public static void logTheEnd() {
+        String loggerString ="""
+                                    
+                                    
+                    \t$$$$$$$$\\ $$\\   $$\\ $$$$$$$$\\       $$$$$$$$\\ $$\\   $$\\ $$$$$$$\\ \s
+                    \t\\__$$  __|$$ |  $$ |$$  _____|      $$  _____|$$$\\  $$ |$$  __$$\\\s
+                    \t   $$ |   $$ |  $$ |$$ |            $$ |      $$$$\\ $$ |$$ |  $$ |
+                    \t   $$ |   $$$$$$$$ |$$$$$\\          $$$$$\\    $$ $$\\$$ |$$ |  $$ |
+                    \t   $$ |   $$  __$$ |$$  __|         $$  __|   $$ \\$$$$ |$$ |  $$ |
+                    \t   $$ |   $$ |  $$ |$$ |            $$ |      $$ |\\$$$ |$$ |  $$ |
+                    \t   $$ |   $$ |  $$ |$$$$$$$$\\       $$$$$$$$\\ $$ | \\$$ |$$$$$$$  |
+                    \t   \\__|   \\__|  \\__|\\________|      \\________|\\__|  \\__|\\_______/
+                                                       
+                                                                            
+                    """;
+        logger.info(loggerString);
     }
 }

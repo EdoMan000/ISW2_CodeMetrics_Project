@@ -20,39 +20,29 @@ public class TicketUtilities {
     public static List<Ticket> fixTicketList(List<Ticket> ticketsList, List<Release> releasesList, String projName) throws URISyntaxException {
         //if there is no AV -> there is no IV -> need to compute Proportion
         // verify IV <= OV <= FV
-        List<Ticket> fixedTicketsList = new ArrayList<>();
+        List<Ticket> ticketsForProportionList = new ArrayList<>();
+        List<Ticket> finalTicketsList = new ArrayList<>();
         float proportion;
         for(Ticket ticket : ticketsList){
             if(!isCorrectTicket(ticket)){
-                proportion = ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList), projName, ticket, true);
+                proportion = ComputeProportion.computeProportion(ticketsForProportionList, projName, ticket, true);
                 fixTicketWithProportion(ticket, releasesList, proportion);
                 completeAffectedVersionsList(ticket, releasesList);
             }else{
-                ComputeProportion.computeProportion(filterTicketsForProportion(fixedTicketsList), projName, ticket, false);
+                ComputeProportion.computeProportion(ticketsForProportionList, projName, ticket, false);
                 completeAffectedVersionsList(ticket, releasesList);
-                fixedTicketsList.add(ticket);
+                ticketsForProportionList.add(ticket);
             }
+            finalTicketsList.add(ticket);
         }
-        fixedTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
-        return fixedTicketsList;
+        finalTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
+        return finalTicketsList;
     }
 
     public static List<Ticket> returnCorrectTickets(List<Ticket> ticketsList){
         List<Ticket> correctTickets = new ArrayList<>();
         for (Ticket ticket : ticketsList) {
             if (isCorrectTicket(ticket)) {
-                correctTickets.add(ticket);
-            }
-        }
-        correctTickets.sort(Comparator.comparing(Ticket::getResolutionDate));
-        return correctTickets;
-    }
-
-    //we filter out tickets that would make denominator zero in proportion computation
-    public static List<Ticket> filterTicketsForProportion(List<Ticket> ticketCompleteList) {
-        List<Ticket> correctTickets = new ArrayList<>();
-        for (Ticket ticket : ticketCompleteList) {
-            if (ticket.getFixedVersion().id() != ticket.getOpeningVersion().id()) {
                 correctTickets.add(ticket);
             }
         }
