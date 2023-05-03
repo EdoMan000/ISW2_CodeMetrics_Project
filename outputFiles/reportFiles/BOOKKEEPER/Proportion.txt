@@ -1,4 +1,3 @@
-
 ----------------------
 [BOOKKEEPER-142]
 ----------------------
@@ -44,13 +43,11 @@ MEDIAN PROPORTION OUT OF ALL PROJECTS FOR COLD START: 1.5353647
 
 COLD-START PROPORTION COMPUTATION ENDED ===================
 
-
 ----------------------
 [BOOKKEEPER-150]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-153]
 ----------------------
@@ -63,25 +60,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
 PROPORTION: 1.5353647
 ----------------------
-
 ----------------------
 [BOOKKEEPER-167]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-156]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-162]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-152]
 ----------------------
@@ -103,13 +96,11 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 7
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-174]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-169]
 ----------------------
@@ -139,7 +130,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 9
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-163]
 ----------------------
@@ -161,7 +151,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 10
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-186]
 ----------------------
@@ -271,7 +260,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 11
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-242]
 ----------------------
@@ -325,7 +313,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 12
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-279]
 ----------------------
@@ -347,7 +334,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 13
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-274]
 ----------------------
@@ -393,7 +379,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 14
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-302]
 ----------------------
@@ -415,7 +400,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 15
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-329]
 ----------------------
@@ -429,19 +413,16 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 16
 PROPORTION AVERAGE: 1.0625
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-327]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-349]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-330]
 ----------------------
@@ -463,13 +444,11 @@ PROPORTION AVERAGE: 1.1578947
 SIZE_OF_FILTERED_TICKET_LIST: 19
 PROPORTION AVERAGE: 1.1578947
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-343]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-326]
 ----------------------
@@ -491,7 +470,6 @@ PROPORTION AVERAGE: 1.1428572
 SIZE_OF_FILTERED_TICKET_LIST: 21
 PROPORTION AVERAGE: 1.1428572
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-296]
 ----------------------
@@ -513,7 +491,6 @@ PROPORTION AVERAGE: 1.1818181
 SIZE_OF_FILTERED_TICKET_LIST: 22
 PROPORTION AVERAGE: 1.1818181
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-382]
 ----------------------
@@ -535,7 +512,6 @@ PROPORTION AVERAGE: 1.2173913
 SIZE_OF_FILTERED_TICKET_LIST: 23
 PROPORTION AVERAGE: 1.2173913
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-337]
 ----------------------
@@ -549,19 +525,16 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 24
 PROPORTION AVERAGE: 1.25
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-387]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-383]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-396]
 ----------------------
@@ -623,7 +596,6 @@ PROPORTION AVERAGE: 1.2222222
 SIZE_OF_FILTERED_TICKET_LIST: 27
 PROPORTION AVERAGE: 1.2222222
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-424]
 ----------------------
@@ -637,7 +609,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 28
 PROPORTION AVERAGE: 1.25
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-439]
 ----------------------
@@ -715,7 +686,6 @@ PROPORTION AVERAGE: 1.2413793
 SIZE_OF_FILTERED_TICKET_LIST: 29
 PROPORTION AVERAGE: 1.2413793
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-457]
 ----------------------
@@ -761,7 +731,6 @@ PROPORTION AVERAGE: 1.2333333
 SIZE_OF_FILTERED_TICKET_LIST: 30
 PROPORTION AVERAGE: 1.2333333
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-442]
 ----------------------
@@ -871,7 +840,6 @@ PROPORTION AVERAGE: 1.2258065
 SIZE_OF_FILTERED_TICKET_LIST: 31
 PROPORTION AVERAGE: 1.2258065
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-408]
 ----------------------
@@ -885,13 +853,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 32
 PROPORTION AVERAGE: 1.21875
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-365]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-336]
 ----------------------
@@ -929,7 +895,6 @@ PROPORTION AVERAGE: 1.2352941
 SIZE_OF_FILTERED_TICKET_LIST: 34
 PROPORTION AVERAGE: 1.2352941
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-500]
 ----------------------
@@ -999,7 +964,6 @@ PROPORTION AVERAGE: 1.2285714
 SIZE_OF_FILTERED_TICKET_LIST: 35
 PROPORTION AVERAGE: 1.2285714
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-355]
 ----------------------
@@ -1021,7 +985,6 @@ PROPORTION AVERAGE: 1.2222222
 SIZE_OF_FILTERED_TICKET_LIST: 36
 PROPORTION AVERAGE: 1.2222222
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-543]
 ----------------------
@@ -1035,7 +998,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 37
 PROPORTION AVERAGE: 1.2162162
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-530]
 ----------------------
@@ -1177,13 +1139,11 @@ PROPORTION AVERAGE: 1.2105263
 SIZE_OF_FILTERED_TICKET_LIST: 38
 PROPORTION AVERAGE: 1.2105263
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-599]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-598]
 ----------------------
@@ -1205,7 +1165,6 @@ PROPORTION AVERAGE: 1.2
 SIZE_OF_FILTERED_TICKET_LIST: 40
 PROPORTION AVERAGE: 1.2
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-603]
 ----------------------
@@ -1227,19 +1186,16 @@ PROPORTION AVERAGE: 1.195122
 SIZE_OF_FILTERED_TICKET_LIST: 41
 PROPORTION AVERAGE: 1.195122
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-626]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-619]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-623]
 ----------------------
@@ -1253,25 +1209,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 44
 PROPORTION AVERAGE: 1.1818181
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-641]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-636]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-601]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-600]
 ----------------------
@@ -1285,7 +1237,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 48
 PROPORTION AVERAGE: 1.1666666
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-646]
 ----------------------
@@ -1299,7 +1250,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 49
 PROPORTION AVERAGE: 1.1632653
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-621]
 ----------------------
@@ -1313,7 +1263,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 50
 PROPORTION AVERAGE: 1.16
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-607]
 ----------------------
@@ -1327,13 +1276,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 51
 PROPORTION AVERAGE: 1.1568627
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-625]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-596]
 ----------------------
@@ -1355,13 +1302,11 @@ PROPORTION AVERAGE: 1.1509434
 SIZE_OF_FILTERED_TICKET_LIST: 53
 PROPORTION AVERAGE: 1.1509434
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-667]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-668]
 ----------------------
@@ -1375,13 +1320,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 55
 PROPORTION AVERAGE: 1.1454545
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-624]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-632]
 ----------------------
@@ -1475,7 +1418,6 @@ PROPORTION AVERAGE: 1.1403508
 SIZE_OF_FILTERED_TICKET_LIST: 57
 PROPORTION AVERAGE: 1.1403508
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-664]
 ----------------------
@@ -1505,13 +1447,11 @@ PROPORTION AVERAGE: 1.1551725
 SIZE_OF_FILTERED_TICKET_LIST: 58
 PROPORTION AVERAGE: 1.1551725
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-712]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-711]
 ----------------------
@@ -1661,7 +1601,6 @@ PROPORTION AVERAGE: 1.1666666
 SIZE_OF_FILTERED_TICKET_LIST: 60
 PROPORTION AVERAGE: 1.1666666
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-602]
 ----------------------
@@ -1715,7 +1654,6 @@ PROPORTION AVERAGE: 1.1721312
 SIZE_OF_FILTERED_TICKET_LIST: 61
 PROPORTION AVERAGE: 1.1721312
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-752]
 ----------------------
@@ -1777,7 +1715,6 @@ PROPORTION AVERAGE: 1.1854838
 SIZE_OF_FILTERED_TICKET_LIST: 62
 PROPORTION AVERAGE: 1.1854838
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-768]
 ----------------------
@@ -1871,7 +1808,6 @@ PROPORTION AVERAGE: 1.2142857
 SIZE_OF_FILTERED_TICKET_LIST: 63
 PROPORTION AVERAGE: 1.2142857
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-797]
 ----------------------
@@ -1885,7 +1821,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 64
 PROPORTION AVERAGE: 1.2265625
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-815]
 ----------------------
@@ -1899,25 +1834,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 65
 PROPORTION AVERAGE: 1.2384615
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-813]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-809]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-805]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-804]
 ----------------------
@@ -1939,7 +1870,6 @@ PROPORTION AVERAGE: 1.2826087
 SIZE_OF_FILTERED_TICKET_LIST: 69
 PROPORTION AVERAGE: 1.2826087
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-814]
 ----------------------
@@ -2009,7 +1939,6 @@ PROPORTION AVERAGE: 1.2928572
 SIZE_OF_FILTERED_TICKET_LIST: 70
 PROPORTION AVERAGE: 1.2928572
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-848]
 ----------------------
@@ -2047,7 +1976,6 @@ PROPORTION AVERAGE: 1.3028169
 SIZE_OF_FILTERED_TICKET_LIST: 71
 PROPORTION AVERAGE: 1.3028169
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-821]
 ----------------------
@@ -2109,7 +2037,6 @@ PROPORTION AVERAGE: 1.3125
 SIZE_OF_FILTERED_TICKET_LIST: 72
 PROPORTION AVERAGE: 1.3125
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-893]
 ----------------------
@@ -2123,7 +2050,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 73
 PROPORTION AVERAGE: 1.3082192
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-890]
 ----------------------
@@ -2145,19 +2071,16 @@ PROPORTION AVERAGE: 1.304054
 SIZE_OF_FILTERED_TICKET_LIST: 74
 PROPORTION AVERAGE: 1.304054
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-900]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-899]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-898]
 ----------------------
@@ -2187,7 +2110,6 @@ PROPORTION AVERAGE: 1.2922078
 SIZE_OF_FILTERED_TICKET_LIST: 77
 PROPORTION AVERAGE: 1.2922078
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-909]
 ----------------------
@@ -2225,7 +2147,6 @@ PROPORTION AVERAGE: 1.2884616
 SIZE_OF_FILTERED_TICKET_LIST: 78
 PROPORTION AVERAGE: 1.2884616
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-910]
 ----------------------
@@ -2239,7 +2160,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 79
 PROPORTION AVERAGE: 1.2848102
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-911]
 ----------------------
@@ -2253,13 +2173,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 80
 PROPORTION AVERAGE: 1.28125
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-926]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-859]
 ----------------------
@@ -2273,7 +2191,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 82
 PROPORTION AVERAGE: 1.3841463
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-908]
 ----------------------
@@ -2287,7 +2204,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 83
 PROPORTION AVERAGE: 1.3915663
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-924]
 ----------------------
@@ -2373,13 +2289,11 @@ PROPORTION AVERAGE: 1.3988096
 SIZE_OF_FILTERED_TICKET_LIST: 84
 PROPORTION AVERAGE: 1.3988096
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-959]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-999]
 ----------------------
@@ -2393,7 +2307,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 86
 PROPORTION AVERAGE: 1.3895348
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-852]
 ----------------------
@@ -2407,7 +2320,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 87
 PROPORTION AVERAGE: 1.3927202
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-1031]
 ----------------------
@@ -2437,7 +2349,6 @@ PROPORTION AVERAGE: 1.3882575
 SIZE_OF_FILTERED_TICKET_LIST: 88
 PROPORTION AVERAGE: 1.3882575
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-927]
 ----------------------
@@ -2539,7 +2450,6 @@ PROPORTION AVERAGE: 1.3951311
 SIZE_OF_FILTERED_TICKET_LIST: 89
 PROPORTION AVERAGE: 1.3951311
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-671]
 ----------------------

@@ -1,4 +1,3 @@
-
 ----------------------
 [BOOKKEEPER-142]
 ----------------------
@@ -44,13 +43,11 @@ MEDIAN PROPORTION OUT OF ALL PROJECTS FOR COLD START: 1.5353647
 
 COLD-START PROPORTION COMPUTATION ENDED ===================
 
-
 ----------------------
 [BOOKKEEPER-150]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-153]
 ----------------------
@@ -63,25 +60,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
 PROPORTION: 1.5353647
 ----------------------
-
 ----------------------
 [BOOKKEEPER-167]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-156]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-162]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-152]
 ----------------------
@@ -103,13 +96,11 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 7
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-174]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-169]
 ----------------------
@@ -139,7 +130,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 9
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-163]
 ----------------------
@@ -161,7 +151,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 10
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-186]
 ----------------------
@@ -271,7 +260,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 11
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-242]
 ----------------------
@@ -325,7 +313,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 12
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-279]
 ----------------------
@@ -347,7 +334,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 13
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-274]
 ----------------------
@@ -393,7 +379,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 14
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-302]
 ----------------------
@@ -415,7 +400,6 @@ PROPORTION AVERAGE: 1.0
 SIZE_OF_FILTERED_TICKET_LIST: 15
 PROPORTION AVERAGE: 1.0
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-329]
 ----------------------
@@ -429,19 +413,16 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 16
 PROPORTION AVERAGE: 1.0625
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-327]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-349]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-330]
 ----------------------
@@ -463,13 +444,11 @@ PROPORTION AVERAGE: 1.1578947
 SIZE_OF_FILTERED_TICKET_LIST: 19
 PROPORTION AVERAGE: 1.1578947
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-343]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-326]
 ----------------------
@@ -491,7 +470,6 @@ PROPORTION AVERAGE: 1.1428572
 SIZE_OF_FILTERED_TICKET_LIST: 21
 PROPORTION AVERAGE: 1.1428572
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-296]
 ----------------------
@@ -513,7 +491,6 @@ PROPORTION AVERAGE: 1.1818181
 SIZE_OF_FILTERED_TICKET_LIST: 22
 PROPORTION AVERAGE: 1.1818181
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-382]
 ----------------------
@@ -535,7 +512,6 @@ PROPORTION AVERAGE: 1.2173913
 SIZE_OF_FILTERED_TICKET_LIST: 23
 PROPORTION AVERAGE: 1.2173913
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-337]
 ----------------------
@@ -549,19 +525,16 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 24
 PROPORTION AVERAGE: 1.25
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-387]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-383]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-396]
 ----------------------
@@ -623,7 +596,6 @@ PROPORTION AVERAGE: 1.2222222
 SIZE_OF_FILTERED_TICKET_LIST: 27
 PROPORTION AVERAGE: 1.2222222
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-424]
 ----------------------
@@ -637,7 +609,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 28
 PROPORTION AVERAGE: 1.25
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-439]
 ----------------------
@@ -715,7 +686,6 @@ PROPORTION AVERAGE: 1.2413793
 SIZE_OF_FILTERED_TICKET_LIST: 29
 PROPORTION AVERAGE: 1.2413793
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-457]
 ----------------------
@@ -761,7 +731,6 @@ PROPORTION AVERAGE: 1.2333333
 SIZE_OF_FILTERED_TICKET_LIST: 30
 PROPORTION AVERAGE: 1.2333333
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-442]
 ----------------------
@@ -871,7 +840,6 @@ PROPORTION AVERAGE: 1.2258065
 SIZE_OF_FILTERED_TICKET_LIST: 31
 PROPORTION AVERAGE: 1.2258065
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-408]
 ----------------------
@@ -885,13 +853,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 32
 PROPORTION AVERAGE: 1.21875
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-365]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-336]
 ----------------------
@@ -929,7 +895,6 @@ PROPORTION AVERAGE: 1.2352941
 SIZE_OF_FILTERED_TICKET_LIST: 34
 PROPORTION AVERAGE: 1.2352941
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-500]
 ----------------------
@@ -999,7 +964,6 @@ PROPORTION AVERAGE: 1.2285714
 SIZE_OF_FILTERED_TICKET_LIST: 35
 PROPORTION AVERAGE: 1.2285714
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-355]
 ----------------------
@@ -1021,7 +985,6 @@ PROPORTION AVERAGE: 1.2222222
 SIZE_OF_FILTERED_TICKET_LIST: 36
 PROPORTION AVERAGE: 1.2222222
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-543]
 ----------------------
@@ -1035,7 +998,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 37
 PROPORTION AVERAGE: 1.2162162
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-530]
 ----------------------
@@ -1177,13 +1139,11 @@ PROPORTION AVERAGE: 1.2105263
 SIZE_OF_FILTERED_TICKET_LIST: 38
 PROPORTION AVERAGE: 1.2105263
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-599]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-598]
 ----------------------
@@ -1205,7 +1165,6 @@ PROPORTION AVERAGE: 1.2
 SIZE_OF_FILTERED_TICKET_LIST: 40
 PROPORTION AVERAGE: 1.2
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-603]
 ----------------------
@@ -1227,19 +1186,16 @@ PROPORTION AVERAGE: 1.195122
 SIZE_OF_FILTERED_TICKET_LIST: 41
 PROPORTION AVERAGE: 1.195122
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-626]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-619]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-623]
 ----------------------
@@ -1253,25 +1209,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 44
 PROPORTION AVERAGE: 1.1818181
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-641]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-636]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-601]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-600]
 ----------------------
@@ -1285,7 +1237,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 48
 PROPORTION AVERAGE: 1.1666666
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-646]
 ----------------------
@@ -1299,7 +1250,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 49
 PROPORTION AVERAGE: 1.1632653
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-621]
 ----------------------
@@ -1313,7 +1263,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 50
 PROPORTION AVERAGE: 1.16
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-607]
 ----------------------
@@ -1327,13 +1276,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 51
 PROPORTION AVERAGE: 1.1568627
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-625]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-596]
 ----------------------
@@ -1355,13 +1302,11 @@ PROPORTION AVERAGE: 1.1509434
 SIZE_OF_FILTERED_TICKET_LIST: 53
 PROPORTION AVERAGE: 1.1509434
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-667]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-668]
 ----------------------
@@ -1375,13 +1320,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 55
 PROPORTION AVERAGE: 1.1454545
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-624]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-632]
 ----------------------
@@ -1475,7 +1418,6 @@ PROPORTION AVERAGE: 1.1403508
 SIZE_OF_FILTERED_TICKET_LIST: 57
 PROPORTION AVERAGE: 1.1403508
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-664]
 ----------------------
@@ -1505,13 +1447,11 @@ PROPORTION AVERAGE: 1.1551725
 SIZE_OF_FILTERED_TICKET_LIST: 58
 PROPORTION AVERAGE: 1.1551725
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-712]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-711]
 ----------------------
@@ -1661,7 +1601,6 @@ PROPORTION AVERAGE: 1.1666666
 SIZE_OF_FILTERED_TICKET_LIST: 60
 PROPORTION AVERAGE: 1.1666666
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-602]
 ----------------------
@@ -1715,7 +1654,6 @@ PROPORTION AVERAGE: 1.1721312
 SIZE_OF_FILTERED_TICKET_LIST: 61
 PROPORTION AVERAGE: 1.1721312
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-752]
 ----------------------
@@ -1777,7 +1715,6 @@ PROPORTION AVERAGE: 1.1854838
 SIZE_OF_FILTERED_TICKET_LIST: 62
 PROPORTION AVERAGE: 1.1854838
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-768]
 ----------------------
@@ -1871,7 +1808,6 @@ PROPORTION AVERAGE: 1.2142857
 SIZE_OF_FILTERED_TICKET_LIST: 63
 PROPORTION AVERAGE: 1.2142857
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-797]
 ----------------------
@@ -1885,7 +1821,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 64
 PROPORTION AVERAGE: 1.2265625
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-815]
 ----------------------
@@ -1899,25 +1834,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 65
 PROPORTION AVERAGE: 1.2384615
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-813]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-809]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-805]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-804]
 ----------------------
@@ -1939,7 +1870,6 @@ PROPORTION AVERAGE: 1.2826087
 SIZE_OF_FILTERED_TICKET_LIST: 69
 PROPORTION AVERAGE: 1.2826087
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-814]
 ----------------------
@@ -2009,7 +1939,6 @@ PROPORTION AVERAGE: 1.2928572
 SIZE_OF_FILTERED_TICKET_LIST: 70
 PROPORTION AVERAGE: 1.2928572
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-848]
 ----------------------
@@ -2047,7 +1976,6 @@ PROPORTION AVERAGE: 1.3028169
 SIZE_OF_FILTERED_TICKET_LIST: 71
 PROPORTION AVERAGE: 1.3028169
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-821]
 ----------------------
@@ -2109,7 +2037,6 @@ PROPORTION AVERAGE: 1.3125
 SIZE_OF_FILTERED_TICKET_LIST: 72
 PROPORTION AVERAGE: 1.3125
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-893]
 ----------------------
@@ -2123,7 +2050,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 73
 PROPORTION AVERAGE: 1.3082192
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-890]
 ----------------------
@@ -2145,19 +2071,16 @@ PROPORTION AVERAGE: 1.304054
 SIZE_OF_FILTERED_TICKET_LIST: 74
 PROPORTION AVERAGE: 1.304054
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-900]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-899]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-898]
 ----------------------
@@ -2187,7 +2110,6 @@ PROPORTION AVERAGE: 1.2922078
 SIZE_OF_FILTERED_TICKET_LIST: 77
 PROPORTION AVERAGE: 1.2922078
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-909]
 ----------------------
@@ -2225,7 +2147,6 @@ PROPORTION AVERAGE: 1.2884616
 SIZE_OF_FILTERED_TICKET_LIST: 78
 PROPORTION AVERAGE: 1.2884616
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-910]
 ----------------------
@@ -2239,7 +2160,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 79
 PROPORTION AVERAGE: 1.2848102
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-911]
 ----------------------
@@ -2253,13 +2173,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 80
 PROPORTION AVERAGE: 1.28125
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-926]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-859]
 ----------------------
@@ -2273,7 +2191,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 82
 PROPORTION AVERAGE: 1.3841463
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-908]
 ----------------------
@@ -2287,7 +2204,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 83
 PROPORTION AVERAGE: 1.3915663
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-924]
 ----------------------
@@ -2373,13 +2289,11 @@ PROPORTION AVERAGE: 1.3988096
 SIZE_OF_FILTERED_TICKET_LIST: 84
 PROPORTION AVERAGE: 1.3988096
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-959]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [BOOKKEEPER-999]
 ----------------------
@@ -2393,7 +2307,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 86
 PROPORTION AVERAGE: 1.3895348
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-852]
 ----------------------
@@ -2407,7 +2320,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 87
 PROPORTION AVERAGE: 1.3927202
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-1031]
 ----------------------
@@ -2437,7 +2349,6 @@ PROPORTION AVERAGE: 1.3882575
 SIZE_OF_FILTERED_TICKET_LIST: 88
 PROPORTION AVERAGE: 1.3882575
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-927]
 ----------------------
@@ -2539,7 +2450,6 @@ PROPORTION AVERAGE: 1.3951311
 SIZE_OF_FILTERED_TICKET_LIST: 89
 PROPORTION AVERAGE: 1.3951311
 ----------------------------------------------------------
-
 ----------------------
 [BOOKKEEPER-671]
 ----------------------
@@ -2840,7 +2750,6 @@ PROPORTION: 1.5353647
 ----------------------
 PROPORTION: 1.5353647
 ----------------------
-
 ----------------------
 [OPENJPA-162]
 ----------------------
@@ -2860,7 +2769,6 @@ PROPORTION: 1.5353647
 ----------------------
 PROPORTION: 1.5353647
 ----------------------
-
 ----------------------
 [OPENJPA-71]
 ----------------------
@@ -2873,19 +2781,16 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
 PROPORTION: 1.5353647
 ----------------------
-
 ----------------------
 [OPENJPA-142]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-35]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-174]
 ----------------------
@@ -2899,25 +2804,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 5
 PROPORTION AVERAGE: 1.6
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-175]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-185]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-179]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-208]
 ----------------------
@@ -2931,25 +2832,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 9
 PROPORTION AVERAGE: 1.5555556
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-219]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-228]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-229]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-173]
 ----------------------
@@ -2963,13 +2860,11 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 13
 PROPORTION AVERAGE: 1.6153846
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-233]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-237]
 ----------------------
@@ -2983,13 +2878,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 15
 PROPORTION AVERAGE: 1.5333333
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-230]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-248]
 ----------------------
@@ -3011,13 +2904,11 @@ PROPORTION AVERAGE: 1.5882353
 SIZE_OF_FILTERED_TICKET_LIST: 17
 PROPORTION AVERAGE: 1.5882353
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-278]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-274]
 ----------------------
@@ -3031,73 +2922,61 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 19
 PROPORTION AVERAGE: 1.7368422
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-287]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-261]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-296]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-304]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-303]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-177]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-281]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-272]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-308]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-203]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-295]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-311]
 ----------------------
@@ -3119,7 +2998,6 @@ PROPORTION AVERAGE: 1.7741935
 SIZE_OF_FILTERED_TICKET_LIST: 31
 PROPORTION AVERAGE: 1.7741935
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-320]
 ----------------------
@@ -3133,7 +3011,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 32
 PROPORTION AVERAGE: 1.75
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-321]
 ----------------------
@@ -3147,7 +3024,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 33
 PROPORTION AVERAGE: 1.7272727
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-325]
 ----------------------
@@ -3169,151 +3045,126 @@ PROPORTION AVERAGE: 1.7647059
 SIZE_OF_FILTERED_TICKET_LIST: 34
 PROPORTION AVERAGE: 1.7647059
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-346]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-347]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-343]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-356]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-355]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-363]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-361]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-339]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-360]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-353]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-358]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-357]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-380]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-379]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-378]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-375]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-326]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-385]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-389]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-387]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-368]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-397]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-395]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-396]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-369]
 ----------------------
@@ -3327,13 +3178,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 59
 PROPORTION AVERAGE: 1.7457627
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-409]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-416]
 ----------------------
@@ -3347,67 +3196,56 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 61
 PROPORTION AVERAGE: 1.7540984
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-422]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-423]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-421]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-410]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-413]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-388]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-367]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-439]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-427]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-446]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-440]
 ----------------------
@@ -3421,55 +3259,46 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 72
 PROPORTION AVERAGE: 1.75
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-472]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-471]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-489]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-437]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-245]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-455]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-420]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-366]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-331]
 ----------------------
@@ -3483,91 +3312,76 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 81
 PROPORTION AVERAGE: 1.7469136
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-258]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-251]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-508]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-419]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-401]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-511]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-516]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-512]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-518]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-484]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-359]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-535]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-537]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-543]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-542]
 ----------------------
@@ -3581,25 +3395,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 96
 PROPORTION AVERAGE: 1.859375
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-540]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-552]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-554]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-565]
 ----------------------
@@ -3621,19 +3431,16 @@ PROPORTION AVERAGE: 1.845
 SIZE_OF_FILTERED_TICKET_LIST: 100
 PROPORTION AVERAGE: 1.845
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-567]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-536]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-392]
 ----------------------
@@ -3655,7 +3462,6 @@ PROPORTION AVERAGE: 1.8398058
 SIZE_OF_FILTERED_TICKET_LIST: 103
 PROPORTION AVERAGE: 1.8398058
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-594]
 ----------------------
@@ -3669,13 +3475,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 104
 PROPORTION AVERAGE: 1.8413461
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-255]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-231]
 ----------------------
@@ -3737,19 +3541,16 @@ PROPORTION AVERAGE: 1.8317609
 SIZE_OF_FILTERED_TICKET_LIST: 106
 PROPORTION AVERAGE: 1.8317609
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-622]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-618]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-630]
 ----------------------
@@ -3763,37 +3564,31 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 109
 PROPORTION AVERAGE: 1.8180428
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-632]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-527]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-533]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-625]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-566]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-524]
 ----------------------
@@ -3831,13 +3626,11 @@ PROPORTION AVERAGE: 1.8449274
 SIZE_OF_FILTERED_TICKET_LIST: 115
 PROPORTION AVERAGE: 1.8449274
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-645]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-647]
 ----------------------
@@ -3851,31 +3644,26 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 117
 PROPORTION AVERAGE: 1.8304843
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-659]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-654]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-470]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-462]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-458]
 ----------------------
@@ -3889,7 +3677,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 122
 PROPORTION AVERAGE: 1.8333333
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-349]
 ----------------------
@@ -3903,13 +3690,11 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 123
 PROPORTION AVERAGE: 1.8292682
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-286]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-494]
 ----------------------
@@ -3931,19 +3716,16 @@ PROPORTION AVERAGE: 1.8259999
 SIZE_OF_FILTERED_TICKET_LIST: 125
 PROPORTION AVERAGE: 1.8259999
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-660]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-669]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-619]
 ----------------------
@@ -3957,13 +3739,11 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 128
 PROPORTION AVERAGE: 1.892578
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-393]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-550]
 ----------------------
@@ -3977,7 +3757,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 130
 PROPORTION AVERAGE: 1.8846153
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-424]
 ----------------------
@@ -3991,31 +3770,26 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 131
 PROPORTION AVERAGE: 1.8797709
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-497]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-457]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-438]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-434]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-425]
 ----------------------
@@ -4029,7 +3803,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 136
 PROPORTION AVERAGE: 1.8627449
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-628]
 ----------------------
@@ -4043,7 +3816,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 137
 PROPORTION AVERAGE: 1.8637468
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-678]
 ----------------------
@@ -4097,25 +3869,21 @@ PROPORTION AVERAGE: 1.8719805
 SIZE_OF_FILTERED_TICKET_LIST: 138
 PROPORTION AVERAGE: 1.8719805
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-699]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-710]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-695]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-711]
 ----------------------
@@ -4129,31 +3897,26 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 142
 PROPORTION AVERAGE: 1.9178402
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-724]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-713]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-650]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-715]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-180]
 ----------------------
@@ -4175,37 +3938,31 @@ PROPORTION AVERAGE: 1.9361838
 SIZE_OF_FILTERED_TICKET_LIST: 147
 PROPORTION AVERAGE: 1.9361838
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-719]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-731]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-493]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-733]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-743]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-745]
 ----------------------
@@ -4227,13 +3984,11 @@ PROPORTION AVERAGE: 1.9158106
 SIZE_OF_FILTERED_TICKET_LIST: 153
 PROPORTION AVERAGE: 1.9158106
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-762]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-761]
 ----------------------
@@ -4271,7 +4026,6 @@ PROPORTION AVERAGE: 1.9168969
 SIZE_OF_FILTERED_TICKET_LIST: 155
 PROPORTION AVERAGE: 1.9168969
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-795]
 ----------------------
@@ -4285,85 +4039,71 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 156
 PROPORTION AVERAGE: 1.9110193
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-777]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-835]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-557]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-853]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-836]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-864]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-863]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-860]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-872]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-838]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-873]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-917]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-925]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-912]
 ----------------------
@@ -4377,49 +4117,41 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 170
 PROPORTION AVERAGE: 1.8673668
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-916]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-898]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-884]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-955]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-866]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-913]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-970]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-811]
 ----------------------
@@ -4433,7 +4165,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 178
 PROPORTION AVERAGE: 1.8845638
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-896]
 ----------------------
@@ -4447,67 +4178,56 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 179
 PROPORTION AVERAGE: 1.9019685
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-354]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-887]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-947]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-573]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-883]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-218]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1006]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-933]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1025]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-862]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-207]
 ----------------------
@@ -4529,25 +4249,21 @@ PROPORTION AVERAGE: 1.9049792
 SIZE_OF_FILTERED_TICKET_LIST: 190
 PROPORTION AVERAGE: 1.9049792
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1070]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1051]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1099]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1067]
 ----------------------
@@ -4561,19 +4277,16 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 194
 PROPORTION AVERAGE: 1.9584848
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1127]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-932]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1061]
 ----------------------
@@ -4587,7 +4300,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 197
 PROPORTION AVERAGE: 1.9692693
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1197]
 ----------------------
@@ -4601,25 +4313,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 198
 PROPORTION AVERAGE: 1.984576
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-890]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1218]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1211]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1206]
 ----------------------
@@ -4633,13 +4341,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 202
 PROPORTION AVERAGE: 1.9848814
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1232]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1244]
 ----------------------
@@ -4653,13 +4359,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 204
 PROPORTION AVERAGE: 1.9948336
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1242]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1250]
 ----------------------
@@ -4673,211 +4377,176 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 206
 PROPORTION AVERAGE: 1.985175
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1256]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1200]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1217]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1159]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-386]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1269]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1100]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1049]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1043]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1281]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1283]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1286]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1295]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1184]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1227]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1201]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1120]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1302]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1279]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1002]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-525]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1253]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1284]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1321]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1344]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1352]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1351]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1165]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1308]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-466]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1370]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1375]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1379]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1385]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1380]
 ----------------------
@@ -4899,7 +4568,6 @@ PROPORTION AVERAGE: 2.0329711
 SIZE_OF_FILTERED_TICKET_LIST: 241
 PROPORTION AVERAGE: 2.0329711
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-459]
 ----------------------
@@ -4913,19 +4581,16 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 242
 PROPORTION AVERAGE: 2.0297358
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1328]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1383]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1386]
 ----------------------
@@ -4939,139 +4604,116 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 245
 PROPORTION AVERAGE: 2.037535
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1396]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1394]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1377]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1393]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1392]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1391]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1390]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1413]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1400]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1326]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1263]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1431]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1435]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1407]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1401]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1397]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-993]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1224]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1442]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1452]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1384]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1141]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-714]
 ----------------------
@@ -5085,13 +4727,11 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 268
 PROPORTION AVERAGE: 2.053903
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1461]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1467]
 ----------------------
@@ -5121,127 +4761,106 @@ PROPORTION AVERAGE: 2.0572076
 SIZE_OF_FILTERED_TICKET_LIST: 270
 PROPORTION AVERAGE: 2.0572076
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-944]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-748]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1478]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1494]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1367]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1496]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1504]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1001]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1507]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1509]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1515]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1533]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1536]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1535]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1350]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1542]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1544]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1546]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-774]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1500]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1482]
 ----------------------
@@ -5255,7 +4874,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 291
 PROPORTION AVERAGE: 2.0780342
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1121]
 ----------------------
@@ -5269,61 +4887,51 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 292
 PROPORTION AVERAGE: 2.0760546
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-740]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1547]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1518]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1460]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1458]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1432]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1020]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1556]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1491]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1575]
 ----------------------
@@ -5345,37 +4953,31 @@ PROPORTION AVERAGE: 2.0581152
 SIZE_OF_FILTERED_TICKET_LIST: 302
 PROPORTION AVERAGE: 2.0581152
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-935]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1573]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1570]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1580]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1571]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1248]
 ----------------------
@@ -5389,133 +4991,111 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 308
 PROPORTION AVERAGE: 2.043455
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1578]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1577]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1565]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1524]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1410]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1097]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1596]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1205]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1562]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1371]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1335]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1550]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1510]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1618]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1599]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1631]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1630]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1605]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1091]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1646]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1424]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1670]
 ----------------------
@@ -5529,25 +5109,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 330
 PROPORTION AVERAGE: 2.0559618
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1667]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1679]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1685]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1690]
 ----------------------
@@ -5561,91 +5137,76 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 334
 PROPORTION AVERAGE: 2.0433156
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1695]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1689]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1718]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1676]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1626]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1678]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1501]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-640]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1704]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1737]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1742]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1738]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1696]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1719]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1749]
 ----------------------
@@ -5659,169 +5220,141 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 349
 PROPORTION AVERAGE: 2.1069224
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1757]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1727]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1713]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1668]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1722]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1714]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1769]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1770]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1736]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1372]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1788]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1784]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1765]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-526]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1809]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1800]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1811]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1790]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1801]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1830]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1692]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1743]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1831]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1837]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1808]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1454]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1853]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1810]
 ----------------------
@@ -5835,37 +5368,31 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 377
 PROPORTION AVERAGE: 2.1199293
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1877]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1874]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1892]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1866]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1893]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1897]
 ----------------------
@@ -5879,67 +5406,56 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 383
 PROPORTION AVERAGE: 2.1180506
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1898]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1900]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1918]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1909]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1896]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1856]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1910]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1890]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1818]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1814]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1804]
 ----------------------
@@ -5969,19 +5485,16 @@ PROPORTION AVERAGE: 2.1071405
 SIZE_OF_FILTERED_TICKET_LIST: 394
 PROPORTION AVERAGE: 2.1071405
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1627]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1613]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1905]
 ----------------------
@@ -5995,37 +5508,31 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 397
 PROPORTION AVERAGE: 2.1277416
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1911]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1912]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-940]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1943]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1939]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1951]
 ----------------------
@@ -6039,127 +5546,106 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 403
 PROPORTION AVERAGE: 2.1412795
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1957]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1959]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1958]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1376]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1787]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1960]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1944]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1928]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1665]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1965]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1970]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1899]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1974]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1969]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1968]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1975]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1981]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1986]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1985]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1984]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1710]
 ----------------------
@@ -6181,7 +5667,6 @@ PROPORTION AVERAGE: 2.213123
 SIZE_OF_FILTERED_TICKET_LIST: 424
 PROPORTION AVERAGE: 2.213123
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1992]
 ----------------------
@@ -6195,139 +5680,116 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 425
 PROPORTION AVERAGE: 2.2102687
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1989]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1725]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1845]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2007]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2005]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2015]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2013]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1768]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2027]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2025]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1996]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2000]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2034]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2011]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2010]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1691]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2036]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2008]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2038]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2039]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-867]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2045]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1746]
 ----------------------
@@ -6349,25 +5811,21 @@ PROPORTION AVERAGE: 2.1981716
 SIZE_OF_FILTERED_TICKET_LIST: 448
 PROPORTION AVERAGE: 2.1981716
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-677]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2056]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2065]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2066]
 ----------------------
@@ -6381,7 +5839,6 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 452
 PROPORTION AVERAGE: 2.2277317
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1873]
 ----------------------
@@ -6395,259 +5852,216 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 453
 PROPORTION AVERAGE: 2.227229
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2097]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2083]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2101]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2112]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2044]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2006]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1903]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1901]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2124]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2136]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2145]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2154]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2153]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2156]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2158]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2053]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2163]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2131]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2170]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2110]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2178]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2161]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2146]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2133]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2187]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2191]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2197]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2174]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2118]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2102]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2107]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2072]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2051]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2212]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2215]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2228]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2238]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2196]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2199]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2229]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-428]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2227]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2149]
 ----------------------
@@ -6661,25 +6075,21 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 496
 PROPORTION AVERAGE: 2.3134887
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2255]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2261]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2260]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2267]
 ----------------------
@@ -6693,37 +6103,31 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 500
 PROPORTION AVERAGE: 2.3129807
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2269]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2247]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2132]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2234]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2288]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2308]
 ----------------------
@@ -6769,25 +6173,21 @@ PROPORTION AVERAGE: 2.3250797
 SIZE_OF_FILTERED_TICKET_LIST: 506
 PROPORTION AVERAGE: 2.3250797
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1387]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2328]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2339]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2357]
 ----------------------
@@ -6809,7 +6209,6 @@ PROPORTION AVERAGE: 2.3227262
 SIZE_OF_FILTERED_TICKET_LIST: 510
 PROPORTION AVERAGE: 2.3227262
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1979]
 ----------------------
@@ -6823,49 +6222,41 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 511
 PROPORTION AVERAGE: 2.327313
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2298]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2289]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2284]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2244]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2240]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2235]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2117]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1644]
 ----------------------
@@ -6879,7 +6270,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 519
 PROPORTION AVERAGE: 2.340572
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-1569]
 ----------------------
@@ -6901,7 +6291,6 @@ PROPORTION AVERAGE: 2.3388183
 SIZE_OF_FILTERED_TICKET_LIST: 520
 PROPORTION AVERAGE: 2.3388183
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2172]
 ----------------------
@@ -6931,7 +6320,6 @@ PROPORTION AVERAGE: 2.3381681
 SIZE_OF_FILTERED_TICKET_LIST: 521
 PROPORTION AVERAGE: 2.3381681
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2390]
 ----------------------
@@ -6945,31 +6333,26 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 522
 PROPORTION AVERAGE: 2.3394358
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-696]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2195]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2421]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2318]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1980]
 ----------------------
@@ -6991,55 +6374,46 @@ PROPORTION AVERAGE: 2.3338275
 SIZE_OF_FILTERED_TICKET_LIST: 527
 PROPORTION AVERAGE: 2.3338275
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2343]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1954]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1794]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2435]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2409]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2221]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1819]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2018]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1983]
 ----------------------
@@ -7053,25 +6427,21 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 536
 PROPORTION AVERAGE: 2.327849
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2253]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2180]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2423]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2330]
 ----------------------
@@ -7101,67 +6471,56 @@ PROPORTION AVERAGE: 2.328507
 SIZE_OF_FILTERED_TICKET_LIST: 540
 PROPORTION AVERAGE: 2.328507
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2463]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2233]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2467]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2374]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2369]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2055]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1702]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2022]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2478]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2476]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2475]
 ----------------------
@@ -7175,67 +6534,56 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 551
 PROPORTION AVERAGE: 2.3494444
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2482]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2506]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2515]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2507]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2508]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2502]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2494]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2525]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2505]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2381]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2542]
 ----------------------
@@ -7249,31 +6597,26 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 562
 PROPORTION AVERAGE: 2.3728538
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2534]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2547]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2536]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2533]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2557]
 ----------------------
@@ -7287,37 +6630,31 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 567
 PROPORTION AVERAGE: 2.3660386
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2551]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-1590]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2576]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2287]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2582]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2596]
 ----------------------
@@ -7331,193 +6668,161 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 573
 PROPORTION AVERAGE: 2.3581045
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2600]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2601]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2539]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-922]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2341]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2586]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2517]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2470]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2609]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2605]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2617]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2472]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2626]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2616]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2632]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2638]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2640]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2651]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2650]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2245]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2658]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2300]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2286]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2628]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2675]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2674]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2672]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2676]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2684]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2689]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2698]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2705]
 ----------------------
@@ -7531,43 +6836,36 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 605
 PROPORTION AVERAGE: 2.4137928
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2725]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2646]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2691]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2690]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2742]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2704]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-1993]
 ----------------------
@@ -7581,7 +6879,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 612
 PROPORTION AVERAGE: 2.4102037
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2567]
 ----------------------
@@ -7619,13 +6916,11 @@ PROPORTION AVERAGE: 2.4083111
 SIZE_OF_FILTERED_TICKET_LIST: 613
 PROPORTION AVERAGE: 2.4083111
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2761]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2770]
 ----------------------
@@ -7647,7 +6942,6 @@ PROPORTION AVERAGE: 2.4167392
 SIZE_OF_FILTERED_TICKET_LIST: 615
 PROPORTION AVERAGE: 2.4167392
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2733]
 ----------------------
@@ -7661,7 +6955,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 616
 PROPORTION AVERAGE: 2.4160628
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2645]
 ----------------------
@@ -7675,7 +6968,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 617
 PROPORTION AVERAGE: 2.4315958
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2780]
 ----------------------
@@ -7689,55 +6981,46 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 618
 PROPORTION AVERAGE: 2.4308975
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2555]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2791]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2743]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2799]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2802]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2810]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2807]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2821]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2795]
 ----------------------
@@ -7767,13 +7050,11 @@ PROPORTION AVERAGE: 2.4175353
 SIZE_OF_FILTERED_TICKET_LIST: 627
 PROPORTION AVERAGE: 2.4175353
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2828]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2834]
 ----------------------
@@ -7787,145 +7068,121 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 629
 PROPORTION AVERAGE: 2.414618
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2843]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2842]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2788]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2846]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2848]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2849]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2850]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2854]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2851]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2858]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2857]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2856]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2859]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2648]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-345]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2860]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2862]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2861]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2731]
 ----------------------
 PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 ----------------------
-
 ----------------------
 [OPENJPA-2864]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2863]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2866]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2865]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2789]
 ----------------------
@@ -7939,7 +7196,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 653
 PROPORTION AVERAGE: 2.3673546
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2614]
 ----------------------
@@ -7953,7 +7209,6 @@ PROPORTION: WILL USE FOR PROPORTION AS IT IS!
 SIZE_OF_FILTERED_TICKET_LIST: 654
 PROPORTION AVERAGE: 2.3654823
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2883]
 ----------------------
@@ -7967,13 +7222,11 @@ PROPORTION: WILL SET DENOMINATOR=1!
 SIZE_OF_FILTERED_TICKET_LIST: 655
 PROPORTION AVERAGE: 2.3633976
 ----------------------------------------------------------
-
 ----------------------
 [OPENJPA-2891]
 ----------------------
 PROPORTION: WILL SET DENOMINATOR=1!
 ----------------------
-
 ----------------------
 [OPENJPA-2889]
 ----------------------
