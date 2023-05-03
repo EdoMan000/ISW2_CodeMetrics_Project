@@ -21,6 +21,9 @@ public class ComputeProportion {
     public static final String NAME_OF_THIS_CLASS = ComputeProportion.class.getName();
     private static final Logger logger = Logger.getLogger(NAME_OF_THIS_CLASS);
     private static final StringBuilder outputToFile = new StringBuilder();
+    public static final String STARTING_SEPARATOR = "----------------------\n[";
+    public static final String ENDING_SEPARATOR = "]\n----------------------\n";
+    public static final String NORMAL_SEPARATOR = "\n----------------------\n";
     private static Float coldStartComputedProportion = null;
 
     public static final int THRESHOLD_FOR_COLD_START = 5;
@@ -39,7 +42,7 @@ public class ComputeProportion {
         filteredTicketsList.sort(Comparator.comparing(Ticket::getResolutionDate));
         outputToFile.append("\n[*]PROPORTION[*]-----------------------------------------------\n");
         if (writeInfo) {
-            outputToFile.append("----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n");
+            outputToFile.append(STARTING_SEPARATOR).append(ticket.getTicketKey()).append(ENDING_SEPARATOR);
         }
         // PROPORTION = (FV-IV)/(FV-OV)
         float totalProportion = 0.0F;
@@ -64,9 +67,9 @@ public class ComputeProportion {
     private static boolean writeUsedOrNot(Ticket ticket, boolean doActualComputation) {
         if(!doActualComputation){
             if (ticket.getFixedVersion().id() != ticket.getOpeningVersion().id()) {
-                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: WILL USE FOR PROPORTION AS IT IS!").append("\n----------------------\n");
+                outputToFile.append(STARTING_SEPARATOR).append(ticket.getTicketKey()).append(ENDING_SEPARATOR).append("PROPORTION: WILL USE FOR PROPORTION AS IT IS!").append(NORMAL_SEPARATOR);
             }else{
-                outputToFile.append("\n----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: WILL SET DENOMINATOR=1!").append("\n----------------------\n");
+                outputToFile.append(STARTING_SEPARATOR).append(ticket.getTicketKey()).append(ENDING_SEPARATOR).append("PROPORTION: WILL SET DENOMINATOR=1!").append(NORMAL_SEPARATOR);
             }
             return true;
         }
@@ -78,11 +81,11 @@ public class ComputeProportion {
         if (writeUsedOrNot(ticket, doActualComputation)) return 0;
         if(coldStartComputedProportion != null){
             outputToFile.append("\n[*]COLD-START RETRIEVED[*]---------------------------------------\n");
-            outputToFile.append("----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n").append("PROPORTION: ").append(coldStartComputedProportion).append("\n----------------------\n");
+            outputToFile.append(STARTING_SEPARATOR).append(ticket.getTicketKey()).append(ENDING_SEPARATOR).append("PROPORTION: ").append(coldStartComputedProportion).append(NORMAL_SEPARATOR);
             return coldStartComputedProportion;
         }
         outputToFile.append("\n\nCOLD-START PROPORTION COMPUTATION STARTED ===================\n");
-        outputToFile.append("----------------------\n[").append(ticket.getTicketKey()).append("]\n----------------------\n");
+        outputToFile.append(STARTING_SEPARATOR).append(ticket.getTicketKey()).append(ENDING_SEPARATOR);
         List<Float> proportionList = new ArrayList<>();
         for(OtherProjects projName: OtherProjects.values()){
             ExtractInfoFromJira jiraExtractor = new ExtractInfoFromJira(projName.toString());
