@@ -35,8 +35,7 @@ public class ExtractInfoFromWeka {
                 trainingSetInstance.setClassIndex(numAttr - 1);
                 testingSetInstance.setClassIndex(numAttr - 1);
 
-
-                List<CustomClassifier> customClassifiers = ComputeAllClassifiersCombinations.returnAllClassifiersCombinations();
+                List<CustomClassifier> customClassifiers = ComputeAllClassifiersCombinations.returnAllClassifiersCombinations(trainingSetInstance.attributeStats(numAttr - 1));
 
                 for (CustomClassifier customClassifier : customClassifiers) {
                     Evaluation evaluator = new Evaluation(testingSetInstance) ;

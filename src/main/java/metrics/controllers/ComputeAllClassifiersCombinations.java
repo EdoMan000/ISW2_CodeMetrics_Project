@@ -1,15 +1,18 @@
 package metrics.controllers;
 
 import metrics.models.CustomClassifier;
-import weka.attributeSelection.GreedyStepwise;
+import weka.attributeSelection.BestFirst;
 import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.lazy.IBk;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.RandomForest;
+import weka.core.AttributeStats;
+import weka.core.SelectedTag;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
-import weka.filters.supervised.instance.ClassBalancer;
+import weka.filters.supervised.instance.Resample;
+import weka.filters.supervised.instance.SMOTE;
 import weka.filters.supervised.instance.SpreadSubsample;
 
 import java.util.ArrayList;
@@ -19,14 +22,16 @@ public class ComputeAllClassifiersCombinations {
     private ComputeAllClassifiersCombinations() {
     }
 
-    public static List<CustomClassifier> returnAllClassifiersCombinations(){
+    public static List<CustomClassifier> returnAllClassifiersCombinations(AttributeStats isBuggyAttributeStats){
         List<Classifier> classifierList = new ArrayList<>(List.of(new RandomForest(), new NaiveBayes(), new IBk())) ;
         List<AttributeSelection> featureSelectionFilters = getFeatureSelectionFilters();
-        List<Filter> samplingFilters = getSamplingFilters() ;
+        int majorityClassSize = isBuggyAttributeStats.nominalCounts[1];
+        int minorityClassSize = isBuggyAttributeStats.nominalCounts[0];
+        List<Filter> samplingFilters = getSamplingFilters(majorityClassSize, minorityClassSize) ;
         List<CustomClassifier> customClassifiersList = new ArrayList<>() ;
         //NO FEATURE SELECTION AND NO SAMPLING
         for (Classifier classifier : classifierList) {
-            customClassifiersList.add(new CustomClassifier(classifier, classifier.getClass().getSimpleName(), "NoSelection", false, "NoSampling"));
+            customClassifiersList.add(new CustomClassifier(classifier, classifier.getClass().getSimpleName(), "NoSelection", null, "NoSampling"));
         }
         //ONLY FEATURE SELECTION
         for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
@@ -35,7 +40,7 @@ public class ComputeAllClassifiersCombinations {
                 filteredClassifier.setClassifier(classifier);
                 filteredClassifier.setFilter(featureSelectionFilter);
 
-                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((GreedyStepwise)featureSelectionFilter.getSearch()).getSearchBackwards(), "NoSampling"));
+                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), "NoSampling"));
             }
         }
         //ONLY SAMPLING
@@ -45,7 +50,7 @@ public class ComputeAllClassifiersCombinations {
                 filteredClassifier.setClassifier(classifier);
                 filteredClassifier.setFilter(samplingFilter);
 
-                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(),"NoSelection", false, samplingFilter.getClass().getSimpleName()));
+                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(),"NoSelection", null, samplingFilter.getClass().getSimpleName()));
             }
         }
         //FEATURE SELECTION AND SAMPLING
@@ -60,7 +65,7 @@ public class ComputeAllClassifiersCombinations {
                     externalClassifier.setFilter(featureSelectionFilter);
                     externalClassifier.setClassifier(innerClassifier);
 
-                    customClassifiersList.add(new CustomClassifier(externalClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((GreedyStepwise)featureSelectionFilter.getSearch()).getSearchBackwards(), samplingFilter.getClass().getSimpleName()));
+                    customClassifiersList.add(new CustomClassifier(externalClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), samplingFilter.getClass().getSimpleName()));
                 }
             }
         }
@@ -69,23 +74,36 @@ public class ComputeAllClassifiersCombinations {
         return customClassifiersList ;
     }
 
-    private static List<Filter> getSamplingFilters() {
+    private static List<Filter> getSamplingFilters(int majorityClassSize, int minorityClassSize) {
+        double percentStandardOversampling = ((100.0*majorityClassSize)/(majorityClassSize + minorityClassSize))*2;
+        double percentSMOTE;
+        if(minorityClassSize==0 || minorityClassSize > majorityClassSize){
+            percentSMOTE = 0;
+        }else{
+            percentSMOTE = (100.0*(majorityClassSize-minorityClassSize))/minorityClassSize;
+        }
         List<Filter> filterList = new ArrayList<>() ;
-        ClassBalancer classBalancer = new ClassBalancer() ;
-        filterList.add(classBalancer) ;
+        Resample resample = new Resample() ;
+        resample.setBiasToUniformClass(1.0);
+        resample.setSampleSizePercent(percentStandardOversampling);
+        filterList.add(resample) ;
         SpreadSubsample spreadSubsample = new SpreadSubsample() ;
         spreadSubsample.setDistributionSpread(1.0);
         filterList.add(spreadSubsample);
+        SMOTE smote = new SMOTE();
+        smote.setClassValue("1");
+        smote.setPercentage(percentSMOTE);
+        filterList.add(smote);
         return filterList ;
     }
 
     private static List<AttributeSelection> getFeatureSelectionFilters() {
         List<AttributeSelection> filterList = new ArrayList<>() ;
-        for (int i = 0 ; i < 2 ; i++) {
+        for (int i = 0 ; i < 3 ; i++) {
             AttributeSelection attributeSelection = new AttributeSelection() ;
-            GreedyStepwise greedyStepwise = new GreedyStepwise() ;
-            greedyStepwise.setSearchBackwards(i != 0);
-            attributeSelection.setSearch(greedyStepwise);
+            BestFirst bestFirst = new BestFirst();
+            bestFirst.setDirection(new SelectedTag(i, bestFirst.getDirection().getTags()));
+            attributeSelection.setSearch(bestFirst);
             filterList.add(attributeSelection) ;
         }
         return filterList ;

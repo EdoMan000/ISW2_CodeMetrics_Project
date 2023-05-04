@@ -26,14 +26,22 @@ public class ResultOfClassifier {
         this.hasSampling = (!customClassifier.getSamplingFilterName().equals("NoSampling"));
 
         trainingPercent = 0.0;
-        precision = evaluation.precision(0);
-        recall = evaluation.recall(0);
-        areaUnderROC = evaluation.areaUnderROC(0);
-        kappa = evaluation.kappa();
         truePositives = evaluation.numTruePositives(0);
         falsePositives = evaluation.numFalsePositives(0);
         trueNegatives = evaluation.numTrueNegatives(0);
         falseNegatives = evaluation.numFalseNegatives(0);
+        if(truePositives == 0.0 && falsePositives == 0.0){
+            precision = Double.NaN;
+        } else{
+            precision = evaluation.precision(0);
+        }
+        if(truePositives == 0.0 && falseNegatives == 0.0){
+            recall = Double.NaN;
+        } else{
+            recall = evaluation.recall(0);
+        }
+        areaUnderROC = evaluation.areaUnderROC(0);
+        kappa = evaluation.kappa();
     }
 
     public void setTrainingPercent(double trainingPercent) {

@@ -8,21 +8,19 @@ public class CustomClassifier {
     private final String samplingFilterName;
     private final String classifierName;
 
-    public CustomClassifier(Classifier classifier, String classifierName, String featureSelectionFilterName, boolean backwardSearch, String samplingFilterName) {
+    public CustomClassifier(Classifier classifier, String classifierName, String featureSelectionFilterName, String bestFirstDirection, String samplingFilterName) {
         this.classifier = classifier;
-        if(samplingFilterName.equals("ClassBalancer")){
+        if(samplingFilterName.equals("Resample")){
             this.samplingFilterName = "OverSampling";
         } else if (samplingFilterName.equals("SpreadSubsample")) {
             this.samplingFilterName = "UnderSampling";
+        } else if (samplingFilterName.equals("SMOTE")) {
+            this.samplingFilterName = "SyntheticMinorityOversampling";
         } else {
             this.samplingFilterName = samplingFilterName;
         }
-        if(featureSelectionFilterName.equals("GreedyStepwise")){
-            if(backwardSearch){
-                this.featureSelectionFilterName = featureSelectionFilterName + "_BackwardsSearch";
-            }else{
-                this.featureSelectionFilterName = featureSelectionFilterName + "_ForwardSearch";
-            }
+        if(featureSelectionFilterName.equals("BestFirst")){
+            this.featureSelectionFilterName = featureSelectionFilterName + "(" + bestFirstDirection + ")";
         } else {
             this.featureSelectionFilterName = featureSelectionFilterName;
         }
