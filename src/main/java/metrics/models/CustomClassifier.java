@@ -7,23 +7,22 @@ public class CustomClassifier {
     private final String featureSelectionFilterName;
     private final String samplingFilterName;
     private final String classifierName;
+    private final boolean isCostSensitive;
 
-    public CustomClassifier(Classifier classifier, String classifierName, String featureSelectionFilterName, String bestFirstDirection, String samplingFilterName) {
+    public CustomClassifier(Classifier classifier, String classifierName, String featureSelectionFilterName, String bestFirstDirection, String samplingFilterName, boolean isCostSensitive) {
         this.classifier = classifier;
-        if(samplingFilterName.equals("Resample")){
-            this.samplingFilterName = "OverSampling";
-        } else if (samplingFilterName.equals("SpreadSubsample")) {
-            this.samplingFilterName = "UnderSampling";
-        } else if (samplingFilterName.equals("SMOTE")) {
-            this.samplingFilterName = "SyntheticMinorityOversampling";
-        } else {
-            this.samplingFilterName = samplingFilterName;
+        switch (samplingFilterName) {
+            case "Resample" -> this.samplingFilterName = "OverSampling";
+            case "SpreadSubsample" -> this.samplingFilterName = "UnderSampling";
+            case "SMOTE" -> this.samplingFilterName = "SyntheticMinorityOversampling";
+            default -> this.samplingFilterName = samplingFilterName;
         }
-        if(featureSelectionFilterName.equals("BestFirst")){
+        if (featureSelectionFilterName.equals("BestFirst")) {
             this.featureSelectionFilterName = featureSelectionFilterName + "(" + bestFirstDirection + ")";
         } else {
             this.featureSelectionFilterName = featureSelectionFilterName;
         }
+        this.isCostSensitive = isCostSensitive;
         this.classifierName = classifierName;
     }
 
@@ -42,5 +41,9 @@ public class CustomClassifier {
 
     public String getSamplingFilterName() {
         return samplingFilterName;
+    }
+
+    public boolean isCostSensitive() {
+        return isCostSensitive;
     }
 }

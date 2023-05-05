@@ -19,7 +19,7 @@ public class CreateCsvFinalResultsFile {
 
     public static void writeCsvFinalResultsFile(String projName, List<ResultOfClassifier> finalResultsList){
         try {
-            File file = new File("outputFiles/FinalResults/" + projName );
+            File file = new File("outputFiles/finalResults/" + projName );
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {
@@ -36,6 +36,7 @@ public class CreateCsvFinalResultsFile {
                         "CLASSIFIER," +
                         "FEATURE_SELECTION," +
                         "BALANCING," +
+                        "COST_SENSITIVE," +
                         "PRECISION," +
                         "RECALL," +
                         "AREA_UNDER_ROC," +
@@ -56,6 +57,11 @@ public class CreateCsvFinalResultsFile {
                     }
                     if(resultOfClassifier.hasSampling()){
                         fileWriter.append(resultOfClassifier.getCustomClassifier().getSamplingFilterName()).append(",");
+                    }else {
+                        fileWriter.append("None").append(",");
+                    }
+                    if (resultOfClassifier.hasCostSensitive()){
+                        fileWriter.append("SensitiveLearning").append(",");
                     }else {
                         fileWriter.append("None").append(",");
                     }

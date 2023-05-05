@@ -70,6 +70,9 @@ public class CreateArffOrCsvDataFiles {
                         @attribute CHURN numeric
                         @attribute CHURN_AVG numeric
                         @attribute CHURN_MAX numeric
+                        @attribute LOC_TOUCHED numeric
+                        @attribute LOC_TOUCHED_AVG numeric
+                        @attribute LOC_TOUCHED_MAX numeric
                         @attribute NUMBER_OF_REVISIONS numeric
                         @attribute NUMBER_OF_DEFECT_FIXES numeric
                         @attribute NUMBER_OF_AUTHORS numeric
@@ -84,6 +87,7 @@ public class CreateArffOrCsvDataFiles {
                     "SIZE," +
                     "LOC_ADDED,LOC_ADDED_AVG,LOC_ADDED_MAX," +
                     "LOC_REMOVED,LOC_REMOVED_AVG,LOC_REMOVED_MAX," +
+                    "LOC_TOUCHED,LOC_TOUCHED_AVG,LOC_TOUCHED_MAX," +
                     "CHURN,CHURN_AVG,CHURN_MAX," +
                     "NUMBER_OF_REVISIONS," +
                     "NUMBER_OF_DEFECT_FIXES," +
@@ -114,6 +118,9 @@ public class CreateArffOrCsvDataFiles {
         String removedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOCMetrics().getVal());
         String avgRemovedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOCMetrics().getAvgVal());
         String maxRemovedLOC = String.valueOf(projectClass.getMetrics().getRemovedLOCMetrics().getMaxVal());
+        String touchedLOC = String.valueOf(projectClass.getMetrics().getTouchedLOCMetrics().getVal());
+        String avgTouchedLOC = String.valueOf(projectClass.getMetrics().getTouchedLOCMetrics().getAvgVal());
+        String maxTouchedLOC = String.valueOf(projectClass.getMetrics().getTouchedLOCMetrics().getMaxVal());
         String churn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getVal());
         String avgChurn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getAvgVal());
         String maxChurn = String.valueOf(projectClass.getMetrics().getChurnMetrics().getMaxVal());
@@ -133,6 +140,9 @@ public class CreateArffOrCsvDataFiles {
                 .append(removedLOC).append(",")
                 .append(avgRemovedLOC).append(",")
                 .append(maxRemovedLOC).append(",")
+                .append(touchedLOC).append(",")
+                .append(avgTouchedLOC).append(",")
+                .append(maxTouchedLOC).append(",")
                 .append(churn).append(",")
                 .append(avgChurn).append(",")
                 .append(maxChurn).append(",")

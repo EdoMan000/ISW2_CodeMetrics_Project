@@ -8,6 +8,7 @@ public class ResultOfClassifier {
     private final boolean hasFeatureSelection;
     private final boolean hasSampling;
     private final CustomClassifier customClassifier;
+    private final boolean hasCostSensitive;
     private double trainingPercent;
     private double precision;
     private double recall;
@@ -24,6 +25,7 @@ public class ResultOfClassifier {
         this.classifierName = customClassifier.getClassifierName();
         this.hasFeatureSelection = (!customClassifier.getFeatureSelectionFilterName().equals("NoSelection"));
         this.hasSampling = (!customClassifier.getSamplingFilterName().equals("NoSampling"));
+        this.hasCostSensitive = customClassifier.isCostSensitive();
 
         trainingPercent = 0.0;
         truePositives = evaluation.numTruePositives(0);
@@ -110,5 +112,9 @@ public class ResultOfClassifier {
 
     public CustomClassifier getCustomClassifier() {
         return customClassifier;
+    }
+
+    public boolean hasCostSensitive() {
+        return hasCostSensitive;
     }
 }
