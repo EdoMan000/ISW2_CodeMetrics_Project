@@ -21,6 +21,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ComputeAllClassifiersCombinations {
+
+    public static final String NO_SELECTION = "NoSelection";
+    public static final String NO_SAMPLING = "NoSampling";
+
     private ComputeAllClassifiersCombinations() {
     }
 
@@ -32,39 +36,43 @@ public class ComputeAllClassifiersCombinations {
         List<Filter> samplingFilters = getSamplingFilters(majorityClassSize, minorityClassSize);
         List<CustomClassifier> customClassifiersList = new ArrayList<>();
         //NO FEATURE SELECTION NO SAMPLING NO COST SENSITIVE
-        for (Classifier classifier : classifierList) {
-            customClassifiersList.add(new CustomClassifier(classifier, classifier.getClass().getSimpleName(), "NoSelection", null, "NoSampling", false));
-        }
+        basicClassifiers(classifierList, customClassifiersList);
         //ONLY FEATURE SELECTION
-        for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
-            for (Classifier classifier : classifierList) {
-                FilteredClassifier filteredClassifier = new FilteredClassifier();
-                filteredClassifier.setClassifier(classifier);
-                filteredClassifier.setFilter(featureSelectionFilter);
-
-                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), "NoSampling", false));
-            }
-        }
+        onlyFeatureSelectionClassifiers(classifierList, featureSelectionFilters, customClassifiersList);
         //ONLY SAMPLING
-        for (Filter samplingFilter : samplingFilters) {
-            for (Classifier classifier : classifierList) {
-                FilteredClassifier filteredClassifier = new FilteredClassifier();
-                filteredClassifier.setClassifier(classifier);
-                filteredClassifier.setFilter(samplingFilter);
-
-                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(),"NoSelection", null, samplingFilter.getClass().getSimpleName(), false));
-            }
-        }
+        onlySamplingClassifiers(classifierList, samplingFilters, customClassifiersList);
         //ONLY COST SENSITIVE
+        onlyCostSensitiveClassifiers(classifierList, customClassifiersList);
+        //FEATURE SELECTION AND SAMPLING
+        featureSelectionAndSamplingClassifiers(classifierList, featureSelectionFilters, samplingFilters, customClassifiersList);
+        //FEATURE SELECTION AND COST SENSITIVE
+        featureSelectionAndCostSensitiveClassifiers(classifierList, featureSelectionFilters, customClassifiersList);
+        return customClassifiersList;
+    }
+
+    private static void basicClassifiers(List<Classifier> classifierList, List<CustomClassifier> customClassifiersList) {
+        for (Classifier classifier : classifierList) {
+            customClassifiersList.add(new CustomClassifier(classifier, classifier.getClass().getSimpleName(), NO_SELECTION, null, NO_SAMPLING, false));
+        }
+    }
+
+    private static void featureSelectionAndCostSensitiveClassifiers(List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters, List<CustomClassifier> customClassifiersList) {
         for (Classifier classifier : classifierList) {
             List<CostSensitiveClassifier> costSensitiveFilters = getCostSensitiveFilters();
-            for (CostSensitiveClassifier costSensitiveClassifier : costSensitiveFilters) {
-                costSensitiveClassifier.setClassifier(classifier);
+            for(CostSensitiveClassifier costSensitiveClassifier: costSensitiveFilters){
+                for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
+                    FilteredClassifier filteredClassifier = new FilteredClassifier();
+                    filteredClassifier.setFilter(featureSelectionFilter);
+                    costSensitiveClassifier.setClassifier(classifier);
+                    filteredClassifier.setClassifier(costSensitiveClassifier);
 
-                customClassifiersList.add(new CustomClassifier(costSensitiveClassifier, classifier.getClass().getSimpleName(),"NoSelection", null, "NoSampling", true));
+                    customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), NO_SELECTION, true));
+                }
             }
         }
-        //FEATURE SELECTION AND SAMPLING
+    }
+
+    private static void featureSelectionAndSamplingClassifiers(List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters, List<Filter> samplingFilters, List<CustomClassifier> customClassifiersList) {
         for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
             for (Filter samplingFilter : samplingFilters) {
                 for (Classifier classifier : classifierList) {
@@ -80,21 +88,41 @@ public class ComputeAllClassifiersCombinations {
                 }
             }
         }
-        //FEATURE SELECTION AND COST SENSITIVE
-        for (Classifier classifier : classifierList) {
-            List<CostSensitiveClassifier> costSensitiveFilters = getCostSensitiveFilters();
-            for(CostSensitiveClassifier costSensitiveClassifier: costSensitiveFilters){
-                for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
-                    FilteredClassifier filteredClassifier = new FilteredClassifier();
-                    filteredClassifier.setFilter(featureSelectionFilter);
-                    costSensitiveClassifier.setClassifier(classifier);
-                    filteredClassifier.setClassifier(costSensitiveClassifier);
+    }
 
-                    customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), "NoSampling", true));
-                }
+    private static void onlySamplingClassifiers(List<Classifier> classifierList, List<Filter> samplingFilters, List<CustomClassifier> customClassifiersList) {
+        for (Filter samplingFilter : samplingFilters) {
+            for (Classifier classifier : classifierList) {
+                FilteredClassifier filteredClassifier = new FilteredClassifier();
+                filteredClassifier.setClassifier(classifier);
+                filteredClassifier.setFilter(samplingFilter);
+
+                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(),NO_SELECTION, null, samplingFilter.getClass().getSimpleName(), false));
             }
         }
-        return customClassifiersList;
+    }
+
+    private static void onlyCostSensitiveClassifiers(List<Classifier> classifierList, List<CustomClassifier> customClassifiersList) {
+        for (Classifier classifier : classifierList) {
+            List<CostSensitiveClassifier> costSensitiveFilters = getCostSensitiveFilters();
+            for (CostSensitiveClassifier costSensitiveClassifier : costSensitiveFilters) {
+                costSensitiveClassifier.setClassifier(classifier);
+
+                customClassifiersList.add(new CustomClassifier(costSensitiveClassifier, classifier.getClass().getSimpleName(),NO_SELECTION, null, NO_SAMPLING, true));
+            }
+        }
+    }
+
+    private static void onlyFeatureSelectionClassifiers(List<Classifier> classifierList, List<AttributeSelection> featureSelectionFilters, List<CustomClassifier> customClassifiersList) {
+        for (AttributeSelection featureSelectionFilter : featureSelectionFilters) {
+            for (Classifier classifier : classifierList) {
+                FilteredClassifier filteredClassifier = new FilteredClassifier();
+                filteredClassifier.setClassifier(classifier);
+                filteredClassifier.setFilter(featureSelectionFilter);
+
+                customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), NO_SAMPLING, false));
+            }
+        }
     }
 
     private static List<Filter> getSamplingFilters(int majorityClassSize, int minorityClassSize) {

@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\outputFiles\csvFiles\BOOKKEEPER\Training\BOOKKEEPER_6_TrainingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_10_TestingSet.csv">
           <value>
             <Attribute>
@@ -179,6 +186,13 @@
           </value>
         </entry>
         <entry key="\outputFiles\csvFiles\OPENJPA\Testing\OPENJPA_9_TestingSet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\outputFiles\finalResults\BOOKKEEPER\BOOKKEEPER_finalReport.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
