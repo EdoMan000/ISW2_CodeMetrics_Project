@@ -11,6 +11,7 @@ import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.RandomForest;
 import weka.core.AttributeStats;
 import weka.core.SelectedTag;
+import weka.core.Utils;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.supervised.instance.Resample;
@@ -24,12 +25,18 @@ public class ComputeAllClassifiersCombinations {
 
     public static final String NO_SELECTION = "NoSelection";
     public static final String NO_SAMPLING = "NoSampling";
+    public static final double WEIGHT_FALSE_POSITIVE = 1.0;
+    public static final double WEIGHT_FALSE_NEGATIVE = 10.0;
 
     private ComputeAllClassifiersCombinations() {
     }
 
-    public static List<CustomClassifier> returnAllClassifiersCombinations(AttributeStats isBuggyAttributeStats){
-        List<Classifier> classifierList = new ArrayList<>(List.of(new RandomForest(), new NaiveBayes(), new IBk())) ;
+    public static List<CustomClassifier> returnAllClassifiersCombinations(AttributeStats isBuggyAttributeStats) throws Exception {
+        RandomForest randomForest = new RandomForest();
+        randomForest.setOptions(Utils.splitOptions("-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1"));
+        IBk iBk = new IBk();
+        iBk.setOptions(Utils.splitOptions("-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""));
+        List<Classifier> classifierList = new ArrayList<>(List.of(randomForest, new NaiveBayes(), iBk));
         List<AttributeSelection> featureSelectionFilters = getFeatureSelectionFilters();
         int majorityClassSize = isBuggyAttributeStats.nominalCounts[1];
         int minorityClassSize = isBuggyAttributeStats.nominalCounts[0];
@@ -169,12 +176,10 @@ public class ComputeAllClassifiersCombinations {
     }
 
     private static CostMatrix getCostMatrix() {
-        double weightFalsePositive = 1.0;
-        double weightFalseNegative = 10.0;
         CostMatrix costMatrix = new CostMatrix(2);
         costMatrix.setCell(0, 0, 0.0);
-        costMatrix.setCell(1, 0, weightFalsePositive);
-        costMatrix.setCell(0, 1, weightFalseNegative);
+        costMatrix.setCell(1, 0, WEIGHT_FALSE_POSITIVE);
+        costMatrix.setCell(0, 1, WEIGHT_FALSE_NEGATIVE);
         costMatrix.setCell(1, 1, 0.0);
         return costMatrix;
     }
