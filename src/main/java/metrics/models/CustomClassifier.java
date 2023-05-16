@@ -14,7 +14,7 @@ public class CustomClassifier {
         switch (samplingFilterName) {
             case "Resample" -> this.samplingFilterName = "OverSampling";
             case "SpreadSubsample" -> this.samplingFilterName = "UnderSampling";
-            case "SMOTE" -> this.samplingFilterName = "SyntheticMinorityOversampling";
+            case "SMOTE" -> this.samplingFilterName = "SMOTE";
             default -> this.samplingFilterName = samplingFilterName;
         }
         if (featureSelectionFilterName.equals("BestFirst")) {

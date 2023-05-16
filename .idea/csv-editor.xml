@@ -199,6 +199,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\outputFiles\finalResults\OPENJPA\OPENJPA_finalReport.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

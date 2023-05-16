@@ -11,7 +11,6 @@ import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.RandomForest;
 import weka.core.AttributeStats;
 import weka.core.SelectedTag;
-import weka.core.Utils;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.supervised.instance.Resample;
@@ -31,12 +30,8 @@ public class ComputeAllClassifiersCombinations {
     private ComputeAllClassifiersCombinations() {
     }
 
-    public static List<CustomClassifier> returnAllClassifiersCombinations(AttributeStats isBuggyAttributeStats) throws Exception {
-        RandomForest randomForest = new RandomForest();
-        randomForest.setOptions(Utils.splitOptions("-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1"));
-        IBk iBk = new IBk();
-        iBk.setOptions(Utils.splitOptions("-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\""));
-        List<Classifier> classifierList = new ArrayList<>(List.of(randomForest, new NaiveBayes(), iBk));
+    public static List<CustomClassifier> returnAllClassifiersCombinations(AttributeStats isBuggyAttributeStats) {
+        List<Classifier> classifierList = new ArrayList<>(List.of(new RandomForest(), new NaiveBayes(), new IBk()));
         List<AttributeSelection> featureSelectionFilters = getFeatureSelectionFilters();
         int majorityClassSize = isBuggyAttributeStats.nominalCounts[1];
         int minorityClassSize = isBuggyAttributeStats.nominalCounts[0];
@@ -73,7 +68,7 @@ public class ComputeAllClassifiersCombinations {
                     costSensitiveClassifier.setClassifier(classifier);
                     filteredClassifier.setClassifier(costSensitiveClassifier);
 
-                    customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), NO_SELECTION, true));
+                    customClassifiersList.add(new CustomClassifier(filteredClassifier, classifier.getClass().getSimpleName(), featureSelectionFilter.getSearch().getClass().getSimpleName(), ((BestFirst)featureSelectionFilter.getSearch()).getDirection().getSelectedTag().getReadable(), NO_SAMPLING, true));
                 }
             }
         }
@@ -156,20 +151,16 @@ public class ComputeAllClassifiersCombinations {
     }
 
     private static List<AttributeSelection> getFeatureSelectionFilters() {
-        List<AttributeSelection> filterList = new ArrayList<>();
-        for (int i = 0 ; i < 3 ; i++) {
-            AttributeSelection attributeSelection = new AttributeSelection();
-            BestFirst bestFirst = new BestFirst();
-            bestFirst.setDirection(new SelectedTag(i, bestFirst.getDirection().getTags()));
-            attributeSelection.setSearch(bestFirst);
-            filterList.add(attributeSelection);
-        }
-        return filterList;
+        AttributeSelection attributeSelection = new AttributeSelection();
+        BestFirst bestFirst = new BestFirst();
+        bestFirst.setDirection(new SelectedTag(2, bestFirst.getDirection().getTags()));
+        attributeSelection.setSearch(bestFirst);
+        return new ArrayList<>(List.of(attributeSelection));
     }
 
     private static List<CostSensitiveClassifier> getCostSensitiveFilters() {
         CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier();
-        costSensitiveClassifier.setMinimizeExpectedCost(true);
+        costSensitiveClassifier.setMinimizeExpectedCost(false);
         CostMatrix costMatrix = getCostMatrix();
         costSensitiveClassifier.setCostMatrix(costMatrix);
         return new ArrayList<>(List.of(costSensitiveClassifier));
