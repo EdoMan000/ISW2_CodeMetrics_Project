@@ -39,6 +39,7 @@ public class ExtractMetrics {
         logger.info(loggerString);
         ticketList = gitExtractor.getTicketList();
         List<ProjectClass> allProjectClasses = gitExtractor.extractAllProjectClasses(commitList, releaseList.size());
+        gitExtractor.git.getRepository().close();
         loggerString = projName + " CLASSES EXTRACTED - [*OK*]\n\n";
         logger.info(loggerString);
         ComputeMetrics metricsExtractor = new ComputeMetrics(gitExtractor, allProjectClasses, filteredCommitsOfIssues);
@@ -89,8 +90,6 @@ public class ExtractMetrics {
         ExtractInfoFromWeka wekaExtractor = new ExtractInfoFromWeka(projName, (releaseList.size()/2));
         List<ResultOfClassifier> resultsOfClassifierList = wekaExtractor.retrieveAllResultsFromClassifiers();
         writeCsvFinalResultsFile(projName, resultsOfClassifierList);
-        //deleteDirectory(projName.toLowerCase() + "Temp")
-        //deleteDirectory("outputFiles")
     }
 
     public static void logTheEnd() {

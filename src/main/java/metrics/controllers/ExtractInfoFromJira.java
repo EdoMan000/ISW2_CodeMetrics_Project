@@ -25,8 +25,6 @@ public class ExtractInfoFromJira {
     }
 
     public List<Release> extractAllReleases() throws IOException, JSONException, URISyntaxException {
-        //Fills the arraylist with releases dates and orders them
-        //Ignores releases with missing dates
         List<Release> releaseList = new ArrayList<>();
         int i=0;
         String url = "https://issues.apache.org/jira/rest/api/latest/project/" + this.projName;
@@ -63,9 +61,7 @@ public class ExtractInfoFromJira {
         int i = 0;
         int total;
         List<Ticket> ticketsList = new ArrayList<>();
-        //Get JSON API for closed bugs w/ AV in the project
         do {
-            //Only gets a max of 1000 at a time, so must do this multiple times if bugs >1000
             j = i + 1000;
             String url = "https://issues.apache.org/jira/rest/api/2/search?jql=project=%22"
                     + this.projName + "%22AND%22issueType%22=%22Bug%22AND" +

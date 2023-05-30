@@ -1,0 +1,86 @@
+||=========================================||
+||       JIRA EXTRACTION ASSUMPTIONS       ||
+||=========================================||________________________________________
+|| - We are removing releases with missing dates                                   ||
+|| - We are taking into account for OV and FV the releases that have date equal or ||
+||     after the ones extracted as fields 'created' and 'resolutionDate'. That is  ||
+||     because i have verified taking the last fix-commit date would have          ||
+||     resulted in the same release and this approach is much faster.              ||
+|| - If we find affected versions that correspond to the releases we previously    ||
+||     extracted we assume IV as the first one of them. (if they do not correspond ||
+||     we simply ignore them and compute proportion as they were not present)      ||                                                            ||
+|| - We are ignoring tickets with OV equal to the first extracted release (that    ||
+||     means officially released to the public) because we are considering bugs    ||
+||     that are manifesting during production that would result in having OV=IV    ||
+||     for the considered ticket turning out in an inconsistency by definition of  ||
+||     the two.                                                                    ||
+||=================================================================================||
+
+||==============================================||
+||      PROPORTION COMPUTATION ASSUMPTIONS      ||
+||==============================================||_______________________________________
+|| - We are following the Proportion Paper that was given, using as threshold for cold ||
+||     start the value '5' and using as consistent tickets for the actual computation  ||
+||     only the tickets that already have complete information (AV list is not empty)  ||
+||     with only one catch: if we have OV=FV we put value '1' as denominator.          ||
+|| - We have defined {PROPORTION = (FV-IV)/(FV-OV)} and we use incremental approach    ||
+||     computing the average proportion between the correct tickets stored until the   ||
+||     present iteration.                                                              ||
+||     (for the first incorrect tickets we use COLD-START with other apache project    ||
+||     that are reasonably similar to the ones analyzed, in particular we take the     ||
+||     correct tickets already in the project computing the average proportion within  ||
+||     the project, then we take the median between the obtained results.              ||
+||     For efficiency, we store the computed value and we simply return it for the     ||
+||     following cold-start requests.                                                  ||
+|| - We are also completing the AV list to make it consistent (we want releases from   ||
+||   IV to FV-1 as the definition tells us) for all tickets.                           ||
+||=====================================================================================||
+
+||=========================================||
+||      GITHUB EXTRACTION ASSUMPTIONS      ||
+||=========================================||_______________________________
+|| - For commits, making sure lowerBoundDate < commitDate <= releaseDate  ||
+|| - Then removing releases with no commits associated ( that is because  ||
+||     we would have walk-forward iterations with same training tests...  ||
+||     there is no point in keeping those)                                ||
+|| - We are removing tickets that have no commits associated because we   ||
+||     wouldn't have any information on which classes were actually       ||
+||     affected by that bug so there is no reason to keep it anyways...   ||
+|| - We assume as TRUE the Jira info about resolutionDATE:                ||
+||    -> we consider an error the fact that the commit that contains a    ||
+||       certain ticketID in the comment has a date which is after the    ||
+||       resolution or before the creation of the ticket                  ||
+||    -> therefor the class in consideration must not be labeled as buggy ||
+||========================================================================||
+
+||============================||
+||      WEKA ASSUMPTIONS      ||
+||============================||____________________________________________
+|| - We are ignoring the first iteration (prediction over first release   ||
+||      without any training) because is considered pointless given that  ||
+||      the model is untrained. Indeed, in the context of walk-forward we ||
+||      considered more interesting to see what happens in a further      ||
+||      iteration that has bigger training set (instead of the first one) ||
+||========================================================================||
+
+||=====================||
+||      OPTIONALS      ||
+||=====================||__________________________________________________________________________
+|| - In the context of this project we analyzed 2 repository forked from                         ||
+||     the official apache repos on github, to extract metrics i implemented                     ||
+||     dynamic download and resolution of a local copy of the fork by url.                       ||
+||                                                                                               ||
+||     The implementation is the following:                                                      ||
+||     ```                                                                                       ||
+||     String filename = projName.toLowerCase() + "Temp";                                        ||
+||     File directory = new File(filename);                                                      ||
+||     if(directory.exists()){                                                                   ||
+||          repository = new FileRepository(filename + "\\.git");                                ||
+||          git = new Git(repository);                                                           ||
+||     }else{                                                                                    ||
+||          git = Git.cloneRepository().setURI(repoURL).setDirectory(directory).call();          ||
+||          repository = git.getRepository();                                                    ||
+||     }                                                                                         ||
+||     ```                                                                                       ||
+||     This was done to avoid usage of hard-coded paths in the code which is not recommended     ||
+||===============================================================================================||

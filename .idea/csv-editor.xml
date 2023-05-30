@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\finalResults\BOOKKEEPER\BOOKKEEPER_finalReport.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\outputFiles\FinalResults\BOOKKEEPER\BOOKKEEPER_finalReport.csv">
           <value>
             <Attribute>

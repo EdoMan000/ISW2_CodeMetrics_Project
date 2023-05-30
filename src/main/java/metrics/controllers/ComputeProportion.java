@@ -44,7 +44,6 @@ public class ComputeProportion {
         if (writeInfo) {
             outputToFile.append(STARTING_SEPARATOR).append(ticket.getTicketKey()).append(ENDING_SEPARATOR);
         }
-        // PROPORTION = (FV-IV)/(FV-OV)
         float totalProportion = 0.0F;
         float denominator;
         for (Ticket correctTicket : filteredTicketsList) {

@@ -35,7 +35,7 @@ public class ExtractInfoFromGit {
     private List<Ticket> ticketList;
 
     private final List<Release> releaseList;
-    private final Git git;
+    protected final Git git;
     private final Repository repository;
     public ExtractInfoFromGit(String projName, String repoURL, List<Release> releaseList) throws IOException, GitAPIException {
         String filename = projName.toLowerCase() + "Temp";
@@ -80,7 +80,6 @@ public class ExtractInfoFromGit {
             LocalDate commitDate = LocalDate.parse(formatter.format(revCommit.getCommitterIdent().getWhen()));
             LocalDate lowerBoundDate = LocalDate.parse(formatter.format(new Date(0)));
             for(Release release: releaseList){
-                //lowerBoundDate < commitDate <= releaseDate
                 LocalDate dateOfRelease = release.releaseDate();
                 if (commitDate.isAfter(lowerBoundDate) && !commitDate.isAfter(dateOfRelease)) {
                     Commit newCommit = new Commit(revCommit, release);
@@ -159,10 +158,6 @@ public class ExtractInfoFromGit {
                 LocalDate commitDate = LocalDate.parse(formatter.format(revCommit.getCommitterIdent().getWhen()));
                 if (!commitDate.isAfter(ticket.getResolutionDate())
                         && !commitDate.isBefore(ticket.getCreationDate())) {
-                    // We assume as TRUE the Jira info about resolutionDATE
-                    // -> we consider an error the fact that the commit that contains a certain ticketID in the comment
-                    //    has a date which is after the resolution or before the creation of the ticket
-                    // -> class must not be labeled as buggy
                     List<String> modifiedClassesNames = getTouchedClassesNames(revCommit);
                     Release releaseOfCommit = commit.getRelease();
                     for (String modifiedClass : modifiedClassesNames) {

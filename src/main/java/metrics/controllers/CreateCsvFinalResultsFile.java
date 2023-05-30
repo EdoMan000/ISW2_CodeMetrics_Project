@@ -19,7 +19,7 @@ public class CreateCsvFinalResultsFile {
 
     public static void writeCsvFinalResultsFile(String projName, List<ResultOfClassifier> finalResultsList){
         try {
-            File file = new File("outputFiles/finalResults/" + projName );
+            File file = new File("finalResults/" + projName );
             if (!file.exists()) {
                 boolean success = file.mkdirs();
                 if (!success) {
@@ -28,7 +28,7 @@ public class CreateCsvFinalResultsFile {
             }
             StringBuilder fileName = new StringBuilder();
             fileName.append("/").append(projName).append("_finalReport").append(".csv");
-            file = new File("outputFiles/FinalResults/" + projName + fileName);
+            file = new File("finalResults/" + projName + fileName);
             try(FileWriter fileWriter = new FileWriter(file)) {
                 fileWriter.append("DATASET," +
                         "#TRAINING_RELEASES," +
